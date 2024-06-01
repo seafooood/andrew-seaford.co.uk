@@ -1,11 +1,9 @@
 +++
-title = 'Demologging'
+title = 'How To Create a Log in Python 3'
 date = 2024-06-01T21:59:04+01:00
 draft = false
 tags=['programming', 'code', 'python', 'python3']
 +++
-
-## How To Create a Log in Python 3
 
 In this article, we will add logging to a simple Python script.
 
