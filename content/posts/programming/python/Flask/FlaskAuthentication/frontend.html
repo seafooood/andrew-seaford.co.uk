@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login and Secure Request</title>
+</head>
+<body>
+
+    <!-- First Section: Login Form -->
+    <section id="login-section">
+        <h2>Login</h2>
+        <form id="login-form">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+            <br>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+            <br>
+            <button type="submit">Log In</button>
+        </form>
+    </section>
+
+    <!-- Second Section: Secure Request -->
+    <section id="secure-section">
+        <h2>Secure Request</h2>
+        <button id="secure-button">Get Secure Data</button>
+        <div id="secure-data"></div>
+    </section>
+
+    <script>
+        document.getElementById('login-form').addEventListener('submit', function(event) {
+            event.preventDefault(); // Prevent the form from submitting the traditional way
+
+            // Get the username and password from the form
+            const username = document.getElementById('username').value;
+            const password = document.getElementById('password').value;
+            console.log(`username=${username} password=${password}`);
+
+            // Make POST request to the login endpoint
+            fetch('http://127.0.0.1:5500/api/login', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({ Username: username, Password: password })
+            })
+            .then(response => response.json())
+            .then(data => {
+                if (data.token) {
+                    localStorage.setItem('token', data.token);
+                    alert('Login successful! Token saved.');
+                } else {
+                    alert('Login failed. Please check your credentials.');
+                }
+            })
+            .catch(error => console.error('Error:', error));
+        });
+
+        document.getElementById('secure-button').addEventListener('click', function() {
+
+            // Get the token from the localstore 
+            const token = localStorage.getItem('token');
+            if (!token) {
+                alert('No token found. Please log in first.');
+                return;
+            }
+
+            // Make GET request to the secure endpoint, note the fetch contains an authorization header
+            fetch('http://127.0.0.1:5500/api/secure', {
+                method: 'GET',
+                headers: {
+                    'Authorization': `Bearer ${token}`
+                }
+            })
+            .then(response => response.json())
+            .then(data => {
+                document.getElementById('secure-data').innerText = JSON.stringify(data, null, 2);
+            })
+            .catch(error => console.error('Error:', error));
+        });
+    </script>
+
+</body>
+</html>
