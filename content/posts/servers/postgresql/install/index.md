@@ -1,4 +1,10 @@
-# How To Install PostgreSQL on Unbuntu
++++
+title = 'How To Install PostgreSQL on Ubuntu'
+date = 2024-09-12T08:24:04+01:00
+draft = false
++++
+
+PostgreSQL is a powerful, open-source relational database management system used by developers worldwide. In this tutorial, I’ll walk you through the process of installing PostgreSQL on an Ubuntu system.
 
 ## Installation
 
@@ -28,13 +34,11 @@ To install PostgreSQL on Ubuntu, follow these steps:
     sudo -i -u postgres
     ```
 
-- Access the PostgreSQL prompt
+- Access the PostgreSQL prompt. Once in the PostgreSQL prompt, you can perform various database operations. To exit the prompt, type `\q`.
 
     ```bash
     psql
     ```
-
-    Once in the PostgreSQL prompt, you can perform various database operations. To exit the prompt, type `\q`.
 
 - In the PostgreSQL prompt, set the password for the postgres user
 
@@ -42,7 +46,55 @@ To install PostgreSQL on Ubuntu, follow these steps:
     ALTER USER postgres PASSWORD 'newpassword';
     ```
 
+## Enable Remote Access
+
+- To enable remote access edit the postgresql.conf file to listen on all IP addresses:
+
+  - Open the postgresql.conf file in a text editor. This file is typically located in the `/etc/postgresql/[version]/main/` directory.
+
+    ```bash
+    sudo nano /etc/postgresql/[version]/main/postgresql.conf
+    ```
+
+  - Look for the *listen_addresses* setting and set it to '*':
+
+    ```conf
+    listen_addresses = '*'
+    ```
+
+  - Save and close the file.
+
+- Edit the pg_hba.conf file to allow remote connections:
+
+  - Open the pg_hba.conf file in a text editor. This file is also located in the /etc/postgresql/[version]/main/ directory.
+
+    ```bash
+    sudo nano /etc/postgresql/[version]/main/pg_hba.conf
+    ```
+
+  - Add the following line to the end of the file to allow connections from any IP address (replace 192.168.127.0/24 with your specific IP range or 0.0.0.0/0 to allow all IP addresses, though the latter is less secure):
+
+    ```conf
+    host    all             all             192.168.127.0/24          md5
+    ```
+
+  - Save and close the file.
+
+- Restart the PostgreSQL service
+
+    ```bash
+    sudo systemctl restart postgresql
+    ```
+
+- Make sure that your firewall allows connections to port 5432
+
+    ```bash
+    sudo ufw allow 5432/tcp
+    ```
+
 ## Create Test Database
+
+Now lets create a quick test database to confirm everything is working as expected.
 
 - Switch to the PostgreSQL user
 
@@ -50,13 +102,12 @@ To install PostgreSQL on Ubuntu, follow these steps:
     sudo -i -u postgres
     ```
 
-- Access the PostgreSQL prompt
+- Access the PostgreSQL prompt. Once in the PostgreSQL prompt, you can perform various database operations. To exit the prompt, type `\q`.
 
     ```bash
     psql
     ```
 
-Once in the PostgreSQL prompt, you can perform various database operations. To exit the prompt, type `\q`.
 
 - Create a new database
 
@@ -153,5 +204,3 @@ Once in the PostgreSQL prompt, you can perform various database operations. To e
     ```
 
     ![python](python.png)
-
-
