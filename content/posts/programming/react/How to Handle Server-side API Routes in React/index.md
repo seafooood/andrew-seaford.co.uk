@@ -24,7 +24,7 @@ To protect sensitive logic, it's important not to include secrets or critical bu
 
 It is possible to handle server-side API routes within a React project, especially if you are using Next.js, which is a React framework that allows you to write server-side code alongside your client-side code. In Next.js, API routes are server-side endpoints defined within the app that can be used to handle things like form submissions, API requests, and more. These API routes are hidden from the client since they run server-side.
 
-Here’s how you can hide a POST request in Next.js inside a route like /app/api/chat/route.js.
+Here’s how you can hide a POST request in Next.js inside a route like pages/api/chat.js.
 
 ### 1. Setup a Next.js App
 
@@ -39,13 +39,9 @@ cd my-nextjs-app
 
 In Next.js, you can create API routes by placing files in the /pages/api directory. These files will automatically be treated as server-side routes.
 
-Here’s an example where we create an API route for /api/chat that accepts POST requests.
+Here’s an example where we create an API route for /api/chat that accepts POST requests. This route will only respond to POST requests. The route accepts a text parameter from the request body, processes it, and returns a JSON response.
 
-Create a new file at /pages/api/chat.js:
-
-pages/api/chat.js (API Route in Next.js)
-
-This route will only respond to POST requests. The route accepts a text parameter from the request body, processes it, and returns a JSON response.
+Create a new file at `/pages/api/chat.js`  (API Route in Next.js)
 
 ```js
 export default async function handler(req, res) {
@@ -71,7 +67,7 @@ export default async function handler(req, res) {
 
 In your Next.js app, create a form in the main page to send a POST request to the /api/chat endpoint.
 
-pages/index.js (Frontend Form)
+Create a new file at `/pages/index.js` (Frontend Form)
 
 ```js
 import { useState } from 'react';
@@ -117,7 +113,7 @@ export default function Home() {
 
 ### 4. Remove app/pages.js
 
-To avoid a conflict between `pages/index.js` and `app/pages.js`. Delete `app/pages.js` file.
+To avoid a conflict between `/pages/index.js` and `/app/pages.js`. Delete `/app/pages.js` file.
 
 ### 5. Run the Next.js App
 
