@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  // The speed of the popup fade in and out can be customized by changing the value of popUpToggleSpeed 
+  const popUpToggleSpeed = 100; // Speed in milliseconds
+
+  /* The click event is linked to the class .popup-button because 
+   * there are multiple buttons that can trigger the click event
+   */
+  $(".popup-button").click(function(){
+    // Toggle changes the visibility of the #popup-window by changing the css property display from hidden to visible.     
+    $("#popup-window").toggle(popUpToggleSpeed);
+  });
+});
+</script>
+<style>
+  #popup-window {
+    /* display property is none so that the popup is hidden on load. 
+     * display property is none so that the popup occupies no space on the page when hidden
+     */
+    display: none; 
+    background-color: green;
+    padding: 20px;
+    /* Position absolute and z-index allow the popup to hover above the other content on the page*/
+    position: absolute;
+    z-index: 100;    
+  }
+  #popup-button {
+    background-color: lightblue;
+  }
+</style>
+</head>
+<body>
+
+<button class="popup-button">Toggle between show and hide for the pop up</button>
+
+<p>Text before</p>
+<div id="popup-window">
+    This paragraph is in the popup. <br />
+    <button class="popup-button">Close pop up</button>
+</div>
+<p>Text after</p>
+
+</body>
+</html>

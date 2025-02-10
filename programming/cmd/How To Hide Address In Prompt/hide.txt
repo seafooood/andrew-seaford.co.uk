@@ -1,0 +1,1 @@
+https://superuser.com/questions/315354/how-do-i-hide-the-path-in-command-line-prompt-on-windows
