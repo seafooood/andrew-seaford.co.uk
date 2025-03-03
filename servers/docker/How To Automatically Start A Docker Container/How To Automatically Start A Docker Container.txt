@@ -1,0 +1,68 @@
+This does not work, temporary solution is to run ./golangflow.sh
+
+# How To Automatically Start A Docker Container
+
+## Introduction
+
+In this article we are going to configure a docker container to automatically start after the host machine boot sequence is completed. The docker container will be hosted by an Ubuntu machine, for this example we are going to use a Langflow docker container.
+
+## Procedure
+
+1. Open a terminal on your Ubuntu VM and create a new systemd service file, called `langflow.service`
+
+```bash
+sudo nano /etc/systemd/system/langflow.service
+```
+
+2. Add the following content to the file. `Restart=always` ensures the container restarts if it stops. The `ExecStop` and `ExecStopPost` commands ensure cleanup when stopping the service.
+
+```text
+[Unit]
+Description=Langflow Docker Container
+After=network.target docker.service
+Requires=docker.service
+
+[Service]
+Restart=always
+ExecStart=/usr/bin/docker run -d --name langflow -p 7860:7860 langflowai/langflow:latest langflow run --host 0.0.0.0
+ExecStop=/usr/bin/docker stop langflow
+ExecStopPost=/usr/bin/docker rm langflow
+User=root
+Group=docker
+
+[Install]
+WantedBy=multi-user.target
+```
+
+![Step2](image.png)
+
+3. Reload systemd to recognize the new service
+
+```bash
+sudo systemctl daemon-reload
+```
+
+4. Enable the service so it starts on boot
+
+```bash
+sudo systemctl enable langflow
+```
+
+5. Start the service manually (to test it now)
+
+```bash
+sudo systemctl start langflow
+```
+
+6. Check if the service is running
+
+```bash
+sudo systemctl status langflow
+```
+
+7. Check if the container is running
+
+```bash
+sudo docker ps
+```
+![step7](image-1.png)
