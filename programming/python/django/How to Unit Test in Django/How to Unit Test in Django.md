@@ -37,24 +37,16 @@ INSTALLED_APPS = [
 ]
 ```
 
-* Define the Product Model in [products/models.py](myproject/products/models.py). The model will store the data for the products, such as name and price.
+* Include the product url in the in [myproject/urls.py](myproject/myproject/urls.py)
 
 ```python
-from django.db import models
+from django.contrib import admin
+from django.urls import path, include
 
-class Product(models.Model):
-    name = models.CharField(max_length=100)
-    price = models.DecimalField(max_digits=10, decimal_places=2)
-
-    def __str__(self):
-        return self.name
-```
-
-* Apply migrations:
-
-```bash
-python manage.py makemigrations
-python manage.py migrate
+urlpatterns = [
+    path('admin/', admin.site.urls),
+    path('api/', include('products.urls')),
+]
 ```
 
 ## Step 2 - Create basic home page
@@ -88,9 +80,9 @@ To unit test the basic home page.
 
 * Create a new directory for the unit tests within the product app. `products/product_tests`
 
-* Inside the new directory create an empty file called [__init__.py](myproject/products/product_tests/__init__.py)
+* Inside the new directory create an empty file called [products/product_tests/__init__.py](myproject/products/product_tests/__init__.py)
 
-* Create the file [product_tests/test_home.py](myproject/products/product_tests/test_home.py)
+* Create the file [products/product_tests/test_home.py](myproject/products/product_tests/test_home.py)
 
 ```python
 from django.test import TestCase
@@ -124,6 +116,26 @@ python manage.py test products
 
 ## Step 4 - Create the API
 
+* Define the Product Model in [products/models.py](myproject/products/models.py). The model will store the data for the products, such as name and price.
+
+```python
+from django.db import models
+
+class Product(models.Model):
+    name = models.CharField(max_length=100)
+    price = models.DecimalField(max_digits=10, decimal_places=2)
+
+    def __str__(self):
+        return self.name
+```
+
+* Apply migrations:
+
+```bash
+python manage.py makemigrations
+python manage.py migrate
+```
+
 * Create a Serializer. Create file [products/serializers.py](myproject/products/serializers.py)
 
 ```python
@@ -142,10 +154,14 @@ class ProductSerializer(serializers.ModelSerializer):
 from rest_framework import viewsets
 from .models import Product
 from .serializers import ProductSerializer
+from django.http import HttpResponse
 
 class ProductViewSet(viewsets.ModelViewSet):
     queryset = Product.objects.all()
     serializer_class = ProductSerializer
+
+def home(request):
+    return HttpResponse("Hello, Django!")
 ```
 
 * Set Up URLs. Create file [products/urls.py](myproject/products/urls.py)
@@ -154,24 +170,14 @@ class ProductViewSet(viewsets.ModelViewSet):
 from django.urls import path, include
 from rest_framework.routers import DefaultRouter
 from .views import ProductViewSet
+from .views import home
 
 router = DefaultRouter()
 router.register(r'products', ProductViewSet)
 
 urlpatterns = [
+    path('', home, name='home'),
     path('', include(router.urls)),
-]
-```
-
-* Include the product url in the in [myproject/urls.py](myproject/myproject/urls.py)
-
-```python
-from django.contrib import admin
-from django.urls import path, include
-
-urlpatterns = [
-    path('admin/', admin.site.urls),
-    path('api/', include('products.urls')),
 ]
 ```
 
