@@ -1,7 +1,7 @@
 import requests
 import json
 
-url = "http://192.168.127.129:8000/logs?lines_before=0&lines_after=0&timestamp=0"
+url = "http://192.168.127.129:8000/logs?lines_before=100&lines_after=0&timestamp=0"
 
 headers = {"accept": "application/json"}
 
