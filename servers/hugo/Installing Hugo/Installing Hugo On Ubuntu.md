@@ -1,6 +1,6 @@
-# Installing Hugo on Unbuntu
+# Installing Hugo on Ubuntu
 
-In this guide, we are going to install Hugo on a server running Unbuntu version 22.04.
+In this guide, we are going to install Hugo on a server running Ubuntu version 22.04.
 
 ## Installation
 
@@ -12,7 +12,6 @@ In this guide, we are going to install Hugo on a server running Unbuntu version 
 
 - Confirm Hugo is installed by checking the version number `hugo version`
 ![3](3.png)
-
 
 ## Creating First Website
 
@@ -33,8 +32,8 @@ In this guide, we are going to install Hugo on a server running Unbuntu version 
 - Start Hugo’s development server to view the site. `hugo serve`
 ![8](8.png)
 
-- Using a web browser navigate to the locally hosted website http://localhost:1313.
-![9](9.png)
+- Using a web browser navigate to the locally hosted website <http://localhost:1313>.
+![9](9.png)>
 
 ## Creating First Post
 
@@ -57,15 +56,14 @@ In this guide, we are going to install Hugo on a server running Unbuntu version 
 
 ## Theme
 
-- https://themes.gohugo.io/themes/hugo-flex/
-- https://github.com/adityatelange/hugo-PaperMod/wiki/Installation
-- https://aakinshin.net/perfology/
-
+- <https://themes.gohugo.io/themes/hugo-flex/>
+- <https://github.com/adityatelange/hugo-PaperMod/wiki/Installation>
+- <https://aakinshin.net/perfology/>
 
 ## Related Sources
 
-- https://gohugo.io/installation/linux/
-- https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
-- https://gohugo.io/getting-started/quick-start/
-- https://gohugo.io/hosting-and-deployment/deployment-with-rclone/
-- https://gohugo.io/hosting-and-deployment/deployment-with-rclone/
+- <https://gohugo.io/installation/linux/>
+- <https://git-scm.com/book/en/v2/Getting-Started-Installing-Git>
+- <https://gohugo.io/getting-started/quick-start/>
+- <https://gohugo.io/hosting-and-deployment/deployment-with-rclone/>
+- <https://gohugo.io/hosting-and-deployment/deployment-with-rclone/>

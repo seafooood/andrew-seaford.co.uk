@@ -48,7 +48,7 @@ Restart=always
 WantedBy=multi-user.target
 ```
 
-(Replace ubuntu with your actual username if different.)
+(Replace username `harry` with your actual username if different.)
 
 Reload systemd and enable the service:
 
@@ -64,4 +64,4 @@ Check the service status:
 sudo systemctl status langflow
 ```
 
-Now Langflow should be running on your Ubuntu machine without Docker.
+Now Langflow should be running on your Ubuntu machine without Docker on port 8000. Using a web browser navigate to <http:\\<server ip address>:8080>
