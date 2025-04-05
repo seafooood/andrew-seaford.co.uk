@@ -22,7 +22,24 @@ sudo apt install python3 python3-venv python3-pip build-essential -y
 pip install --break-system-packages langflow
 ```
 
-## 4. Create a Systemd Service
+## 4. Create setting file
+
+Create an envioment file
+
+```bash
+sudo nano .env
+```
+
+Add the settings to the file
+
+```ini
+LANGFLOW_ENABLE_LOG_RETRIEVAL=true
+LANGFLOW_LOG_RETRIEVER_BUFFER_SIZE=10000
+LANGFLOW_LOG_LEVEL=DEBUG
+LANGFLOW_AUTO_LOGIN=True
+```
+
+## 5. Create a Systemd Service
 
 To run Langflow as a background service:
 
@@ -41,6 +58,7 @@ After=network.target
 
 [Service]
 User=harry
+EnvironmentFile=/home/harry/.env
 ExecStart=/usr/bin/python3 -m langflow run --host 0.0.0.0 --port 8000
 Restart=always
 
