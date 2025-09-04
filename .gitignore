@@ -1,2 +1,10 @@
+# Ignore Python bytecode files
 *.pyc
+# Ignore asenv folder
 /asenv/*
+# Ignore all files in any node_modules folder
+**/node_modules/
+# Ignore all files in any test-results folder
+**/test-results/
+# Ignore environment variable files
+*.env

@@ -1,0 +1,18 @@
+version: "3.9"
+
+services:
+  n8n:
+    build: .   # This tells docker-compose to build using the local Dockerfile
+    image: n8n-langchain:latest
+    restart: unless-stopped
+    ports:
+      - "5678:5678"
+    environment:
+      - N8N_HOST=localhost
+      - N8N_PORT=5678
+      - N8N_PROTOCOL=http
+      - NODE_FUNCTION_ALLOW_EXTERNAL=langchain,openai,@pinecone-database/pinecone
+      - N8N_SECURE_COOKIE=false 
+    volumes:
+      - ./n8n_data:/data
+
