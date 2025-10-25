@@ -1,0 +1,8 @@
+version: '3.9'
+services:
+  app:
+    build: .
+    environment:
+      - DB_CONNECTION_STRING=${DB_CONNECTION_STRING}
+    depends_on:
+      - db

@@ -1,0 +1,11 @@
+services:
+  db:
+    image: oracleinanutshell/oracle-xe-11g
+    environment:
+      - ORACLE_PASSWORD=oracle
+    ports:
+      - "1521:1521"
+
+  app:
+    environment:
+      - DB_CONNECTION_STRING=User Id=system;Password=oracle;Data Source=oracle:1521/XE;

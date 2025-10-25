@@ -137,6 +137,3 @@ Even if you’re stuck with a Python file that can’t be imported normally, you
 
 This approach ensures you can write meaningful tests, maintain confidence in your code, and avoid touching source files you can’t change.
 
----
-
-Would you like me to expand this into a **step-by-step beginner-friendly tutorial** (with setup instructions for pytest on Ubuntu), or keep it focused for readers who already use pytest?
