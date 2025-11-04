@@ -1,0 +1,44 @@
+# Article Style Guide
+
+## Tone and Voice
+
+*   **Friendly and Professional:** Write in a way that is approachable and helpful, but also authoritative and trustworthy.
+*   **Encouraging:** Use a supportive tone. Acknowledge that the reader might be facing a challenge and reassure them that the guide will help.
+
+## Structure
+
+*   **Introduction:**
+    *   Start by setting the scene. Describe a specific scenario or problem the reader might be facing.
+    *   A good opening line is something like: "When working with [Technology], you might come across a..."
+    *   Clearly state what the article will help the reader achieve.
+    *   Mention the specific platform or operating system the guide is for (e.g., Ubuntu, Windows).
+    *   A good sentence for this is: "This guide will walk you through why this error occurs and how to resolve it on an [Platform] system."
+*   **Headings:**
+    *   Use clear and descriptive headings.
+    *   Procedure steps should be Heading 3 level, like this: `### Step 1: Do something`
+*   **Conclusion:**
+    *   Summarize the key takeaways of the article.
+    *   Briefly recap the problem and the solution.
+
+## Formatting
+
+*   Use valid Markdown.
+*   Do not use em dashes (—).
+*   Do not put icons or emojis in headings.
+
+## Language
+
+*   **Clarity is key:** Use simple and direct language. Avoid jargon where possible, or explain it if you have to use it.
+*   **Active Voice:** Use the active voice whenever possible.
+
+## Example Introduction Snippets
+
+**Example 1 (from the Docker article):**
+
+> When working with Docker, you might come across a `KeyError: 'ContainerConfig'` message after running `docker-compose up`. This error can be frustrating, but it usually points to a specific problem with how Docker is managing container configurations, especially concerning volumes.
+>
+> This guide will walk you through why this error occurs and how to resolve it on an Ubuntu system. By following these steps, you'll be able to get your containers running smoothly again.
+
+**Example 2 (General):**
+
+> If you're developing a web application, you'll often need to connect to a database. This guide will show you how to set up a connection between your Python application and a PostgreSQL database on a Linux server.
