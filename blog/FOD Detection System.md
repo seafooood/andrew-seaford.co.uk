@@ -4,6 +4,8 @@ date: 2012-06-04
 slug: "press"
 ---
 
+<!-- truncate -->
+
 # FOD Detection System
 
 - [Runway idea that could save lives - The Telegraph and Argus (1st Jun 2005)](http://archive.thetelegraphandargus.co.uk/2005/6/1/89966.html "thetelegraphandargus")
