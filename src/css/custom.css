@@ -28,3 +28,13 @@
   --ifm-color-primary-lightest: #a0c2fe;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
+
+/* Custom styles for footer */
+.footer--dark {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.footer__copyright {
+  text-align: center;
+}
