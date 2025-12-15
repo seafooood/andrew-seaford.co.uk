@@ -4,11 +4,13 @@ date: 2012-06-04
 slug: "press"
 ---
 
+A Bradford student is launching a business venture which he hopes will help prevent deaths from plane crashes and save the airline industry billions of pounds.
+
 <!-- truncate -->
 
 # FOD Detection System
 
-- [Runway idea that could save lives - The Telegraph and Argus (1st Jun 2005)](http://archive.thetelegraphandargus.co.uk/2005/6/1/89966.html "thetelegraphandargus")
+- [Runway idea that could save lives - The Telegraph and Argus (1st Jun 2005)](https://www.thetelegraphandargus.co.uk/news/4830775.runway-idea-that-could-save-lives/ "thetelegraphandargus")
 
 - [Bradford's entrepreneurs to get businesses off the ground - Think Business @ Bradford (31 May 2005)](http://www.brad.ac.uk/admin/pr/pressreleases/2005/thinkbusiness.php "Bradford Uni Press Release")
 
