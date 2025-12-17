@@ -112,7 +112,7 @@ class SecureData(Resource):
 
 ### Creating The Frontend Application
 
-- Create a text file called `frontend.html` and enter the code from [frontend.html](frontend.html).
+- Create a text file called `frontend.html` and enter the code from frontend.html.
 
 ### Testing The Frontend Application
 

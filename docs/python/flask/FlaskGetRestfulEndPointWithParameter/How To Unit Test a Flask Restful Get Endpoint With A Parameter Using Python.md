@@ -4,11 +4,12 @@ In this article, we are going to explore how to unit test a simple restful endpo
 
 ## Creating The Application
 
-First, we are going to create a simple flask application, the application will host a GET endpoint called */Setting/{sname}* that returns the value for a single setting.
+First, we are going to create a simple flask application, the application will host a GET endpoint called */Setting/\{sname\}* that returns the value for a single setting.
 
 - Create a text file called `endPointGet.py` and add the following code.
 
 ```python
+<!--
 from flask import Flask
 from flask_restx import Resource, Api
 from flask_cors import CORS
@@ -33,18 +34,19 @@ class GetSettings(Resource):
     def get(self):
         return mySettingsData
 
-@api.route('/Setting/<string:sname>', doc={"description": "Get one setting value"})
+@api.route('/Setting/<string:\{sname\}>', doc={"description": "Get one setting value"})
 @api.param('sname', 'Setting Name')
 class GetSetting(Resource):
     def get(self, sname):
         value = getSettingValue(sname)
         if value == None:
-            return {'message': f'Invalid setting name. {sname} does not exist'}, 400
+            return {'message': f'Invalid setting name. \{sname\} does not exist'}, 400
         else:
             return value
         
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=5500, debug=False)
+-->
 ```
 
 ## Running The Application
@@ -62,7 +64,7 @@ To run the application:
 - Click *default* to expand the list of endpoints
 ![3](3.png)
 
-- Click the *GET* button next to /Setting/{sname}.
+- Click the *GET* button next to /Setting/\{sname\}.
 ![4](4.png)
 
 - Click the *Try it out* button.
@@ -115,7 +117,7 @@ class SystemSettingsTestCase(unittest.TestCase):
 
         # Arrange
         sname = 'Bad_Setting_Name'
-        expected_message = f'Invalid setting name. {sname} does not exist'
+        expected_message = f'Invalid setting name. \{sname\} does not exist'
 
         # Act
         response = self.client.get(f'/Setting/{sname}') # Make a GET request to the /Settings endpoint
