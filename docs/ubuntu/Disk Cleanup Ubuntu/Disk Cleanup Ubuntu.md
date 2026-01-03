@@ -88,7 +88,7 @@ sudo du -ahx / | sort -rh | head -n 20
 
 - Confirm that the clean up has been successful by issuing the `df` command.
 
-- In this example, we can see that the root partition (/dev/mapper/ubuntu--vg-ubuntu--lv), mount at `/` used spae has decreased from 100% to 80%.
+- In this example, we can see that the root partition (/dev/mapper/ubuntu--vg-ubuntu--lv), mount at `/` used space has decreased from 100% to 80%.
 
 ```log
 harry@templateunbutu:/var/log$ df
