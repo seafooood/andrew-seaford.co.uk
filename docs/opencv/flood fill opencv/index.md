@@ -50,4 +50,4 @@ int _tmain(int argc, _TCHAR* argv[])
 
 ```
 
-\[caption id="attachment\_130" align="alignnone" width="300"\][![](images/input2-300x201.png "input")](http://www.andrew-seaford.co.uk/wp-content/uploads/2012/07/input2.png) Input image\[/caption\]\[caption id="attachment\_131" align="alignnone" width="300"\][![](images/output-300x199.jpg "output")](http://www.andrew-seaford.co.uk/wp-content/uploads/2012/07/output.jpg) The flood filled output image\[/caption\]
+\[caption id="attachment\_130" align="alignnone" width="300"\][![](images/input2-300x201.png "input")](images/input2.png) Input image\[/caption\]\[caption id="attachment\_131" align="alignnone" width="300"\][![](images/output-300x199.jpg "output")](images/output.jpg) The flood filled output image\[/caption\]

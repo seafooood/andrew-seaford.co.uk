@@ -10,9 +10,9 @@ To customise the look of your inno installer, you can modify the images displaye
 
 In this example I have replaced the standard images with a large red image. Hopefully you will make an image that is more appealing.
 
-[![InstallLargeImage](images/InstallLargeImage-300x227.png)](http://www.andrew-seaford.co.uk/wp-content/uploads/2015/02/InstallLargeImage.png)
+[![InstallLargeImage](images/InstallLargeImage-300x227.png)](images/InstallLargeImage.png)
 
-[![InstallSmallImage](images/InstallSmallImage-300x228.png)](http://www.andrew-seaford.co.uk/wp-content/uploads/2015/02/InstallSmallImage.png)
+[![InstallSmallImage](images/InstallSmallImage-300x228.png)](images/InstallSmallImage.png)
 
 The WizardImageFile and WizardSmallImageFile parameters should be defined in the \[setup\] section of the inno install script. In this example the images are in the folder c:\\InstallFiles and are called Small.bmp and Large.bmp.
 
@@ -23,7 +23,7 @@ The files must be saved as 256bit bmp files. I created my examples files using G
 1. Click File > Export As...
 2. Select a location for the file, enter a file name and then click export
 3. Expand the 'Compatibility Options' and check 'Do not write color space information'. Expand the 'Advanced Options' and select 24 bits R8 G8 B8 and then click the export button
-[![Export](images/Export-182x300.png)](http://www.andrew-seaford.co.uk/wp-content/uploads/2015/02/Export.png)
+[![Export](images/Export-182x300.png)](images/Export.png)
 
 The small image should be 55x58 pixels. The large image should be 164x314 pixels.
 

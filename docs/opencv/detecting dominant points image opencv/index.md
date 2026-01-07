@@ -83,5 +83,5 @@ int _tmain(int argc, _TCHAR* argv[])
 
 ```
 
-| \[caption id="attachment\_152" align="alignnone" width="81"\][![](images/test.jpg "test")](http://www.andrew-seaford.co.uk/wp-content/uploads/2012/07/test.jpg) Input Image\[/caption\] | \[caption id="attachment\_153" align="alignnone" width="81"\][![threshold](images/threshold.png "threshold")](http://www.andrew-seaford.co.uk/wp-content/uploads/2012/07/threshold.png) After threshold\[/caption\] | \[caption id="attachment\_154" align="alignnone" width="81"\][![](images/output3.png "output")](http://www.andrew-seaford.co.uk/wp-content/uploads/2012/07/output3.png) Output\[/caption\] |
+| \[caption id="attachment\_152" align="alignnone" width="81"\][![](images/test.jpg "test")](images/test.jpg) Input Image\[/caption\] | \[caption id="attachment\_153" align="alignnone" width="81"\][![threshold](images/threshold.png "threshold")](images/threshold.png) After threshold\[/caption\] | \[caption id="attachment\_154" align="alignnone" width="81"\][![](images/output3.png "output")](images/output3.png) Output\[/caption\] |
 | --- | --- | --- |

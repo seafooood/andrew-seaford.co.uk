@@ -29,7 +29,7 @@ When executed the code should generate a window 750 by 450.
 
 <figure>
 
-[![](images/image.png)](https://www.andrew-seaford.co.uk/wp-content/uploads/2022/10/image.png)
+[![](images/image.png)](images/image.png)
 
 <figcaption>
 
@@ -58,7 +58,7 @@ win.mainloop()
 
 When executed the code will create a window with an image.
 
-[![](images/image-2.png)](https://www.andrew-seaford.co.uk/wp-content/uploads/2022/10/image-2.png)
+[![](images/image-2.png)](images/image-2.png)
 
 ## Step 4
 
@@ -87,7 +87,7 @@ When executed the window should show the image and a button.
 
 <figure>
 
-[![](images/image-3.png)](https://www.andrew-seaford.co.uk/wp-content/uploads/2022/10/image-3.png)
+[![](images/image-3.png)](images/image-3.png)
 
 <figcaption>
 
@@ -99,7 +99,7 @@ Tk window with image and button
 
 In the console window, you should see the message "Button has been clicked", every time the button has been clicked.
 
-[![](images/image-4.png)](https://www.andrew-seaford.co.uk/wp-content/uploads/2022/10/image-4.png)
+[![](images/image-4.png)](images/image-4.png)
 
 ## Step 5
 
@@ -138,8 +138,8 @@ win.mainloop()
 
 When executed the code will show the car image.
 
-[![](images/image-5.png)](https://www.andrew-seaford.co.uk/wp-content/uploads/2022/10/image-5.png)
+[![](images/image-5.png)](images/image-5.png)
 
 When the button is clicked the image will change to a flower.
 
-[![](images/image-6.png)](https://www.andrew-seaford.co.uk/wp-content/uploads/2022/10/image-6.png)
+[![](images/image-6.png)](images/image-6.png)

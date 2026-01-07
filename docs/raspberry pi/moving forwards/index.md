@@ -11,7 +11,7 @@ tags:
 slug: "moving-forwards"
 ---
 
-[![](images/20170204_151013-300x169.jpg)](http://www.andrew-seaford.co.uk/wp-content/uploads/2017/02/20170204_151013.jpg) Our robot is alive and moving. At the heart of the Team Seaford robot control is the ServiceIo class. The ServiceIo class is responsible for controlling the four drive motors. Each motor is connected to a H bridge motor controller. The H bridge controllers require two inputs per motor. The inputs control the direction of travel.
+[![](images/20170204_151013-300x169.jpg)](images/20170204_151013.jpg) Our robot is alive and moving. At the heart of the Team Seaford robot control is the ServiceIo class. The ServiceIo class is responsible for controlling the four drive motors. Each motor is connected to a H bridge motor controller. The H bridge controllers require two inputs per motor. The inputs control the direction of travel.
 
 ```
 import RPi.GPIO as GPIO

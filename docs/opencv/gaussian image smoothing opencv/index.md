@@ -42,6 +42,6 @@ int _tmain(int argc, _TCHAR* argv[])
 
 ```
 
-\[caption id="attachment\_111" align="alignnone" width="300" caption="Input image"\][![](images/input-300x201.png "input")](http://www.andrew-seaford.co.uk/wp-content/uploads/2012/07/input.png)\[/caption\]
+\[caption id="attachment\_111" align="alignnone" width="300" caption="Input image"\][![](images/input-300x201.png "input")](images/input.png)\[/caption\]
 
-\[caption id="attachment\_113" align="alignnone" width="300" caption="Output Image after smoothing"\][![](images/output1-300x202.png "output")](http://www.andrew-seaford.co.uk/wp-content/uploads/2012/07/output1.png)\[/caption\]
+\[caption id="attachment\_113" align="alignnone" width="300" caption="Output Image after smoothing"\][![](images/output1-300x202.png "output")](images/output1.png)\[/caption\]

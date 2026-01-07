@@ -31,20 +31,20 @@ G1 Y-10
 
 3. Click the Connect button, to connect to the device.  
 
-[![](images/buttonconnect-300x59.png)](http://www.andrew-seaford.co.uk/wp-content/uploads/2019/01/buttonconnect.png)
+[![](images/buttonconnect-300x59.png)](images/buttonconnect.png)
 
 4. Click the Home button, to home all of the axis.  
 
-[![](images/buttonhome-300x262.png)](http://www.andrew-seaford.co.uk/wp-content/uploads/2019/01/buttonhome.png)
+[![](images/buttonhome-300x262.png)](images/buttonhome.png)
 
 5. Click the Load File button.
 
-[![](images/buttonloadfile-300x60.png)](http://www.andrew-seaford.co.uk/wp-content/uploads/2019/01/buttonloadfile.png)
+[![](images/buttonloadfile-300x60.png)](images/buttonloadfile.png)
 
 6. Select the file created in step 1.
 
-[![](images/step2-select-file-300x213.png)](http://www.andrew-seaford.co.uk/wp-content/uploads/2019/01/step2-select-file.png)
+[![](images/step2-select-file-300x213.png)](images/step2-select-file.png)
 
 7. Click the Print button.
 
-[![](images/print-300x60.png)](http://www.andrew-seaford.co.uk/wp-content/uploads/2019/01/print.png)
+[![](images/print-300x60.png)](images/print.png)

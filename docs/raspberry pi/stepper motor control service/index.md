@@ -11,7 +11,7 @@ tags:
 slug: "stepper-motor-control-service"
 ---
 
-[![](images/20170202_220206-300x169.jpg)](http://www.andrew-seaford.co.uk/wp-content/uploads/2017/02/20170202_220206.jpg)Today I have been busy developing a stepper motor service class. The service class will allow the Team Seaford robot to play crazy golf.  
+[![](images/20170202_220206-300x169.jpg)](images/20170202_220206.jpg)Today I have been busy developing a stepper motor service class. The service class will allow the Team Seaford robot to play crazy golf.  
   
   
   

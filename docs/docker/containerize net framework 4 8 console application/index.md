@@ -23,7 +23,7 @@ In this article, we are going to create a Docker Image for a .net framework cons
 
 The console application that we will be using is called HelloWorldConsole.exe. When executed from the command line the application displays "Hello World".
 
-[![](images/image-1.png)](https://www.andrew-seaford.co.uk/wp-content/uploads/2023/05/image-1.png)
+[![](images/image-1.png)](images/image-1.png)
 
 The application is a C# (c sharp) program that has been compiled using .net framework 4.7 and here is the source code for the application which we will be using within this article. Although in this article we will only be using the compiled application.  
 

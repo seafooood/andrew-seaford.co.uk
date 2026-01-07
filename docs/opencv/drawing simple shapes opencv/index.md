@@ -46,4 +46,4 @@ int _tmain(int argc, _TCHAR* argv[])
 
 ```
 
-\[caption id="attachment\_127" align="alignnone" width="298" caption="Drawing simple shapes using OpenCV"\][![](images/drawing-298x300.png "drawing")](http://www.andrew-seaford.co.uk/wp-content/uploads/2012/07/drawing.png)\[/caption\]
+\[caption id="attachment\_127" align="alignnone" width="298" caption="Drawing simple shapes using OpenCV"\][![](images/drawing-298x300.png "drawing")](images/drawing.png)\[/caption\]

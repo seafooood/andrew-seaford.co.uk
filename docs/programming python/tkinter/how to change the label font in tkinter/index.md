@@ -28,7 +28,7 @@ win.mainloop()
 
 Below is the window with the label's default font and style.
 
-[![](images/image-7.png)](https://www.andrew-seaford.co.uk/wp-content/uploads/2022/10/image-7.png)
+[![](images/image-7.png)](images/image-7.png)
 
 Next, we will add the font attribute to the label widget to customize the font style and size. In this example, we are going to change the font style to "Impact" and the font size to 20. The possible font styles are listed on the page https://learn.microsoft.com/en-us/typography/font-list/.
 
@@ -46,4 +46,4 @@ win.mainloop()
 
 Below is the output with the label's customized font style and size.
 
-[![](images/image-8.png)](https://www.andrew-seaford.co.uk/wp-content/uploads/2022/10/image-8.png)
+[![](images/image-8.png)](images/image-8.png)
