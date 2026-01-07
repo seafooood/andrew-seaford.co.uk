@@ -47,3 +47,8 @@ In this procedure, we are going to create a Docker Image that will execute the i
 ## Summary
 
 In this article, we create a docker container using a pre-existing installer.
+
+
+## Related Files
+
+-   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/docker/containerize%20an%20inno%20installed%20application](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/docker/containerize%20an%20inno%20installed%20application)

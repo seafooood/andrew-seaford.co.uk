@@ -21,3 +21,7 @@ To force VS Code to open every file in a new tab (instead of reusing the same pr
 ![alt text](image-2.png)
 
 - This ensures every file opens in a dedicated tab instead of reusing a single preview tab.
+
+## Related Files
+
+-   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/vs%20code/How%20To%20Force%20VS%20Code%20To%20Open%20Files%20In%20A%20New%20Tab](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/vs%20code/How%20To%20Force%20VS%20Code%20To%20Open%20Files%20In%20A%20New%20Tab)

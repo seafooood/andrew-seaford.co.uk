@@ -25,3 +25,8 @@ string myString = string.Format("{0:0.00}", s);
 Console.WriteLine(myString);
 
 ```
+
+
+## Related Files
+
+-   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/programming%20c%20sharp/string%20formating%20csharp](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/programming%20c%20sharp/string%20formating%20csharp)

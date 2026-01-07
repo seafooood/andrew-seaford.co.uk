@@ -30,3 +30,8 @@ load_dotenv()
 myName = os.getenv("myName")
 print("MyName=", myName)
 ```
+
+
+## Related Files
+
+-   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/programming%20python/dotenv/EnvSettings](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/programming%20python/dotenv/EnvSettings)

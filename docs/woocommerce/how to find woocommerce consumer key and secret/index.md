@@ -43,3 +43,8 @@ To obtain the `consumer_key` and `consumer_secret` for your WooCommerce store, y
 ## Summary
 
 Once you have your `consumer_key` and `consumer_secret`, you can use them in your external applications to make authenticated requests to your WooCommerce store's REST API.
+
+
+## Related Files
+
+-   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/woocommerce/how%20to%20find%20woocommerce%20consumer%20key%20and%20secret](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/woocommerce/how%20to%20find%20woocommerce%20consumer%20key%20and%20secret)

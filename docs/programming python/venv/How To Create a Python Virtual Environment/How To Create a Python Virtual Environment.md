@@ -43,3 +43,7 @@ source asenv/bin/activate
 ![alt text](image.png)
 - The selected interpreter in the status bar should now show the venv name.
 ![alt text](image-2.png)
+
+## Related Files
+
+-   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/programming%20python/venv/How%20To%20Create%20a%20Python%20Virtual%20Environment](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/programming%20python/venv/How%20To%20Create%20a%20Python%20Virtual%20Environment)

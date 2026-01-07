@@ -85,3 +85,8 @@ int _tmain(int argc, _TCHAR* argv[])
 
 | \[caption id="attachment\_152" align="alignnone" width="81"\][![](images/test.jpg "test")](images/test.jpg) Input Image\[/caption\] | \[caption id="attachment\_153" align="alignnone" width="81"\][![threshold](images/threshold.png "threshold")](images/threshold.png) After threshold\[/caption\] | \[caption id="attachment\_154" align="alignnone" width="81"\][![](images/output3.png "output")](images/output3.png) Output\[/caption\] |
 | --- | --- | --- |
+
+
+## Related Files
+
+-   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/opencv/detecting%20dominant%20points%20image%20opencv](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/opencv/detecting%20dominant%20points%20image%20opencv)

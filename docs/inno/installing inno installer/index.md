@@ -24,3 +24,8 @@ Detailed below is the procedure for installing Inno.
 
 - Click the install button to start the installation.[![inno8](images/inno8-300x255.png)](images/inno8.png)
 - Click the finish button to complete the install.[![inno9](images/inno9-300x252.png)](images/inno9.png)
+
+
+## Related Files
+
+-   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/inno/installing%20inno%20installer](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/inno/installing%20inno%20installer)

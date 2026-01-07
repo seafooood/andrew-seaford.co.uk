@@ -20,3 +20,8 @@ In this article we will create a React component that displays a Combobox. The v
 - Run the tests `npm test`
     
 - To use the component add an include line to your project file eg `import DemoSelect from './DemoSelect';`. Create a list of options eg `const optionList = ["apple", "orange"];`, create an instance of the component and pass the list to the component `<DemoSelect optionList={optionList} />`.
+
+
+## Related Files
+
+-   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/programming%20javascript/how%20to%20create%20a%20combobox%20react%20component%20with%20unit%20tests](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/programming%20javascript/how%20to%20create%20a%20combobox%20react%20component%20with%20unit%20tests)

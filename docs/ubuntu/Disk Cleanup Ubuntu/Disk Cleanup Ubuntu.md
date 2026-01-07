@@ -100,3 +100,8 @@ tmpfs                                  5120       0      5120   0% /run/lock
 /dev/sda2                           1768056  250660   1409264  16% /boot
 tmpfs                                812876       4    812872   1% /run/user/1000
 ```
+
+
+## Related Files
+
+-   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/ubuntu/Disk%20Cleanup%20Ubuntu](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/ubuntu/Disk%20Cleanup%20Ubuntu)

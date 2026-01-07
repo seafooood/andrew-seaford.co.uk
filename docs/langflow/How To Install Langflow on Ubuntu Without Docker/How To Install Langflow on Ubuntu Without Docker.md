@@ -83,3 +83,8 @@ sudo systemctl status langflow
 ```
 
 Now Langflow should be running on your Ubuntu machine without Docker on port 8000. Using a web browser navigate to `http://<server_ip_address>:8000`
+
+
+## Related Files
+
+-   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/langflow/How%20To%20Install%20Langflow%20on%20Ubuntu%20Without%20Docker](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/langflow/How%20To%20Install%20Langflow%20on%20Ubuntu%20Without%20Docker)

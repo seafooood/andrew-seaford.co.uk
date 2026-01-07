@@ -41,3 +41,8 @@ namespace ExtensionMethodExample
     }
 }
 ```
+
+
+## Related Files
+
+-   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/programming%20c%20sharp/how%20to%20use%20extension%20methods%20in%20c](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/programming%20c%20sharp/how%20to%20use%20extension%20methods%20in%20c)

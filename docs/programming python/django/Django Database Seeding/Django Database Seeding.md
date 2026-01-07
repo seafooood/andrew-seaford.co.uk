@@ -149,3 +149,7 @@ CMD ["python", "manage.py", "runserver", "0.0.0.0:8000"]
 *   Finally, the `CMD` from your `Dockerfile` (or `docker-compose.yml`) will be executed, starting your Django application.
 
 This approach gives you a clean, predictable database state every time you start your container, with your seed data managed in a version-controlled text file as you wanted.
+
+## Related Files
+
+-   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/programming%20python/django/Django%20Database%20Seeding](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/programming%20python/django/Django%20Database%20Seeding)

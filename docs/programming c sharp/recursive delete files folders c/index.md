@@ -23,3 +23,8 @@ private void DeleteAllFiles(string sPath)
 }
 
 ```
+
+
+## Related Files
+
+-   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/programming%20c%20sharp/recursive%20delete%20files%20folders%20c](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/programming%20c%20sharp/recursive%20delete%20files%20folders%20c)

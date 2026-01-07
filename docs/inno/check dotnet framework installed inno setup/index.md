@@ -14,4 +14,9 @@ In the files section add the dotnet installer file. Note the flags AfterInstall 
 
 `Source: "C:\Example\dotNetFx40_Full_x86_x64.exe"; DestDir: {tmp}; Flags: deleteafterinstall; AfterInstall: InstallFramework; Check: FrameworkIsNotInstalled`
 
-Download the installer script [**CheckDotNet.iss**](http://andrew-seaford.co.uk/code/CheckDotNet.iss "CheckDotNet.iss")
+Download the installer script [**CheckDotNet.iss**](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/CheckDotNet.iss "CheckDotNet.iss")
+
+
+## Related Files
+
+-   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/inno/check%20dotnet%20framework%20installed%20inno%20setup](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/inno/check%20dotnet%20framework%20installed%20inno%20setup)

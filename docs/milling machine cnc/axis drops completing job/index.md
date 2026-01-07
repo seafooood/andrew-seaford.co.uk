@@ -22,3 +22,8 @@ slug: "axis-drops-completing-job"
       
     #define DEFAULT\_STEPPER\_DEACTIVE\_TIME 0
 4. Upload firmware project
+
+
+## Related Files
+
+-   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/milling%20machine%20cnc/axis%20drops%20completing%20job](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/milling%20machine%20cnc/axis%20drops%20completing%20job)

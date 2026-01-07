@@ -33,3 +33,7 @@ gemini
 ## Referances
 
 [https://github.com/google-gemini/gemini-cli](https://github.com/google-gemini/gemini-cli)
+
+## Related Files
+
+-   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/gemini/How%20To%20Install%20Gemini%20Cli](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/gemini/How%20To%20Install%20Gemini%20Cli)

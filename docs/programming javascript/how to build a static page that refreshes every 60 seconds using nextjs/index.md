@@ -18,3 +18,8 @@ In this example, we will build a page that is rendered server-side using NextJs.
 - Install package `npm install`
 - Build the site `npm run build`
 - Start the site `npm run start`
+
+
+## Related Files
+
+-   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/programming%20javascript/how%20to%20build%20a%20static%20page%20that%20refreshes%20every%2060%20seconds%20using%20nextjs](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/programming%20javascript/how%20to%20build%20a%20static%20page%20that%20refreshes%20every%2060%20seconds%20using%20nextjs)

@@ -32,3 +32,8 @@ double eps = 0.01;
 Console.WriteLine("equal = " + almostEqual(a, b, eps).ToString());
 
 ```
+
+
+## Related Files
+
+-   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/programming%20c%20sharp/equal%20c](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/programming%20c%20sharp/equal%20c)

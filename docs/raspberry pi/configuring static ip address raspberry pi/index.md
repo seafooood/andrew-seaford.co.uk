@@ -39,3 +39,8 @@ In this example, the IP address for the Raspberry Pi will be set to 192.168.0.17
     ```
     sudo shutdown -r now
     ```
+
+
+## Related Files
+
+-   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/raspberry%20pi/configuring%20static%20ip%20address%20raspberry%20pi](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/raspberry%20pi/configuring%20static%20ip%20address%20raspberry%20pi)

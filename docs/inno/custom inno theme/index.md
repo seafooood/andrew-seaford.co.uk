@@ -27,4 +27,9 @@ The files must be saved as 256bit bmp files. I created my examples files using G
 
 The small image should be 55x58 pixels. The large image should be 164x314 pixels.
 
-Download full Inno script [CustomImage.iss](http://andrew-seaford.co.uk/code/CustomImages.iss "CustomImage.iss") Download images [Large.bmp](http://andrew-seaford.co.uk/code/Large.bmp "Large.bmp") [Small.bmp](http://andrew-seaford.co.uk/code/Small.bmp "Small.bmp")
+Download full Inno script [CustomImage.iss](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/CustomImages.iss "CustomImage.iss") Download images [Large.bmp](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/Large.bmp "Large.bmp") [Small.bmp](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/Small.bmp "Small.bmp")
+
+
+## Related Files
+
+-   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/inno/custom%20inno%20theme](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/inno/custom%20inno%20theme)

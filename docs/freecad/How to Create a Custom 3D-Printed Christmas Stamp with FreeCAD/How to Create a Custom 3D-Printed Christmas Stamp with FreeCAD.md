@@ -51,3 +51,7 @@ You're now ready to export the final `Christmas_Stamp` object as an STL file (`F
 - [ChristmasStamp.stl](ChristmasStamp.stl)
 
 Happy printing, and have a very Merry Christmas!
+
+## Related Files
+
+-   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/freecad/How%20to%20Create%20a%20Custom%203D-Printed%20Christmas%20Stamp%20with%20FreeCAD](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/freecad/How%20to%20Create%20a%20Custom%203D-Printed%20Christmas%20Stamp%20with%20FreeCAD)

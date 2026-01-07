@@ -24,3 +24,8 @@ python pinecone-list-indexes.py
 The output will display the index name, dimension and configured meta data.
 
 ![alt text](image.png)
+
+
+## Related Files
+
+-   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/pinecone/How%20To%20Find%20Index%20Dimensions](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/pinecone/How%20To%20Find%20Index%20Dimensions)

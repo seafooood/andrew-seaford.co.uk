@@ -19,3 +19,8 @@ except Exception as e:
     # Fallback to the original, less-detailed print
     print("Full Item Object (JsProxy):", item_wrapper)
 ```
+
+
+## Related Files
+
+-   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/n8n/Code%20Node%20-%20JsProxy%20to%20Python](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/n8n/Code%20Node%20-%20JsProxy%20to%20Python)

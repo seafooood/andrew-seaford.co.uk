@@ -111,3 +111,7 @@ Now for the fun part! Go back to the **Spreadsheet** tab and change the values f
 In this tutorial, you've learned the fundamentals of parametric design in FreeCAD. By using a spreadsheet to control the dimensions of your model, you can create flexible and easily modifiable designs. This is a powerful technique that can save you a lot of time and effort in your projects.
 
 Now that you understand the basics, you can start exploring more complex parametric designs. Happy modeling!
+
+## Related Files
+
+-   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/freecad/Getting%20Started%20With%20FreeCAD%20Spreadsheets%20and%20Parametric%20Design](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/freecad/Getting%20Started%20With%20FreeCAD%20Spreadsheets%20and%20Parametric%20Design)

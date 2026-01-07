@@ -10,4 +10,9 @@ When installing a program using Inno, to create an empty directory you will need
 
 `[Dirs] Name: "{app}\Example1"`
 
-Download installer script [**CreateEmptyDirectories.iss**](http://andrew-seaford.co.uk/code/CreateEmptyDirectories.iss "CreateEmptyDirectories.iss")
+Download installer script [**CreateEmptyDirectories.iss**](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/CreateEmptyDirectories.iss "CreateEmptyDirectories.iss")
+
+
+## Related Files
+
+-   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/inno/create%20empty%20folders%20inno](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/inno/create%20empty%20folders%20inno)

@@ -45,3 +45,7 @@ The stator disk must be designed to accommodate the iron cores and provide the m
 | **Output Connection** | Three AC wire terminations | The 27 coils must be internally wired into three separate electrical phases, and the three ends connected in a Star (Y) configuration before exiting the housing.[1] |
 
 **Note on Final Dimensions:** The precise radial dimensions (Inner and Outer Diameters, $D_i$ and $D_o$) of the coil posts are interdependent on the magnet placement and the 27-slot geometry. These dimensions must be iteratively calculated to ensure the coil winding area aligns optimally with the passing magnet faces while keeping the MLT minimized.
+
+## Related Files
+
+-   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/freecad/Mico%20Generator](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/freecad/Mico%20Generator)

@@ -18,3 +18,8 @@ public static string GetWebPageAsString(string url) {
 }
 
 ```
+
+
+## Related Files
+
+-   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/programming%20c%20sharp/web%20page%20content%20string%20c](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/programming%20c%20sharp/web%20page%20content%20string%20c)

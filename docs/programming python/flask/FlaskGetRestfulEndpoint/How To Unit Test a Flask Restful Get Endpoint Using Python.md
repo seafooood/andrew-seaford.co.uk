@@ -105,3 +105,7 @@ if __name__ == '__main__':
 
 - The log messages from a failed test will end with the number of failures.
 ![8](8.png)
+
+## Related Files
+
+-   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/programming%20python/flask/FlaskGetRestfulEndpoint](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/programming%20python/flask/FlaskGetRestfulEndpoint)

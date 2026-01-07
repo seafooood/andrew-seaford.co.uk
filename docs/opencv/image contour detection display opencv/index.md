@@ -88,3 +88,8 @@ int _tmain(int argc, _TCHAR* argv[])
 ```
 
 \[caption id="attachment\_146" align="alignnone" width="300"\][![](images/input4-300x201.png "input")](images/input4.png) The input image\[/caption\]\[caption id="attachment\_147" align="alignnone" width="300"\][![](images/edge100-300x254.png "edge100")](images/edge100.png) Threshold value 100\[/caption\]\[caption id="attachment\_148" align="alignnone" width="300"\][![](images/edge150-300x255.png "edge150")](images/edge150.png) Threshold value 150\[/caption\]\[caption id="attachment\_149" align="alignnone" width="300"\][![](images/edge200-300x256.png "edge200")](images/edge200.png) Threshold value 200\[/caption\]
+
+
+## Related Files
+
+-   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/opencv/image%20contour%20detection%20display%20opencv](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/opencv/image%20contour%20detection%20display%20opencv)

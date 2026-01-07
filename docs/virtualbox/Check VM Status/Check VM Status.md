@@ -129,3 +129,7 @@ VM is already running.
 ## Conclusion
 
 Congratulations! You now have an automated system that ensures your VirtualBox VM is always running. This simple solution provides peace of mind, knowing that your important services will automatically restart if they ever go down.
+
+## Related Files
+
+-   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/virtualbox/Check%20VM%20Status](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/virtualbox/Check%20VM%20Status)

@@ -66,3 +66,8 @@ In this guide, we are going to install Hugo on a server running Ubuntu version 2
 - [https://gohugo.io/getting-started/quick-start/](https://gohugo.io/getting-started/quick-start/)
 - [https://gohugo.io/hosting-and-deployment/deployment-with-rclone/](https://gohugo.io/hosting-and-deployment/deployment-with-rclone/)
 - [https://gohugo.io/hosting-and-deployment/deployment-with-rclone/](https://gohugo.io/hosting-and-deployment/deployment-with-rclone/)
+
+
+## Related Files
+
+-   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/hugo/Installing%20Hugo%20on%20Ubuntu](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/hugo/Installing%20Hugo%20on%20Ubuntu)

@@ -19,3 +19,8 @@ We have connected a USB Bluetooth dongle to the Raspberry Pi and using the instr
 - Disconnect the usb cable
 - Press the PS button the top of the controller
 - Confirm the new input device has been succesffully added. Enter the command `sudo ls /dev/input` you should see JS0 has been added to the list of input devices
+
+
+## Related Files
+
+-   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/raspberry%20pi/ps3%20controller](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/raspberry%20pi/ps3%20controller)

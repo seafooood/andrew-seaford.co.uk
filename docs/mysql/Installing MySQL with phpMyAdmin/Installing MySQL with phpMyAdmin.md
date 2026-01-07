@@ -13,3 +13,8 @@ sudo tasksel install lamp-server
 ## Referances
 
 [Get started with lamp applications](https://ubuntu.com/server/docs/get-started-with-lamp-applications)
+
+
+## Related Files
+
+-   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/mysql/Installing%20MySQL%20with%20phpMyAdmin](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/mysql/Installing%20MySQL%20with%20phpMyAdmin)

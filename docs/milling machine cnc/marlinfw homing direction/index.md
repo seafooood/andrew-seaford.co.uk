@@ -26,3 +26,8 @@ In the example below the homing direction for the z axis will be changed to home
 The Z home value was -1 and has been changed to 1. 
   
 [![](images/homedirnew-300x160.png)](images/homedirnew.png)
+
+
+## Related Files
+
+-   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/milling%20machine%20cnc/marlinfw%20homing%20direction](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/milling%20machine%20cnc/marlinfw%20homing%20direction)

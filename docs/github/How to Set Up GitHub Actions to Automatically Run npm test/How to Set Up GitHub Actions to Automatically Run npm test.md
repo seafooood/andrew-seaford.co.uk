@@ -72,3 +72,7 @@ git push
 ```
 
 That's it! The workflow is now active. It will automatically run on your next push or pull request to the `main` branch. You can monitor its progress, view logs, and see the results of your test runs in the **Actions** tab of your GitHub repository.
+
+## Related Files
+
+-   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/github/How%20to%20Set%20Up%20GitHub%20Actions%20to%20Automatically%20Run%20npm%20test](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/github/How%20to%20Set%20Up%20GitHub%20Actions%20to%20Automatically%20Run%20npm%20test)

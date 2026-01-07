@@ -52,3 +52,8 @@ select * from pg_extension;
  13747 | plpgsql |       10 |           11 | f              | 1.0        |           |
  16384 | vector  |       10 |         2200 | t              | 0.8.0      |           |
 (2 rows)
+
+
+## Related Files
+
+-   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/postgresql/Install%20pgvector%20on%20Ubuntu%20with%20PostgreSQL%2014](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/postgresql/Install%20pgvector%20on%20Ubuntu%20with%20PostgreSQL%2014)

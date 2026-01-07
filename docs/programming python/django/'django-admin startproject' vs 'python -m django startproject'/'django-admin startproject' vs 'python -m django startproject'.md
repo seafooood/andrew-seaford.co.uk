@@ -19,3 +19,8 @@ Both commands achieve the same result—creating a new Django project—but they
 - If your virtual environment is properly activated and django-admin is recognized, both commands work the same.
 - If you ever encounter issues with django-admin (e.g., command not found), using python -m django ensures Python finds Django correctly.
 - In short, django-admin startproject is more commonly used, but python -m django startproject is a safer alternative in some environments. 
+
+
+## Related Files
+
+-   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/programming%20python/django/'django-admin%20startproject'%20vs%20'python%20-m%20django%20startproject'](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/programming%20python/django/'django-admin%20startproject'%20vs%20'python%20-m%20django%20startproject')

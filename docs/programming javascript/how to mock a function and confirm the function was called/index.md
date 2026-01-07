@@ -17,3 +17,8 @@ In this article we are demostrate how to mock a function and confirm the functio
 - Create the file `DemoMockingFunctionCalls.test.js` in the `src` directory. The unit test will create a mocked function f using the jest library `const f = jest.fn();`. The assert checks that the function was called twice by checking the `f.mock.calls` matches the array of expected calls.
     
 - Run the tests `npm test`
+
+
+## Related Files
+
+-   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/programming%20javascript/how%20to%20mock%20a%20function%20and%20confirm%20the%20function%20was%20called](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/programming%20javascript/how%20to%20mock%20a%20function%20and%20confirm%20the%20function%20was%20called)

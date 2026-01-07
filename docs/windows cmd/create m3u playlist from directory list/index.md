@@ -22,3 +22,8 @@ dir *.mp3 /b /s > "playlist.m3u"
 ```
 
 Next save the file as create-playlist.cmd. To execute place the command script in the same folder as the mp3s and double click create-playlist.cmd, this will generate playlist.m3u. Then open playlist.m3u in winamp.
+
+
+## Related Files
+
+-   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/windows%20cmd/create%20m3u%20playlist%20from%20directory%20list](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/windows%20cmd/create%20m3u%20playlist%20from%20directory%20list)

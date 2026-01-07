@@ -55,3 +55,7 @@ sudo docker image list
 ```
 
 The image with the ID `a04352c09577` should no longer appear in the list.
+
+## Related Files
+
+-   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/docker/troubleshooting-image-in-use](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/docker/troubleshooting-image-in-use)

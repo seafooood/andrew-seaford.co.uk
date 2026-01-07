@@ -163,3 +163,8 @@ Python script output
     "1742721941175": "2025-03-23T09:25:41.175944+0000 INFO Cleanup successful for job_id 46779e99-5636-49a0-91bc-d5638f1f228a: resources have been released.\n"
 }
 ```
+
+
+## Related Files
+
+-   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/langflow/How%20To%20Enable%20Logging%20In%20Langflow](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/langflow/How%20To%20Enable%20Logging%20In%20Langflow)

@@ -26,3 +26,7 @@ docker run -it --rm -p 7860:7860 langflowai/langflow:latest
 ## References
 
 https://hub.docker.com/r/langflowai/langflow
+
+## Related Files
+
+-   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/langflow/How%20To%20Install%20Langflow%20on%20Ubuntu%20Using%20Docker](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/langflow/How%20To%20Install%20Langflow%20on%20Ubuntu%20Using%20Docker)

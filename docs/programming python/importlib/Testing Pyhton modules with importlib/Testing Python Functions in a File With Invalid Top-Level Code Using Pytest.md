@@ -137,3 +137,8 @@ Even if you’re stuck with a Python file that can’t be imported normally, you
 
 This approach ensures you can write meaningful tests, maintain confidence in your code, and avoid touching source files you can’t change.
 
+
+
+## Related Files
+
+-   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/programming%20python/importlib/Testing%20Pyhton%20modules%20with%20importlib](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/programming%20python/importlib/Testing%20Pyhton%20modules%20with%20importlib)

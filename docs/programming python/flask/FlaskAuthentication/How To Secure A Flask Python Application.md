@@ -131,3 +131,8 @@ class SecureData(Resource):
 ## Summary
 
 In this solution, no user credentials are stored in the front end. The backend validates the user's name and password and returns a temporary access token, the access token is used to authorize requests to the backend endpoints.
+
+
+## Related Files
+
+-   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/programming%20python/flask/FlaskAuthentication](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/programming%20python/flask/FlaskAuthentication)

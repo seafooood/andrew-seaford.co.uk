@@ -204,3 +204,8 @@ ImageField – Stores uploaded images.
 ## Conclusion
 
 In this guide, we covered creating tables, inserting data, querying data, deleting records, and modifying tables in a Django application. Using Django's ORM simplifies working with databases while maintaining flexibility and efficiency.
+
+
+## Related Files
+
+-   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/programming%20python/django/Getting%20Started%20with%20Django%20-%20Working%20with%20Databases](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/programming%20python/django/Getting%20Started%20with%20Django%20-%20Working%20with%20Databases)

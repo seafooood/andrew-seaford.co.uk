@@ -155,3 +155,7 @@ Title: The Science of Interstellar, Author: Kip Thorne, Distance: 1.0807
 Title: A Brief History of Time, Author: Stephen Hawking, Distance: 1.1347
 Title: Cosmos, Author: Carl Sagan, Distance: 1.1362
 ```
+
+## Related Files
+
+-   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/postgresql/How%20To%20Perform%20a%20Vector%20Search%20in%20A%20Postgres%20Database%20using%20pgvector](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/postgresql/How%20To%20Perform%20a%20Vector%20Search%20in%20A%20Postgres%20Database%20using%20pgvector)

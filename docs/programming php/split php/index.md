@@ -28,3 +28,8 @@ function splitname($input)
 }
 
 ```
+
+
+## Related Files
+
+-   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/programming%20php/split%20php](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/programming%20php/split%20php)

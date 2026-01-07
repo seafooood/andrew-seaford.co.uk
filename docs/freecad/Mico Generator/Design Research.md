@@ -180,3 +180,7 @@ VII. Conclusion
 The optimization of the 36-pole AFPMG to overcome the previous limitation regarding wire gauge requires a mandatory transition to a slotted iron-core topology. This change fundamentally alters the design constraint, shifting the focus from maximizing the number of turns (N) to minimizing the winding resistance (R).
 
 The analysis confirms that the use of a 27-slot stator paired with 36 poles allows for the selection of a conductor with high cross-sectional area. The AWG 20 wire gauge is the optimal selection, achieving a phase resistance reduction of over 85% compared to typical fine gauges used in high-turn coreless designs. This reduction dramatically lowers I2R copper losses, allowing the generator to handle the continuous 3A load efficiently. Furthermore, the selection of the Star (Y) winding configuration is necessary to leverage the 3​ voltage multiplication factor, maximizing the terminal voltage at low rotational speeds and ensuring robust operation for the downstream MPPT buck-boost converter system. The successful integration of iron cores must be accompanied by cogging torque mitigation, ideally through a 7.5∘ skew, to preserve the generator's mechanical performance at low wind speeds.
+
+## Related Files
+
+-   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/freecad/Mico%20Generator](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/freecad/Mico%20Generator)

@@ -144,3 +144,8 @@ tmpfs                              5.0M     0  5.0M   0% /run/lock
 /dev/sda2                          1.7G  245M  1.4G  16% /boot
 tmpfs                              794M  4.0K  794M   1% /run/user/1000
 ```
+
+
+## Related Files
+
+-   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/virtualbox/Resize%20the%20VirtualBox%20Disk%20(.vdi)](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/virtualbox/Resize%20the%20VirtualBox%20Disk%20(.vdi))

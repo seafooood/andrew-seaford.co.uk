@@ -47,3 +47,8 @@ int _tmain(int argc, _TCHAR* argv[])
 ```
 
 \[caption id="attachment\_127" align="alignnone" width="298" caption="Drawing simple shapes using OpenCV"\][![](images/drawing-298x300.png "drawing")](images/drawing.png)\[/caption\]
+
+
+## Related Files
+
+-   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/opencv/drawing%20simple%20shapes%20opencv](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/opencv/drawing%20simple%20shapes%20opencv)

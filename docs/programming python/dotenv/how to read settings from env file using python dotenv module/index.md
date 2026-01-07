@@ -37,3 +37,8 @@ load_dotenv()
 myName = os.getenv("myName")
 print("MyName=", myName)
 ```
+
+
+## Related Files
+
+-   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/programming%20python/dotenv/how%20to%20read%20settings%20from%20env%20file%20using%20python%20dotenv%20module](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/programming%20python/dotenv/how%20to%20read%20settings%20from%20env%20file%20using%20python%20dotenv%20module)

@@ -80,3 +80,8 @@ Shut down the VM gracefully:
 ```bash
 vboxmanage controlvm "Langflow3" acpipowerbutton
 ```
+
+
+## Related Files
+
+-   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/virtualbox/Cloning%20a%20VirtualBox%20VM%20via%20Ubuntu%20Terminal](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/virtualbox/Cloning%20a%20VirtualBox%20VM%20via%20Ubuntu%20Terminal)

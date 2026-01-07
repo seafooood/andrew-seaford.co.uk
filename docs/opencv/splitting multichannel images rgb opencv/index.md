@@ -62,3 +62,8 @@ int _tmain(int argc, _TCHAR* argv[])
 ```
 
 \[caption id="attachment\_121" align="alignnone" width="300" caption="Input Image"\][![](images/input1-300x201.png "input")](images/input1.png)\[/caption\]\[caption id="attachment\_122" align="alignnone" width="300" caption="Blue Channel"\][![](images/output_b-300x201.png "output_b")](images/output_b.png)\[/caption\]\[caption id="attachment\_123" align="alignnone" width="300" caption="Green Channel"\][![](images/output_g-300x200.png "output_g")](images/output_g.png)\[/caption\]\[caption id="attachment\_124" align="alignnone" width="300" caption="Red Channel"\][![](images/output_r-300x199.png "output_r")](images/output_r.png)\[/caption\]
+
+
+## Related Files
+
+-   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/opencv/splitting%20multichannel%20images%20rgb%20opencv](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/opencv/splitting%20multichannel%20images%20rgb%20opencv)

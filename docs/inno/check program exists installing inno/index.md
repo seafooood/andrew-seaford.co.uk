@@ -10,4 +10,9 @@ To check if a program exists before installing with Inno add the following code 
 
 `[Code] function IsMyProgramInstalled: boolean; begin result := FileExists('C:\Example\Test.exe'); end;  function InitializeSetup: boolean; begin result := not IsMyProgramInstalled; if not result then MsgBox('Program Already Exists', mbError, MB_OK); end;`
 
-Download the installer script [**IsMyProgramInstalled.iss**](http://andrew-seaford.co.uk/code/IsMyProgramInstalled.iss "IsMyProgramInstalled.iss")
+Download the installer script [**IsMyProgramInstalled.iss**](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/IsMyProgramInstalled.iss "IsMyProgramInstalled.iss")
+
+
+## Related Files
+
+-   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/inno/check%20program%20exists%20installing%20inno](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/inno/check%20program%20exists%20installing%20inno)

@@ -26,3 +26,8 @@ For example the two commands below are equivalent:
 The commands will achieve the **same result** (installing the package) because `install` is a function that both tools support identically.
 
 However, moving forward, it's generally recommended to switch to **`apt`** for your daily interactive use (like your example above) to benefit from the improved user experience and feature set. You can continue to use `apt-get` in any existing scripts to ensure they don't break, as the output of `apt` is not guaranteed to be backward-compatible.
+
+
+## Related Files
+
+-   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/ubuntu/Apt%20vs%20Apt-get](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/ubuntu/Apt%20vs%20Apt-get)

@@ -27,3 +27,8 @@ string content = File.ReadAllText(filename);
 MessageBox.Show(content);
 
 ```
+
+
+## Related Files
+
+-   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/programming%20c%20sharp/reading%20file%20csharp](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/programming%20c%20sharp/reading%20file%20csharp)

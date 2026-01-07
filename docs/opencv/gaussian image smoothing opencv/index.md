@@ -45,3 +45,8 @@ int _tmain(int argc, _TCHAR* argv[])
 \[caption id="attachment\_111" align="alignnone" width="300" caption="Input image"\][![](images/input-300x201.png "input")](images/input.png)\[/caption\]
 
 \[caption id="attachment\_113" align="alignnone" width="300" caption="Output Image after smoothing"\][![](images/output1-300x202.png "output")](images/output1.png)\[/caption\]
+
+
+## Related Files
+
+-   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/opencv/gaussian%20image%20smoothing%20opencv](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/opencv/gaussian%20image%20smoothing%20opencv)

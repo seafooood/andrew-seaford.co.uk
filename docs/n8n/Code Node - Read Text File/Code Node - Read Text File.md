@@ -87,3 +87,8 @@ The output will look something like this:
   }
 ]
 ```
+
+
+## Related Files
+
+-   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/n8n/Code%20Node%20-%20Read%20Text%20File](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/n8n/Code%20Node%20-%20Read%20Text%20File)

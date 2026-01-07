@@ -45,3 +45,8 @@ print_r(urlToNvp("www.example.co.uk?p1=one"));
 The result
 
 > Array ( \[p1\] => one \[p2\] => two ) Array ( \[p1\] => one \[p2\] => two ) Array ( \[p1\] => one )
+
+
+## Related Files
+
+-   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/programming%20php/urltonvp](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/programming%20php/urltonvp)

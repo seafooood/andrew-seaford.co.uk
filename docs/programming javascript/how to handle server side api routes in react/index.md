@@ -167,3 +167,8 @@ my-nextjs-app
 ```
 
 With this approach, you have successfully hidden your server-side logic inside the API route in Next.js, which ensures that sensitive operations like POST requests and form submissions are handled securely and aren't visible to users on the client side.
+
+
+## Related Files
+
+-   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/programming%20javascript/how%20to%20handle%20server%20side%20api%20routes%20in%20react](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/programming%20javascript/how%20to%20handle%20server%20side%20api%20routes%20in%20react)

@@ -28,3 +28,8 @@ def SecToTime(Sec):
   pass
 
 ```
+
+
+## Related Files
+
+-   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/programming%20python/general/convert%20time%20seconds%20hhmmss](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/programming%20python/general/convert%20time%20seconds%20hhmmss)

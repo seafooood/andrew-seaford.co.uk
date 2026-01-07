@@ -243,3 +243,8 @@ Run the server and log in at [http://127.0.0.1:8000/admin/](http://127.0.0.1:800
 |Admin Panel|None by default|Built-in
 
 Django is more structured and opinionated, which speeds up development for complex applications. If you’re comfortable with Flask, Django will take some getting used to, but its features can greatly improve productivity.
+
+
+## Related Files
+
+-   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/programming%20python/django/Getting%20Started%20with%20Django%20for%20Flask%20Developers](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/programming%20python/django/Getting%20Started%20with%20Django%20for%20Flask%20Developers)

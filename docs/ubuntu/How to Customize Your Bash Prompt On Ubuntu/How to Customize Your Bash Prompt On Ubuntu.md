@@ -48,3 +48,7 @@ From now on, every new terminal you open will greet you with your clean, custom 
 ## How to Restore the Default Prompt
 
 If you decide you want to go back to the default Ubuntu prompt, simply remove the `export PS1="> "` line from your `~/.bashrc` file and open a new terminal.
+
+## Related Files
+
+-   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/ubuntu/How%20to%20Customize%20Your%20Bash%20Prompt%20On%20Ubuntu](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/ubuntu/How%20to%20Customize%20Your%20Bash%20Prompt%20On%20Ubuntu)

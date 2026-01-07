@@ -35,3 +35,8 @@ print(output)
 ```bash
 python3 p.py
 ```
+
+
+## Related Files
+
+-   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/programming%20python/gpt4all](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/programming%20python/gpt4all)

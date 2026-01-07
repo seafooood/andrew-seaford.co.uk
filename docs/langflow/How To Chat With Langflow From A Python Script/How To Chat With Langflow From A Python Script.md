@@ -122,3 +122,8 @@ AI: Arrr, matey! I be not havin' the latest weather charts in me treasure chest,
 User: Thank you!
 AI: Arrr, ye be welcome, matey! If ye be needin' anythin' else, just give a holler! 🏴‍☠️
 ```
+
+
+## Related Files
+
+-   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/langflow/How%20To%20Chat%20With%20Langflow%20From%20A%20Python%20Script](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/langflow/How%20To%20Chat%20With%20Langflow%20From%20A%20Python%20Script)

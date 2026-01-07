@@ -24,3 +24,8 @@ slug: "creating-a-restfull-server-using-nextjs"
     `json [ "apple", "orange", "pear" ]`
     
 - Navigate to the page [http:\\localhost:3000](http:\localhost:3000)
+
+
+## Related Files
+
+-   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/programming%20javascript/creating%20a%20restfull%20server%20using%20nextjs](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/programming%20javascript/creating%20a%20restfull%20server%20using%20nextjs)

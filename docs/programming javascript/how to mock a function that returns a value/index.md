@@ -17,3 +17,8 @@ In this article we are demostrate how to mock a function that returns a value.
 - Create the file `DemoMockReturnValue.test.js` in the `src` directory. The unit test will create a mocked function f using the jest library `const f = jest.fn();`. The function is confirmed to return a value using the code `f.mockReturnValue(expectedValue);`. The assert confirms that the div with the test id myresult contains the expected data.
     
 - Run the tests `npm test`
+
+
+## Related Files
+
+-   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/programming%20javascript/how%20to%20mock%20a%20function%20that%20returns%20a%20value](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/programming%20javascript/how%20to%20mock%20a%20function%20that%20returns%20a%20value)

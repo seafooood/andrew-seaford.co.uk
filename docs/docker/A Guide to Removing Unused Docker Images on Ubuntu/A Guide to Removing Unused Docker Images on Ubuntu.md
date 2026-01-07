@@ -44,3 +44,7 @@ sudo docker images list
 The output should now show a shorter list of images, reflecting that the unused ones have been successfully deleted.
 
 By following these simple steps, you can easily manage your Docker images on Ubuntu, ensuring your system remains efficient and free of unnecessary clutter.
+
+## Related Files
+
+-   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/docker/A%20Guide%20to%20Removing%20Unused%20Docker%20Images%20on%20Ubuntu](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/docker/A%20Guide%20to%20Removing%20Unused%20Docker%20Images%20on%20Ubuntu)

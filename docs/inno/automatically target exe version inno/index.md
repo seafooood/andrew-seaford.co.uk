@@ -22,4 +22,9 @@ In the Setup section the MyAppVersion is used to set the installer version numbe
 
 `AppVersion={#MyAppVersion} AppVerName={#MyAppName} {#MyAppVersion} OutputBaseFilename=Setup{#MyAppName}{#MyAppVersion} VersionInfoVersion={#MyAppVersion}`
 
-Download the full installer code [**AutoGetVersionNumber.iss**](http://andrew-seaford.co.uk/code/AutoGetVersionNumber.iss "AutoGetVersionNumber.iss")
+Download the full installer code [**AutoGetVersionNumber.iss**](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/AutoGetVersionNumber.iss "AutoGetVersionNumber.iss")
+
+
+## Related Files
+
+-   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/inno/automatically%20target%20exe%20version%20inno](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/inno/automatically%20target%20exe%20version%20inno)

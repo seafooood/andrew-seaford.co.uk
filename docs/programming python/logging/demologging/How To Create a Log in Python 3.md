@@ -50,3 +50,7 @@ if __name__ == "__main__":
 2023-12-23 18:32:33,383 - ERROR - An error occurred: division by zero
 2023-12-23 18:32:33,383 - INFO - Script finished.
 ````
+
+## Related Files
+
+-   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/programming%20python/logging/demologging](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/programming%20python/logging/demologging)

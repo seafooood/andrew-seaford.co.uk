@@ -33,3 +33,8 @@ VBoxManage snapshot "Langflow3" list
 ```sh
 VBoxManage snapshot "Langflow3" restore "MySnapshotName"
 ```
+
+
+## Related Files
+
+-   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/virtualbox/Taking%20a%20Virtual%20Machine%20Snapshot%20via%20Ubuntu%20Terminal](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/virtualbox/Taking%20a%20Virtual%20Machine%20Snapshot%20via%20Ubuntu%20Terminal)

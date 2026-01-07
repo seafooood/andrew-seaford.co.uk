@@ -128,3 +128,8 @@ python manage.py runserver
 - Navigate to the restricted page [http://127.0.0.1:8000/accounts/restricted/](http://127.0.0.1:8000/accounts/restricted/) and confirm that you can not access the restricted page.
 - Create an account at the sign up page [http://127.0.0.1:8000/accounts/signup/](http://127.0.0.1:8000/accounts/signup/)
 - Log in using your username and password [http://127.0.0.1:8000/accounts/login/](http://127.0.0.1:8000/accounts/login/)
+
+
+## Related Files
+
+-   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/programming%20python/django/Creating%20a%20Django%20Site%20With%20User%20Authentication](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/programming%20python/django/Creating%20a%20Django%20Site%20With%20User%20Authentication)

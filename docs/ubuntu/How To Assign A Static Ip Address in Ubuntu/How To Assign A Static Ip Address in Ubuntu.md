@@ -84,3 +84,8 @@ You can also test connectivity:
 ```bash
 ping 8.8.8.8
 ```
+
+
+## Related Files
+
+-   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/ubuntu/How%20To%20Assign%20A%20Static%20Ip%20Address%20in%20Ubuntu](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/ubuntu/How%20To%20Assign%20A%20Static%20Ip%20Address%20in%20Ubuntu)

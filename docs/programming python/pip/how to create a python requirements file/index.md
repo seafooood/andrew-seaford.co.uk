@@ -121,3 +121,8 @@ pip install -r requirements.txt
 ```
 
 By following these steps, you can ensure that your project’s environment is reproducible, making it easier to collaborate with others and deploy your application.
+
+
+## Related Files
+
+-   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/programming%20python/pip/how%20to%20create%20a%20python%20requirements%20file](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/programming%20python/pip/how%20to%20create%20a%20python%20requirements%20file)

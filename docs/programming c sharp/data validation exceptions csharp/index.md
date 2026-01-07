@@ -42,3 +42,8 @@ catch (Exception ex)
 }
 
 ```
+
+
+## Related Files
+
+-   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/programming%20c%20sharp/data%20validation%20exceptions%20csharp](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/programming%20c%20sharp/data%20validation%20exceptions%20csharp)

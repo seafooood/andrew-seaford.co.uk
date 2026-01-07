@@ -89,3 +89,8 @@ In this example I will create a C++ dll that with contain the OpenCV image proce
      
      
      ```
+
+
+## Related Files
+
+-   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/opencv/opencv%20csharp%20wpf%20application](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/opencv/opencv%20csharp%20wpf%20application)

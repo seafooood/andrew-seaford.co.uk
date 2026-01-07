@@ -81,3 +81,8 @@ docker run -d -p 5500:5500 --name flask-container flask-app
 ```
 
 - Open a web browser and navigate to http://127.0.0.1:5500. Use the swagger page to confirm the application is working as expected.
+
+
+## Related Files
+
+-   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/docker/How%20To%20Containerize%20A%20Python%20Flask%20Application](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/docker/How%20To%20Containerize%20A%20Python%20Flask%20Application)

@@ -85,3 +85,8 @@ VBoxManage storageattach "n8nsept25" --storagectl "IDE" --port 1 --device 0 --ty
 ## Conclusion
 
 Whether you prefer a graphical interface or the command line, VirtualBox makes it easy to attach and manage DVD ISO images. By following the steps in this guide, you can quickly attach an ISO for OS installations, recovery tools, or any other purpose.
+
+
+## Related Files
+
+-   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/virtualbox/Attaching-a-DVD-ISO-Image-in-VirtualBox](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/virtualbox/Attaching-a-DVD-ISO-Image-in-VirtualBox)

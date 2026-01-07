@@ -160,3 +160,8 @@ class database_extensions_tests(unittest.TestCase):
 if __name__ == '__main__':
     unittest.main()
 ```
+
+
+## Related Files
+
+-   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/programming%20python/sqllite/how%20to%20access%20sqlite3%20database%20using%20python](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/programming%20python/sqllite/how%20to%20access%20sqlite3%20database%20using%20python)

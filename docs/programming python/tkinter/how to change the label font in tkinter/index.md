@@ -47,3 +47,8 @@ win.mainloop()
 Below is the output with the label's customized font style and size.
 
 [![](images/image-8.png)](images/image-8.png)
+
+
+## Related Files
+
+-   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/programming%20python/tkinter/how%20to%20change%20the%20label%20font%20in%20tkinter](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/programming%20python/tkinter/how%20to%20change%20the%20label%20font%20in%20tkinter)

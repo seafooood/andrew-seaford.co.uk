@@ -11,3 +11,8 @@ sudo apt-get install openssh-server
 Once installed, the SSH service should start automatically. If necessary, you can start the service using the command.
 
 sudo service ssh start
+
+
+## Related Files
+
+-   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/ubuntu/ubuntu%2012%204%20enable%20ssh%20service](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/ubuntu/ubuntu%2012%204%20enable%20ssh%20service)

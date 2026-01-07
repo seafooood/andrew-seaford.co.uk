@@ -64,3 +64,8 @@ int _tmain(int argc, _TCHAR* argv[])
 ```
 
 \[caption id="attachment\_138" align="alignnone" width="300"\][![](images/input3-300x201.png "input")](images/input3.png) Input Image\[/caption\] \[caption id="attachment\_139" align="alignnone" width="300"\][![](images/channel_r-300x199.png "channel_r")](images/channel_r.png) The red channel, before threshold\[/caption\]\[caption id="attachment\_140" align="alignnone" width="300"\][![](images/output2-300x199.png "output")](images/output2.png) The red channel, after threshold\[/caption\]
+
+
+## Related Files
+
+-   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/opencv/threshold%20image%20opencv](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/opencv/threshold%20image%20opencv)

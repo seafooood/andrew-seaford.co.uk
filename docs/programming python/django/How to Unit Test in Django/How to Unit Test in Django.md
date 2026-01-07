@@ -419,3 +419,8 @@ python manage.py test products
 ```
 
 ![alt text](image-14.png)
+
+
+## Related Files
+
+-   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/programming%20python/django/How%20to%20Unit%20Test%20in%20Django](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/programming%20python/django/How%20to%20Unit%20Test%20in%20Django)

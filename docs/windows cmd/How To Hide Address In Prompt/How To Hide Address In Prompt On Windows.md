@@ -39,3 +39,8 @@ On the next launch of the command prompt, you'll see your new prompt.
 
 
 
+
+
+## Related Files
+
+-   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/windows%20cmd/How%20To%20Hide%20Address%20In%20Prompt](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/windows%20cmd/How%20To%20Hide%20Address%20In%20Prompt)

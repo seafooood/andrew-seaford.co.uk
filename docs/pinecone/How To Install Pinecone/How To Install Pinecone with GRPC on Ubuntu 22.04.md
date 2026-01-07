@@ -23,3 +23,8 @@ python -c "import pinecone; print(pinecone.__version__)"
 ```
 
 ![success](image.png)
+
+
+## Related Files
+
+-   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/pinecone/How%20To%20Install%20Pinecone](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/pinecone/How%20To%20Install%20Pinecone)

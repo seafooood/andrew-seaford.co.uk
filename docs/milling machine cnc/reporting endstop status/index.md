@@ -25,3 +25,8 @@ slug: "reporting-endstop-status"
     
 2. Enter the command `M119` and then click the Send button. The command will display the status of each of the end switches.  
     [![](images/commandm119.png)](images/commandm119.png)
+
+
+## Related Files
+
+-   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/milling%20machine%20cnc/reporting%20endstop%20status](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/milling%20machine%20cnc/reporting%20endstop%20status)

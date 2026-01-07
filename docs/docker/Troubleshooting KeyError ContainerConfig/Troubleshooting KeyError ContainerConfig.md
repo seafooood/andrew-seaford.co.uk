@@ -65,3 +65,7 @@ Your containers should now start without the `KeyError: 'ContainerConfig'` error
 ## Conclusion
 
 The `KeyError: 'ContainerConfig'` error in Docker can be a roadblock, but it's usually straightforward to fix. By completely removing the old containers, volumes, and images, you can clear out any corrupted data and start fresh. This guide has shown you how to resolve this issue on Ubuntu, allowing you to get back to developing and running your applications.
+
+## Related Files
+
+-   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/docker/Troubleshooting%20KeyError%20ContainerConfig](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/docker/Troubleshooting%20KeyError%20ContainerConfig)

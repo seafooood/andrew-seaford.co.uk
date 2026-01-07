@@ -53,3 +53,7 @@ The Gemini CLI supports a persistent configuration file where you can explicitly
     The `"shell"` tool is the one Gemini uses to execute commands like `npm`, `git`, `ls`, etc. By adding `"shell"` to this list, you are permanently instructing the CLI to **auto-approve all shell commands** without a prompt.
 
 Any changes you make to the `~/.gemini/settings.json` file will persist across all your Gemini CLI sessions until you manually remove the entry.
+
+## Related Files
+
+-   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/gemini/Configuring%20Gemini%20Permissions](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/gemini/Configuring%20Gemini%20Permissions)
