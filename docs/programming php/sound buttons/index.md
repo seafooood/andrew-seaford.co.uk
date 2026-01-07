@@ -7,9 +7,9 @@ categories:
 slug: "sound-buttons"
 ---
 
-Sound Buttons are a technique used to teach children to read. This function generates the sound buttons for a given word, uing the [Jolly Phonics](http://jollylearning.co.uk/overview-about-jolly-phonics/) system. This approach breaks each word into the groups of letter sounds, of which there are 42 letter sounds.
+Sound Buttons are a technique used to teach children to read. This function generates the sound buttons for a given word, uing the Jolly Phonics system. This approach breaks each word into the groups of letter sounds, of which there are 42 letter sounds.
 
-```
+```php
 /**
  * Generates phonics for a given word.
  * This function uses the Jolly Phonics, synthetic phonics programme.    
@@ -60,7 +60,7 @@ function phonomes($input)
 
 To test the phonomes function use
 
-```
+```php
 foreach(array('this','moth','that','three','them','thin','quick','quilt','liquid','squid') as $test)
 {
   print "$test = " . implode(' - ', phonomes($test)) . "";
@@ -70,13 +70,16 @@ foreach(array('this','moth','that','three','them','thin','quick','quilt','liquid
 
 This produces the following output
 
-this = th - i - s moth = m - o - th that = th - a - t three = th - r - ee them = th - e - m thin = th - i - n quick = qu - i - ck quilt = qu - i - l - t liquid = l - i - qu - i - d squid = s - qu - i - d
-
-  
-  
-  
-To see this function working please visit [Dylan Seaford](http://www.dylan-seaford.co.uk/sound-buttons/)
-
+- this = th - i - s
+- moth = m - o - th
+- that = th - a - t
+- three = th - r - ee
+- them = th - e - m
+- thin = th - i - n
+- quick = qu - i - ck
+- quilt = qu - i - l - t
+- liquid = l - i - qu - i - d
+- squid = s - qu - i - d
 
 ## Related Files
 

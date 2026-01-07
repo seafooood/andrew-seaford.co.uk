@@ -57,7 +57,6 @@ In this guide, we are going to install Hugo on a server running Ubuntu version 2
 
 - [https://themes.gohugo.io/themes/hugo-flex/](https://themes.gohugo.io/themes/hugo-flex/)
 - [https://github.com/adityatelange/hugo-PaperMod/wiki/Installation](https://github.com/adityatelange/hugo-PaperMod/wiki/Installation)
-- [https://aakinshin.net/perfology/](https://aakinshin.net/perfology/)
 
 ## Related Sources
 
@@ -66,7 +65,6 @@ In this guide, we are going to install Hugo on a server running Ubuntu version 2
 - [https://gohugo.io/getting-started/quick-start/](https://gohugo.io/getting-started/quick-start/)
 - [https://gohugo.io/hosting-and-deployment/deployment-with-rclone/](https://gohugo.io/hosting-and-deployment/deployment-with-rclone/)
 - [https://gohugo.io/hosting-and-deployment/deployment-with-rclone/](https://gohugo.io/hosting-and-deployment/deployment-with-rclone/)
-
 
 ## Related Files
 

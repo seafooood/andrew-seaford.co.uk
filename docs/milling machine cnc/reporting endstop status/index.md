@@ -12,20 +12,29 @@ tags:
 slug: "reporting-endstop-status"
 ---
 
-**Symptoms** CNC machine reports incorrect end stop trigger.
+## Symptoms
 
-**Relevant** Marlin 3D Printer Firmware running on Arduino Mega with RAMPS 1.4 shield. Controlled via Pronterface.
+CNC machine reports incorrect end stop trigger.
 
-**Procedure** The status of the end switches can be checked using the command `M119`. The procedure below explains how to check the status of the switches.
+## Relevant
 
-1. Click the Connect button  
-    [![](images/buttonconnect-300x59.png)](images/buttonconnect.png)  
-      
-      
-    
-2. Enter the command `M119` and then click the Send button. The command will display the status of each of the end switches.  
-    [![](images/commandm119.png)](images/commandm119.png)
+Marlin 3D Printer Firmware running on Arduino Mega with RAMPS 1.4 shield. Controlled via Pronterface.
 
+## Procedure
+
+The status of the end switches can be checked using the command `M119`. The procedure below explains how to check the status of the switches.
+
+### Step 1
+
+- Click the Connect button  
+
+![buttonconnect-300x59.png](images/buttonconnect-300x59.png)
+
+## Step 2 
+
+- Enter the command `M119` and then click the Send button. The command will display the status of each of the end switches.
+
+![commandm119.png](images/commandm119.png)
 
 ## Related Files
 

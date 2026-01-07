@@ -10,10 +10,9 @@ sudo apt-get install -y tasksel
 sudo tasksel install lamp-server
 ```
 
-## Referances
+## References
 
 [Get started with lamp applications](https://ubuntu.com/server/docs/get-started-with-lamp-applications)
-
 
 ## Related Files
 
