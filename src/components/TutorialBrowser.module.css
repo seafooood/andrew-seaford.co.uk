@@ -1,0 +1,56 @@
+
+.browser {
+    font-family: sans-serif;
+  }
+  
+  .categoryGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 1rem;
+    margin-bottom: 2rem;
+  }
+  
+  .categoryCard {
+    background-color: #ffffff;
+    color: #333;
+    border-radius: 8px;
+    padding: 1rem;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    border: 1px solid #ccc;
+  }
+  
+  .categoryCard:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
+
+  .categoryCard.selected {
+    background-color: var(--ifm-color-primary);
+    color: white;
+  }
+  
+  .tutorialList {
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+  }
+  
+  .tutorialList ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .tutorialList li {
+    margin-bottom: 0.5rem;
+  }
+  
+  .tutorialList a {
+    text-decoration: none;
+    color: var(--ifm-color-primary);
+  }
+  
+  .tutorialList a:hover {
+    text-decoration: underline;
+  }

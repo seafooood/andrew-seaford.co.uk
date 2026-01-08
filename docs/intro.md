@@ -1,11 +1,8 @@
 ---
-title: "Introduction"
 sidebar_position: 1
+title: Tutorials
 ---
 
-Welcome to the documentation intro page!
+import TutorialBrowser from '@site/src/components/TutorialBrowser';
 
-
-## Related Files
-
--   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs)
+<TutorialBrowser />
