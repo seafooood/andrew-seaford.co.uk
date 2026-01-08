@@ -77,6 +77,7 @@ const config = {
   ],
 
   plugins: [
+    './plugins/tutorial-data-plugin',
     [
       '@docusaurus/plugin-client-redirects',
       {
