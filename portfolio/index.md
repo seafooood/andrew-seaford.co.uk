@@ -4,8 +4,6 @@ title: Portfolio
 
 import styles from './styles.module.css';
 
-Welcome to my portfolio!
-
 Here are some of my projects:
 
 <div className={styles.card}>

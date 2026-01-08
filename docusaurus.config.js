@@ -129,7 +129,7 @@ const config = {
         respectPrefersColorScheme: true,
       },
       navbar: {
-        title: 'My Site',
+        title: 'Andrew Seaford',
         logo: {
           alt: 'My Site Logo',
           src: 'img/logo.svg',
@@ -154,12 +154,7 @@ const config = {
             docsPluginId: 'shop',
             position: 'left',
             label: 'Shop',
-          },
-          {
-            href: 'https://github.com/facebook/docusaurus',
-            label: 'GitHub',
-            position: 'right',
-          },
+          }
         ],
       },
       footer: {
