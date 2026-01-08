@@ -31,7 +31,11 @@ const AdComponent = () => {
     }
   }, []);
 
-  return <div ref={adRef}></div>;
+  return  <fieldset>
+  <legend>Adverts</legend>
+  <div ref={adRef}></div>
+</fieldset>
+  
 };
 
 export default AdComponent;
