@@ -20,8 +20,8 @@ Oculus is easy to use program with eight predefined colours and a colour picker 
 
 ## Download
 
-- Download [SetupOculus1.0.0.0.exe](http://www.andrew-seaford.co.uk/download/oculus/SetupOculus1.0.0.0.exe)
-- User Manual [OculusUserManual.pdf](http://www.andrew-seaford.co.uk/download/oculus/OculusUserManual.pdf)
+- Download [SetupOculus1.0.0.0.exe](SetupOculus1.0.0.0.exe)
+- User Manual [OculusUserManual.pdf](OculusUserManual.pdf)
 
 ## Related Links
 

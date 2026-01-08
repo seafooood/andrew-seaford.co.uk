@@ -17,3 +17,9 @@ Here are some of my projects:
   <h3><a href="./vs-extension-project-identity/">Visual Studio Extension Project Identity</a></h3>
   <p>A Visual Studio extension for managing project identities.</p>
 </div>
+
+<div className={styles.card}>
+  <h3><a href="./woospeedy">WooSpeedy</a></h3>
+  <p>WooSpeedy is a streamlined bulk-upload solution for WooCommerce virtual products.</p>
+</div>
+
