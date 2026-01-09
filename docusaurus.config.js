@@ -21,6 +21,7 @@ const config = {
 
   // Set the production url of your site here
   url: 'https://andrew-seaford.co.uk',
+  trailingSlash: false,
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
@@ -123,6 +124,10 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      metadata: [
+        {name: 'keywords', content: '3D printing, Programming, Robotics,opencv, docker, computer science, technical consultant, Raspberry Pi'},
+        {name: 'description', content: 'Technical insights on 3D printing, Robotics, and software development by Andrew Seaford.'},
+      ],
       // Replace with your project's social card
       image: 'img/seaford-icon.jpg',
       colorMode: {
