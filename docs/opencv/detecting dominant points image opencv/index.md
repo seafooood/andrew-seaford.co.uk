@@ -10,11 +10,13 @@ tags:
   - "image-progessing"
   - "opencv"
 slug: "detecting-dominant-points-image-opencv"
+keywords: [digital-image-processing, dominant-point, edge, image-processing, coutours, opencv]
+description: In this example the edges are found using cvFindContours. The resulting contours are then processed to find the dominant points along the contour.
 ---
 
 To detect the dominant points within an image first we must find the edges. In this example the edges are found using cvFindContours. The resulting contours are then processed to find the dominant points along the contour. This is done using the cvFindDominantPoints function, this function implements the IPAN99 algorithm to find the points. A small circle is then drawn at each dominant point.
 
-```
+```cpp
 #include "stdafx.h"
 #include "cv.h"
 #include "highgui.h"
@@ -83,10 +85,15 @@ int _tmain(int argc, _TCHAR* argv[])
 
 ```
 
-| \[caption id="attachment\_152" align="alignnone" width="81"\][![](images/test.jpg "test")](images/test.jpg) Input Image\[/caption\] | \[caption id="attachment\_153" align="alignnone" width="81"\][![threshold](images/threshold.png "threshold")](images/threshold.png) After threshold\[/caption\] | \[caption id="attachment\_154" align="alignnone" width="81"\][![](images/output3.png "output")](images/output3.png) Output\[/caption\] |
-| --- | --- | --- |
+|Input|Threshold|Output|
+|---|---|---|
+|![test](images/test.jpg)|![threshold](images/threshold.png)|![output](images/output3.png)|
 
 
 ## Related Files
 
 -   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/opencv/detecting%20dominant%20points%20image%20opencv](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/opencv/detecting%20dominant%20points%20image%20opencv)
+
+## Related Articles
+
+[Detecting Dominant Points in an Image using OpenCV in Python](<../Detecting Dominant Points in an Image using OpenCV in Python/>)
