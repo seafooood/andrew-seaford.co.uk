@@ -76,32 +76,6 @@ const config = {
   plugins: [
     './plugins/tutorial-data-plugin',
     [
-      '@docusaurus/plugin-client-redirects',
-      {
-        redirects: [
-          // If you have any specific redirects, add them here.
-          // For example:
-          // {
-          //   to: '/docs/new-doc-path',
-          //   from: '/old-wordpress-path',
-          // },
-        ],
-        createRedirects: function (path) {
-          // This function attempts to create redirects for old WordPress-style slugs.
-          // It assumes old WordPress URLs were structured as /<slug>/
-          // and Docusaurus doc paths can end with a slug, retaining their folder structure.
-          const docMatch = path.match(/\/docs\/(.+?)\/([^\/]+)$/);
-          if (docMatch) {
-            const newSlug = docMatch[2]; // e.g., "3d-printed-toothbrush-holder"
-            // Assuming old WordPress paths were /slug/
-            const oldPath = `/${newSlug}/`;
-            return oldPath;
-          }
-          return undefined;
-        },
-      },
-    ],
-    [
       '@docusaurus/plugin-content-docs',
       {
         id: 'portfolio',
