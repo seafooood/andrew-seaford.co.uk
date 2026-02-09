@@ -1,3 +1,11 @@
+---
+title: "Dockerize a Python Flask App: Step-by-Step Guide"
+description: "Learn how to containerize a Python Flask application with Docker. Step-by-step guide covering Dockerfile setup, building images, and running containers."
+keywords: [dockerize flask, containerize python flask, flask docker tutorial, dockerfile flask, python docker container, flask restful docker]
+slug: how-to-containerize-a-python-flask-application
+date: 2024-01-01
+---
+
 # How To Containerize A Python Flask App
 
 In this article, we will create a Docker container for a python flask app that serves a Restful GET endpoint.
