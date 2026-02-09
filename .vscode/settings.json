@@ -1,0 +1,13 @@
+{
+    "window.title": "Andrew-Seaford.co.uk - ${rootName}",
+    "workbench.colorCustomizations": {
+        "titleBar.activeBackground": "#7d4a4a",
+        "titleBar.activeForeground": "#ffffff",
+        "titleBar.inactiveBackground": "#7d4a4a",
+        "titleBar.inactiveForeground": "#cccccc",
+        "statusBar.background": "#7d4a4a",
+        "statusBar.foreground": "#ffffff",
+        "activityBar.border": "#7d4a4a",
+        "sideBar.border": "#7d4a4a"
+    }
+}
