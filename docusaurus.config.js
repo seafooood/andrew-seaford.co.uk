@@ -20,7 +20,7 @@ const config = {
   },
 
   // Set the production url of your site here
-  url: 'https://andrew-seaford.co.uk',
+  url: 'https://www.andrew-seaford.co.uk',
   trailingSlash: false,
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
@@ -54,6 +54,7 @@ const config = {
         blog: {
           path: './blog', // Make sure this is correct for your blog content
           routeBasePath: '/', // Set blog as homepage
+          blogDescription: 'Technical tutorials and insights on Docker, Python, OpenCV, 3D printing, and robotics by Andrew Seaford.',
           showReadingTime: true,
           feedOptions: {
             type: ['rss', 'atom'],
