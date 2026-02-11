@@ -69,7 +69,8 @@ blog: {
 
 ## High Priority Issues
 
-### 4. 141 out of 218 Sitemap URLs Contain `%20` Encoded Spaces
+### 4. 141 out of 218 Sitemap URLs Contain `%20` Encoded Spaces - DONE 11th Feb 26
+
 
 **Problem:** 65% of URLs in the sitemap contain `%20` encoded spaces because doc folder names have spaces. Examples:
 - `/docs/programming%20c%20sharp/adding%20days%20datetime%20csharp/adding-days-datetime-csharp`
@@ -86,7 +87,7 @@ Spaces in URLs are problematic because:
 
 ---
 
-### 5. Placeholder Page in Sitemap
+### 5. Placeholder Page in Sitemap - DONE 11th Feb 26
 
 **Problem:** `/markdown-page` is included in the sitemap and returns HTTP 200. This is the default Docusaurus example page from `src/pages/markdown-page.md`. It has no real content value.
 

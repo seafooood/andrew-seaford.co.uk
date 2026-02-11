@@ -42,3 +42,9 @@
 **Example 2 (General):**
 
 > If you're developing a web application, you'll often need to connect to a database. This guide will show you how to set up a connection between your Python application and a PostgreSQL database on a Linux server.
+
+## Filename
+
+* The article file name and folder name should be in lower case.
+* The article file name and folder name should not contain encoded space characters `%20`, spaces should be replaced with `-`.
+* The article file name should be the same as the folder name.
