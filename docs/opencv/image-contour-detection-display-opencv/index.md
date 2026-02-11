@@ -92,4 +92,4 @@ int _tmain(int argc, _TCHAR* argv[])
 
 ## Related Files
 
--   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/opencv/image%20contour%20detection%20display%20opencv](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/opencv/image%20contour%20detection%20display%20opencv)
+-   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/opencv/image-contour-detection-display-opencv](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/opencv/image-contour-detection-display-opencv)

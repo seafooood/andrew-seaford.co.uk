@@ -183,4 +183,4 @@ The analysis confirms that the use of a 27-slot stator paired with 36 poles allo
 
 ## Related Files
 
--   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/freecad/Mico%20Generator](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/freecad/Mico%20Generator)
+-   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/freecad/mico-generator](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/freecad/mico-generator)

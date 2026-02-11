@@ -114,4 +114,4 @@ Now that you understand the basics, you can start exploring more complex paramet
 
 ## Related Files
 
--   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/freecad/Getting%20Started%20With%20FreeCAD%20Spreadsheets%20and%20Parametric%20Design](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/freecad/Getting%20Started%20With%20FreeCAD%20Spreadsheets%20and%20Parametric%20Design)
+-   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/freecad/getting-started-with-freecad-spreadsheets-and-parametric-design](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/freecad/getting-started-with-freecad-spreadsheets-and-parametric-design)

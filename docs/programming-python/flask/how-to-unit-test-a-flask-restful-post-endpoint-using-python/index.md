@@ -202,4 +202,4 @@ if __name__ == '__main__':
 
 ## Related Files
 
--   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/programming%20python/flask/how%20to%20unit%20test%20a%20flask%20restful%20post%20endpoint%20using%20python](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/programming%20python/flask/how%20to%20unit%20test%20a%20flask%20restful%20post%20endpoint%20using%20python)
+-   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/programming-python/flask/how-to-unit-test-a-flask-restful-post-endpoint-using-python](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/programming-python/flask/how-to-unit-test-a-flask-restful-post-endpoint-using-python)

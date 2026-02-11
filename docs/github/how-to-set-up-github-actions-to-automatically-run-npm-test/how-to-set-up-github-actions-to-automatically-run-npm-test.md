@@ -75,4 +75,4 @@ That's it! The workflow is now active. It will automatically run on your next pu
 
 ## Related Files
 
--   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/github/How%20to%20Set%20Up%20GitHub%20Actions%20to%20Automatically%20Run%20npm%20test](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/github/How%20to%20Set%20Up%20GitHub%20Actions%20to%20Automatically%20Run%20npm%20test)
+-   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/github/how-to-set-up-github-actions-to-automatically-run-npm-test](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/github/how-to-set-up-github-actions-to-automatically-run-npm-test)

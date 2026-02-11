@@ -28,4 +28,4 @@ For the group changes to take effect, you need to either log out and log back in
 
 ## Related Files
 
--   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/docker/How%20To%20Avoid%20Using%20sudo%20with%20Docker](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/docker/How%20To%20Avoid%20Using%20sudo%20with%20Docker)
+-   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/docker/how-to-avoid-using-sudo-with-docker](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/docker/how-to-avoid-using-sudo-with-docker)

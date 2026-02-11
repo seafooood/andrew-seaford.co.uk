@@ -21,4 +21,4 @@ In this article we are demostrate how to mock a function and confirm the functio
 
 ## Related Files
 
--   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/programming%20javascript/how%20to%20mock%20a%20function%20and%20confirm%20the%20function%20was%20called](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/programming%20javascript/how%20to%20mock%20a%20function%20and%20confirm%20the%20function%20was%20called)
+-   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/programming-javascript/how-to-mock-a-function-and-confirm-the-function-was-called](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/programming-javascript/how-to-mock-a-function-and-confirm-the-function-was-called)

@@ -83,4 +83,4 @@ and switch it dynamically by changing that variable.
 
 ## Related Files
 
--   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/docker/How%20To%20Create%20A%20Multi%20Layer%20Docker%20Compose](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/docker/How%20To%20Create%20A%20Multi%20Layer%20Docker%20Compose)
+-   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/docker/how-to-create-a-multi-layer-docker-compose](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/docker/how-to-create-a-multi-layer-docker-compose)

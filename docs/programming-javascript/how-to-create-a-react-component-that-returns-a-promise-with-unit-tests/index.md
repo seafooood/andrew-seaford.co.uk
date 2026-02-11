@@ -47,4 +47,4 @@ test('Should confirm promise returns sum of a and b', async () => {
 
 ## Related Files
 
--   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/programming%20javascript/how%20to%20create%20a%20react%20component%20that%20returns%20a%20promise%20with%20unit%20tests](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/programming%20javascript/how%20to%20create%20a%20react%20component%20that%20returns%20a%20promise%20with%20unit%20tests)
+-   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/programming-javascript/how-to-create-a-react-component-that-returns-a-promise-with-unit-tests](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/programming-javascript/how-to-create-a-react-component-that-returns-a-promise-with-unit-tests)

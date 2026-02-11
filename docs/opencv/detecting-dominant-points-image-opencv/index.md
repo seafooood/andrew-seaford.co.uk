@@ -92,8 +92,8 @@ int _tmain(int argc, _TCHAR* argv[])
 
 ## Related Files
 
--   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/opencv/detecting%20dominant%20points%20image%20opencv](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/opencv/detecting%20dominant%20points%20image%20opencv)
+-   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/opencv/detecting-dominant-points-image-opencv](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/opencv/detecting-dominant-points-image-opencv)
 
 ## Related Articles
 
-[Detecting Dominant Points in an Image using OpenCV in Python](<../Detecting Dominant Points in an Image using OpenCV in Python/>)
+[Detecting Dominant Points in an Image using OpenCV in Python](<../detecting-dominant-points-in-an-image-using-opencv-in-python/>)

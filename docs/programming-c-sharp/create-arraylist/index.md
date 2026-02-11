@@ -27,4 +27,4 @@ class Program
 
 ## Related Files
 
--   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/programming%20c%20sharp/create%20arraylist](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/programming%20c%20sharp/create%20arraylist)
+-   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/programming-c-sharp/create-arraylist](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/programming-c-sharp/create-arraylist)

@@ -28,4 +28,4 @@ The script will display the vectors, source and text meta data.
 
 ## Related Files
 
--   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/pinecone/How%20To%20List%20Pinecone%20Vectors](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/pinecone/How%20To%20List%20Pinecone%20Vectors)
+-   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/pinecone/how-to-list-pinecone-vectors](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/pinecone/how-to-list-pinecone-vectors)

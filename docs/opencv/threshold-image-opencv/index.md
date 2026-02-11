@@ -68,4 +68,4 @@ int _tmain(int argc, _TCHAR* argv[])
 
 ## Related Files
 
--   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/opencv/threshold%20image%20opencv](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/opencv/threshold%20image%20opencv)
+-   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/opencv/threshold-image-opencv](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/opencv/threshold-image-opencv)

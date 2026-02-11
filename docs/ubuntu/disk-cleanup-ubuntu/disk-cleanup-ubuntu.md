@@ -104,4 +104,4 @@ tmpfs                                812876       4    812872   1% /run/user/100
 
 ## Related Files
 
--   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/ubuntu/Disk%20Cleanup%20Ubuntu](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/ubuntu/Disk%20Cleanup%20Ubuntu)
+-   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/ubuntu/disk-cleanup-ubuntu](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/ubuntu/disk-cleanup-ubuntu)

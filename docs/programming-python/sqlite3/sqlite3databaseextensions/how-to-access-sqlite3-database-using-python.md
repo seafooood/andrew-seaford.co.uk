@@ -157,4 +157,4 @@ if __name__ == '__main__':
 
 ## Related Files
 
--   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/programming%20python/sqlite3/Sqlite3DatabaseExtensions](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/programming%20python/sqlite3/Sqlite3DatabaseExtensions)
+-   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/programming-python/sqlite3/sqlite3databaseextensions](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/programming-python/sqlite3/sqlite3databaseextensions)

@@ -31,4 +31,4 @@ DateTime start = new DateTime(1984, 01, 23, 01, 02, 03);
 
 ## Related Files
 
--   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/programming%20c%20sharp/adding%20days%20datetime%20csharp](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/programming%20c%20sharp/adding%20days%20datetime%20csharp)
+-   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/programming-c-sharp/adding-days-datetime-csharp](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/programming-c-sharp/adding-days-datetime-csharp)

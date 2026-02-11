@@ -55,4 +55,4 @@ int _tmain(int argc, _TCHAR* argv[])
 
 ## Related Files
 
--   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/opencv/flood%20fill%20opencv](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/opencv/flood%20fill%20opencv)
+-   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/opencv/flood-fill-opencv](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/opencv/flood-fill-opencv)

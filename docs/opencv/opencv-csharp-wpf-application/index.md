@@ -94,4 +94,4 @@ namespace UsingOpencvAgain
 
 ## Related Files
 
--   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/opencv/opencv%20csharp%20wpf%20application](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/opencv/opencv%20csharp%20wpf%20application)
+-   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/opencv/opencv-csharp-wpf-application](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/opencv/opencv-csharp-wpf-application)

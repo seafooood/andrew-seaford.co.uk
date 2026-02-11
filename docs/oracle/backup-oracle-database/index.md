@@ -31,4 +31,4 @@ exp username/password@xe FILE="c:\backup\%DATESTAMP%\databasename.dmp"
 
 ## Related Files
 
--   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/oracle/backup%20oracle%20database](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/oracle/backup%20oracle%20database)
+-   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/oracle/backup-oracle-database](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/oracle/backup-oracle-database)

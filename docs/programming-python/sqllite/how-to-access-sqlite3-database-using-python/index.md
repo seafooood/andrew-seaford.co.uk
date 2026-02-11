@@ -164,4 +164,4 @@ if __name__ == '__main__':
 
 ## Related Files
 
--   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/programming%20python/sqllite/how%20to%20access%20sqlite3%20database%20using%20python](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/programming%20python/sqllite/how%20to%20access%20sqlite3%20database%20using%20python)
+-   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/programming-python/sqllite/how-to-access-sqlite3-database-using-python](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/programming-python/sqllite/how-to-access-sqlite3-database-using-python)

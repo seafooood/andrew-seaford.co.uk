@@ -30,4 +30,4 @@ However, moving forward, it's generally recommended to switch to **`apt`** for y
 
 ## Related Files
 
--   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/ubuntu/Apt%20vs%20Apt-get](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/ubuntu/Apt%20vs%20Apt-get)
+-   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/ubuntu/apt-vs-apt-get](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/ubuntu/apt-vs-apt-get)

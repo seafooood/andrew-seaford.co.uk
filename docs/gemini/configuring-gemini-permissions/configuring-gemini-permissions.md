@@ -56,4 +56,4 @@ Any changes you make to the `~/.gemini/settings.json` file will persist across a
 
 ## Related Files
 
--   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/gemini/Configuring%20Gemini%20Permissions](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/gemini/Configuring%20Gemini%20Permissions)
+-   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/gemini/configuring-gemini-permissions](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/gemini/configuring-gemini-permissions)

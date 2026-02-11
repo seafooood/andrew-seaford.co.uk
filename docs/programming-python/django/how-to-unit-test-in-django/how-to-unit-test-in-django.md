@@ -423,4 +423,4 @@ python manage.py test products
 
 ## Related Files
 
--   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/programming%20python/django/How%20to%20Unit%20Test%20in%20Django](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/programming%20python/django/How%20to%20Unit%20Test%20in%20Django)
+-   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/programming-python/django/how-to-unit-test-in-django](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/programming-python/django/how-to-unit-test-in-django)

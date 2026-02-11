@@ -52,4 +52,4 @@ docker-compose up -d
 
 ## Related Files
 
--   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/n8n/How%20To%20Install%20n8n%20with%20Langchain.js](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/n8n/How%20To%20Install%20n8n%20with%20Langchain.js)
+-   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/n8n/how-to-install-n8n-with-langchain.js](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/n8n/how-to-install-n8n-with-langchain.js)

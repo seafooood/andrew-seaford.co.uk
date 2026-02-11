@@ -94,4 +94,4 @@ In this article, we created a Docker image called `helloworldconsole`. Then usin
 
 ## Related Files
 
--   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/docker/containerize%20net%20framework%204%208%20console%20application](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/docker/containerize%20net%20framework%204%208%20console%20application)
+-   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/docker/containerize-net-framework-4-8-console-application](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/docker/containerize-net-framework-4-8-console-application)

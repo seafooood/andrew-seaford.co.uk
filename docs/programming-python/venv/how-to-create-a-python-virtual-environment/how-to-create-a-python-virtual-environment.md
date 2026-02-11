@@ -46,4 +46,4 @@ source asenv/bin/activate
 
 ## Related Files
 
--   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/programming%20python/venv/How%20To%20Create%20a%20Python%20Virtual%20Environment](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/programming%20python/venv/How%20To%20Create%20a%20Python%20Virtual%20Environment)
+-   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/programming-python/venv/how-to-create-a-python-virtual-environment](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/programming-python/venv/how-to-create-a-python-virtual-environment)

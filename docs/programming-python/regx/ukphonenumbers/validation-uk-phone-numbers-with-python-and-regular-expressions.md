@@ -57,4 +57,4 @@ if __name__ == "__main__":
 
 ## Related Files
 
--   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/programming%20python/regx/UkPhoneNumbers](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/programming%20python/regx/UkPhoneNumbers)
+-   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/programming-python/regx/ukphonenumbers](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/programming-python/regx/ukphonenumbers)

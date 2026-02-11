@@ -89,4 +89,4 @@ Whether you prefer a graphical interface or the command line, VirtualBox makes i
 
 ## Related Files
 
--   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/virtualbox/Attaching-a-DVD-ISO-Image-in-VirtualBox](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/virtualbox/Attaching-a-DVD-ISO-Image-in-VirtualBox)
+-   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/virtualbox/attaching-a-dvd-iso-image-in-virtualbox](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/virtualbox/attaching-a-dvd-iso-image-in-virtualbox)

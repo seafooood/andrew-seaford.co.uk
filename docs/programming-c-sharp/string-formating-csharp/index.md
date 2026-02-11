@@ -29,4 +29,4 @@ Console.WriteLine(myString);
 
 ## Related Files
 
--   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/programming%20c%20sharp/string%20formating%20csharp](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/programming%20c%20sharp/string%20formating%20csharp)
+-   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/programming-c-sharp/string-formating-csharp](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/programming-c-sharp/string-formating-csharp)

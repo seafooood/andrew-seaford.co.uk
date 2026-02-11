@@ -38,4 +38,4 @@ The status of the end switches can be checked using the command `M119`. The proc
 
 ## Related Files
 
--   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/milling%20machine%20cnc/reporting%20endstop%20status](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/milling%20machine%20cnc/reporting%20endstop%20status)
+-   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/milling-machine-cnc/reporting-endstop-status](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/milling-machine-cnc/reporting-endstop-status)

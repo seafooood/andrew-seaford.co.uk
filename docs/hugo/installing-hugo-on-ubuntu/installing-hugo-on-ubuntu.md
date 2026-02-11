@@ -68,4 +68,4 @@ In this guide, we are going to install Hugo on a server running Ubuntu version 2
 
 ## Related Files
 
--   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/hugo/Installing%20Hugo%20on%20Ubuntu](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/hugo/Installing%20Hugo%20on%20Ubuntu)
+-   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/hugo/installing-hugo-on-ubuntu](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/hugo/installing-hugo-on-ubuntu)

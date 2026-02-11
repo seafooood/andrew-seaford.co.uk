@@ -171,4 +171,4 @@ With this approach, you have successfully hidden your server-side logic inside t
 
 ## Related Files
 
--   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/programming%20javascript/how%20to%20handle%20server%20side%20api%20routes%20in%20react](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/programming%20javascript/how%20to%20handle%20server%20side%20api%20routes%20in%20react)
+-   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/programming-javascript/how-to-handle-server-side-api-routes-in-react](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/programming-javascript/how-to-handle-server-side-api-routes-in-react)

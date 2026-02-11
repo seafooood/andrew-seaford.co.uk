@@ -141,4 +141,4 @@ This approach ensures you can write meaningful tests, maintain confidence in you
 
 ## Related Files
 
--   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/programming%20python/importlib/Testing%20Pyhton%20modules%20with%20importlib](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/programming%20python/importlib/Testing%20Pyhton%20modules%20with%20importlib)
+-   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/programming-python/importlib/testing-pyhton-modules-with-importlib](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/programming-python/importlib/testing-pyhton-modules-with-importlib)

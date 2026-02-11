@@ -32,4 +32,4 @@ def SecToTime(Sec):
 
 ## Related Files
 
--   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/programming%20python/general/convert%20time%20seconds%20hhmmss](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/programming%20python/general/convert%20time%20seconds%20hhmmss)
+-   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/programming-python/general/convert-time-seconds-hhmmss](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/programming-python/general/convert-time-seconds-hhmmss)

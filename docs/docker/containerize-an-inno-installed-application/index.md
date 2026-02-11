@@ -51,4 +51,4 @@ In this article, we create a docker container using a pre-existing installer.
 
 ## Related Files
 
--   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/docker/containerize%20an%20inno%20installed%20application](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/docker/containerize%20an%20inno%20installed%20application)
+-   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/docker/containerize-an-inno-installed-application](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/docker/containerize-an-inno-installed-application)

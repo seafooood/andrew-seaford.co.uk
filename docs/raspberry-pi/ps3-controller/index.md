@@ -23,4 +23,4 @@ We have connected a USB Bluetooth dongle to the Raspberry Pi and using the instr
 
 ## Related Files
 
--   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/raspberry%20pi/ps3%20controller](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/raspberry%20pi/ps3%20controller)
+-   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/raspberry-pi/ps3-controller](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/raspberry-pi/ps3-controller)

@@ -26,4 +26,4 @@ Next save the file as create-playlist.cmd. To execute place the command script i
 
 ## Related Files
 
--   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/windows%20cmd/create%20m3u%20playlist%20from%20directory%20list](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/windows%20cmd/create%20m3u%20playlist%20from%20directory%20list)
+-   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/windows-cmd/create-m3u-playlist-from-directory-list](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/windows-cmd/create-m3u-playlist-from-directory-list)

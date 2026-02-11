@@ -13,4 +13,4 @@ The brains for this years robot will be the [Raspberry Pi Zero](https://www.rasp
 
 Please, follow our progress as we build our robot. 
 
-![IMG_20161114_044023-300x300.jpg](images/IMG_20161114_044023-300x300.jpg)
+![IMG_20161114_044023-300x300.jpg](images/img_20161114_044023-300x300.jpg)

@@ -16,4 +16,4 @@ sudo tasksel install lamp-server
 
 ## Related Files
 
--   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/mysql/Installing%20MySQL%20with%20phpMyAdmin](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/mysql/Installing%20MySQL%20with%20phpMyAdmin)
+-   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/mysql/installing-mysql-with-phpmyadmin](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/mysql/installing-mysql-with-phpmyadmin)

@@ -33,4 +33,4 @@ The Z home value was -1 and has been changed to 1.
 
 ## Related Files
 
--   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/milling%20machine%20cnc/marlinfw%20homing%20direction](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/milling%20machine%20cnc/marlinfw%20homing%20direction)
+-   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/milling-machine-cnc/marlinfw-homing-direction](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/milling-machine-cnc/marlinfw-homing-direction)

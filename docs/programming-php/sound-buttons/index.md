@@ -83,4 +83,4 @@ This produces the following output
 
 ## Related Files
 
--   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/programming%20php/sound%20buttons](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/programming%20php/sound%20buttons)
+-   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/programming-php/sound-buttons](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/programming-php/sound-buttons)

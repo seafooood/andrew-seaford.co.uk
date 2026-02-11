@@ -56,4 +56,4 @@ select * from pg_extension;
 
 ## Related Files
 
--   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/postgresql/Install%20pgvector%20on%20Ubuntu%20with%20PostgreSQL%2014](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/postgresql/Install%20pgvector%20on%20Ubuntu%20with%20PostgreSQL%2014)
+-   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/postgresql/install-pgvector-on-ubuntu-with-postgresql-14](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/postgresql/install-pgvector-on-ubuntu-with-postgresql-14)

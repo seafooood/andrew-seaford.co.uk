@@ -29,4 +29,4 @@ https://hub.docker.com/r/langflowai/langflow
 
 ## Related Files
 
--   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/langflow/How%20To%20Install%20Langflow%20on%20Ubuntu%20Using%20Docker](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/langflow/How%20To%20Install%20Langflow%20on%20Ubuntu%20Using%20Docker)
+-   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/langflow/how-to-install-langflow-on-ubuntu-using-docker](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/langflow/how-to-install-langflow-on-ubuntu-using-docker)

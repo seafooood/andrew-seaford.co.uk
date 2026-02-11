@@ -28,4 +28,4 @@ public class Example
 
 ## Related Files
 
--   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/programming%20c%20sharp/csharp%20class%20properties](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/programming%20c%20sharp/csharp%20class%20properties)
+-   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/programming-c-sharp/csharp-class-properties](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/programming-c-sharp/csharp-class-properties)

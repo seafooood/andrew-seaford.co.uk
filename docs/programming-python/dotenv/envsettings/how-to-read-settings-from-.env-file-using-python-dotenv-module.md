@@ -34,4 +34,4 @@ print("MyName=", myName)
 
 ## Related Files
 
--   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/programming%20python/dotenv/EnvSettings](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/programming%20python/dotenv/EnvSettings)
+-   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/programming-python/dotenv/envsettings](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/programming-python/dotenv/envsettings)

@@ -135,4 +135,4 @@ In this solution, no user credentials are stored in the front end. The backend v
 
 ## Related Files
 
--   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/programming%20python/flask/FlaskAuthentication](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/programming%20python/flask/FlaskAuthentication)
+-   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/programming-python/flask/flaskauthentication](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/programming-python/flask/flaskauthentication)

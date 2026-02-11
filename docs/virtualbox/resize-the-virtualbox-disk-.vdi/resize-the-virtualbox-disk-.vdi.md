@@ -148,4 +148,4 @@ tmpfs                              794M  4.0K  794M   1% /run/user/1000
 
 ## Related Files
 
--   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/virtualbox/Resize%20the%20VirtualBox%20Disk%20(.vdi)](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/virtualbox/Resize%20the%20VirtualBox%20Disk%20(.vdi))
+-   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/virtualbox/resize-the-virtualbox-disk-.vdi)](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/virtualbox/resize-the-virtualbox-disk-.vdi))

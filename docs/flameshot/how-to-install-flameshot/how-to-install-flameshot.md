@@ -50,4 +50,4 @@ Shortcut: Click Set Shortcut, then press the Print key
 
 ## Related Files
 
--   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/flameshot/How%20To%20Install%20Flameshot](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/flameshot/How%20To%20Install%20Flameshot)
+-   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/flameshot/how-to-install-flameshot](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/flameshot/how-to-install-flameshot)

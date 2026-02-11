@@ -15,4 +15,4 @@ sudo service ssh start
 
 ## Related Files
 
--   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/ubuntu/ubuntu%2012%204%20enable%20ssh%20service](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/ubuntu/ubuntu%2012%204%20enable%20ssh%20service)
+-   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/ubuntu/ubuntu-12-4-enable-ssh-service](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/ubuntu/ubuntu-12-4-enable-ssh-service)

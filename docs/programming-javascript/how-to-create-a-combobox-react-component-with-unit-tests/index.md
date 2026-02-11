@@ -24,4 +24,4 @@ In this article we will create a React component that displays a Combobox. The v
 
 ## Related Files
 
--   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/programming%20javascript/how%20to%20create%20a%20combobox%20react%20component%20with%20unit%20tests](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/programming%20javascript/how%20to%20create%20a%20combobox%20react%20component%20with%20unit%20tests)
+-   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/programming-javascript/how-to-create-a-combobox-react-component-with-unit-tests](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/programming-javascript/how-to-create-a-combobox-react-component-with-unit-tests)

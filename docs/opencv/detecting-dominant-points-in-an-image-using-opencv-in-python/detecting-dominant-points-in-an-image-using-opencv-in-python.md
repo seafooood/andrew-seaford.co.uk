@@ -146,12 +146,12 @@ Dominant points total=4
 
 |Input|Threshold|Output|
 |---|---|---|
-|![test](test.jpg)|![threshold](Threshold.png)|![output](Output.png)|
+|![test](test.jpg)|![threshold](threshold.png)|![output](output.png)|
 
 ## Related Files
 
-- [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/opencv/detecting%20dominant%20points%20image%20opencv%20in%20python](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/opencv/detecting%20dominant%20points%20image%20opencv%20in%20python)
+- [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/opencv/detecting-dominant-points-image-opencv-in-python](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/opencv/detecting-dominant-points-image-opencv-in-python)
 
 ## Related Articles
 
-- [detecting dominant points image opencv in C](<../detecting dominant points image opencv/index.md>)
+- [detecting dominant points image opencv in C](<../detecting-dominant-points-image-opencv/index.md>)

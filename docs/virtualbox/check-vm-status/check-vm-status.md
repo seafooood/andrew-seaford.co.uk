@@ -132,4 +132,4 @@ Congratulations! You now have an automated system that ensures your VirtualBox V
 
 ## Related Files
 
--   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/virtualbox/Check%20VM%20Status](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/virtualbox/Check%20VM%20Status)
+-   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/virtualbox/check-vm-status](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/virtualbox/check-vm-status)

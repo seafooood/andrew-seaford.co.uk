@@ -118,4 +118,4 @@ By following these steps, you can ensure that your project’s environment is re
 
 ## Related Files
 
--   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/programming%20python/pip/RequirementsFile](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/programming%20python/pip/RequirementsFile)
+-   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/programming-python/pip/requirementsfile](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/programming-python/pip/requirementsfile)

@@ -52,4 +52,4 @@ G1 Y-10
 
 ## Related Files
 
--   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/milling%20machine%20cnc/simple%20box%20code](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/milling%20machine%20cnc/simple%20box%20code)
+-   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/milling-machine-cnc/simple-box-code](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/milling-machine-cnc/simple-box-code)

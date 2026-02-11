@@ -50,4 +50,4 @@ Detailed below is the procedure for installing Inno.
 
 ## Related Files
 
-- [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/inno/installing%20inno%20installer](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/inno/installing%20inno%20installer)
+- [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/inno/installing-inno-installer](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/inno/installing-inno-installer)

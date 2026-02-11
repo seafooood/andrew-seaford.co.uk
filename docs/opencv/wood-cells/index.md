@@ -27,4 +27,4 @@ close_file (FileHandle)
 
 ## Related Files
 
--   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/opencv/wood%20cells](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/opencv/wood%20cells)
+-   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/opencv/wood-cells](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/opencv/wood-cells)

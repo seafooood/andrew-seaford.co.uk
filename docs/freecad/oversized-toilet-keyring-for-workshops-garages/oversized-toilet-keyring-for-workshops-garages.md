@@ -18,15 +18,15 @@ This oversized keyring is designed with a simple but effective principle in mind
 
 This isn't just a keyring; it's a practical key management solution. By making the key difficult to lose, you ensure it's always available when needed, saving everyone time and hassle.
 
-![alt text](Spanner-freecad.png)
+![alt text](spanner-freecad.png)
 ![alt text](spanner-slicer.png)
 
 ## Files
 
-- Sliced gcode file ready for printing on an Ender 3 [CE3_SpannerKeyring-Spanner_Keyring.gcode](CE3_SpannerKeyring-Spanner_Keyring.gcode)
-- STL model [SpannerKeyring-Spanner_Keyring.stl](SpannerKeyring-Spanner_Keyring.stl)
-- FreeCAD file [SpannerKeyring.FCStd](SpannerKeyring.FCStd)
-- Python Macro for FreeCAD [SpannerKeyring-Spanner_Keyring.py](SpannerKeyring-Spanner_Keyring.py)
+- Sliced gcode file ready for printing on an Ender 3 [CE3_SpannerKeyring-Spanner_Keyring.gcode](ce3_spannerkeyring-spanner_keyring.gcode)
+- STL model [SpannerKeyring-Spanner_Keyring.stl](spannerkeyring-spanner_keyring.stl)
+- FreeCAD file [SpannerKeyring.FCStd](spannerkeyring.fcstd)
+- Python Macro for FreeCAD [SpannerKeyring-Spanner_Keyring.py](spannerkeyring-spanner_keyring.py)
 
 ## How to Use the Script in FreeCAD:
 
@@ -52,4 +52,4 @@ This isn't just a keyring; it's a practical key management solution. By making t
 
 ## Related Files
 
--   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/freecad/Oversized-TOILET-Keyring-for-Workshops-Garages](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/freecad/Oversized-TOILET-Keyring-for-Workshops-Garages)
+-   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/freecad/oversized-toilet-keyring-for-workshops-garages](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/freecad/oversized-toilet-keyring-for-workshops-garages)

@@ -24,4 +24,4 @@ if (dlg.ShowDialog() == true)
 
 ## Related Files
 
--   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/programming%20c%20sharp/c%20open%20file%20dialog](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/programming%20c%20sharp/c%20open%20file%20dialog)
+-   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/programming-c-sharp/c-open-file-dialog](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/programming-c-sharp/c-open-file-dialog)

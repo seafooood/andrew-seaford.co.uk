@@ -21,4 +21,4 @@ INSERT INTO EXAMPLETBL (EXAMPLEID, EXAMPLEDATE) VALUES ('5', TO_DATE('2014-05-08
 
 ## Related Files
 
--   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/oracle/oracle%20insert%20date](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/oracle/oracle%20insert%20date)
+-   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/oracle/oracle-insert-date](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/oracle/oracle-insert-date)

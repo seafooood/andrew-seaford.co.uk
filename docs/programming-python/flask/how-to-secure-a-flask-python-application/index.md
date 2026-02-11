@@ -125,4 +125,4 @@ In this solution, no user credentials are stored in the front end. The backend v
 
 ## Related Files
 
--   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/programming%20python/flask/how%20to%20secure%20a%20flask%20python%20application](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/programming%20python/flask/how%20to%20secure%20a%20flask%20python%20application)
+-   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/programming-python/flask/how-to-secure-a-flask-python-application](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/programming-python/flask/how-to-secure-a-flask-python-application)

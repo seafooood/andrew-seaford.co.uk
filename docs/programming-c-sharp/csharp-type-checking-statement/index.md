@@ -25,4 +25,4 @@ else
 
 ## Related Files
 
--   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/programming%20c%20sharp/csharp%20type%20checking%20statement](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/programming%20c%20sharp/csharp%20type%20checking%20statement)
+-   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/programming-c-sharp/csharp-type-checking-statement](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/programming-c-sharp/csharp-type-checking-statement)

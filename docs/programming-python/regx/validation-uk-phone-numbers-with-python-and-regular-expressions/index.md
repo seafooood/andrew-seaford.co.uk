@@ -61,4 +61,4 @@ if __name__ == "__main__":
 
 ## Related Files
 
--   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/programming%20python/regx/validation%20uk%20phone%20numbers%20with%20python%20and%20regular%20expressions](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/programming%20python/regx/validation%20uk%20phone%20numbers%20with%20python%20and%20regular%20expressions)
+-   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/programming-python/regx/validation-uk-phone-numbers-with-python-and-regular-expressions](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/programming-python/regx/validation-uk-phone-numbers-with-python-and-regular-expressions)

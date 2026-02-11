@@ -204,4 +204,4 @@ if __name__ == '__main__':
 
 ## Related Files
 
--   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/programming%20python/flask/FlaskPostRestfulEndpoint](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/programming%20python/flask/FlaskPostRestfulEndpoint)
+-   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/programming-python/flask/flaskpostrestfulendpoint](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/programming-python/flask/flaskpostrestfulendpoint)

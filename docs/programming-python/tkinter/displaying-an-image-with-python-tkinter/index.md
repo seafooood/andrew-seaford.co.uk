@@ -147,4 +147,4 @@ When the button is clicked the image will change to a flower.
 
 ## Related Files
 
--   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/programming%20python/tkinter/displaying%20an%20image%20with%20python%20tkinter](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/programming%20python/tkinter/displaying%20an%20image%20with%20python%20tkinter)
+-   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/programming-python/tkinter/displaying-an-image-with-python-tkinter](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/programming-python/tkinter/displaying-an-image-with-python-tkinter)

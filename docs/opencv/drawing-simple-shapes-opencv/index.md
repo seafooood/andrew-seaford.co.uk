@@ -51,4 +51,4 @@ int _tmain(int argc, _TCHAR* argv[])
 
 ## Related Files
 
--   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/opencv/drawing%20simple%20shapes%20opencv](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/opencv/drawing%20simple%20shapes%20opencv)
+-   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/opencv/drawing-simple-shapes-opencv](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/opencv/drawing-simple-shapes-opencv)

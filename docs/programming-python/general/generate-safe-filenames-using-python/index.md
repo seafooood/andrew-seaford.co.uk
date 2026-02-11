@@ -36,4 +36,4 @@ print makeSafeFilename("test39328764876!%^&*().txt") # test39328764876.txt
 
 ## Related Files
 
--   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/programming%20python/general/generate%20safe%20filenames%20using%20python](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/programming%20python/general/generate%20safe%20filenames%20using%20python)
+-   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/programming-python/general/generate-safe-filenames-using-python](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/programming-python/general/generate-safe-filenames-using-python)

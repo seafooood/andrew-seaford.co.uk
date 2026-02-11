@@ -208,4 +208,4 @@ In this guide, we covered creating tables, inserting data, querying data, deleti
 
 ## Related Files
 
--   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/programming%20python/django/Getting%20Started%20with%20Django%20-%20Working%20with%20Databases](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/programming%20python/django/Getting%20Started%20with%20Django%20-%20Working%20with%20Databases)
+-   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/programming-python/django/getting-started-with-django-working-with-databases](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/programming-python/django/getting-started-with-django-working-with-databases)

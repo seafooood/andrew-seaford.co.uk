@@ -247,4 +247,4 @@ Django is more structured and opinionated, which speeds up development for compl
 
 ## Related Files
 
--   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/programming%20python/django/Getting%20Started%20with%20Django%20for%20Flask%20Developers](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/programming%20python/django/Getting%20Started%20with%20Django%20for%20Flask%20Developers)
+-   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/programming-python/django/getting-started-with-django-for-flask-developers](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/programming-python/django/getting-started-with-django-for-flask-developers)

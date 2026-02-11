@@ -51,4 +51,4 @@ If you decide you want to go back to the default Ubuntu prompt, simply remove th
 
 ## Related Files
 
--   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/ubuntu/How%20to%20Customize%20Your%20Bash%20Prompt%20On%20Ubuntu](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/ubuntu/How%20to%20Customize%20Your%20Bash%20Prompt%20On%20Ubuntu)
+-   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/ubuntu/how-to-customize-your-bash-prompt-on-ubuntu](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/ubuntu/how-to-customize-your-bash-prompt-on-ubuntu)

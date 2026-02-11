@@ -18,15 +18,15 @@ This oversized spoon keyring solves the problem with a simple, brilliant princip
 
 Stop the endless key hunt. By printing this keyring, you're not just making a key harder to lose; you're adding a memorable, practical, and whimsical touch to your customer experience.
 
-![alt text](SpoonKeyRing-freecad.png)
-![alt text](SpoonKeyRing-slicer.png)
+![alt text](spoonkeyring-freecad.png)
+![alt text](spoonkeyring-slicer.png)
 
 ## Files
 
-- Sliced gcode file ready for printing on an Ender 3 [CE3_SpoonKeyRing.gcode](CE3_SpoonKeyRing.gcode)
-- STL model [SpoonKeyRing.stl](SpoonKeyRing.stl)
-- FreeCAD file [SpoonKeyRing.FCStd](SpoonKeyRing.FCStd)
-- Python Macro for FreeCAD [SpoonKeyRing.py](SpoonKeyRing.py)
+- Sliced gcode file ready for printing on an Ender 3 [CE3_SpoonKeyRing.gcode](ce3_spoonkeyring.gcode)
+- STL model [SpoonKeyRing.stl](spoonkeyring.stl)
+- FreeCAD file [SpoonKeyRing.FCStd](spoonkeyring.fcstd)
+- Python Macro for FreeCAD [SpoonKeyRing.py](spoonkeyring.py)
 
 ## How to Use the Script in FreeCAD:
 
@@ -53,4 +53,4 @@ Stop the endless key hunt. By printing this keyring, you're not just making a ke
 
 ## Related Files
 
--   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/freecad/Oversized%20"TOILET"%20Keyring%20for%20Cafes%20&%20Restaurants%20(The%20Giant%20Spoon)](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/freecad/Oversized%20"TOILET"%20Keyring%20for%20Cafes%20&%20Restaurants%20(The%20Giant%20Spoon))
+-   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/freecad/oversized-toilet-keyring-for-cafes-restaurants-the-giant-spoon)](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/freecad/oversized-toilet-keyring-for-cafes-restaurants-the-giant-spoon))

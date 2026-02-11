@@ -49,4 +49,4 @@ int _tmain(int argc, _TCHAR* argv[])
 
 ## Related Files
 
--   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/opencv/opencv%20world](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/opencv/opencv%20world)
+-   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/opencv/opencv-world](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/opencv/opencv-world)

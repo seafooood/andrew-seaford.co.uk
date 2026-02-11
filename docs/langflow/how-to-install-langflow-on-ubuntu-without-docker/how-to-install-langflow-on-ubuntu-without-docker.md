@@ -87,4 +87,4 @@ Now Langflow should be running on your Ubuntu machine without Docker on port 800
 
 ## Related Files
 
--   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/langflow/How%20To%20Install%20Langflow%20on%20Ubuntu%20Without%20Docker](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/langflow/How%20To%20Install%20Langflow%20on%20Ubuntu%20Without%20Docker)
+-   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/langflow/how-to-install-langflow-on-ubuntu-without-docker](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/langflow/how-to-install-langflow-on-ubuntu-without-docker)

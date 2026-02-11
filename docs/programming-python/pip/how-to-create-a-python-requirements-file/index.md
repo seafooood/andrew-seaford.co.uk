@@ -125,4 +125,4 @@ By following these steps, you can ensure that your project’s environment is re
 
 ## Related Files
 
--   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/programming%20python/pip/how%20to%20create%20a%20python%20requirements%20file](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/programming%20python/pip/how%20to%20create%20a%20python%20requirements%20file)
+-   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/programming-python/pip/how-to-create-a-python-requirements-file](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/programming-python/pip/how-to-create-a-python-requirements-file)

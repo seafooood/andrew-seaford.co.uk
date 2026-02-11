@@ -152,4 +152,4 @@ This approach gives you a clean, predictable database state every time you start
 
 ## Related Files
 
--   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/programming%20python/django/Django%20Database%20Seeding](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/programming%20python/django/Django%20Database%20Seeding)
+-   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/programming-python/django/django-database-seeding](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/programming-python/django/django-database-seeding)

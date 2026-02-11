@@ -132,4 +132,4 @@ python manage.py runserver
 
 ## Related Files
 
--   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/programming%20python/django/Creating%20a%20Django%20Site%20With%20User%20Authentication](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/programming%20python/django/Creating%20a%20Django%20Site%20With%20User%20Authentication)
+-   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/programming-python/django/creating-a-django-site-with-user-authentication](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/programming-python/django/creating-a-django-site-with-user-authentication)

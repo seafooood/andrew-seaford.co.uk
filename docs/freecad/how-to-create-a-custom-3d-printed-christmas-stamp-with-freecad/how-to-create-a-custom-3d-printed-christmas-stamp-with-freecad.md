@@ -14,7 +14,7 @@ The only system-specific detail you may need to change is the file path to a fon
 
 The following Python code contains all the logic to create your stamp. Simply copy the entire script to follow the steps in the next section.
 
-[ChristmasStamp.py](ChristmasStamp.py)
+[ChristmasStamp.py](christmasstamp.py)
 
 ### How to Create Your Stamp: A Step-by-Step Guide
 
@@ -47,11 +47,11 @@ This is where the fun begins! You can easily customize the stamp by editing the 
 
 You're now ready to export the final `Christmas_Stamp` object as an STL file (`File > Export`) and send it to your 3D printer.
 
-- [ChristmasStamp.FCStd](ChristmasStamp.FCStd)
-- [ChristmasStamp.stl](ChristmasStamp.stl)
+- [ChristmasStamp.FCStd](christmasstamp.fcstd)
+- [ChristmasStamp.stl](christmasstamp.stl)
 
 Happy printing, and have a very Merry Christmas!
 
 ## Related Files
 
--   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/freecad/How%20to%20Create%20a%20Custom%203D-Printed%20Christmas%20Stamp%20with%20FreeCAD](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/freecad/How%20to%20Create%20a%20Custom%203D-Printed%20Christmas%20Stamp%20with%20FreeCAD)
+-   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/freecad/how-to-create-a-custom-3d-printed-christmas-stamp-with-freecad](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/freecad/how-to-create-a-custom-3d-printed-christmas-stamp-with-freecad)

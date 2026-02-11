@@ -6,4 +6,4 @@ Inspiration from [How to Start a Django Project](https://github.com/KyleSeaford/
 
 ## Related Files
 
--   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/programming%20python/django/How%20to%20Start%20a%20Django%20Project](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/programming%20python/django/How%20to%20Start%20a%20Django%20Project)
+-   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/programming-python/django/how-to-start-a-django-project](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/programming-python/django/how-to-start-a-django-project)

@@ -47,4 +47,4 @@ Once you have your `consumer_key` and `consumer_secret`, you can use them in you
 
 ## Related Files
 
--   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/woocommerce/how%20to%20find%20woocommerce%20consumer%20key%20and%20secret](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/woocommerce/how%20to%20find%20woocommerce%20consumer%20key%20and%20secret)
+-   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/woocommerce/how-to-find-woocommerce-consumer-key-and-secret](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/woocommerce/how-to-find-woocommerce-consumer-key-and-secret)

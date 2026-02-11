@@ -51,4 +51,4 @@ Below is the output with the label's customized font style and size.
 
 ## Related Files
 
--   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/programming%20python/tkinter/how%20to%20change%20the%20label%20font%20in%20tkinter](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/programming%20python/tkinter/how%20to%20change%20the%20label%20font%20in%20tkinter)
+-   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/programming-python/tkinter/how-to-change-the-label-font-in-tkinter](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/programming-python/tkinter/how-to-change-the-label-font-in-tkinter)

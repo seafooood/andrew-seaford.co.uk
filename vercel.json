@@ -2,156 +2,2025 @@
   "cleanUrls": true,
   "trailingSlash": false,
   "redirects": [
-    { "source": "/3d-printed-toothbrush-holder", "destination": "/docs/freecad/3d-printed-toothbrush-holder/3d-printed-toothbrush-holder", "permanent": true },
-    { "source": "/adding-days-datetime-csharp", "destination": "/docs/programming%20c%20sharp/adding%20days%20datetime%20csharp/adding-days-datetime-csharp", "permanent": true },
-    { "source": "/automatically-target-exe-version-inno", "destination": "/docs/inno/automatically%20target%20exe%20version%20inno/automatically-target-exe-version-inno", "permanent": true },
-    { "source": "/axis-drops-completing-job", "destination": "/docs/milling%20machine%20cnc/axis%20drops%20completing%20job/axis-drops-completing-job", "permanent": true },
-    { "source": "/backup-oracle-database", "destination": "/docs/oracle/backup%20oracle%20database/backup-oracle-database", "permanent": true },
-    { "source": "/c-open-file-dialog", "destination": "/docs/programming%20c%20sharp/c%20open%20file%20dialog/c-open-file-dialog", "permanent": true },
-    { "source": "/check-dotnet-framework-installed-inno-setup", "destination": "/docs/inno/check%20dotnet%20framework%20installed%20inno%20setup/check-dotnet-framework-installed-inno-setup", "permanent": true },
-    { "source": "/check-program-exists-installing-inno", "destination": "/docs/inno/check%20program%20exists%20installing%20inno/check-program-exists-installing-inno", "permanent": true },
-    { "source": "/configuring-static-ip-address-raspberry-pi", "destination": "/docs/raspberry%20pi/configuring%20static%20ip%20address%20raspberry%20pi/configuring-static-ip-address-raspberry-pi", "permanent": true },
-    { "source": "/containerize-an-inno-installed-application", "destination": "/docs/docker/containerize%20an%20inno%20installed%20application/containerize-an-inno-installed-application", "permanent": true },
-    { "source": "/containerize-net-framework-4-8-console-application", "destination": "/docs/docker/containerize%20net%20framework%204%208%20console%20application/containerize-net-framework-4-8-console-application", "permanent": true },
-    { "source": "/convert-date-time-utc", "destination": "/docs/programming%20php/convert%20date%20time%20utc/convert-date-time-utc", "permanent": true },
-    { "source": "/convert-time-seconds-hhmmss", "destination": "/docs/programming%20python/general/convert%20time%20seconds%20hhmmss/convert-time-seconds-hhmmss", "permanent": true },
-    { "source": "/create-arraylist", "destination": "/docs/programming%20c%20sharp/create%20arraylist/create-arraylist", "permanent": true },
-    { "source": "/create-autocompleting-textbox-c", "destination": "/docs/programming%20c%20sharp/create%20autocompleting%20textbox%20c/create-autocompleting-textbox-c", "permanent": true },
-    { "source": "/create-empty-folders-inno", "destination": "/docs/inno/create%20empty%20folders%20inno/create-empty-folders-inno", "permanent": true },
-    { "source": "/create-m3u-playlist-from-directory-list", "destination": "/docs/windows%20cmd/create%20m3u%20playlist%20from%20directory%20list/create-m3u-playlist-from-directory-list", "permanent": true },
-    { "source": "/creating-a-restfull-server-using-nextjs", "destination": "/docs/programming%20javascript/creating%20a%20restfull%20server%20using%20nextjs/creating-a-restfull-server-using-nextjs", "permanent": true },
-    { "source": "/csharp-class-properties", "destination": "/docs/programming%20c%20sharp/csharp%20class%20properties/csharp-class-properties", "permanent": true },
-    { "source": "/csharp-type-checking-statement", "destination": "/docs/programming%20c%20sharp/csharp%20type%20checking%20statement/csharp-type-checking-statement", "permanent": true },
-    { "source": "/custom-inno-theme", "destination": "/docs/inno/custom%20inno%20theme/custom-inno-theme", "permanent": true },
-    { "source": "/data-validation-exceptions-csharp", "destination": "/docs/programming%20c%20sharp/data%20validation%20exceptions%20csharp/data-validation-exceptions-csharp", "permanent": true },
-    { "source": "/detecting-dominant-points-image-opencv", "destination": "/docs/opencv/detecting%20dominant%20points%20image%20opencv/detecting-dominant-points-image-opencv", "permanent": true },
-    { "source": "/displaying-an-image-with-python-tkinter", "destination": "/docs/programming%20python/tkinter/displaying%20an%20image%20with%20python%20tkinter/displaying-an-image-with-python-tkinter", "permanent": true },
-    { "source": "/drawing-simple-shapes-opencv", "destination": "/docs/opencv/drawing%20simple%20shapes%20opencv/drawing-simple-shapes-opencv", "permanent": true },
-    { "source": "/enumerations-with-tryparse-csharp", "destination": "/docs/programming%20c%20sharp/enumerations%20with%20tryparse%20csharp/enumerations-with-tryparse-csharp", "permanent": true },
-    { "source": "/equal-c", "destination": "/docs/programming%20c%20sharp/equal%20c/equal-c", "permanent": true },
-    { "source": "/explicit-conversion-string-integer-csharp", "destination": "/docs/programming%20c%20sharp/explicit%20conversion%20string%20integer%20csharp/explicit-conversion-string-integer-csharp", "permanent": true },
-    { "source": "/flood-fill-opencv", "destination": "/docs/opencv/flood%20fill%20opencv/flood-fill-opencv", "permanent": true },
-    { "source": "/free-disk-space-inno", "destination": "/docs/inno/free%20disk%20space%20inno/free-disk-space-inno", "permanent": true },
-    { "source": "/gaussian-image-smoothing-opencv", "destination": "/docs/opencv/gaussian%20image%20smoothing%20opencv/gaussian-image-smoothing-opencv", "permanent": true },
-    { "source": "/generate-safe-filenames-using-python", "destination": "/docs/programming%20python/general/generate%20safe%20filenames%20using%20python/generate-safe-filenames-using-python", "permanent": true },
-    { "source": "/how-to-access-sqlite3-database-using-python", "destination": "/docs/programming%20python/sqllite/how%20to%20access%20sqlite3%20database%20using%20python/how-to-access-sqlite3-database-using-python", "permanent": true },
-    { "source": "/how-to-build-a-static-page-that-refreshes-every-60-seconds-using-nextjs", "destination": "/docs/programming%20javascript/how%20to%20build%20a%20static%20page%20that%20refreshes%20every%2060%20seconds%20using%20nextjs/how-to-build-a-static-page-that-refreshes-every-60-seconds-using-nextjs", "permanent": true },
-    { "source": "/how-to-change-the-label-font-in-tkinter", "destination": "/docs/programming%20python/tkinter/how%20to%20change%20the%20label%20font%20in%20tkinter/how-to-change-the-label-font-in-tkinter", "permanent": true },
-    { "source": "/how-to-create-a-combobox-react-component-with-unit-tests", "destination": "/docs/programming%20javascript/how%20to%20create%20a%20combobox%20react%20component%20with%20unit%20tests/how-to-create-a-combobox-react-component-with-unit-tests", "permanent": true },
-    { "source": "/how-to-create-a-next-js-app-from-scratch", "destination": "/docs/programming%20javascript/how%20to%20create%20a%20next%20js%20app%20from%20scratch/how-to-create-a-next-js-app-from-scratch", "permanent": true },
-    { "source": "/how-to-create-a-python-requirements-file", "destination": "/docs/programming%20python/pip/how%20to%20create%20a%20python%20requirements%20file/how-to-create-a-python-requirements-file", "permanent": true },
-    { "source": "/how-to-create-a-react-component-that-returns-a-promise-with-unit-tests", "destination": "/docs/programming%20javascript/how%20to%20create%20a%20react%20component%20that%20returns%20a%20promise%20with%20unit%20tests/how-to-create-a-react-component-that-returns-a-promise-with-unit-tests", "permanent": true },
-    { "source": "/how-to-find-woocommerce-consumer-key-and-secret", "destination": "/docs/woocommerce/how%20to%20find%20woocommerce%20consumer%20key%20and%20secret/how-to-find-woocommerce-consumer-key-and-secret", "permanent": true },
-    { "source": "/how-to-handle-server-side-api-routes-in-react", "destination": "/docs/programming%20javascript/how%20to%20handle%20server%20side%20api%20routes%20in%20react/how-to-handle-server-side-api-routes-in-react", "permanent": true },
-    { "source": "/how-to-mock-a-function-and-confirm-the-function-was-called", "destination": "/docs/programming%20javascript/how%20to%20mock%20a%20function%20and%20confirm%20the%20function%20was%20called/how-to-mock-a-function-and-confirm-the-function-was-called", "permanent": true },
-    { "source": "/how-to-mock-a-function-that-returns-a-value", "destination": "/docs/programming%20javascript/how%20to%20mock%20a%20function%20that%20returns%20a%20value/how-to-mock-a-function-that-returns-a-value", "permanent": true },
-    { "source": "/how-to-read-settings-from-env-file-using-python-dotenv-module", "destination": "/docs/programming%20python/dotenv/how%20to%20read%20settings%20from%20env%20file%20using%20python%20dotenv%20module/how-to-read-settings-from-env-file-using-python-dotenv-module", "permanent": true },
-    { "source": "/how-to-secure-a-flask-python-application", "destination": "/docs/programming%20python/flask/how%20to%20secure%20a%20flask%20python%20application/how-to-secure-a-flask-python-application", "permanent": true },
-    { "source": "/how-to-unit-test-a-flask-restful-get-endpoint-using-python", "destination": "/docs/programming%20python/flask/how%20to%20unit%20test%20a%20flask%20restful%20get%20endpoint%20using%20python/how-to-unit-test-a-flask-restful-get-endpoint-using-python", "permanent": true },
-    { "source": "/how-to-unit-test-a-flask-restful-get-endpoint-with-a-parameter-using-python", "destination": "/docs/programming%20python/flask/how%20to%20unit%20test%20a%20flask%20restful%20get%20endpoint%20with%20a%20parameter%20using%20python/how-to-unit-test-a-flask-restful-get-endpoint-with-a-parameter-using-python", "permanent": true },
-    { "source": "/how-to-unit-test-a-flask-restful-post-endpoint-using-python", "destination": "/docs/programming%20python/flask/how%20to%20unit%20test%20a%20flask%20restful%20post%20endpoint%20using%20python/how-to-unit-test-a-flask-restful-post-endpoint-using-python", "permanent": true },
-    { "source": "/how-to-use-extension-methods-in-c", "destination": "/docs/programming%20c%20sharp/how%20to%20use%20extension%20methods%20in%20c/how-to-use-extension-methods-in-c", "permanent": true },
-    { "source": "/image-contour-detection-display-opencv", "destination": "/docs/opencv/image%20contour%20detection%20display%20opencv/image-contour-detection-display-opencv", "permanent": true },
-    { "source": "/installing-inno-installer", "destination": "/docs/inno/installing%20inno%20installer/installing-inno-installer", "permanent": true },
-    { "source": "/marlinfw-homing-direction", "destination": "/docs/milling%20machine%20cnc/marlinfw%20homing%20direction/marlinfw-homing-direction", "permanent": true },
-    { "source": "/moving-forwards", "destination": "/docs/raspberry%20pi/moving%20forwards/moving-forwards", "permanent": true },
-    { "source": "/opencv-csharp-wpf-application", "destination": "/docs/opencv/opencv%20csharp%20wpf%20application/opencv-csharp-wpf-application", "permanent": true },
-    { "source": "/opencv-world", "destination": "/docs/opencv/opencv%20world/opencv-world", "permanent": true },
-    { "source": "/oracle-insert-date", "destination": "/docs/oracle/oracle%20insert%20date/oracle-insert-date", "permanent": true },
-    { "source": "/ps3-controller", "destination": "/docs/raspberry%20pi/ps3%20controller/ps3-controller", "permanent": true },
-    { "source": "/reading-file-csharp", "destination": "/docs/programming%20c%20sharp/reading%20file%20csharp/reading-file-csharp", "permanent": true },
-    { "source": "/recursive-delete-files-folders-c", "destination": "/docs/programming%20c%20sharp/recursive%20delete%20files%20folders%20c/recursive-delete-files-folders-c", "permanent": true },
-    { "source": "/reporting-endstop-status", "destination": "/docs/milling%20machine%20cnc/reporting%20endstop%20status/reporting-endstop-status", "permanent": true },
-    { "source": "/simple-box-code", "destination": "/docs/milling%20machine%20cnc/simple%20box%20code/simple-box-code", "permanent": true },
-    { "source": "/simple-cshar-linq", "destination": "/docs/programming%20c%20sharp/simple%20cshar%20linq/simple-cshar-linq", "permanent": true },
-    { "source": "/simple-csharp-stringbuilder", "destination": "/docs/programming%20c%20sharp/simple%20csharp%20stringbuilder/simple-csharp-stringbuilder", "permanent": true },
-    { "source": "/simple-write-file-csharp", "destination": "/docs/programming%20c%20sharp/simple%20write%20file%20csharp/simple-write-file-csharp", "permanent": true },
-    { "source": "/sound-buttons", "destination": "/docs/programming%20php/sound%20buttons/sound-buttons", "permanent": true },
-    { "source": "/split-php", "destination": "/docs/programming%20php/split%20php/split-php", "permanent": true },
-    { "source": "/splitting-multichannel-images-rgb-opencv", "destination": "/docs/opencv/splitting%20multichannel%20images%20rgb%20opencv/splitting-multichannel-images-rgb-opencv", "permanent": true },
-    { "source": "/stepper-motor-control-service", "destination": "/docs/raspberry%20pi/stepper%20motor%20control%20service/stepper-motor-control-service", "permanent": true },
-    { "source": "/string-formating-csharp", "destination": "/docs/programming%20c%20sharp/string%20formating%20csharp/string-formating-csharp", "permanent": true },
-    { "source": "/threshold-image-opencv", "destination": "/docs/opencv/threshold%20image%20opencv/threshold-image-opencv", "permanent": true },
-    { "source": "/ubuntu-12-4-enable-ssh-service", "destination": "/docs/ubuntu/ubuntu%2012%204%20enable%20ssh%20service/ubuntu-12-4-enable-ssh-service", "permanent": true },
-    { "source": "/urltonvp", "destination": "/docs/programming%20php/urltonvp/urltonvp", "permanent": true },
-    { "source": "/validation-uk-phone-numbers-with-python-and-regular-expressions", "destination": "/docs/programming%20python/regx/validation%20uk%20phone%20numbers%20with%20python%20and%20regular%20expressions/validation-uk-phone-numbers-with-python-and-regular-expressions", "permanent": true },
-    { "source": "/web-page-content-string-c", "destination": "/docs/programming%20c%20sharp/web%20page%20content%20string%20c/web-page-content-string-c", "permanent": true },
-    { "source": "/wood-cells", "destination": "/docs/opencv/wood%20cells/wood-cells", "permanent": true },
-    { "source": "/install", "destination": "/docs/programming%20python/gpt4all/install", "permanent": true },
-
-    { "source": "/c", "destination": "/docs/tags/c", "permanent": true },
-    { "source": "/c-2", "destination": "/docs/tags/c-2", "permanent": true },
-    { "source": "/cnc", "destination": "/docs/tags/cnc", "permanent": true },
-    { "source": "/code", "destination": "/docs/tags/code", "permanent": true },
-    { "source": "/colour", "destination": "/docs/tags/colour", "permanent": true },
-    { "source": "/container", "destination": "/docs/tags/container", "permanent": true },
-    { "source": "/containerize", "destination": "/docs/tags/containerize", "permanent": true },
-    { "source": "/contours", "destination": "/docs/tags/contours", "permanent": true },
-    { "source": "/coutours", "destination": "/docs/tags/coutours", "permanent": true },
-    { "source": "/create", "destination": "/docs/tags/create", "permanent": true },
-    { "source": "/cvdrawcontours", "destination": "/docs/tags/cvdrawcontours", "permanent": true },
-    { "source": "/cvfindcontours", "destination": "/docs/tags/cvfindcontours", "permanent": true },
-    { "source": "/cvfloodfill", "destination": "/docs/tags/cvfloodfill", "permanent": true },
-    { "source": "/cvsplit", "destination": "/docs/tags/cvsplit", "permanent": true },
-    { "source": "/docker", "destination": "/docs/tags/docker", "permanent": true },
-    { "source": "/dominant-point", "destination": "/docs/tags/dominant-point", "permanent": true },
-    { "source": "/edge", "destination": "/docs/tags/edge", "permanent": true },
-    { "source": "/endstop", "destination": "/docs/tags/endstop", "permanent": true },
-    { "source": "/flood-fill", "destination": "/docs/tags/flood-fill", "permanent": true },
-    { "source": "/framework", "destination": "/docs/tags/framework", "permanent": true },
-    { "source": "/gcode", "destination": "/docs/tags/gcode", "permanent": true },
-    { "source": "/generate", "destination": "/docs/tags/generate", "permanent": true },
-    { "source": "/image", "destination": "/docs/tags/image", "permanent": true },
-    { "source": "/image-processing", "destination": "/docs/tags/image-processing", "permanent": true },
-    { "source": "/image-progessing", "destination": "/docs/tags/image-progessing", "permanent": true },
-    { "source": "/inno", "destination": "/docs/tags/inno", "permanent": true },
-    { "source": "/insert", "destination": "/docs/tags/insert", "permanent": true },
-    { "source": "/installer", "destination": "/docs/tags/installer", "permanent": true },
-    { "source": "/iterate-folders", "destination": "/docs/tags/iterate-folders", "permanent": true },
-    { "source": "/linux", "destination": "/docs/tags/linux", "permanent": true },
-    { "source": "/m-3-u-playlist", "destination": "/docs/tags/m-3-u-playlist", "permanent": true },
-    { "source": "/machine-vision", "destination": "/docs/tags/machine-vision", "permanent": true },
-    { "source": "/marlin", "destination": "/docs/tags/marlin", "permanent": true },
-    { "source": "/marlinfw", "destination": "/docs/tags/marlinfw", "permanent": true },
-    { "source": "/milling", "destination": "/docs/tags/milling", "permanent": true },
-    { "source": "/networking", "destination": "/docs/tags/networking", "permanent": true },
-    { "source": "/open-cv", "destination": "/docs/tags/open-cv", "permanent": true },
-    { "source": "/opencv", "destination": "/docs/tags/opencv", "permanent": true },
-    { "source": "/operating-system", "destination": "/docs/tags/operating-system", "permanent": true },
-    { "source": "/oracle-2", "destination": "/docs/tags/oracle-2", "permanent": true },
-    { "source": "/piwars-2017", "destination": "/docs/tags/piwars-2017", "permanent": true },
-    { "source": "/pixel", "destination": "/docs/tags/pixel", "permanent": true },
-    { "source": "/programming", "destination": "/docs/tags/programming", "permanent": true },
-    { "source": "/python-2", "destination": "/docs/tags/python-2", "permanent": true },
-    { "source": "/raspberry-pi", "destination": "/docs/tags/raspberry-pi", "permanent": true },
-    { "source": "/rgb", "destination": "/docs/tags/rgb", "permanent": true },
-    { "source": "/robot", "destination": "/docs/tags/robot", "permanent": true },
-    { "source": "/sql", "destination": "/docs/tags/sql", "permanent": true },
-    { "source": "/stepper-motor", "destination": "/docs/tags/stepper-motor", "permanent": true },
-    { "source": "/threshold", "destination": "/docs/tags/threshold", "permanent": true },
-    { "source": "/to-date", "destination": "/docs/tags/to-date", "permanent": true },
-    { "source": "/trigger", "destination": "/docs/tags/trigger", "permanent": true },
-    { "source": "/version-number", "destination": "/docs/tags/version-number", "permanent": true },
-    { "source": "/wifi", "destination": "/docs/tags/wifi", "permanent": true },
-    { "source": "/windows-command-script", "destination": "/docs/tags/windows-command-script", "permanent": true },
-    { "source": "/wlan-0", "destination": "/docs/tags/wlan-0", "permanent": true },
-
-    { "source": "/Design%20Research", "destination": "/docs/freecad/Mico%20Generator/Design%20Research", "permanent": true },
-    { "source": "/Getting%20Started%20With%20FreeCad%20Spreadsheet%20and%20Parametric%20Design", "destination": "/docs/freecad/Getting%20Started%20With%20FreeCAD%20Spreadsheets%20and%20Parametric%20Design/Getting%20Started%20With%20FreeCad%20Spreadsheet%20and%20Parametric%20Design", "permanent": true },
-    { "source": "/How%20To%20Access%20Sqlite3%20Database%20Using%20Python", "destination": "/docs/programming%20python/sqlite3/Sqlite3DatabaseExtensions/How%20To%20Access%20Sqlite3%20Database%20Using%20Python", "permanent": true },
-    { "source": "/How%20To%20Create%20a%20Log%20in%20Python%203", "destination": "/docs/programming%20python/logging/demologging/How%20To%20Create%20a%20Log%20in%20Python%203", "permanent": true },
-    { "source": "/How%20To%20Create%20a%20Python%20Requirements%20File", "destination": "/docs/programming%20python/pip/RequirementsFile/How%20To%20Create%20a%20Python%20Requirements%20File", "permanent": true },
-    { "source": "/How%20To%20Find%20Pinecone%20Index%20Dimensions", "destination": "/docs/pinecone/How%20To%20Find%20Index%20Dimensions/How%20To%20Find%20Pinecone%20Index%20Dimensions", "permanent": true },
-    { "source": "/How%20To%20Hide%20Address%20In%20Prompt%20On%20Windows", "destination": "/docs/windows%20cmd/How%20To%20Hide%20Address%20In%20Prompt/How%20To%20Hide%20Address%20In%20Prompt%20On%20Windows", "permanent": true },
-    { "source": "/How%20To%20Install%20Pinecone%20with%20GRPC%20on%20Ubuntu%2022.04", "destination": "/docs/pinecone/How%20To%20Install%20Pinecone/How%20To%20Install%20Pinecone%20with%20GRPC%20on%20Ubuntu%2022.04", "permanent": true },
-    { "source": "/How%20To%20Install%20PostgreSQL%20on%20Ubuntu", "destination": "/docs/postgresql/install/How%20To%20Install%20PostgreSQL%20on%20Ubuntu", "permanent": true },
-    { "source": "/How%20To%20Read%20Settings%20From%20.env%20File%20Using%20Python%20Dotenv%20Module", "destination": "/docs/programming%20python/dotenv/EnvSettings/How%20To%20Read%20Settings%20From%20.env%20File%20Using%20Python%20Dotenv%20Module", "permanent": true },
-    { "source": "/How%20To%20Secure%20A%20Flask%20Python%20Application", "destination": "/docs/programming%20python/flask/FlaskAuthentication/How%20To%20Secure%20A%20Flask%20Python%20Application", "permanent": true },
-    { "source": "/How%20To%20Unit%20Test%20a%20Flask%20Restful%20Get%20Endpoint%20Using%20Python", "destination": "/docs/programming%20python/flask/FlaskGetRestfulEndpoint/How%20To%20Unit%20Test%20a%20Flask%20Restful%20Get%20Endpoint%20Using%20Python", "permanent": true },
-    { "source": "/How%20To%20Unit%20Test%20a%20Flask%20Restful%20Get%20Endpoint%20With%20A%20Parameter%20Using%20Python", "destination": "/docs/programming%20python/flask/FlaskGetRestfulEndPointWithParameter/How%20To%20Unit%20Test%20a%20Flask%20Restful%20Get%20Endpoint%20With%20A%20Parameter%20Using%20Python", "permanent": true },
-    { "source": "/How%20To%20Unit%20Test%20a%20Flask%20Restful%20Post%20Endpoint%20Using%20Python", "destination": "/docs/programming%20python/flask/FlaskPostRestfulEndpoint/How%20To%20Unit%20Test%20a%20Flask%20Restful%20Post%20Endpoint%20Using%20Python", "permanent": true },
-    { "source": "/Micro%20Generator", "destination": "/docs/freecad/Mico%20Generator/Micro%20Generator", "permanent": true },
-    { "source": "/Testing%20Python%20Functions%20in%20a%20File%20With%20Invalid%20Top-Level%20Code%20Using%20Pytest", "destination": "/docs/programming%20python/importlib/Testing%20Pyhton%20modules%20with%20importlib/Testing%20Python%20Functions%20in%20a%20File%20With%20Invalid%20Top-Level%20Code%20Using%20Pytest", "permanent": true },
-    { "source": "/Validation%20UK%20Phone%20Numbers%20With%20Python%20and%20Regular%20Expressions", "destination": "/docs/programming%20python/regx/UkPhoneNumbers/Validation%20UK%20Phone%20Numbers%20With%20Python%20and%20Regular%20Expressions", "permanent": true }
+    {
+      "source": "/3d-printed-toothbrush-holder",
+      "destination": "/docs/freecad/3d-printed-toothbrush-holder/3d-printed-toothbrush-holder",
+      "permanent": true
+    },
+    {
+      "source": "/adding-days-datetime-csharp",
+      "destination": "/docs/programming-c-sharp/adding-days-datetime-csharp/adding-days-datetime-csharp",
+      "permanent": true
+    },
+    {
+      "source": "/automatically-target-exe-version-inno",
+      "destination": "/docs/inno/automatically-target-exe-version-inno/automatically-target-exe-version-inno",
+      "permanent": true
+    },
+    {
+      "source": "/axis-drops-completing-job",
+      "destination": "/docs/milling-machine-cnc/axis-drops-completing-job/axis-drops-completing-job",
+      "permanent": true
+    },
+    {
+      "source": "/backup-oracle-database",
+      "destination": "/docs/oracle/backup-oracle-database/backup-oracle-database",
+      "permanent": true
+    },
+    {
+      "source": "/c-open-file-dialog",
+      "destination": "/docs/programming-c-sharp/c-open-file-dialog/c-open-file-dialog",
+      "permanent": true
+    },
+    {
+      "source": "/check-dotnet-framework-installed-inno-setup",
+      "destination": "/docs/inno/check-dotnet-framework-installed-inno-setup/check-dotnet-framework-installed-inno-setup",
+      "permanent": true
+    },
+    {
+      "source": "/check-program-exists-installing-inno",
+      "destination": "/docs/inno/check-program-exists-installing-inno/check-program-exists-installing-inno",
+      "permanent": true
+    },
+    {
+      "source": "/configuring-static-ip-address-raspberry-pi",
+      "destination": "/docs/raspberry-pi/configuring-static-ip-address-raspberry-pi/configuring-static-ip-address-raspberry-pi",
+      "permanent": true
+    },
+    {
+      "source": "/containerize-an-inno-installed-application",
+      "destination": "/docs/docker/containerize-an-inno-installed-application/containerize-an-inno-installed-application",
+      "permanent": true
+    },
+    {
+      "source": "/containerize-net-framework-4-8-console-application",
+      "destination": "/docs/docker/containerize-net-framework-4-8-console-application/containerize-net-framework-4-8-console-application",
+      "permanent": true
+    },
+    {
+      "source": "/convert-date-time-utc",
+      "destination": "/docs/programming-php/convert-date-time-utc/convert-date-time-utc",
+      "permanent": true
+    },
+    {
+      "source": "/convert-time-seconds-hhmmss",
+      "destination": "/docs/programming-python/general/convert-time-seconds-hhmmss/convert-time-seconds-hhmmss",
+      "permanent": true
+    },
+    {
+      "source": "/create-arraylist",
+      "destination": "/docs/programming-c-sharp/create-arraylist/create-arraylist",
+      "permanent": true
+    },
+    {
+      "source": "/create-autocompleting-textbox-c",
+      "destination": "/docs/programming-c-sharp/create-autocompleting-textbox-c/create-autocompleting-textbox-c",
+      "permanent": true
+    },
+    {
+      "source": "/create-empty-folders-inno",
+      "destination": "/docs/inno/create-empty-folders-inno/create-empty-folders-inno",
+      "permanent": true
+    },
+    {
+      "source": "/create-m3u-playlist-from-directory-list",
+      "destination": "/docs/windows-cmd/create-m3u-playlist-from-directory-list/create-m3u-playlist-from-directory-list",
+      "permanent": true
+    },
+    {
+      "source": "/creating-a-restfull-server-using-nextjs",
+      "destination": "/docs/programming-javascript/creating-a-restfull-server-using-nextjs/creating-a-restfull-server-using-nextjs",
+      "permanent": true
+    },
+    {
+      "source": "/csharp-class-properties",
+      "destination": "/docs/programming-c-sharp/csharp-class-properties/csharp-class-properties",
+      "permanent": true
+    },
+    {
+      "source": "/csharp-type-checking-statement",
+      "destination": "/docs/programming-c-sharp/csharp-type-checking-statement/csharp-type-checking-statement",
+      "permanent": true
+    },
+    {
+      "source": "/custom-inno-theme",
+      "destination": "/docs/inno/custom-inno-theme/custom-inno-theme",
+      "permanent": true
+    },
+    {
+      "source": "/data-validation-exceptions-csharp",
+      "destination": "/docs/programming-c-sharp/data-validation-exceptions-csharp/data-validation-exceptions-csharp",
+      "permanent": true
+    },
+    {
+      "source": "/detecting-dominant-points-image-opencv",
+      "destination": "/docs/opencv/detecting-dominant-points-image-opencv/detecting-dominant-points-image-opencv",
+      "permanent": true
+    },
+    {
+      "source": "/displaying-an-image-with-python-tkinter",
+      "destination": "/docs/programming-python/tkinter/displaying-an-image-with-python-tkinter/displaying-an-image-with-python-tkinter",
+      "permanent": true
+    },
+    {
+      "source": "/drawing-simple-shapes-opencv",
+      "destination": "/docs/opencv/drawing-simple-shapes-opencv/drawing-simple-shapes-opencv",
+      "permanent": true
+    },
+    {
+      "source": "/enumerations-with-tryparse-csharp",
+      "destination": "/docs/programming-c-sharp/enumerations-with-tryparse-csharp/enumerations-with-tryparse-csharp",
+      "permanent": true
+    },
+    {
+      "source": "/equal-c",
+      "destination": "/docs/programming-c-sharp/equal-c/equal-c",
+      "permanent": true
+    },
+    {
+      "source": "/explicit-conversion-string-integer-csharp",
+      "destination": "/docs/programming-c-sharp/explicit-conversion-string-integer-csharp/explicit-conversion-string-integer-csharp",
+      "permanent": true
+    },
+    {
+      "source": "/flood-fill-opencv",
+      "destination": "/docs/opencv/flood-fill-opencv/flood-fill-opencv",
+      "permanent": true
+    },
+    {
+      "source": "/free-disk-space-inno",
+      "destination": "/docs/inno/free-disk-space-inno/free-disk-space-inno",
+      "permanent": true
+    },
+    {
+      "source": "/gaussian-image-smoothing-opencv",
+      "destination": "/docs/opencv/gaussian-image-smoothing-opencv/gaussian-image-smoothing-opencv",
+      "permanent": true
+    },
+    {
+      "source": "/generate-safe-filenames-using-python",
+      "destination": "/docs/programming-python/general/generate-safe-filenames-using-python/generate-safe-filenames-using-python",
+      "permanent": true
+    },
+    {
+      "source": "/how-to-access-sqlite3-database-using-python",
+      "destination": "/docs/programming-python/sqllite/how-to-access-sqlite3-database-using-python/how-to-access-sqlite3-database-using-python",
+      "permanent": true
+    },
+    {
+      "source": "/how-to-build-a-static-page-that-refreshes-every-60-seconds-using-nextjs",
+      "destination": "/docs/programming-javascript/how-to-build-a-static-page-that-refreshes-every-60-seconds-using-nextjs/how-to-build-a-static-page-that-refreshes-every-60-seconds-using-nextjs",
+      "permanent": true
+    },
+    {
+      "source": "/how-to-change-the-label-font-in-tkinter",
+      "destination": "/docs/programming-python/tkinter/how-to-change-the-label-font-in-tkinter/how-to-change-the-label-font-in-tkinter",
+      "permanent": true
+    },
+    {
+      "source": "/how-to-create-a-combobox-react-component-with-unit-tests",
+      "destination": "/docs/programming-javascript/how-to-create-a-combobox-react-component-with-unit-tests/how-to-create-a-combobox-react-component-with-unit-tests",
+      "permanent": true
+    },
+    {
+      "source": "/how-to-create-a-next-js-app-from-scratch",
+      "destination": "/docs/programming-javascript/how-to-create-a-next-js-app-from-scratch/how-to-create-a-next-js-app-from-scratch",
+      "permanent": true
+    },
+    {
+      "source": "/how-to-create-a-python-requirements-file",
+      "destination": "/docs/programming-python/pip/how-to-create-a-python-requirements-file/how-to-create-a-python-requirements-file",
+      "permanent": true
+    },
+    {
+      "source": "/how-to-create-a-react-component-that-returns-a-promise-with-unit-tests",
+      "destination": "/docs/programming-javascript/how-to-create-a-react-component-that-returns-a-promise-with-unit-tests/how-to-create-a-react-component-that-returns-a-promise-with-unit-tests",
+      "permanent": true
+    },
+    {
+      "source": "/how-to-find-woocommerce-consumer-key-and-secret",
+      "destination": "/docs/woocommerce/how-to-find-woocommerce-consumer-key-and-secret/how-to-find-woocommerce-consumer-key-and-secret",
+      "permanent": true
+    },
+    {
+      "source": "/how-to-handle-server-side-api-routes-in-react",
+      "destination": "/docs/programming-javascript/how-to-handle-server-side-api-routes-in-react/how-to-handle-server-side-api-routes-in-react",
+      "permanent": true
+    },
+    {
+      "source": "/how-to-mock-a-function-and-confirm-the-function-was-called",
+      "destination": "/docs/programming-javascript/how-to-mock-a-function-and-confirm-the-function-was-called/how-to-mock-a-function-and-confirm-the-function-was-called",
+      "permanent": true
+    },
+    {
+      "source": "/how-to-mock-a-function-that-returns-a-value",
+      "destination": "/docs/programming-javascript/how-to-mock-a-function-that-returns-a-value/how-to-mock-a-function-that-returns-a-value",
+      "permanent": true
+    },
+    {
+      "source": "/how-to-read-settings-from-env-file-using-python-dotenv-module",
+      "destination": "/docs/programming-python/dotenv/how-to-read-settings-from-env-file-using-python-dotenv-module/how-to-read-settings-from-env-file-using-python-dotenv-module",
+      "permanent": true
+    },
+    {
+      "source": "/how-to-secure-a-flask-python-application",
+      "destination": "/docs/programming-python/flask/how-to-secure-a-flask-python-application/how-to-secure-a-flask-python-application",
+      "permanent": true
+    },
+    {
+      "source": "/how-to-unit-test-a-flask-restful-get-endpoint-using-python",
+      "destination": "/docs/programming-python/flask/how-to-unit-test-a-flask-restful-get-endpoint-using-python/how-to-unit-test-a-flask-restful-get-endpoint-using-python",
+      "permanent": true
+    },
+    {
+      "source": "/how-to-unit-test-a-flask-restful-get-endpoint-with-a-parameter-using-python",
+      "destination": "/docs/programming-python/flask/how-to-unit-test-a-flask-restful-get-endpoint-with-a-parameter-using-python/how-to-unit-test-a-flask-restful-get-endpoint-with-a-parameter-using-python",
+      "permanent": true
+    },
+    {
+      "source": "/how-to-unit-test-a-flask-restful-post-endpoint-using-python",
+      "destination": "/docs/programming-python/flask/how-to-unit-test-a-flask-restful-post-endpoint-using-python/how-to-unit-test-a-flask-restful-post-endpoint-using-python",
+      "permanent": true
+    },
+    {
+      "source": "/how-to-use-extension-methods-in-c",
+      "destination": "/docs/programming-c-sharp/how-to-use-extension-methods-in-c/how-to-use-extension-methods-in-c",
+      "permanent": true
+    },
+    {
+      "source": "/image-contour-detection-display-opencv",
+      "destination": "/docs/opencv/image-contour-detection-display-opencv/image-contour-detection-display-opencv",
+      "permanent": true
+    },
+    {
+      "source": "/installing-inno-installer",
+      "destination": "/docs/inno/installing-inno-installer/installing-inno-installer",
+      "permanent": true
+    },
+    {
+      "source": "/marlinfw-homing-direction",
+      "destination": "/docs/milling-machine-cnc/marlinfw-homing-direction/marlinfw-homing-direction",
+      "permanent": true
+    },
+    {
+      "source": "/moving-forwards",
+      "destination": "/docs/raspberry-pi/moving-forwards/moving-forwards",
+      "permanent": true
+    },
+    {
+      "source": "/opencv-csharp-wpf-application",
+      "destination": "/docs/opencv/opencv-csharp-wpf-application/opencv-csharp-wpf-application",
+      "permanent": true
+    },
+    {
+      "source": "/opencv-world",
+      "destination": "/docs/opencv/opencv-world/opencv-world",
+      "permanent": true
+    },
+    {
+      "source": "/oracle-insert-date",
+      "destination": "/docs/oracle/oracle-insert-date/oracle-insert-date",
+      "permanent": true
+    },
+    {
+      "source": "/ps3-controller",
+      "destination": "/docs/raspberry-pi/ps3-controller/ps3-controller",
+      "permanent": true
+    },
+    {
+      "source": "/reading-file-csharp",
+      "destination": "/docs/programming-c-sharp/reading-file-csharp/reading-file-csharp",
+      "permanent": true
+    },
+    {
+      "source": "/recursive-delete-files-folders-c",
+      "destination": "/docs/programming-c-sharp/recursive-delete-files-folders-c/recursive-delete-files-folders-c",
+      "permanent": true
+    },
+    {
+      "source": "/reporting-endstop-status",
+      "destination": "/docs/milling-machine-cnc/reporting-endstop-status/reporting-endstop-status",
+      "permanent": true
+    },
+    {
+      "source": "/simple-box-code",
+      "destination": "/docs/milling-machine-cnc/simple-box-code/simple-box-code",
+      "permanent": true
+    },
+    {
+      "source": "/simple-cshar-linq",
+      "destination": "/docs/programming-c-sharp/simple-cshar-linq/simple-cshar-linq",
+      "permanent": true
+    },
+    {
+      "source": "/simple-csharp-stringbuilder",
+      "destination": "/docs/programming-c-sharp/simple-csharp-stringbuilder/simple-csharp-stringbuilder",
+      "permanent": true
+    },
+    {
+      "source": "/simple-write-file-csharp",
+      "destination": "/docs/programming-c-sharp/simple-write-file-csharp/simple-write-file-csharp",
+      "permanent": true
+    },
+    {
+      "source": "/sound-buttons",
+      "destination": "/docs/programming-php/sound-buttons/sound-buttons",
+      "permanent": true
+    },
+    {
+      "source": "/split-php",
+      "destination": "/docs/programming-php/split-php/split-php",
+      "permanent": true
+    },
+    {
+      "source": "/splitting-multichannel-images-rgb-opencv",
+      "destination": "/docs/opencv/splitting-multichannel-images-rgb-opencv/splitting-multichannel-images-rgb-opencv",
+      "permanent": true
+    },
+    {
+      "source": "/stepper-motor-control-service",
+      "destination": "/docs/raspberry-pi/stepper-motor-control-service/stepper-motor-control-service",
+      "permanent": true
+    },
+    {
+      "source": "/string-formating-csharp",
+      "destination": "/docs/programming-c-sharp/string-formating-csharp/string-formating-csharp",
+      "permanent": true
+    },
+    {
+      "source": "/threshold-image-opencv",
+      "destination": "/docs/opencv/threshold-image-opencv/threshold-image-opencv",
+      "permanent": true
+    },
+    {
+      "source": "/ubuntu-12-4-enable-ssh-service",
+      "destination": "/docs/ubuntu/ubuntu-12-4-enable-ssh-service/ubuntu-12-4-enable-ssh-service",
+      "permanent": true
+    },
+    {
+      "source": "/urltonvp",
+      "destination": "/docs/programming-php/urltonvp/urltonvp",
+      "permanent": true
+    },
+    {
+      "source": "/validation-uk-phone-numbers-with-python-and-regular-expressions",
+      "destination": "/docs/programming-python/regx/validation-uk-phone-numbers-with-python-and-regular-expressions/validation-uk-phone-numbers-with-python-and-regular-expressions",
+      "permanent": true
+    },
+    {
+      "source": "/web-page-content-string-c",
+      "destination": "/docs/programming-c-sharp/web-page-content-string-c/web-page-content-string-c",
+      "permanent": true
+    },
+    {
+      "source": "/wood-cells",
+      "destination": "/docs/opencv/wood-cells/wood-cells",
+      "permanent": true
+    },
+    {
+      "source": "/install",
+      "destination": "/docs/programming-python/gpt4all/install",
+      "permanent": true
+    },
+    {
+      "source": "/c",
+      "destination": "/docs/tags/c",
+      "permanent": true
+    },
+    {
+      "source": "/c-2",
+      "destination": "/docs/tags/c-2",
+      "permanent": true
+    },
+    {
+      "source": "/cnc",
+      "destination": "/docs/tags/cnc",
+      "permanent": true
+    },
+    {
+      "source": "/code",
+      "destination": "/docs/tags/code",
+      "permanent": true
+    },
+    {
+      "source": "/colour",
+      "destination": "/docs/tags/colour",
+      "permanent": true
+    },
+    {
+      "source": "/container",
+      "destination": "/docs/tags/container",
+      "permanent": true
+    },
+    {
+      "source": "/containerize",
+      "destination": "/docs/tags/containerize",
+      "permanent": true
+    },
+    {
+      "source": "/contours",
+      "destination": "/docs/tags/contours",
+      "permanent": true
+    },
+    {
+      "source": "/coutours",
+      "destination": "/docs/tags/coutours",
+      "permanent": true
+    },
+    {
+      "source": "/create",
+      "destination": "/docs/tags/create",
+      "permanent": true
+    },
+    {
+      "source": "/cvdrawcontours",
+      "destination": "/docs/tags/cvdrawcontours",
+      "permanent": true
+    },
+    {
+      "source": "/cvfindcontours",
+      "destination": "/docs/tags/cvfindcontours",
+      "permanent": true
+    },
+    {
+      "source": "/cvfloodfill",
+      "destination": "/docs/tags/cvfloodfill",
+      "permanent": true
+    },
+    {
+      "source": "/cvsplit",
+      "destination": "/docs/tags/cvsplit",
+      "permanent": true
+    },
+    {
+      "source": "/docker",
+      "destination": "/docs/tags/docker",
+      "permanent": true
+    },
+    {
+      "source": "/dominant-point",
+      "destination": "/docs/tags/dominant-point",
+      "permanent": true
+    },
+    {
+      "source": "/edge",
+      "destination": "/docs/tags/edge",
+      "permanent": true
+    },
+    {
+      "source": "/endstop",
+      "destination": "/docs/tags/endstop",
+      "permanent": true
+    },
+    {
+      "source": "/flood-fill",
+      "destination": "/docs/tags/flood-fill",
+      "permanent": true
+    },
+    {
+      "source": "/framework",
+      "destination": "/docs/tags/framework",
+      "permanent": true
+    },
+    {
+      "source": "/gcode",
+      "destination": "/docs/tags/gcode",
+      "permanent": true
+    },
+    {
+      "source": "/generate",
+      "destination": "/docs/tags/generate",
+      "permanent": true
+    },
+    {
+      "source": "/image",
+      "destination": "/docs/tags/image",
+      "permanent": true
+    },
+    {
+      "source": "/image-processing",
+      "destination": "/docs/tags/image-processing",
+      "permanent": true
+    },
+    {
+      "source": "/image-progessing",
+      "destination": "/docs/tags/image-progessing",
+      "permanent": true
+    },
+    {
+      "source": "/inno",
+      "destination": "/docs/tags/inno",
+      "permanent": true
+    },
+    {
+      "source": "/insert",
+      "destination": "/docs/tags/insert",
+      "permanent": true
+    },
+    {
+      "source": "/installer",
+      "destination": "/docs/tags/installer",
+      "permanent": true
+    },
+    {
+      "source": "/iterate-folders",
+      "destination": "/docs/tags/iterate-folders",
+      "permanent": true
+    },
+    {
+      "source": "/linux",
+      "destination": "/docs/tags/linux",
+      "permanent": true
+    },
+    {
+      "source": "/m-3-u-playlist",
+      "destination": "/docs/tags/m-3-u-playlist",
+      "permanent": true
+    },
+    {
+      "source": "/machine-vision",
+      "destination": "/docs/tags/machine-vision",
+      "permanent": true
+    },
+    {
+      "source": "/marlin",
+      "destination": "/docs/tags/marlin",
+      "permanent": true
+    },
+    {
+      "source": "/marlinfw",
+      "destination": "/docs/tags/marlinfw",
+      "permanent": true
+    },
+    {
+      "source": "/milling",
+      "destination": "/docs/tags/milling",
+      "permanent": true
+    },
+    {
+      "source": "/networking",
+      "destination": "/docs/tags/networking",
+      "permanent": true
+    },
+    {
+      "source": "/open-cv",
+      "destination": "/docs/tags/open-cv",
+      "permanent": true
+    },
+    {
+      "source": "/opencv",
+      "destination": "/docs/tags/opencv",
+      "permanent": true
+    },
+    {
+      "source": "/operating-system",
+      "destination": "/docs/tags/operating-system",
+      "permanent": true
+    },
+    {
+      "source": "/oracle-2",
+      "destination": "/docs/tags/oracle-2",
+      "permanent": true
+    },
+    {
+      "source": "/piwars-2017",
+      "destination": "/docs/tags/piwars-2017",
+      "permanent": true
+    },
+    {
+      "source": "/pixel",
+      "destination": "/docs/tags/pixel",
+      "permanent": true
+    },
+    {
+      "source": "/programming",
+      "destination": "/docs/tags/programming",
+      "permanent": true
+    },
+    {
+      "source": "/python-2",
+      "destination": "/docs/tags/python-2",
+      "permanent": true
+    },
+    {
+      "source": "/raspberry-pi",
+      "destination": "/docs/tags/raspberry-pi",
+      "permanent": true
+    },
+    {
+      "source": "/rgb",
+      "destination": "/docs/tags/rgb",
+      "permanent": true
+    },
+    {
+      "source": "/robot",
+      "destination": "/docs/tags/robot",
+      "permanent": true
+    },
+    {
+      "source": "/sql",
+      "destination": "/docs/tags/sql",
+      "permanent": true
+    },
+    {
+      "source": "/stepper-motor",
+      "destination": "/docs/tags/stepper-motor",
+      "permanent": true
+    },
+    {
+      "source": "/threshold",
+      "destination": "/docs/tags/threshold",
+      "permanent": true
+    },
+    {
+      "source": "/to-date",
+      "destination": "/docs/tags/to-date",
+      "permanent": true
+    },
+    {
+      "source": "/trigger",
+      "destination": "/docs/tags/trigger",
+      "permanent": true
+    },
+    {
+      "source": "/version-number",
+      "destination": "/docs/tags/version-number",
+      "permanent": true
+    },
+    {
+      "source": "/wifi",
+      "destination": "/docs/tags/wifi",
+      "permanent": true
+    },
+    {
+      "source": "/windows-command-script",
+      "destination": "/docs/tags/windows-command-script",
+      "permanent": true
+    },
+    {
+      "source": "/wlan-0",
+      "destination": "/docs/tags/wlan-0",
+      "permanent": true
+    },
+    {
+      "source": "/Design%20Research",
+      "destination": "/docs/freecad/mico-generator/design-research",
+      "permanent": true
+    },
+    {
+      "source": "/Getting%20Started%20With%20FreeCad%20Spreadsheet%20and%20Parametric%20Design",
+      "destination": "/docs/freecad/getting-started-with-freecad-spreadsheets-and-parametric-design/getting-started-with-freecad-spreadsheet-and-parametric-design",
+      "permanent": true
+    },
+    {
+      "source": "/How%20To%20Access%20Sqlite3%20Database%20Using%20Python",
+      "destination": "/docs/programming-python/sqlite3/sqlite3databaseextensions/how-to-access-sqlite3-database-using-python",
+      "permanent": true
+    },
+    {
+      "source": "/How%20To%20Create%20a%20Log%20in%20Python%203",
+      "destination": "/docs/programming-python/logging/demologging/how-to-create-a-log-in-python-3",
+      "permanent": true
+    },
+    {
+      "source": "/How%20To%20Create%20a%20Python%20Requirements%20File",
+      "destination": "/docs/programming-python/pip/requirementsfile/how-to-create-a-python-requirements-file",
+      "permanent": true
+    },
+    {
+      "source": "/How%20To%20Find%20Pinecone%20Index%20Dimensions",
+      "destination": "/docs/pinecone/how-to-find-index-dimensions/how-to-find-pinecone-index-dimensions",
+      "permanent": true
+    },
+    {
+      "source": "/How%20To%20Hide%20Address%20In%20Prompt%20On%20Windows",
+      "destination": "/docs/windows-cmd/how-to-hide-address-in-prompt/how-to-hide-address-in-prompt-on-windows",
+      "permanent": true
+    },
+    {
+      "source": "/How%20To%20Install%20Pinecone%20with%20GRPC%20on%20Ubuntu%2022.04",
+      "destination": "/docs/pinecone/how-to-install-pinecone/how-to-install-pinecone-with-grpc-on-ubuntu-22.04",
+      "permanent": true
+    },
+    {
+      "source": "/How%20To%20Install%20PostgreSQL%20on%20Ubuntu",
+      "destination": "/docs/postgresql/install/how-to-install-postgresql-on-ubuntu",
+      "permanent": true
+    },
+    {
+      "source": "/How%20To%20Read%20Settings%20From%20.env%20File%20Using%20Python%20Dotenv%20Module",
+      "destination": "/docs/programming-python/dotenv/envsettings/how-to-read-settings-from-.env-file-using-python-dotenv-module",
+      "permanent": true
+    },
+    {
+      "source": "/How%20To%20Secure%20A%20Flask%20Python%20Application",
+      "destination": "/docs/programming-python/flask/flaskauthentication/how-to-secure-a-flask-python-application",
+      "permanent": true
+    },
+    {
+      "source": "/How%20To%20Unit%20Test%20a%20Flask%20Restful%20Get%20Endpoint%20Using%20Python",
+      "destination": "/docs/programming-python/flask/flaskgetrestfulendpoint/how-to-unit-test-a-flask-restful-get-endpoint-using-python",
+      "permanent": true
+    },
+    {
+      "source": "/How%20To%20Unit%20Test%20a%20Flask%20Restful%20Get%20Endpoint%20With%20A%20Parameter%20Using%20Python",
+      "destination": "/docs/programming-python/flask/flaskgetrestfulendpointwithparameter/how-to-unit-test-a-flask-restful-get-endpoint-with-a-parameter-using-python",
+      "permanent": true
+    },
+    {
+      "source": "/How%20To%20Unit%20Test%20a%20Flask%20Restful%20Post%20Endpoint%20Using%20Python",
+      "destination": "/docs/programming-python/flask/flaskpostrestfulendpoint/how-to-unit-test-a-flask-restful-post-endpoint-using-python",
+      "permanent": true
+    },
+    {
+      "source": "/Micro%20Generator",
+      "destination": "/docs/freecad/mico-generator/micro-generator",
+      "permanent": true
+    },
+    {
+      "source": "/Testing%20Python%20Functions%20in%20a%20File%20With%20Invalid%20Top-Level%20Code%20Using%20Pytest",
+      "destination": "/docs/programming-python/importlib/testing-pyhton-modules-with-importlib/testing-python-functions-in-a-file-with-invalid-top-level-code-using-pytest",
+      "permanent": true
+    },
+    {
+      "source": "/Validation%20UK%20Phone%20Numbers%20With%20Python%20and%20Regular%20Expressions",
+      "destination": "/docs/programming-python/regx/ukphonenumbers/validation-uk-phone-numbers-with-python-and-regular-expressions",
+      "permanent": true
+    },
+    {
+      "source": "/docs/programming%20c%20sharp/adding%20days%20datetime%20csharp/adding-days-datetime-csharp",
+      "destination": "/docs/programming-c-sharp/adding-days-datetime-csharp/adding-days-datetime-csharp",
+      "permanent": true
+    },
+    {
+      "source": "/docs/inno/automatically%20target%20exe%20version%20inno/automatically-target-exe-version-inno",
+      "destination": "/docs/inno/automatically-target-exe-version-inno/automatically-target-exe-version-inno",
+      "permanent": true
+    },
+    {
+      "source": "/docs/milling%20machine%20cnc/axis%20drops%20completing%20job/axis-drops-completing-job",
+      "destination": "/docs/milling-machine-cnc/axis-drops-completing-job/axis-drops-completing-job",
+      "permanent": true
+    },
+    {
+      "source": "/docs/oracle/backup%20oracle%20database/backup-oracle-database",
+      "destination": "/docs/oracle/backup-oracle-database/backup-oracle-database",
+      "permanent": true
+    },
+    {
+      "source": "/docs/programming%20c%20sharp/c%20open%20file%20dialog/c-open-file-dialog",
+      "destination": "/docs/programming-c-sharp/c-open-file-dialog/c-open-file-dialog",
+      "permanent": true
+    },
+    {
+      "source": "/docs/inno/check%20dotnet%20framework%20installed%20inno%20setup/check-dotnet-framework-installed-inno-setup",
+      "destination": "/docs/inno/check-dotnet-framework-installed-inno-setup/check-dotnet-framework-installed-inno-setup",
+      "permanent": true
+    },
+    {
+      "source": "/docs/inno/check%20program%20exists%20installing%20inno/check-program-exists-installing-inno",
+      "destination": "/docs/inno/check-program-exists-installing-inno/check-program-exists-installing-inno",
+      "permanent": true
+    },
+    {
+      "source": "/docs/raspberry%20pi/configuring%20static%20ip%20address%20raspberry%20pi/configuring-static-ip-address-raspberry-pi",
+      "destination": "/docs/raspberry-pi/configuring-static-ip-address-raspberry-pi/configuring-static-ip-address-raspberry-pi",
+      "permanent": true
+    },
+    {
+      "source": "/docs/docker/containerize%20an%20inno%20installed%20application/containerize-an-inno-installed-application",
+      "destination": "/docs/docker/containerize-an-inno-installed-application/containerize-an-inno-installed-application",
+      "permanent": true
+    },
+    {
+      "source": "/docs/docker/containerize%20net%20framework%204%208%20console%20application/containerize-net-framework-4-8-console-application",
+      "destination": "/docs/docker/containerize-net-framework-4-8-console-application/containerize-net-framework-4-8-console-application",
+      "permanent": true
+    },
+    {
+      "source": "/docs/programming%20php/convert%20date%20time%20utc/convert-date-time-utc",
+      "destination": "/docs/programming-php/convert-date-time-utc/convert-date-time-utc",
+      "permanent": true
+    },
+    {
+      "source": "/docs/programming%20python/general/convert%20time%20seconds%20hhmmss/convert-time-seconds-hhmmss",
+      "destination": "/docs/programming-python/general/convert-time-seconds-hhmmss/convert-time-seconds-hhmmss",
+      "permanent": true
+    },
+    {
+      "source": "/docs/programming%20c%20sharp/create%20arraylist/create-arraylist",
+      "destination": "/docs/programming-c-sharp/create-arraylist/create-arraylist",
+      "permanent": true
+    },
+    {
+      "source": "/docs/programming%20c%20sharp/create%20autocompleting%20textbox%20c/create-autocompleting-textbox-c",
+      "destination": "/docs/programming-c-sharp/create-autocompleting-textbox-c/create-autocompleting-textbox-c",
+      "permanent": true
+    },
+    {
+      "source": "/docs/inno/create%20empty%20folders%20inno/create-empty-folders-inno",
+      "destination": "/docs/inno/create-empty-folders-inno/create-empty-folders-inno",
+      "permanent": true
+    },
+    {
+      "source": "/docs/windows%20cmd/create%20m3u%20playlist%20from%20directory%20list/create-m3u-playlist-from-directory-list",
+      "destination": "/docs/windows-cmd/create-m3u-playlist-from-directory-list/create-m3u-playlist-from-directory-list",
+      "permanent": true
+    },
+    {
+      "source": "/docs/programming%20javascript/creating%20a%20restfull%20server%20using%20nextjs/creating-a-restfull-server-using-nextjs",
+      "destination": "/docs/programming-javascript/creating-a-restfull-server-using-nextjs/creating-a-restfull-server-using-nextjs",
+      "permanent": true
+    },
+    {
+      "source": "/docs/programming%20c%20sharp/csharp%20class%20properties/csharp-class-properties",
+      "destination": "/docs/programming-c-sharp/csharp-class-properties/csharp-class-properties",
+      "permanent": true
+    },
+    {
+      "source": "/docs/programming%20c%20sharp/csharp%20type%20checking%20statement/csharp-type-checking-statement",
+      "destination": "/docs/programming-c-sharp/csharp-type-checking-statement/csharp-type-checking-statement",
+      "permanent": true
+    },
+    {
+      "source": "/docs/inno/custom%20inno%20theme/custom-inno-theme",
+      "destination": "/docs/inno/custom-inno-theme/custom-inno-theme",
+      "permanent": true
+    },
+    {
+      "source": "/docs/programming%20c%20sharp/data%20validation%20exceptions%20csharp/data-validation-exceptions-csharp",
+      "destination": "/docs/programming-c-sharp/data-validation-exceptions-csharp/data-validation-exceptions-csharp",
+      "permanent": true
+    },
+    {
+      "source": "/docs/opencv/detecting%20dominant%20points%20image%20opencv/detecting-dominant-points-image-opencv",
+      "destination": "/docs/opencv/detecting-dominant-points-image-opencv/detecting-dominant-points-image-opencv",
+      "permanent": true
+    },
+    {
+      "source": "/docs/programming%20python/tkinter/displaying%20an%20image%20with%20python%20tkinter/displaying-an-image-with-python-tkinter",
+      "destination": "/docs/programming-python/tkinter/displaying-an-image-with-python-tkinter/displaying-an-image-with-python-tkinter",
+      "permanent": true
+    },
+    {
+      "source": "/docs/opencv/drawing%20simple%20shapes%20opencv/drawing-simple-shapes-opencv",
+      "destination": "/docs/opencv/drawing-simple-shapes-opencv/drawing-simple-shapes-opencv",
+      "permanent": true
+    },
+    {
+      "source": "/docs/programming%20c%20sharp/enumerations%20with%20tryparse%20csharp/enumerations-with-tryparse-csharp",
+      "destination": "/docs/programming-c-sharp/enumerations-with-tryparse-csharp/enumerations-with-tryparse-csharp",
+      "permanent": true
+    },
+    {
+      "source": "/docs/programming%20c%20sharp/equal%20c/equal-c",
+      "destination": "/docs/programming-c-sharp/equal-c/equal-c",
+      "permanent": true
+    },
+    {
+      "source": "/docs/programming%20c%20sharp/explicit%20conversion%20string%20integer%20csharp/explicit-conversion-string-integer-csharp",
+      "destination": "/docs/programming-c-sharp/explicit-conversion-string-integer-csharp/explicit-conversion-string-integer-csharp",
+      "permanent": true
+    },
+    {
+      "source": "/docs/opencv/flood%20fill%20opencv/flood-fill-opencv",
+      "destination": "/docs/opencv/flood-fill-opencv/flood-fill-opencv",
+      "permanent": true
+    },
+    {
+      "source": "/docs/inno/free%20disk%20space%20inno/free-disk-space-inno",
+      "destination": "/docs/inno/free-disk-space-inno/free-disk-space-inno",
+      "permanent": true
+    },
+    {
+      "source": "/docs/opencv/gaussian%20image%20smoothing%20opencv/gaussian-image-smoothing-opencv",
+      "destination": "/docs/opencv/gaussian-image-smoothing-opencv/gaussian-image-smoothing-opencv",
+      "permanent": true
+    },
+    {
+      "source": "/docs/programming%20python/general/generate%20safe%20filenames%20using%20python/generate-safe-filenames-using-python",
+      "destination": "/docs/programming-python/general/generate-safe-filenames-using-python/generate-safe-filenames-using-python",
+      "permanent": true
+    },
+    {
+      "source": "/docs/programming%20python/sqllite/how%20to%20access%20sqlite3%20database%20using%20python/how-to-access-sqlite3-database-using-python",
+      "destination": "/docs/programming-python/sqllite/how-to-access-sqlite3-database-using-python/how-to-access-sqlite3-database-using-python",
+      "permanent": true
+    },
+    {
+      "source": "/docs/programming%20javascript/how%20to%20build%20a%20static%20page%20that%20refreshes%20every%2060%20seconds%20using%20nextjs/how-to-build-a-static-page-that-refreshes-every-60-seconds-using-nextjs",
+      "destination": "/docs/programming-javascript/how-to-build-a-static-page-that-refreshes-every-60-seconds-using-nextjs/how-to-build-a-static-page-that-refreshes-every-60-seconds-using-nextjs",
+      "permanent": true
+    },
+    {
+      "source": "/docs/programming%20python/tkinter/how%20to%20change%20the%20label%20font%20in%20tkinter/how-to-change-the-label-font-in-tkinter",
+      "destination": "/docs/programming-python/tkinter/how-to-change-the-label-font-in-tkinter/how-to-change-the-label-font-in-tkinter",
+      "permanent": true
+    },
+    {
+      "source": "/docs/programming%20javascript/how%20to%20create%20a%20combobox%20react%20component%20with%20unit%20tests/how-to-create-a-combobox-react-component-with-unit-tests",
+      "destination": "/docs/programming-javascript/how-to-create-a-combobox-react-component-with-unit-tests/how-to-create-a-combobox-react-component-with-unit-tests",
+      "permanent": true
+    },
+    {
+      "source": "/docs/programming%20javascript/how%20to%20create%20a%20next%20js%20app%20from%20scratch/how-to-create-a-next-js-app-from-scratch",
+      "destination": "/docs/programming-javascript/how-to-create-a-next-js-app-from-scratch/how-to-create-a-next-js-app-from-scratch",
+      "permanent": true
+    },
+    {
+      "source": "/docs/programming%20python/pip/how%20to%20create%20a%20python%20requirements%20file/how-to-create-a-python-requirements-file",
+      "destination": "/docs/programming-python/pip/how-to-create-a-python-requirements-file/how-to-create-a-python-requirements-file",
+      "permanent": true
+    },
+    {
+      "source": "/docs/programming%20javascript/how%20to%20create%20a%20react%20component%20that%20returns%20a%20promise%20with%20unit%20tests/how-to-create-a-react-component-that-returns-a-promise-with-unit-tests",
+      "destination": "/docs/programming-javascript/how-to-create-a-react-component-that-returns-a-promise-with-unit-tests/how-to-create-a-react-component-that-returns-a-promise-with-unit-tests",
+      "permanent": true
+    },
+    {
+      "source": "/docs/woocommerce/how%20to%20find%20woocommerce%20consumer%20key%20and%20secret/how-to-find-woocommerce-consumer-key-and-secret",
+      "destination": "/docs/woocommerce/how-to-find-woocommerce-consumer-key-and-secret/how-to-find-woocommerce-consumer-key-and-secret",
+      "permanent": true
+    },
+    {
+      "source": "/docs/programming%20javascript/how%20to%20handle%20server%20side%20api%20routes%20in%20react/how-to-handle-server-side-api-routes-in-react",
+      "destination": "/docs/programming-javascript/how-to-handle-server-side-api-routes-in-react/how-to-handle-server-side-api-routes-in-react",
+      "permanent": true
+    },
+    {
+      "source": "/docs/programming%20javascript/how%20to%20mock%20a%20function%20and%20confirm%20the%20function%20was%20called/how-to-mock-a-function-and-confirm-the-function-was-called",
+      "destination": "/docs/programming-javascript/how-to-mock-a-function-and-confirm-the-function-was-called/how-to-mock-a-function-and-confirm-the-function-was-called",
+      "permanent": true
+    },
+    {
+      "source": "/docs/programming%20javascript/how%20to%20mock%20a%20function%20that%20returns%20a%20value/how-to-mock-a-function-that-returns-a-value",
+      "destination": "/docs/programming-javascript/how-to-mock-a-function-that-returns-a-value/how-to-mock-a-function-that-returns-a-value",
+      "permanent": true
+    },
+    {
+      "source": "/docs/programming%20python/dotenv/how%20to%20read%20settings%20from%20env%20file%20using%20python%20dotenv%20module/how-to-read-settings-from-env-file-using-python-dotenv-module",
+      "destination": "/docs/programming-python/dotenv/how-to-read-settings-from-env-file-using-python-dotenv-module/how-to-read-settings-from-env-file-using-python-dotenv-module",
+      "permanent": true
+    },
+    {
+      "source": "/docs/programming%20python/flask/how%20to%20secure%20a%20flask%20python%20application/how-to-secure-a-flask-python-application",
+      "destination": "/docs/programming-python/flask/how-to-secure-a-flask-python-application/how-to-secure-a-flask-python-application",
+      "permanent": true
+    },
+    {
+      "source": "/docs/programming%20python/flask/how%20to%20unit%20test%20a%20flask%20restful%20get%20endpoint%20using%20python/how-to-unit-test-a-flask-restful-get-endpoint-using-python",
+      "destination": "/docs/programming-python/flask/how-to-unit-test-a-flask-restful-get-endpoint-using-python/how-to-unit-test-a-flask-restful-get-endpoint-using-python",
+      "permanent": true
+    },
+    {
+      "source": "/docs/programming%20python/flask/how%20to%20unit%20test%20a%20flask%20restful%20get%20endpoint%20with%20a%20parameter%20using%20python/how-to-unit-test-a-flask-restful-get-endpoint-with-a-parameter-using-python",
+      "destination": "/docs/programming-python/flask/how-to-unit-test-a-flask-restful-get-endpoint-with-a-parameter-using-python/how-to-unit-test-a-flask-restful-get-endpoint-with-a-parameter-using-python",
+      "permanent": true
+    },
+    {
+      "source": "/docs/programming%20python/flask/how%20to%20unit%20test%20a%20flask%20restful%20post%20endpoint%20using%20python/how-to-unit-test-a-flask-restful-post-endpoint-using-python",
+      "destination": "/docs/programming-python/flask/how-to-unit-test-a-flask-restful-post-endpoint-using-python/how-to-unit-test-a-flask-restful-post-endpoint-using-python",
+      "permanent": true
+    },
+    {
+      "source": "/docs/programming%20c%20sharp/how%20to%20use%20extension%20methods%20in%20c/how-to-use-extension-methods-in-c",
+      "destination": "/docs/programming-c-sharp/how-to-use-extension-methods-in-c/how-to-use-extension-methods-in-c",
+      "permanent": true
+    },
+    {
+      "source": "/docs/opencv/image%20contour%20detection%20display%20opencv/image-contour-detection-display-opencv",
+      "destination": "/docs/opencv/image-contour-detection-display-opencv/image-contour-detection-display-opencv",
+      "permanent": true
+    },
+    {
+      "source": "/docs/inno/installing%20inno%20installer/installing-inno-installer",
+      "destination": "/docs/inno/installing-inno-installer/installing-inno-installer",
+      "permanent": true
+    },
+    {
+      "source": "/docs/milling%20machine%20cnc/marlinfw%20homing%20direction/marlinfw-homing-direction",
+      "destination": "/docs/milling-machine-cnc/marlinfw-homing-direction/marlinfw-homing-direction",
+      "permanent": true
+    },
+    {
+      "source": "/docs/raspberry%20pi/moving%20forwards/moving-forwards",
+      "destination": "/docs/raspberry-pi/moving-forwards/moving-forwards",
+      "permanent": true
+    },
+    {
+      "source": "/docs/opencv/opencv%20csharp%20wpf%20application/opencv-csharp-wpf-application",
+      "destination": "/docs/opencv/opencv-csharp-wpf-application/opencv-csharp-wpf-application",
+      "permanent": true
+    },
+    {
+      "source": "/docs/opencv/opencv%20world/opencv-world",
+      "destination": "/docs/opencv/opencv-world/opencv-world",
+      "permanent": true
+    },
+    {
+      "source": "/docs/oracle/oracle%20insert%20date/oracle-insert-date",
+      "destination": "/docs/oracle/oracle-insert-date/oracle-insert-date",
+      "permanent": true
+    },
+    {
+      "source": "/docs/raspberry%20pi/ps3%20controller/ps3-controller",
+      "destination": "/docs/raspberry-pi/ps3-controller/ps3-controller",
+      "permanent": true
+    },
+    {
+      "source": "/docs/programming%20c%20sharp/reading%20file%20csharp/reading-file-csharp",
+      "destination": "/docs/programming-c-sharp/reading-file-csharp/reading-file-csharp",
+      "permanent": true
+    },
+    {
+      "source": "/docs/programming%20c%20sharp/recursive%20delete%20files%20folders%20c/recursive-delete-files-folders-c",
+      "destination": "/docs/programming-c-sharp/recursive-delete-files-folders-c/recursive-delete-files-folders-c",
+      "permanent": true
+    },
+    {
+      "source": "/docs/milling%20machine%20cnc/reporting%20endstop%20status/reporting-endstop-status",
+      "destination": "/docs/milling-machine-cnc/reporting-endstop-status/reporting-endstop-status",
+      "permanent": true
+    },
+    {
+      "source": "/docs/milling%20machine%20cnc/simple%20box%20code/simple-box-code",
+      "destination": "/docs/milling-machine-cnc/simple-box-code/simple-box-code",
+      "permanent": true
+    },
+    {
+      "source": "/docs/programming%20c%20sharp/simple%20cshar%20linq/simple-cshar-linq",
+      "destination": "/docs/programming-c-sharp/simple-cshar-linq/simple-cshar-linq",
+      "permanent": true
+    },
+    {
+      "source": "/docs/programming%20c%20sharp/simple%20csharp%20stringbuilder/simple-csharp-stringbuilder",
+      "destination": "/docs/programming-c-sharp/simple-csharp-stringbuilder/simple-csharp-stringbuilder",
+      "permanent": true
+    },
+    {
+      "source": "/docs/programming%20c%20sharp/simple%20write%20file%20csharp/simple-write-file-csharp",
+      "destination": "/docs/programming-c-sharp/simple-write-file-csharp/simple-write-file-csharp",
+      "permanent": true
+    },
+    {
+      "source": "/docs/programming%20php/sound%20buttons/sound-buttons",
+      "destination": "/docs/programming-php/sound-buttons/sound-buttons",
+      "permanent": true
+    },
+    {
+      "source": "/docs/programming%20php/split%20php/split-php",
+      "destination": "/docs/programming-php/split-php/split-php",
+      "permanent": true
+    },
+    {
+      "source": "/docs/opencv/splitting%20multichannel%20images%20rgb%20opencv/splitting-multichannel-images-rgb-opencv",
+      "destination": "/docs/opencv/splitting-multichannel-images-rgb-opencv/splitting-multichannel-images-rgb-opencv",
+      "permanent": true
+    },
+    {
+      "source": "/docs/raspberry%20pi/stepper%20motor%20control%20service/stepper-motor-control-service",
+      "destination": "/docs/raspberry-pi/stepper-motor-control-service/stepper-motor-control-service",
+      "permanent": true
+    },
+    {
+      "source": "/docs/programming%20c%20sharp/string%20formating%20csharp/string-formating-csharp",
+      "destination": "/docs/programming-c-sharp/string-formating-csharp/string-formating-csharp",
+      "permanent": true
+    },
+    {
+      "source": "/docs/opencv/threshold%20image%20opencv/threshold-image-opencv",
+      "destination": "/docs/opencv/threshold-image-opencv/threshold-image-opencv",
+      "permanent": true
+    },
+    {
+      "source": "/docs/ubuntu/ubuntu%2012%204%20enable%20ssh%20service/ubuntu-12-4-enable-ssh-service",
+      "destination": "/docs/ubuntu/ubuntu-12-4-enable-ssh-service/ubuntu-12-4-enable-ssh-service",
+      "permanent": true
+    },
+    {
+      "source": "/docs/programming%20php/urltonvp/urltonvp",
+      "destination": "/docs/programming-php/urltonvp/urltonvp",
+      "permanent": true
+    },
+    {
+      "source": "/docs/programming%20python/regx/validation%20uk%20phone%20numbers%20with%20python%20and%20regular%20expressions/validation-uk-phone-numbers-with-python-and-regular-expressions",
+      "destination": "/docs/programming-python/regx/validation-uk-phone-numbers-with-python-and-regular-expressions/validation-uk-phone-numbers-with-python-and-regular-expressions",
+      "permanent": true
+    },
+    {
+      "source": "/docs/programming%20c%20sharp/web%20page%20content%20string%20c/web-page-content-string-c",
+      "destination": "/docs/programming-c-sharp/web-page-content-string-c/web-page-content-string-c",
+      "permanent": true
+    },
+    {
+      "source": "/docs/opencv/wood%20cells/wood-cells",
+      "destination": "/docs/opencv/wood-cells/wood-cells",
+      "permanent": true
+    },
+    {
+      "source": "/docs/programming%20python/gpt4all/install",
+      "destination": "/docs/programming-python/gpt4all/install",
+      "permanent": true
+    },
+    {
+      "source": "/docs/freecad/Mico%20Generator/Design%20Research",
+      "destination": "/docs/freecad/mico-generator/design-research",
+      "permanent": true
+    },
+    {
+      "source": "/docs/freecad/Getting%20Started%20With%20FreeCAD%20Spreadsheets%20and%20Parametric%20Design/Getting%20Started%20With%20FreeCad%20Spreadsheet%20and%20Parametric%20Design",
+      "destination": "/docs/freecad/getting-started-with-freecad-spreadsheets-and-parametric-design/getting-started-with-freecad-spreadsheet-and-parametric-design",
+      "permanent": true
+    },
+    {
+      "source": "/docs/programming%20python/sqlite3/Sqlite3DatabaseExtensions/How%20To%20Access%20Sqlite3%20Database%20Using%20Python",
+      "destination": "/docs/programming-python/sqlite3/sqlite3databaseextensions/how-to-access-sqlite3-database-using-python",
+      "permanent": true
+    },
+    {
+      "source": "/docs/programming%20python/logging/demologging/How%20To%20Create%20a%20Log%20in%20Python%203",
+      "destination": "/docs/programming-python/logging/demologging/how-to-create-a-log-in-python-3",
+      "permanent": true
+    },
+    {
+      "source": "/docs/programming%20python/pip/RequirementsFile/How%20To%20Create%20a%20Python%20Requirements%20File",
+      "destination": "/docs/programming-python/pip/requirementsfile/how-to-create-a-python-requirements-file",
+      "permanent": true
+    },
+    {
+      "source": "/docs/pinecone/How%20To%20Find%20Index%20Dimensions/How%20To%20Find%20Pinecone%20Index%20Dimensions",
+      "destination": "/docs/pinecone/how-to-find-index-dimensions/how-to-find-pinecone-index-dimensions",
+      "permanent": true
+    },
+    {
+      "source": "/docs/windows%20cmd/How%20To%20Hide%20Address%20In%20Prompt/How%20To%20Hide%20Address%20In%20Prompt%20On%20Windows",
+      "destination": "/docs/windows-cmd/how-to-hide-address-in-prompt/how-to-hide-address-in-prompt-on-windows",
+      "permanent": true
+    },
+    {
+      "source": "/docs/pinecone/How%20To%20Install%20Pinecone/How%20To%20Install%20Pinecone%20with%20GRPC%20on%20Ubuntu%2022.04",
+      "destination": "/docs/pinecone/how-to-install-pinecone/how-to-install-pinecone-with-grpc-on-ubuntu-22.04",
+      "permanent": true
+    },
+    {
+      "source": "/docs/postgresql/install/How%20To%20Install%20PostgreSQL%20on%20Ubuntu",
+      "destination": "/docs/postgresql/install/how-to-install-postgresql-on-ubuntu",
+      "permanent": true
+    },
+    {
+      "source": "/docs/programming%20python/dotenv/EnvSettings/How%20To%20Read%20Settings%20From%20.env%20File%20Using%20Python%20Dotenv%20Module",
+      "destination": "/docs/programming-python/dotenv/envsettings/how-to-read-settings-from-.env-file-using-python-dotenv-module",
+      "permanent": true
+    },
+    {
+      "source": "/docs/programming%20python/flask/FlaskAuthentication/How%20To%20Secure%20A%20Flask%20Python%20Application",
+      "destination": "/docs/programming-python/flask/flaskauthentication/how-to-secure-a-flask-python-application",
+      "permanent": true
+    },
+    {
+      "source": "/docs/programming%20python/flask/FlaskGetRestfulEndpoint/How%20To%20Unit%20Test%20a%20Flask%20Restful%20Get%20Endpoint%20Using%20Python",
+      "destination": "/docs/programming-python/flask/flaskgetrestfulendpoint/how-to-unit-test-a-flask-restful-get-endpoint-using-python",
+      "permanent": true
+    },
+    {
+      "source": "/docs/programming%20python/flask/FlaskGetRestfulEndPointWithParameter/How%20To%20Unit%20Test%20a%20Flask%20Restful%20Get%20Endpoint%20With%20A%20Parameter%20Using%20Python",
+      "destination": "/docs/programming-python/flask/flaskgetrestfulendpointwithparameter/how-to-unit-test-a-flask-restful-get-endpoint-with-a-parameter-using-python",
+      "permanent": true
+    },
+    {
+      "source": "/docs/programming%20python/flask/FlaskPostRestfulEndpoint/How%20To%20Unit%20Test%20a%20Flask%20Restful%20Post%20Endpoint%20Using%20Python",
+      "destination": "/docs/programming-python/flask/flaskpostrestfulendpoint/how-to-unit-test-a-flask-restful-post-endpoint-using-python",
+      "permanent": true
+    },
+    {
+      "source": "/docs/freecad/Mico%20Generator/Micro%20Generator",
+      "destination": "/docs/freecad/mico-generator/micro-generator",
+      "permanent": true
+    },
+    {
+      "source": "/docs/programming%20python/importlib/Testing%20Pyhton%20modules%20with%20importlib/Testing%20Python%20Functions%20in%20a%20File%20With%20Invalid%20Top-Level%20Code%20Using%20Pytest",
+      "destination": "/docs/programming-python/importlib/testing-pyhton-modules-with-importlib/testing-python-functions-in-a-file-with-invalid-top-level-code-using-pytest",
+      "permanent": true
+    },
+    {
+      "source": "/docs/programming%20python/regx/UkPhoneNumbers/Validation%20UK%20Phone%20Numbers%20With%20Python%20and%20Regular%20Expressions",
+      "destination": "/docs/programming-python/regx/ukphonenumbers/validation-uk-phone-numbers-with-python-and-regular-expressions",
+      "permanent": true
+    },
+    {
+      "source": "/docs/programming%20python/flask/how%20to%20unit%20test%20a%20flask%20restful%20get%20endpoint%20with%20a%20parameter%20using%20python",
+      "destination": "/docs/programming python/flask/how-to-unit-test-a-flask-restful-get-endpoint-with-a-parameter-using-python",
+      "permanent": true
+    },
+    {
+      "source": "/docs/programming%20javascript/how%20to%20build%20a%20static%20page%20that%20refreshes%20every%2060%20seconds%20using%20nextjs",
+      "destination": "/docs/programming javascript/how-to-build-a-static-page-that-refreshes-every-60-seconds-using-nextjs",
+      "permanent": true
+    },
+    {
+      "source": "/docs/programming%20javascript/how%20to%20create%20a%20react%20component%20that%20returns%20a%20promise%20with%20unit%20tests",
+      "destination": "/docs/programming javascript/how-to-create-a-react-component-that-returns-a-promise-with-unit-tests",
+      "permanent": true
+    },
+    {
+      "source": "/docs/programming%20python/django/%27django-admin%20startproject%27%20vs%20%27python%20-m%20django%20startproject%27",
+      "destination": "/docs/programming python/django/'django-admin-startproject'-vs-'python-m-django-startproject'",
+      "permanent": true
+    },
+    {
+      "source": "/docs/programming%20python/dotenv/how%20to%20read%20settings%20from%20env%20file%20using%20python%20dotenv%20module",
+      "destination": "/docs/programming python/dotenv/how-to-read-settings-from-env-file-using-python-dotenv-module",
+      "permanent": true
+    },
+    {
+      "source": "/docs/programming%20python/regx/validation%20uk%20phone%20numbers%20with%20python%20and%20regular%20expressions",
+      "destination": "/docs/programming python/regx/validation-uk-phone-numbers-with-python-and-regular-expressions",
+      "permanent": true
+    },
+    {
+      "source": "/docs/programming%20python/flask/how%20to%20unit%20test%20a%20flask%20restful%20post%20endpoint%20using%20python",
+      "destination": "/docs/programming python/flask/how-to-unit-test-a-flask-restful-post-endpoint-using-python",
+      "permanent": true
+    },
+    {
+      "source": "/docs/programming%20python/flask/how%20to%20unit%20test%20a%20flask%20restful%20get%20endpoint%20using%20python",
+      "destination": "/docs/programming python/flask/how-to-unit-test-a-flask-restful-get-endpoint-using-python",
+      "permanent": true
+    },
+    {
+      "source": "/docs/programming%20javascript/how%20to%20mock%20a%20function%20and%20confirm%20the%20function%20was%20called",
+      "destination": "/docs/programming javascript/how-to-mock-a-function-and-confirm-the-function-was-called",
+      "permanent": true
+    },
+    {
+      "source": "/docs/virtualbox/Installing%20VirtualBox%20Guest%20Additions%20in%20Ubuntu%20Guest%20Virtual%20Machine",
+      "destination": "/docs/virtualbox/installing-virtualbox-guest-additions-in-ubuntu-guest-virtual-machine",
+      "permanent": true
+    },
+    {
+      "source": "/docs/postgresql/How%20To%20Perform%20a%20Vector%20Search%20in%20A%20Postgres%20Database%20using%20pgvector",
+      "destination": "/docs/postgresql/how-to-perform-a-vector-search-in-a-postgres-database-using-pgvector",
+      "permanent": true
+    },
+    {
+      "source": "/docs/programming%20javascript/how%20to%20create%20a%20combobox%20react%20component%20with%20unit%20tests",
+      "destination": "/docs/programming javascript/how-to-create-a-combobox-react-component-with-unit-tests",
+      "permanent": true
+    },
+    {
+      "source": "/docs/programming%20python/django/Getting%20Started%20with%20Django%20-%20Working%20with%20Databases",
+      "destination": "/docs/programming python/django/getting-started-with-django-working-with-databases",
+      "permanent": true
+    },
+    {
+      "source": "/docs/programming%20python/pil/How%20To%20Crop%20An%20Image%20Using%20Python%20Image%20Library%20%28PIL%29",
+      "destination": "/docs/programming python/pil/how-to-crop-an-image-using-python-image-library-pil",
+      "permanent": true
+    },
+    {
+      "source": "/docs/freecad/Oversized%20%22TOILET%22%20Keyring%20for%20Cafes%20%26%20Restaurants%20%28The%20Giant%20Spoon%29",
+      "destination": "/docs/freecad/oversized-toilet-keyring-for-cafes-restaurants-the-giant-spoon",
+      "permanent": true
+    },
+    {
+      "source": "/docs/programming%20python/django/Getting%20Started%20with%20Django%20for%20Flask%20Developers",
+      "destination": "/docs/programming python/django/getting-started-with-django-for-flask-developers",
+      "permanent": true
+    },
+    {
+      "source": "/docs/programming%20python/django/Creating%20a%20Django%20Site%20With%20User%20Authentication",
+      "destination": "/docs/programming python/django/creating-a-django-site-with-user-authentication",
+      "permanent": true
+    },
+    {
+      "source": "/docs/freecad/Getting%20Started%20With%20FreeCAD%20Spreadsheets%20and%20Parametric%20Design",
+      "destination": "/docs/freecad/getting-started-with-freecad-spreadsheets-and-parametric-design",
+      "permanent": true
+    },
+    {
+      "source": "/docs/programming%20python/sqllite/how%20to%20access%20sqlite3%20database%20using%20python",
+      "destination": "/docs/programming python/sqllite/how-to-access-sqlite3-database-using-python",
+      "permanent": true
+    },
+    {
+      "source": "/docs/freecad/How%20to%20Create%20a%20Custom%203D-Printed%20Christmas%20Stamp%20with%20FreeCAD",
+      "destination": "/docs/freecad/how-to-create-a-custom-3d-printed-christmas-stamp-with-freecad",
+      "permanent": true
+    },
+    {
+      "source": "/docs/programming%20javascript/how%20to%20handle%20server%20side%20api%20routes%20in%20react",
+      "destination": "/docs/programming javascript/how-to-handle-server-side-api-routes-in-react",
+      "permanent": true
+    },
+    {
+      "source": "/docs/opencv/Detecting%20Dominant%20Points%20in%20an%20Image%20using%20OpenCV%20in%20Python",
+      "destination": "/docs/opencv/detecting-dominant-points-in-an-image-using-opencv-in-python",
+      "permanent": true
+    },
+    {
+      "source": "/docs/programming%20python/importlib/Testing%20Pyhton%20modules%20with%20importlib",
+      "destination": "/docs/programming python/importlib/testing-pyhton-modules-with-importlib",
+      "permanent": true
+    },
+    {
+      "source": "/docs/programming%20python/tkinter/displaying%20an%20image%20with%20python%20tkinter",
+      "destination": "/docs/programming python/tkinter/displaying-an-image-with-python-tkinter",
+      "permanent": true
+    },
+    {
+      "source": "/docs/programming%20python/tkinter/how%20to%20change%20the%20label%20font%20in%20tkinter",
+      "destination": "/docs/programming python/tkinter/how-to-change-the-label-font-in-tkinter",
+      "permanent": true
+    },
+    {
+      "source": "/docs/programming%20python/venv/How%20To%20Create%20a%20Python%20Virtual%20Environment",
+      "destination": "/docs/programming python/venv/how-to-create-a-python-virtual-environment",
+      "permanent": true
+    },
+    {
+      "source": "/docs/programming%20javascript/how%20to%20mock%20a%20function%20that%20returns%20a%20value",
+      "destination": "/docs/programming javascript/how-to-mock-a-function-that-returns-a-value",
+      "permanent": true
+    },
+    {
+      "source": "/docs/programming%20python/flask/how%20to%20secure%20a%20flask%20python%20application",
+      "destination": "/docs/programming python/flask/how-to-secure-a-flask-python-application",
+      "permanent": true
+    },
+    {
+      "source": "/docs/github/How%20to%20Set%20Up%20GitHub%20Actions%20to%20Automatically%20Run%20npm%20test",
+      "destination": "/docs/github/how-to-set-up-github-actions-to-automatically-run-npm-test",
+      "permanent": true
+    },
+    {
+      "source": "/docs/github/How%20to%20Set%20Up%20GitHub%20Actions%20to%20Automatically%20Run%20Pytests",
+      "destination": "/docs/github/how-to-set-up-github-actions-to-automatically-run-pytests",
+      "permanent": true
+    },
+    {
+      "source": "/docs/virtualbox/Taking%20a%20Virtual%20Machine%20Snapshot%20via%20Ubuntu%20Terminal",
+      "destination": "/docs/virtualbox/taking-a-virtual-machine-snapshot-via-ubuntu-terminal",
+      "permanent": true
+    },
+    {
+      "source": "/docs/programming%20python/general/generate%20safe%20filenames%20using%20python",
+      "destination": "/docs/programming python/general/generate-safe-filenames-using-python",
+      "permanent": true
+    },
+    {
+      "source": "/docs/programming%20python/pip/how%20to%20create%20a%20python%20requirements%20file",
+      "destination": "/docs/programming python/pip/how-to-create-a-python-requirements-file",
+      "permanent": true
+    },
+    {
+      "source": "/docs/programming%20javascript/how%20to%20create%20a%20next%20js%20app%20from%20scratch",
+      "destination": "/docs/programming javascript/how-to-create-a-next-js-app-from-scratch",
+      "permanent": true
+    },
+    {
+      "source": "/docs/programming%20javascript/creating%20a%20restfull%20server%20using%20nextjs",
+      "destination": "/docs/programming javascript/creating-a-restfull-server-using-nextjs",
+      "permanent": true
+    },
+    {
+      "source": "/docs/programming%20python/flask/FlaskGetRestfulEndPointWithParameter",
+      "destination": "/docs/programming python/flask/flaskgetrestfulendpointwithparameter",
+      "permanent": true
+    },
+    {
+      "source": "/docs/programming%20c%20sharp/explicit%20conversion%20string%20integer%20csharp",
+      "destination": "/docs/programming c sharp/explicit-conversion-string-integer-csharp",
+      "permanent": true
+    },
+    {
+      "source": "/docs/programming%20python/gemini/How%20To%20Get%20Started%20With%20Gemini%20API",
+      "destination": "/docs/programming python/gemini/how-to-get-started-with-gemini-api",
+      "permanent": true
+    },
+    {
+      "source": "/docs/woocommerce/how%20to%20find%20woocommerce%20consumer%20key%20and%20secret",
+      "destination": "/docs/woocommerce/how-to-find-woocommerce-consumer-key-and-secret",
+      "permanent": true
+    },
+    {
+      "source": "/docs/docker/A%20Guide%20to%20Removing%20Unused%20Docker%20Images%20on%20Ubuntu",
+      "destination": "/docs/docker/a-guide-to-removing-unused-docker-images-on-ubuntu",
+      "permanent": true
+    },
+    {
+      "source": "/docs/docker/containerize%20net%20framework%204%208%20console%20application",
+      "destination": "/docs/docker/containerize-net-framework-4-8-console-application",
+      "permanent": true
+    },
+    {
+      "source": "/docs/langflow/How%20To%20Install%20Langflow%20on%20Ubuntu%20Without%20Docker",
+      "destination": "/docs/langflow/how-to-install-langflow-on-ubuntu-without-docker",
+      "permanent": true
+    },
+    {
+      "source": "/docs/postgresql/Install%20pgvector%20on%20Ubuntu%20with%20PostgreSQL%2014",
+      "destination": "/docs/postgresql/install-pgvector-on-ubuntu-with-postgresql-14",
+      "permanent": true
+    },
+    {
+      "source": "/docs/programming%20python/django/How%20to%20Start%20a%20Django%20Project",
+      "destination": "/docs/programming python/django/how-to-start-a-django-project",
+      "permanent": true
+    },
+    {
+      "source": "/docs/langflow/How%20To%20Chat%20With%20Langflow%20From%20A%20Python%20Script",
+      "destination": "/docs/langflow/how-to-chat-with-langflow-from-a-python-script",
+      "permanent": true
+    },
+    {
+      "source": "/docs/langflow/How%20To%20Install%20Langflow%20on%20Ubuntu%20Using%20Docker",
+      "destination": "/docs/langflow/how-to-install-langflow-on-ubuntu-using-docker",
+      "permanent": true
+    },
+    {
+      "source": "/docs/raspberry%20pi/configuring%20static%20ip%20address%20raspberry%20pi",
+      "destination": "/docs/raspberry pi/configuring-static-ip-address-raspberry-pi",
+      "permanent": true
+    },
+    {
+      "source": "/docs/vs%20code/How%20To%20Force%20VS%20Code%20To%20Open%20Files%20In%20A%20New%20Tab",
+      "destination": "/docs/vs code/how-to-force-vs-code-to-open-files-in-a-new-tab",
+      "permanent": true
+    },
+    {
+      "source": "/docs/programming%20python/general/convert%20time%20seconds%20hhmmss",
+      "destination": "/docs/programming python/general/convert-time-seconds-hhmmss",
+      "permanent": true
+    },
+    {
+      "source": "/docs/freecad/Oversized-TOILET-Keyring-for-Workshops-Garages",
+      "destination": "/docs/freecad/oversized-toilet-keyring-for-workshops-garages",
+      "permanent": true
+    },
+    {
+      "source": "/docs/virtualbox/Cloning%20a%20VirtualBox%20VM%20via%20Ubuntu%20Terminal",
+      "destination": "/docs/virtualbox/cloning-a-virtualbox-vm-via-ubuntu-terminal",
+      "permanent": true
+    },
+    {
+      "source": "/docs/programming%20python/pil/How%20To%20Download%20And%20View%20A%20PNG",
+      "destination": "/docs/programming python/pil/how-to-download-and-view-a-png",
+      "permanent": true
+    },
+    {
+      "source": "/docs/docker/How%20To%20Containerize%20A%20Python%20Flask%20Application",
+      "destination": "/docs/docker/how-to-containerize-a-python-flask-application",
+      "permanent": true
+    },
+    {
+      "source": "/docs/programming%20c%20sharp/data%20validation%20exceptions%20csharp",
+      "destination": "/docs/programming c sharp/data-validation-exceptions-csharp",
+      "permanent": true
+    },
+    {
+      "source": "/docs/programming%20c%20sharp/enumerations%20with%20tryparse%20csharp",
+      "destination": "/docs/programming c sharp/enumerations-with-tryparse-csharp",
+      "permanent": true
+    },
+    {
+      "source": "/docs/programming%20c%20sharp/how%20to%20use%20extension%20methods%20in%20c",
+      "destination": "/docs/programming c sharp/how-to-use-extension-methods-in-c",
+      "permanent": true
+    },
+    {
+      "source": "/docs/programming%20python/django/How%20to%20Unit%20Test%20in%20Django",
+      "destination": "/docs/programming python/django/how-to-unit-test-in-django",
+      "permanent": true
+    },
+    {
+      "source": "/docs/programming%20python/sqlite3/Sqlite3DatabaseExtensions",
+      "destination": "/docs/programming python/sqlite3/sqlite3databaseextensions",
+      "permanent": true
+    },
+    {
+      "source": "/docs/docker/How%20To%20Automatically%20Start%20A%20Docker%20Container",
+      "destination": "/docs/docker/how-to-automatically-start-a-docker-container",
+      "permanent": true
+    },
+    {
+      "source": "/docs/programming%20c%20sharp/recursive%20delete%20files%20folders%20c",
+      "destination": "/docs/programming c sharp/recursive-delete-files-folders-c",
+      "permanent": true
+    },
+    {
+      "source": "/docs/programming%20c%20sharp/create%20autocompleting%20textbox%20c",
+      "destination": "/docs/programming c sharp/create-autocompleting-textbox-c",
+      "permanent": true
+    },
+    {
+      "source": "/docs/windows%20cmd/create%20m3u%20playlist%20from%20directory%20list",
+      "destination": "/docs/windows cmd/create-m3u-playlist-from-directory-list",
+      "permanent": true
+    },
+    {
+      "source": "/docs/programming%20c%20sharp/csharp%20type%20checking%20statement",
+      "destination": "/docs/programming c sharp/csharp-type-checking-statement",
+      "permanent": true
+    },
+    {
+      "source": "/docs/ubuntu/How%20To%20Assign%20A%20Static%20Ip%20Address%20in%20Ubuntu",
+      "destination": "/docs/ubuntu/how-to-assign-a-static-ip-address-in-ubuntu",
+      "permanent": true
+    },
+    {
+      "source": "/docs/ubuntu/How%20to%20Customize%20Your%20Bash%20Prompt%20On%20Ubuntu",
+      "destination": "/docs/ubuntu/how-to-customize-your-bash-prompt-on-ubuntu",
+      "permanent": true
+    },
+    {
+      "source": "/docs/virtualbox/Attaching-a-DVD-ISO-Image-in-VirtualBox",
+      "destination": "/docs/virtualbox/attaching-a-dvd-iso-image-in-virtualbox",
+      "permanent": true
+    },
+    {
+      "source": "/docs/programming%20python/django/Django%20Database%20Seeding",
+      "destination": "/docs/programming python/django/django-database-seeding",
+      "permanent": true
+    },
+    {
+      "source": "/docs/programming%20python/flask/FlaskPostRestfulEndpoint",
+      "destination": "/docs/programming python/flask/flaskpostrestfulendpoint",
+      "permanent": true
+    },
+    {
+      "source": "/docs/docker/How%20To%20Create%20A%20Multi%20Layer%20Docker%20Compose",
+      "destination": "/docs/docker/how-to-create-a-multi-layer-docker-compose",
+      "permanent": true
+    },
+    {
+      "source": "/docs/docker/containerize%20an%20inno%20installed%20application",
+      "destination": "/docs/docker/containerize-an-inno-installed-application",
+      "permanent": true
+    },
+    {
+      "source": "/docs/programming%20python/flask/FlaskGetRestfulEndpoint",
+      "destination": "/docs/programming python/flask/flaskgetrestfulendpoint",
+      "permanent": true
+    },
+    {
+      "source": "/docs/inno/check%20dotnet%20framework%20installed%20inno%20setup",
+      "destination": "/docs/inno/check-dotnet-framework-installed-inno-setup",
+      "permanent": true
+    },
+    {
+      "source": "/docs/docker/Troubleshooting%20KeyError%20ContainerConfig",
+      "destination": "/docs/docker/troubleshooting-keyerror-containerconfig",
+      "permanent": true
+    },
+    {
+      "source": "/docs/opencv/splitting%20multichannel%20images%20rgb%20opencv",
+      "destination": "/docs/opencv/splitting-multichannel-images-rgb-opencv",
+      "permanent": true
+    },
+    {
+      "source": "/docs/programming%20c%20sharp/adding%20days%20datetime%20csharp",
+      "destination": "/docs/programming c sharp/adding-days-datetime-csharp",
+      "permanent": true
+    },
+    {
+      "source": "/docs/programming%20c%20sharp/simple%20csharp%20stringbuilder",
+      "destination": "/docs/programming c sharp/simple-csharp-stringbuilder",
+      "permanent": true
+    },
+    {
+      "source": "/docs/milling%20machine%20cnc/axis%20drops%20completing%20job",
+      "destination": "/docs/milling machine cnc/axis-drops-completing-job",
+      "permanent": true
+    },
+    {
+      "source": "/docs/milling%20machine%20cnc/marlinfw%20homing%20direction",
+      "destination": "/docs/milling machine cnc/marlinfw-homing-direction",
+      "permanent": true
+    },
+    {
+      "source": "/docs/opencv/detecting%20dominant%20points%20image%20opencv",
+      "destination": "/docs/opencv/detecting-dominant-points-image-opencv",
+      "permanent": true
+    },
+    {
+      "source": "/docs/opencv/image%20contour%20detection%20display%20opencv",
+      "destination": "/docs/opencv/image-contour-detection-display-opencv",
+      "permanent": true
+    },
+    {
+      "source": "/docs/programming%20c%20sharp/web%20page%20content%20string%20c",
+      "destination": "/docs/programming c sharp/web-page-content-string-c",
+      "permanent": true
+    },
+    {
+      "source": "/docs/virtualbox/export%20virtualbox%20virtual%20machines",
+      "destination": "/docs/virtualbox/export-virtualbox-virtual-machines",
+      "permanent": true
+    },
+    {
+      "source": "/docs/programming%20python/flask/FlaskAuthentication",
+      "destination": "/docs/programming python/flask/flaskauthentication",
+      "permanent": true
+    },
+    {
+      "source": "/docs/programming%20python/flask/FlaskNamespaceClass",
+      "destination": "/docs/programming python/flask/flasknamespaceclass",
+      "permanent": true
+    },
+    {
+      "source": "/docs/milling%20machine%20cnc/reporting%20endstop%20status",
+      "destination": "/docs/milling machine cnc/reporting-endstop-status",
+      "permanent": true
+    },
+    {
+      "source": "/docs/pinecone/How%20To%20Upload%20Test%20Data%20To%20Pinecone",
+      "destination": "/docs/pinecone/how-to-upload-test-data-to-pinecone",
+      "permanent": true
+    },
+    {
+      "source": "/docs/programming%20c%20sharp/simple%20write%20file%20csharp",
+      "destination": "/docs/programming c sharp/simple-write-file-csharp",
+      "permanent": true
+    },
+    {
+      "source": "/docs/virtualbox/Resize%20the%20VirtualBox%20Disk%20%28.vdi%29",
+      "destination": "/docs/virtualbox/resize-the-virtualbox-disk-.vdi",
+      "permanent": true
+    },
+    {
+      "source": "/docs/programming%20python/flask/FlaskImageEndpoint",
+      "destination": "/docs/programming python/flask/flaskimageendpoint",
+      "permanent": true
+    },
+    {
+      "source": "/docs/programming%20c%20sharp/csharp%20class%20properties",
+      "destination": "/docs/programming c sharp/csharp-class-properties",
+      "permanent": true
+    },
+    {
+      "source": "/docs/programming%20c%20sharp/string%20formating%20csharp",
+      "destination": "/docs/programming c sharp/string-formating-csharp",
+      "permanent": true
+    },
+    {
+      "source": "/docs/docker/How%20To%20Avoid%20Using%20sudo%20with%20Docker",
+      "destination": "/docs/docker/how-to-avoid-using-sudo-with-docker",
+      "permanent": true
+    },
+    {
+      "source": "/docs/inno/automatically%20target%20exe%20version%20inno",
+      "destination": "/docs/inno/automatically-target-exe-version-inno",
+      "permanent": true
+    },
+    {
+      "source": "/docs/langflow/How%20To%20Enable%20Logging%20In%20Langflow",
+      "destination": "/docs/langflow/how-to-enable-logging-in-langflow",
+      "permanent": true
+    },
+    {
+      "source": "/docs/raspberry%20pi/stepper%20motor%20control%20service",
+      "destination": "/docs/raspberry pi/stepper-motor-control-service",
+      "permanent": true
+    },
+    {
+      "source": "/docs/inno/check%20program%20exists%20installing%20inno",
+      "destination": "/docs/inno/check-program-exists-installing-inno",
+      "permanent": true
+    },
+    {
+      "source": "/docs/windows%20cmd/How%20To%20Hide%20Address%20In%20Prompt",
+      "destination": "/docs/windows cmd/how-to-hide-address-in-prompt",
+      "permanent": true
+    },
+    {
+      "source": "/docs/programming%20python/flask/FlaskCategories",
+      "destination": "/docs/programming python/flask/flaskcategories",
+      "permanent": true
+    },
+    {
+      "source": "/docs/programming%20python/gpt4all/SimpleExample",
+      "destination": "/docs/programming python/gpt4all/simpleexample",
+      "permanent": true
+    },
+    {
+      "source": "/docs/programming%20python/gpt4all/SimpleRequest",
+      "destination": "/docs/programming python/gpt4all/simplerequest",
+      "permanent": true
+    },
+    {
+      "source": "/docs/n8n/How%20To%20Install%20n8n%20with%20Langchain.js",
+      "destination": "/docs/n8n/how-to-install-n8n-with-langchain.js",
+      "permanent": true
+    },
+    {
+      "source": "/docs/programming%20python/pip/RequirementsFile",
+      "destination": "/docs/programming python/pip/requirementsfile",
+      "permanent": true
+    },
+    {
+      "source": "/docs/programming%20c%20sharp/reading%20file%20csharp",
+      "destination": "/docs/programming c sharp/reading-file-csharp",
+      "permanent": true
+    },
+    {
+      "source": "/docs/ubuntu/How%20To%20Change%20Hostname%20In%20Ubuntu",
+      "destination": "/docs/ubuntu/how-to-change-hostname-in-ubuntu",
+      "permanent": true
+    },
+    {
+      "source": "/docs/programming%20python/regx/UkPhoneNumbers",
+      "destination": "/docs/programming python/regx/ukphonenumbers",
+      "permanent": true
+    },
+    {
+      "source": "/docs/mysql/Installing%20MySQL%20with%20phpMyAdmin",
+      "destination": "/docs/mysql/installing-mysql-with-phpmyadmin",
+      "permanent": true
+    },
+    {
+      "source": "/docs/opencv/gaussian%20image%20smoothing%20opencv",
+      "destination": "/docs/opencv/gaussian-image-smoothing-opencv",
+      "permanent": true
+    },
+    {
+      "source": "/docs/programming%20c%20sharp/c%20open%20file%20dialog",
+      "destination": "/docs/programming c sharp/c-open-file-dialog",
+      "permanent": true
+    },
+    {
+      "source": "/docs/programming%20python/dotenv/EnvSettings",
+      "destination": "/docs/programming python/dotenv/envsettings",
+      "permanent": true
+    },
+    {
+      "source": "/docs/gemini/Configuring%20Gemini%20Permissions",
+      "destination": "/docs/gemini/configuring-gemini-permissions",
+      "permanent": true
+    },
+    {
+      "source": "/docs/pinecone/How%20To%20Find%20Index%20Dimensions",
+      "destination": "/docs/pinecone/how-to-find-index-dimensions",
+      "permanent": true
+    },
+    {
+      "source": "/docs/pinecone/How%20To%20List%20Pinecone%20Vectors",
+      "destination": "/docs/pinecone/how-to-list-pinecone-vectors",
+      "permanent": true
+    },
+    {
+      "source": "/docs/programming%20c%20sharp/simple%20cshar%20linq",
+      "destination": "/docs/programming c sharp/simple-cshar-linq",
+      "permanent": true
+    },
+    {
+      "source": "/docs/programming%20php/convert%20date%20time%20utc",
+      "destination": "/docs/programming php/convert-date-time-utc",
+      "permanent": true
+    },
+    {
+      "source": "/docs/ubuntu/ubuntu%2012%204%20enable%20ssh%20service",
+      "destination": "/docs/ubuntu/ubuntu-12-4-enable-ssh-service",
+      "permanent": true
+    },
+    {
+      "source": "/docs/opencv/opencv%20csharp%20wpf%20application",
+      "destination": "/docs/opencv/opencv-csharp-wpf-application",
+      "permanent": true
+    },
+    {
+      "source": "/docs/programming%20c%20sharp/create%20arraylist",
+      "destination": "/docs/programming c sharp/create-arraylist",
+      "permanent": true
+    },
+    {
+      "source": "/docs/docker/Monitoring%20Docker%20Statistics",
+      "destination": "/docs/docker/monitoring-docker-statistics",
+      "permanent": true
+    },
+    {
+      "source": "/docs/milling%20machine%20cnc/simple%20box%20code",
+      "destination": "/docs/milling machine cnc/simple-box-code",
+      "permanent": true
+    },
+    {
+      "source": "/docs/opencv/drawing%20simple%20shapes%20opencv",
+      "destination": "/docs/opencv/drawing-simple-shapes-opencv",
+      "permanent": true
+    },
+    {
+      "source": "/docs/virtualbox/Finding%20VM%20Disk%20Location",
+      "destination": "/docs/virtualbox/finding-vm-disk-location",
+      "permanent": true
+    },
+    {
+      "source": "/docs/virtualbox/Force%20Stop%20VirtualBox%20VM",
+      "destination": "/docs/virtualbox/force-stop-virtualbox-vm",
+      "permanent": true
+    },
+    {
+      "source": "/docs/flameshot/How%20To%20Install%20Flameshot",
+      "destination": "/docs/flameshot/how-to-install-flameshot",
+      "permanent": true
+    },
+    {
+      "source": "/docs/gitlab/Installing%20gitlab%20on%20Ubuntu",
+      "destination": "/docs/gitlab/installing-gitlab-on-ubuntu",
+      "permanent": true
+    },
+    {
+      "source": "/docs/n8n/Code%20Node%20-%20JsProxy%20to%20Python",
+      "destination": "/docs/n8n/code-node-jsproxy-to-python",
+      "permanent": true
+    },
+    {
+      "source": "/docs/freecad/FischertechnikBlockSmall",
+      "destination": "/docs/freecad/fischertechnikblocksmall",
+      "permanent": true
+    },
+    {
+      "source": "/docs/gemini/How%20To%20Install%20Gemini%20Cli",
+      "destination": "/docs/gemini/how-to-install-gemini-cli",
+      "permanent": true
+    },
+    {
+      "source": "/docs/pinecone/How%20To%20Install%20Pinecone",
+      "destination": "/docs/pinecone/how-to-install-pinecone",
+      "permanent": true
+    },
+    {
+      "source": "/docs/hugo/Installing%20Hugo%20on%20Ubuntu",
+      "destination": "/docs/hugo/installing-hugo-on-ubuntu",
+      "permanent": true
+    },
+    {
+      "source": "/docs/inno/create%20empty%20folders%20inno",
+      "destination": "/docs/inno/create-empty-folders-inno",
+      "permanent": true
+    },
+    {
+      "source": "/docs/inno/installing%20inno%20installer",
+      "destination": "/docs/inno/installing-inno-installer",
+      "permanent": true
+    },
+    {
+      "source": "/docs/n8n/Code%20Node%20-%20Read%20Text%20File",
+      "destination": "/docs/n8n/code-node-read-text-file",
+      "permanent": true
+    },
+    {
+      "source": "/docs/opencv/threshold%20image%20opencv",
+      "destination": "/docs/opencv/threshold-image-opencv",
+      "permanent": true
+    },
+    {
+      "source": "/docs/oracle/backup%20oracle%20database",
+      "destination": "/docs/oracle/backup-oracle-database",
+      "permanent": true
+    },
+    {
+      "source": "/docs/programming%20php/sound%20buttons",
+      "destination": "/docs/programming php/sound-buttons",
+      "permanent": true
+    },
+    {
+      "source": "/docs/raspberry%20pi/moving%20forwards",
+      "destination": "/docs/raspberry pi/moving-forwards",
+      "permanent": true
+    },
+    {
+      "source": "/docs/programming%20c%20sharp/equal%20c",
+      "destination": "/docs/programming c sharp/equal-c",
+      "permanent": true
+    },
+    {
+      "source": "/docs/raspberry%20pi/ps3%20controller",
+      "destination": "/docs/raspberry pi/ps3-controller",
+      "permanent": true
+    },
+    {
+      "source": "/docs/ubuntu/Disk%20Cleanup%20Ubuntu",
+      "destination": "/docs/ubuntu/disk-cleanup-ubuntu",
+      "permanent": true
+    },
+    {
+      "source": "/docs/virtualbox/Check%20VM%20Status",
+      "destination": "/docs/virtualbox/check-vm-status",
+      "permanent": true
+    },
+    {
+      "source": "/docs/inno/free%20disk%20space%20inno",
+      "destination": "/docs/inno/free-disk-space-inno",
+      "permanent": true
+    },
+    {
+      "source": "/docs/oracle/oracle%20insert%20date",
+      "destination": "/docs/oracle/oracle-insert-date",
+      "permanent": true
+    },
+    {
+      "source": "/docs/programming%20php/split%20php",
+      "destination": "/docs/programming php/split-php",
+      "permanent": true
+    },
+    {
+      "source": "/docs/docker/installing%20docker",
+      "destination": "/docs/docker/installing-docker",
+      "permanent": true
+    },
+    {
+      "source": "/docs/opencv/flood%20fill%20opencv",
+      "destination": "/docs/opencv/flood-fill-opencv",
+      "permanent": true
+    },
+    {
+      "source": "/docs/programming%20jquery/Popup",
+      "destination": "/docs/programming jquery/popup",
+      "permanent": true
+    },
+    {
+      "source": "/docs/freecad/Mico%20Generator",
+      "destination": "/docs/freecad/mico-generator",
+      "permanent": true
+    },
+    {
+      "source": "/docs/inno/custom%20inno%20theme",
+      "destination": "/docs/inno/custom-inno-theme",
+      "permanent": true
+    },
+    {
+      "source": "/docs/programming%20javascript",
+      "destination": "/docs/programming-javascript",
+      "permanent": true
+    },
+    {
+      "source": "/docs/freecad/Wire%20Stripper",
+      "destination": "/docs/freecad/wire-stripper",
+      "permanent": true
+    },
+    {
+      "source": "/docs/ubuntu/Apt%20vs%20Apt-get",
+      "destination": "/docs/ubuntu/apt-vs-apt-get",
+      "permanent": true
+    },
+    {
+      "source": "/blog/preparing%20for%20battle",
+      "destination": "/blog/preparing-for-battle",
+      "permanent": true
+    },
+    {
+      "source": "/docs/freecad/Darts%20Stand",
+      "destination": "/docs/freecad/darts-stand",
+      "permanent": true
+    },
+    {
+      "source": "/docs/opencv/opencv%20world",
+      "destination": "/docs/opencv/opencv-world",
+      "permanent": true
+    },
+    {
+      "source": "/docs/milling%20machine%20cnc",
+      "destination": "/docs/milling-machine-cnc",
+      "permanent": true
+    },
+    {
+      "source": "/docs/programming%20c%20sharp",
+      "destination": "/docs/programming-c-sharp",
+      "permanent": true
+    },
+    {
+      "source": "/docs/programming%20jquery",
+      "destination": "/docs/programming-jquery",
+      "permanent": true
+    },
+    {
+      "source": "/docs/programming%20python",
+      "destination": "/docs/programming-python",
+      "permanent": true
+    },
+    {
+      "source": "/docs/opencv/wood%20cells",
+      "destination": "/docs/opencv/wood-cells",
+      "permanent": true
+    },
+    {
+      "source": "/docs/programming%20php",
+      "destination": "/docs/programming-php",
+      "permanent": true
+    },
+    {
+      "source": "/docs/raspberry%20pi",
+      "destination": "/docs/raspberry-pi",
+      "permanent": true
+    },
+    {
+      "source": "/docs/windows%20cmd",
+      "destination": "/docs/windows-cmd",
+      "permanent": true
+    },
+    {
+      "source": "/docs/vs%20code",
+      "destination": "/docs/vs-code",
+      "permanent": true
+    }
   ]
 }

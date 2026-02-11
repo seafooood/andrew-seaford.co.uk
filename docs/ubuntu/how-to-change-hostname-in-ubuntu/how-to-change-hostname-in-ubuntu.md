@@ -39,4 +39,4 @@ sudo reboot
 
 ## Related Files
 
--   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/ubuntu/How%20To%20Change%20Hostname%20In%20Ubuntu](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/ubuntu/How%20To%20Change%20Hostname%20In%20Ubuntu)
+-   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/ubuntu/how-to-change-hostname-in-ubuntu](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/ubuntu/how-to-change-hostname-in-ubuntu)

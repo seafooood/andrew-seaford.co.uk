@@ -48,4 +48,4 @@ The stator disk must be designed to accommodate the iron cores and provide the m
 
 ## Related Files
 
--   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/freecad/Mico%20Generator](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/freecad/Mico%20Generator)
+-   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/freecad/mico-generator](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/freecad/mico-generator)

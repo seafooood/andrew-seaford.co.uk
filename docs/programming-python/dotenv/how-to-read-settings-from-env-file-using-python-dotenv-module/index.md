@@ -41,4 +41,4 @@ print("MyName=", myName)
 
 ## Related Files
 
--   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/programming%20python/dotenv/how%20to%20read%20settings%20from%20env%20file%20using%20python%20dotenv%20module](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/programming%20python/dotenv/how%20to%20read%20settings%20from%20env%20file%20using%20python%20dotenv%20module)
+-   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/programming-python/dotenv/how-to-read-settings-from-env-file-using-python-dotenv-module](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/programming-python/dotenv/how-to-read-settings-from-env-file-using-python-dotenv-module)

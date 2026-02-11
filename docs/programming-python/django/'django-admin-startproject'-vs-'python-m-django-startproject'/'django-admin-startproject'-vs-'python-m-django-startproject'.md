@@ -23,4 +23,4 @@ Both commands achieve the same result—creating a new Django project—but they
 
 ## Related Files
 
--   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/programming%20python/django/'django-admin%20startproject'%20vs%20'python%20-m%20django%20startproject'](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/programming%20python/django/'django-admin%20startproject'%20vs%20'python%20-m%20django%20startproject')
+-   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/programming-python/django/'django-admin-startproject'-vs-'python-m-django-startproject'](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/programming-python/django/'django-admin-startproject'-vs-'python-m-django-startproject')

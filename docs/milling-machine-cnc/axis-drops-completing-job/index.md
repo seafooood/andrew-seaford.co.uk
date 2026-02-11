@@ -26,4 +26,4 @@ slug: "axis-drops-completing-job"
 
 ## Related Files
 
--   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/milling%20machine%20cnc/axis%20drops%20completing%20job](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/milling%20machine%20cnc/axis%20drops%20completing%20job)
+-   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/milling-machine-cnc/axis-drops-completing-job](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/milling-machine-cnc/axis-drops-completing-job)

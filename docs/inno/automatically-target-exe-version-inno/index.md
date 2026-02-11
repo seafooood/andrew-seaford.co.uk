@@ -27,8 +27,8 @@ OutputBaseFilename=Setup{#MyAppName}{#MyAppVersion}
 VersionInfoVersion={#MyAppVersion}
 ```
 
-Download the full installer code [AutoGetVersionNumber.iss](AutoGetVersionNumber.iss)
+Download the full installer code [AutoGetVersionNumber.iss](autogetversionnumber.iss)
 
 ## Related Files
 
--   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/inno/automatically%20target%20exe%20version%20inno](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/inno/automatically%20target%20exe%20version%20inno)
+-   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/inno/automatically-target-exe-version-inno](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/inno/automatically-target-exe-version-inno)

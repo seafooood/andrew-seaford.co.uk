@@ -93,4 +93,4 @@ docker run -d -p 5500:5500 --name flask-container flask-app
 
 ## Related Files
 
--   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/docker/How%20To%20Containerize%20A%20Python%20Flask%20Application](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/docker/How%20To%20Containerize%20A%20Python%20Flask%20Application)
+-   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/docker/how-to-containerize-a-python-flask-application](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/docker/how-to-containerize-a-python-flask-application)

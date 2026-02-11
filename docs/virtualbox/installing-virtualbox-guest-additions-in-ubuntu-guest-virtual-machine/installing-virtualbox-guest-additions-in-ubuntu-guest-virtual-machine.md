@@ -40,4 +40,4 @@ VBoxManage guestproperty get "Langflow3" "/VirtualBox/GuestInfo/Net/1/V4/IP"
 
 ## Related Files
 
--   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/virtualbox/Installing%20VirtualBox%20Guest%20Additions%20in%20Ubuntu%20Guest%20Virtual%20Machine](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/virtualbox/Installing%20VirtualBox%20Guest%20Additions%20in%20Ubuntu%20Guest%20Virtual%20Machine)
+-   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/virtualbox/installing-virtualbox-guest-additions-in-ubuntu-guest-virtual-machine](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/virtualbox/installing-virtualbox-guest-additions-in-ubuntu-guest-virtual-machine)

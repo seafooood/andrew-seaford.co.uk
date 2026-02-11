@@ -158,4 +158,4 @@ Title: Cosmos, Author: Carl Sagan, Distance: 1.1362
 
 ## Related Files
 
--   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/postgresql/How%20To%20Perform%20a%20Vector%20Search%20in%20A%20Postgres%20Database%20using%20pgvector](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/postgresql/How%20To%20Perform%20a%20Vector%20Search%20in%20A%20Postgres%20Database%20using%20pgvector)
+-   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/postgresql/how-to-perform-a-vector-search-in-a-postgres-database-using-pgvector](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/postgresql/how-to-perform-a-vector-search-in-a-postgres-database-using-pgvector)

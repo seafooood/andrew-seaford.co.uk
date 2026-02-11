@@ -35,4 +35,4 @@ Console.WriteLine(myInt);
 
 ## Related Files
 
--   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/programming%20c%20sharp/explicit%20conversion%20string%20integer%20csharp](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/programming%20c%20sharp/explicit%20conversion%20string%20integer%20csharp)
+-   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/programming-c-sharp/explicit-conversion-string-integer-csharp](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/programming-c-sharp/explicit-conversion-string-integer-csharp)

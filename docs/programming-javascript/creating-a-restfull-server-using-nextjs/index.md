@@ -28,4 +28,4 @@ slug: "creating-a-restfull-server-using-nextjs"
 
 ## Related Files
 
--   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/programming%20javascript/creating%20a%20restfull%20server%20using%20nextjs](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/programming%20javascript/creating%20a%20restfull%20server%20using%20nextjs)
+-   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/programming-javascript/creating-a-restfull-server-using-nextjs](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/programming-javascript/creating-a-restfull-server-using-nextjs)

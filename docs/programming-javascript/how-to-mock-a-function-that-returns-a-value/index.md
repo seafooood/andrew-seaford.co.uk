@@ -21,4 +21,4 @@ In this article we are demostrate how to mock a function that returns a value.
 
 ## Related Files
 
--   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/programming%20javascript/how%20to%20mock%20a%20function%20that%20returns%20a%20value](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/programming%20javascript/how%20to%20mock%20a%20function%20that%20returns%20a%20value)
+-   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/programming-javascript/how-to-mock-a-function-that-returns-a-value](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/programming-javascript/how-to-mock-a-function-that-returns-a-value)

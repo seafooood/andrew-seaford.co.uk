@@ -49,4 +49,4 @@ int _tmain(int argc, _TCHAR* argv[])
 
 ## Related Files
 
--   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/opencv/gaussian%20image%20smoothing%20opencv](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/opencv/gaussian%20image%20smoothing%20opencv)
+-   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/opencv/gaussian-image-smoothing-opencv](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/opencv/gaussian-image-smoothing-opencv)

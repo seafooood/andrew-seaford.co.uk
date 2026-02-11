@@ -36,4 +36,4 @@ gemini
 
 ## Related Files
 
--   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/gemini/How%20To%20Install%20Gemini%20Cli](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/gemini/How%20To%20Install%20Gemini%20Cli)
+-   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/gemini/how-to-install-gemini-cli](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/gemini/how-to-install-gemini-cli)

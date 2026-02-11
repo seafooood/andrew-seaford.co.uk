@@ -68,4 +68,4 @@ The `KeyError: 'ContainerConfig'` error in Docker can be a roadblock, but it's u
 
 ## Related Files
 
--   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/docker/Troubleshooting%20KeyError%20ContainerConfig](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/docker/Troubleshooting%20KeyError%20ContainerConfig)
+-   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/docker/troubleshooting-keyerror-containerconfig](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/docker/troubleshooting-keyerror-containerconfig)
