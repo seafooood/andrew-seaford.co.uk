@@ -6,7 +6,7 @@ categories:
 slug: "3d-printed-toothbrush-holder"
 ---
 
-[![whited-toothbrush-flower](images/Whited-Toothbrush-Flower-182x300.png)](images/Whited-Toothbrush-Flower.png)
+[![whited-toothbrush-flower](images/whited-toothbrush-flower-182x300.png)](images/whited-toothbrush-flower.png)
 
 You can download the stl model from [https://pinshape.com/items/29735-3d-printed-toothbrush-flower-holder](https://pinshape.com/items/29735-3d-printed-toothbrush-flower-holder)
 
