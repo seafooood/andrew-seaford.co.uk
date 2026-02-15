@@ -14,7 +14,7 @@ Standing 19 cm tall, the vase features 21 holes arranged in concentric circles t
 
 ## Read more
 
-[3D Printed Puzzle Vase for Flowers](../docs/freecad/3d-printed-puzzle-vase-for-flowers/3d-printed-puzzle-vase-for-flowers.md)
+[3D Printed Puzzle Vase for Flowers](../docs/freecad/3d-printed-puzzle-vase-for-flowers/)
 
 ## Download the model
 

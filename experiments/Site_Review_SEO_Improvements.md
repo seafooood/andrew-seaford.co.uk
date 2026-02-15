@@ -227,7 +227,7 @@ While not a direct ranking factor, these contribute to overall site trustworthin
 
 No `manifest.json` exists. Adding one would enable "Add to Home Screen" on mobile and improve Lighthouse PWA score.
 
-### 14. HTTP Link in Content
+### 14. HTTP Link in Content - DONE 20th Feb 26
 
 The blog post "Preparing for Battle" links to `http://piwars.org/` using HTTP. Update to HTTPS if the destination supports it.
 
