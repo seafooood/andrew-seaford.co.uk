@@ -1,7 +1,9 @@
 ---
-title: "Custom Inno Theme"
+title: "Customize Inno Setup Installer Images: WizardImageFile Guide"
+description: "Customize your Inno Setup installer with custom images using WizardImageFile and WizardSmallImageFile. Includes correct image sizes and BMP format guide."
+keywords: [inno setup custom images, wizardimagefile, wizardsmallimagefile, inno setup theme, inno setup installer images, inno setup wizard image size]
 date: 2015-02-12
-categories: 
+categories:
   - "inno"
 slug: "custom-inno-theme"
 ---
