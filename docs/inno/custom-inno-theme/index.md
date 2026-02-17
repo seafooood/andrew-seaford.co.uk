@@ -5,7 +5,6 @@ keywords: [inno setup custom images, wizardimagefile, wizardsmallimagefile, inno
 date: 2015-02-12
 categories:
   - "inno"
-slug: "custom-inno-theme"
 ---
 
 To customise the look of your inno installer, you can modify the images displayed on the install pages. The large image on the left hand side of the instal pages is set using the parameter WizardImageFile. The small image shown on the top right of the install pages is set using the parameter WizardSmallImageFile.

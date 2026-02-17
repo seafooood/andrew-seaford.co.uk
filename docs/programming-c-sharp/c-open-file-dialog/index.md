@@ -3,7 +3,6 @@ title: "C# Open File Dialog"
 date: 2015-01-07
 categories: 
   - "csharp"
-slug: "c-open-file-dialog"
 ---
 
 ```cs

@@ -154,4 +154,4 @@ Dominant points total=4
 
 ## Related Articles
 
-- [detecting dominant points image opencv in C](<../detecting-dominant-points-image-opencv/index.md>)
+- [detecting dominant points image opencv in C](../detecting-dominant-points-image-opencv/index.md)

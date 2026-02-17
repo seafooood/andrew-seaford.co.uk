@@ -3,7 +3,6 @@ title: "Check DotNet Framework is installed during Inno Setup"
 date: 2015-02-23
 categories: 
   - "inno"
-slug: "check-dotnet-framework-installed-inno-setup"
 ---
 
 To check that DotNet framework is installed during an Inno install. Add the following code section to the install script.

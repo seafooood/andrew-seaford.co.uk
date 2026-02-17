@@ -3,7 +3,6 @@ title: "Simple c# StringBuilder example"
 date: 2013-08-28
 categories: 
   - "csharp"
-slug: "simple-csharp-stringbuilder"
 ---
 
 A simple example of using the StringBuilder to concat strings.

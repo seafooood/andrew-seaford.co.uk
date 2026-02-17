@@ -8,7 +8,6 @@ tags:
   - "marlin"
   - "marlinfw"
   - "milling"
-slug: "marlinfw-homing-direction"
 ---
 
 ## Symptoms

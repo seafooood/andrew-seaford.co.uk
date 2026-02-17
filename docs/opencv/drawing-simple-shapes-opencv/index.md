@@ -3,7 +3,6 @@ title: "Drawing simple shapes using OpenCV"
 date: 2012-07-13
 categories: 
   - "digital-image-processing"
-slug: "drawing-simple-shapes-opencv"
 ---
 
 When creating Machine Vision and Image Processing Algorithms it is often useful to draw simple shape on to the image being processed. This simple example shows how to draw some basic shapes using OpenCV.

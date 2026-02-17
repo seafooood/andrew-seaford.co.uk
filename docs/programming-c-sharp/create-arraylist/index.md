@@ -3,7 +3,6 @@ title: "Create arraylist"
 date: 2012-01-18
 categories: 
   - "csharp"
-slug: "create-arraylist"
 ---
 
 Create an ArrayList and add three elements.

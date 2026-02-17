@@ -4,7 +4,6 @@ date: 2025-02-02
 categories: 
   - "prog"
   - "python"
-slug: "how-to-create-a-python-requirements-file"
 ---
 
 Creating and using a requirements.txt file in Python is a standard practice for managing project dependencies. This file lists all the Python packages your project depends on, along with their versions. Here's a step-by-step guide on how to create and use it:

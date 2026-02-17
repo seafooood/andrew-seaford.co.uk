@@ -4,7 +4,7 @@
 
 The Langflow API contains a endpoint for retrieving log messages. This endpoint requires log retrieval to be enabled in your Langflow application. For more information about the logging end point see [https://docs.langflow.org/api-reference-api-examples#logs](https://docs.langflow.org/api-reference-api-examples#logs)
 
-This article assumes Langflow has been installed using procedure [How To Install Langflow on Ubuntu Without Docker](../how-to-install-langflow-on-ubuntu-without-docker/how-to-install-langflow-on-ubuntu-without-docker.md).
+This article assumes Langflow has been installed using procedure [How To Install Langflow on Ubuntu Without Docker](../how-to-install-langflow-on-ubuntu-without-docker/index.md).
 
 ## Component Code
 

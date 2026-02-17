@@ -8,7 +8,6 @@ tags:
   - "oracle-2"
   - "sql"
   - "to_date"
-slug: "oracle-insert-date"
 ---
 
 A simple SQL example of using the To\_Date function to format a date.

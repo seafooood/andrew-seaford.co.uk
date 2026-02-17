@@ -3,7 +3,6 @@ title: "Installing Inno Installer"
 date: 2015-01-05
 categories: 
   - "inno"
-slug: "installing-inno-installer"
 ---
 
 Detailed below is the procedure for installing Inno.

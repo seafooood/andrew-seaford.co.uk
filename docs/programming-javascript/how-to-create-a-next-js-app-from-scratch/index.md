@@ -3,7 +3,6 @@ title: "How To Create a Next JS App From Scratch"
 date: 2025-02-02
 categories: 
   - "prog"
-slug: "how-to-create-a-next-js-app-from-scratch"
 ---
 
 ## Procedure

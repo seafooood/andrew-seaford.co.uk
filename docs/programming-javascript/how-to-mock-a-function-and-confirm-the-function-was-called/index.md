@@ -3,7 +3,6 @@ title: "How To Mock A Function And Confirm the Function Was Called"
 date: 2025-02-02
 categories: 
   - "prog"
-slug: "how-to-mock-a-function-and-confirm-the-function-was-called"
 ---
 
 In this article we are demostrate how to mock a function and confirm the function was called multiple times with two different tests of arguments.

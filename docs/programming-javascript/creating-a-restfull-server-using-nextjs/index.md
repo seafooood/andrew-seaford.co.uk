@@ -3,7 +3,6 @@ title: "Creating a Restfull Server Using NextJs"
 date: 2025-02-02
 categories: 
   - "prog"
-slug: "creating-a-restfull-server-using-nextjs"
 ---
 
 ## Description

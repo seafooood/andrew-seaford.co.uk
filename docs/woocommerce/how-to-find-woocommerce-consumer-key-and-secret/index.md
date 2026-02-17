@@ -1,7 +1,6 @@
 ---
 title: "How To Find WooCommerce Consumer Key and Secret"
 date: 2023-09-23
-slug: "how-to-find-woocommerce-consumer-key-and-secret"
 ---
 
 ## Introduction

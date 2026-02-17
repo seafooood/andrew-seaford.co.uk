@@ -3,7 +3,6 @@ title: "Reading a file with C#"
 date: 2013-08-28
 categories: 
   - "csharp"
-slug: "reading-file-csharp"
 ---
 
 Reading a text file line by line in C#. Dont forget to include using System.IO;

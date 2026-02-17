@@ -3,7 +3,6 @@ title: "Convert time in seconds to HH:MM:SS"
 date: 2012-01-18
 categories: 
   - "python"
-slug: "convert-time-seconds-hhmmss"
 ---
 
 ```

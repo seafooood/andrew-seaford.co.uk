@@ -3,7 +3,6 @@ title: "How to  Handle Server-side API Routes in React"
 date: 2025-02-02
 categories: 
   - "prog"
-slug: "how-to-handle-server-side-api-routes-in-react"
 ---
 
 ## Introduction

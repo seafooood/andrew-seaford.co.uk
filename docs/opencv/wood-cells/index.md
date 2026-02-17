@@ -3,7 +3,6 @@ title: "Wood Cells"
 date: 2012-01-18
 categories: 
   - "halcon"
-slug: "wood-cells"
 ---
 
 Analysis of wood cells using halcon.

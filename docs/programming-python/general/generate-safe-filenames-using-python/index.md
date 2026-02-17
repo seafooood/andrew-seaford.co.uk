@@ -6,7 +6,6 @@ categories:
 tags: 
   - "operating-system"
   - "python-2"
-slug: "generate-safe-filenames-using-python"
 ---
 
 This function removes illegal  characters to create file names that are safe to use on most operating systems.

@@ -3,7 +3,6 @@ title: "Data Validation and Exceptions in C#"
 date: 2013-08-29
 categories: 
   - "csharp"
-slug: "data-validation-exceptions-csharp"
 ---
 
 The setName funcion demostrates simple data validation on the argument value.

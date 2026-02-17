@@ -12,7 +12,6 @@ tags:
   - "docker"
   - "framework"
   - "image"
-slug: "containerize-net-framework-4-8-console-application"
 ---
 
 ## Introduction

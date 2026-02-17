@@ -3,7 +3,6 @@ title: "Convert a url data in to Name Value Pairs array PHP"
 date: 2013-08-29
 categories: 
   - "php"
-slug: "urltonvp"
 ---
 
 Convert a url data in to Name Value Pairs array.

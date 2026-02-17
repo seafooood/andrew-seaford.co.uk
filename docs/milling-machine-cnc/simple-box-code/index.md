@@ -8,7 +8,6 @@ tags:
   - "gcode"
   - "marlin"
   - "milling"
-slug: "simple-box-code"
 ---
 
 **Goal** The goal of this procedure is to draw a simple box 10x10mm.

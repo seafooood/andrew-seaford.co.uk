@@ -1,7 +1,6 @@
 ---
 title: "Ubuntu 12.4 Enable SSH Service"
 date: 2019-05-01
-slug: "ubuntu-12-4-enable-ssh-service"
 ---
 
 To install the openssh-server package run the command below in console.

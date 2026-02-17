@@ -4,7 +4,6 @@ date: 2025-02-01
 categories: 
   - "prog"
   - "python"
-slug: "how-to-read-settings-from-env-file-using-python-dotenv-module"
 ---
 
 The Dotenv Python module provides an easy way to read settings from a .env file.

@@ -8,7 +8,6 @@ tags:
   - "image-processing"
   - "machine-vision"
   - "opencv"
-slug: "opencv-world"
 ---
 
 Here is the Hello World example code for OpenCV. This simple example creates a image called output, then the text "Hello World" is added to the image.

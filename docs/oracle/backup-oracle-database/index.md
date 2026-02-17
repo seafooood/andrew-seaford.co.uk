@@ -4,7 +4,6 @@ date: 2014-07-22
 categories: 
   - "command-scripts"
   - "prog"
-slug: "backup-oracle-database"
 ---
 
 This simple batch script creates a new folder based on the date and time and then executes a oracle database dump.

@@ -9,7 +9,6 @@ tags:
   - "machine-vision"
   - "open-cv"
   - "opencv"
-slug: "splitting-multichannel-images-rgb-opencv"
 ---
 
 To separate a multi channel image into the three component RGB channels, we can use the cvSplit function. The example below opens a RGB image and then using the cvSplit function creates three output images.

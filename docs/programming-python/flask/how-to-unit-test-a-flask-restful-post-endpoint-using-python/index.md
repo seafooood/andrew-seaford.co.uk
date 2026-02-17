@@ -4,7 +4,6 @@ date: 2025-02-02
 categories: 
   - "prog"
   - "python"
-slug: "how-to-unit-test-a-flask-restful-post-endpoint-using-python"
 ---
 
 In this article, we are going to explore how to unit test a simple POST restful endpoint using Python 3 and the modules Flask, Flask\_restx, and UnitTest.

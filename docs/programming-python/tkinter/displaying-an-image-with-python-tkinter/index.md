@@ -7,7 +7,6 @@ tags:
   - "code"
   - "programming"
   - "python-2"
-slug: "displaying-an-image-with-python-tkinter"
 ---
 
 The aim of the tutorial is to display an image using Tkinter. The image will change when a button is pressed.

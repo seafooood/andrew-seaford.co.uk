@@ -3,7 +3,6 @@ title: "C# class properties"
 date: 2013-08-28
 categories: 
   - "csharp"
-slug: "csharp-class-properties"
 ---
 
 The code below shows the short hand and long hand syntax for defining class properties.

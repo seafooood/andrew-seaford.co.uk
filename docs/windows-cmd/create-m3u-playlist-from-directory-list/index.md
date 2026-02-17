@@ -9,7 +9,6 @@ tags:
   - "iterate-folders"
   - "m3u-playlist"
   - "windows-command-script"
-slug: "create-m3u-playlist-from-directory-list"
 ---
 
 This little command script iterates all sub folders to create an m3u playlist containing mp3 files. The m3u playlist can then be played using winamp.

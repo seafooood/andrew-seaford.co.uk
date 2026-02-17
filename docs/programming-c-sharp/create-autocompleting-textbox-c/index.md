@@ -3,7 +3,6 @@ title: "Create a autocompleting textbox using C#"
 date: 2012-01-18
 categories: 
   - "csharp"
-slug: "create-autocompleting-textbox-c"
 ---
 
 The code example below creates an autocompleting textbox, with the possible values Andy, Andrew, Dylan and Kyle.

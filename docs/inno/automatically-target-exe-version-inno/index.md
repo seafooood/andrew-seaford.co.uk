@@ -7,7 +7,6 @@ tags:
   - "inno"
   - "installer"
   - "version-number"
-slug: "automatically-target-exe-version-inno"
 ---
 
 This example shows how to automatically update the version numbers for you Inno installer based on the version number of the target exe program.

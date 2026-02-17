@@ -3,7 +3,6 @@ title: "Enumerations with tryParse in C#"
 date: 2013-08-28
 categories: 
   - "csharp"
-slug: "enumerations-with-tryparse-csharp"
 ---
 
 Here is an example of using enum with a tryParse. The program asks the user to enter a new state. The tryParse then attempts to convert the input into a enum.

@@ -3,7 +3,6 @@ title: "Explicit Conversion of a string to Integer using c#"
 date: 2013-08-28
 categories: 
   - "csharp"
-slug: "explicit-conversion-string-integer-csharp"
 ---
 
 Explicit Conversion of a string to Integer, sometimes known as cast.

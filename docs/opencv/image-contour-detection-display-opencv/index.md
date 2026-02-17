@@ -10,7 +10,6 @@ tags:
   - "edge"
   - "image-processing"
   - "threshold"
-slug: "image-contour-detection-display-opencv"
 ---
 
 In this example we threshold the image based on the position of the track bar. Then find contours on the image an display the contours as white lines.

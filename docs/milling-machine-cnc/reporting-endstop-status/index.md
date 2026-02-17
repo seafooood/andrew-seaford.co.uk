@@ -9,7 +9,6 @@ tags:
   - "marlin"
   - "marlinfw"
   - "trigger"
-slug: "reporting-endstop-status"
 ---
 
 ## Symptoms

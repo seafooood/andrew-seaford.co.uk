@@ -6,7 +6,6 @@ categories:
   - "python"
 tags: 
   - "python-2"
-slug: "how-to-change-the-label-font-in-tkinter"
 ---
 
 The font attribute of the label widget can be used to change the font style and size.

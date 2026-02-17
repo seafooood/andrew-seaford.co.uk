@@ -3,7 +3,6 @@ title: "How To Use Extension Methods in C#"
 date: 2023-04-25
 categories: 
   - "csharp"
-slug: "how-to-use-extension-methods-in-c"
 ---
 
 Extension Methods can extend any type with additional methods  

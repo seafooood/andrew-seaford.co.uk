@@ -6,7 +6,6 @@ categories:
   - "inno"
 tags: 
   - "docker"
-slug: "containerize-an-inno-installed-application"
 ---
 
 ## Introduction

@@ -3,7 +3,6 @@ title: "Almost Equal C#"
 date: 2014-07-25
 categories: 
   - "csharp"
-slug: "equal-c"
 ---
 
 Test if two values are almost equal.

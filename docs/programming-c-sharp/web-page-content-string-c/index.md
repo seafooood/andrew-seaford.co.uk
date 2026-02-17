@@ -3,7 +3,6 @@ title: "Get Web Page Content as a String with C#"
 date: 2012-01-18
 categories: 
   - "csharp"
-slug: "web-page-content-string-c"
 ---
 
 This function dowloads the html content of a webpage and returns the content as a string.

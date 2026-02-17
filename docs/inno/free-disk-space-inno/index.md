@@ -3,7 +3,6 @@ title: "Free Disk Space Inno"
 date: 2015-02-23
 categories: 
   - "inno"
-slug: "free-disk-space-inno"
 ---
 
 To show a label on the Inno wizard page displaying the amount of require disk space. Add the following code section to the installer script. `[Code] procedure InitializeWizard; begin WizardForm.DiskSpaceLabel.Visible := True; // False to hide end;`

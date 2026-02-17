@@ -4,7 +4,6 @@ date: 2012-02-25
 categories: 
   - "natural-language-processing"
   - "php"
-slug: "sound-buttons"
 ---
 
 Sound Buttons are a technique used to teach children to read. This function generates the sound buttons for a given word, uing the Jolly Phonics system. This approach breaks each word into the groups of letter sounds, of which there are 42 letter sounds.

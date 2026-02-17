@@ -9,7 +9,6 @@ tags:
   - "pixel"
   - "rgb"
   - "threshold"
-slug: "threshold-image-opencv"
 ---
 
 The cvThreshold function allows us to reject pixels above or below a set value while keeping the others. In this example the input image is separated into the RGB channels. Then we preform a threshold on the red channel, with a maximum value of 100. The result of this is that all the light areas of the image are removed.

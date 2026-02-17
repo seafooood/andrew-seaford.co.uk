@@ -3,7 +3,6 @@ title: "How To Build A Static Page That Refreshes Every 60 Seconds Using NextJs"
 date: 2025-02-02
 categories: 
   - "prog"
-slug: "how-to-build-a-static-page-that-refreshes-every-60-seconds-using-nextjs"
 ---
 
 In this example, we will build a page that is rendered server-side using NextJs. NextJs will be configured to re-render the page every 60 seconds.

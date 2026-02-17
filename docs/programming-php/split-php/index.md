@@ -3,7 +3,6 @@ title: "Split a name into First name and Last name using PHP"
 date: 2013-08-30
 categories: 
   - "php"
-slug: "split-php"
 ---
 
 ```

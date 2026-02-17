@@ -9,7 +9,6 @@ tags:
   - "edge"
   - "image-progessing"
   - "opencv"
-slug: "detecting-dominant-points-image-opencv"
 keywords: [digital-image-processing, dominant-point, edge, image-processing, coutours, opencv]
 description: In this example the edges are found using cvFindContours. The resulting contours are then processed to find the dominant points along the contour.
 ---
@@ -96,4 +95,4 @@ int _tmain(int argc, _TCHAR* argv[])
 
 ## Related Articles
 
-[Detecting Dominant Points in an Image using OpenCV in Python](<../detecting-dominant-points-in-an-image-using-opencv-in-python/>)
+[Detecting Dominant Points in an Image using OpenCV in Python](../detecting-dominant-points-in-an-image-using-opencv-in-python/index.md)

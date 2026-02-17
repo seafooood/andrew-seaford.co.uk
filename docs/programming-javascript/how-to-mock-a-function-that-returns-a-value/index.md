@@ -3,7 +3,6 @@ title: "How To Mock A Function That Returns A Value"
 date: 2025-02-02
 categories: 
   - "prog"
-slug: "how-to-mock-a-function-that-returns-a-value"
 ---
 
 In this article we are demostrate how to mock a function that returns a value.

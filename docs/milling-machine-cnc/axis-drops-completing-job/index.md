@@ -3,7 +3,6 @@ title: "Z Axis drops after completing job"
 date: 2019-02-02
 categories: 
   - "cnc-mill"
-slug: "axis-drops-completing-job"
 ---
 
 **Symptoms** CNC machine Z Axis drops after completing job.

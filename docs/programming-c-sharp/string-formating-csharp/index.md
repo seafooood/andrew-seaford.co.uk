@@ -3,7 +3,6 @@ title: "String formating within C#"
 date: 2013-08-28
 categories: 
   - "csharp"
-slug: "string-formating-csharp"
 ---
 
 Below is an example of using string formating to print a time

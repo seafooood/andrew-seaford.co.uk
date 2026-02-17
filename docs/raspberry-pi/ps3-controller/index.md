@@ -1,7 +1,6 @@
 ---
 title: "Pairing PS3 Controller with Raspberry Pi"
 date: 2017-02-04
-slug: "ps3-controller"
 ---
 
 [![](images/20170204_163209-300x169.jpg)](images/20170204_163209.jpg)We used WIFI to control our 2015 Pi Wars robot. Using WIFI was a big mistake. On the day of the competition, there was too much interference and lag. We have learnt from our mistakes. This time we will be using Bluetooth.

@@ -4,7 +4,6 @@ date: 2025-02-02
 categories: 
   - "prog"
   - "python"
-slug: "how-to-secure-a-flask-python-application"
 ---
 
 ## Introduction
