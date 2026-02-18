@@ -1,8 +1,9 @@
 ---
 title: "Convert time in seconds to HH:MM:SS"
 date: 2012-01-18
-categories: 
+categories:
   - "python"
+keywords: [python, time, conversion, formatting, seconds]
 ---
 
 ```

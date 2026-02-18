@@ -1,3 +1,7 @@
+---
+keywords: [python, virtual environment, venv, pip, dependency management]
+---
+
 # How To Create a Python Virtual Environment
 
 It's a good practice to use a virtual environment to manage your project's dependencies. Create a virtual environment using:

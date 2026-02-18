@@ -1,7 +1,8 @@
 ---
 title: "Create empty folders using Inno"
+keywords: [inno setup, create directories, dirs section, installer script]
 date: 2015-02-23
-categories: 
+categories:
   - "inno"
 ---
 

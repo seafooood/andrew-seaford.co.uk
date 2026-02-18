@@ -1,6 +1,11 @@
+---
+title: "Testing Python Functions in a File With Invalid Top-Level Code Using Pytest"
+keywords: [pytest, python, testing, fixtures, conftest]
+---
+
 # Testing Python Functions in a File With Invalid Top-Level Code Using Pytest
 
-When writing Python tests, it’s common to import a module and call its functions directly. But what happens if the file you want to test contains **invalid top-level code** — such as a `return` statement outside of a function?
+When writing Python tests, it's common to import a module and call its functions directly. But what happens if the file you want to test contains **invalid top-level code** — such as a `return` statement outside of a function?
 
 This guide walks you through a practical workaround: how to test functions in such a file **without editing the source code**. We’ll use `pytest` and a shared fixture in `conftest.py` to keep tests clean and reusable.
 

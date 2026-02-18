@@ -1,3 +1,7 @@
+---
+keywords: [django, flask migration, python web framework, getting started, tutorial]
+---
+
 # Getting Started with Django for Flask Developers
 
 ## Introduction

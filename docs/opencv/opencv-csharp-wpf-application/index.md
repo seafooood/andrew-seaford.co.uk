@@ -1,9 +1,10 @@
 ---
 title: "Using OpenCV inside a C# WPF application"
 date: 2013-08-29
-categories: 
+categories:
   - "csharp"
   - "digital-image-processing"
+keywords: [opencv, c#, wpf, dll-interop, image-processing, windows]
 ---
 
 In this example I will create a C++ dll that with contain the OpenCV image processing code. I then will create a C# WPF application, within this application i will then include the dll and using the image processing function.

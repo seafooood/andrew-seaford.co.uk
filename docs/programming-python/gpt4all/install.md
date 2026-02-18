@@ -1,3 +1,8 @@
+---
+title: "How To Install GPT4all on Ubuntu"
+keywords: [gpt4all, python, ubuntu, installation, virtual-environment]
+---
+
 # How To Install GPT4all on Ubuntu
 
 - Create a python virtual environment

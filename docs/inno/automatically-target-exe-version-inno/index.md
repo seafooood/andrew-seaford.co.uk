@@ -1,9 +1,10 @@
 ---
 title: "Automatically Get Target Exe Version in Inno"
+keywords: [inno setup, version number, exe version, installer script, automation]
 date: 2015-02-18
-categories: 
+categories:
   - "inno"
-tags: 
+tags:
   - "inno"
   - "installer"
   - "version-number"

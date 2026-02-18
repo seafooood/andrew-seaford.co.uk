@@ -1,3 +1,7 @@
+---
+keywords: [django, django-admin, startproject, python, project setup]
+---
+
 # 'django-admin startproject' vs 'python -m django startproject'
 
 Both commands achieve the same result—creating a new Django project—but they differ slightly in how they are executed.

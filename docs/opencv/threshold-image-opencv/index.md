@@ -1,14 +1,15 @@
 ---
 title: "Threshold an Image using OpenCV"
 date: 2012-07-13
-categories: 
+categories:
   - "digital-image-processing"
-tags: 
+tags:
   - "colour"
   - "image-processing"
   - "pixel"
   - "rgb"
   - "threshold"
+keywords: [opencv, image-thresholding, binary-image, image-processing, c++]
 ---
 
 The cvThreshold function allows us to reject pixels above or below a set value while keeping the others. In this example the input image is separated into the RGB channels. Then we preform a threshold on the red channel, with a maximum value of 100. The result of this is that all the light areas of the image are removed.

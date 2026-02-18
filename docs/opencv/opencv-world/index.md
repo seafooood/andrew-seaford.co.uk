@@ -1,13 +1,14 @@
 ---
 title: "OpenCV Hello World"
 date: 2012-07-09
-categories: 
+categories:
   - "digital-image-processing"
-tags: 
+tags:
   - "c"
   - "image-processing"
   - "machine-vision"
   - "opencv"
+keywords: [opencv, hello-world, image-processing, tutorial, c++]
 ---
 
 Here is the Hello World example code for OpenCV. This simple example creates a image called output, then the text "Hello World" is added to the image.

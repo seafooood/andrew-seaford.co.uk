@@ -1,3 +1,7 @@
+---
+keywords: [gemini cli, permissions, yolo mode, settings.json, tool confirmation]
+---
+
 # Configuring Gemini Permissions
 
 The permission you grant with "Always" in the interactive prompt is currently **session-specific**, the permissions will be forgotten when you restart the CLI.

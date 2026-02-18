@@ -1,15 +1,16 @@
 ---
 title: "Image Contour detection and display using OpenCV"
 date: 2012-07-13
-categories: 
+categories:
   - "digital-image-processing"
-tags: 
+tags:
   - "contours"
   - "cvdrawcontours"
   - "cvfindcontours"
   - "edge"
   - "image-processing"
   - "threshold"
+keywords: [opencv, contour-detection, edge-detection, image-processing, c++]
 ---
 
 In this example we threshold the image based on the position of the track bar. Then find contours on the image an display the contours as white lines.

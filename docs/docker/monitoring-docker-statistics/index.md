@@ -1,3 +1,7 @@
+---
+keywords: [docker, monitoring, docker stats, shell script, container metrics]
+---
+
 # Monitoring Docker Statistics
 
 Shell Script for Periodic Logging

@@ -1,3 +1,7 @@
+---
+keywords: [pinecone, index dimensions, python, vector database, API]
+---
+
 # How To Find Pinecone Index Dimensions
 
 In this article we will develop a Python script that can display the name and dimension size of indexes defined in Pinecone.

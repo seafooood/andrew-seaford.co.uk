@@ -1,8 +1,9 @@
 ---
 title: "Simple Write File using C#"
 date: 2013-08-29
-categories: 
+categories:
   - "csharp"
+keywords: [csharp, file-io, file-writing, system-io, text-file]
 ---
 
 A very simple method for writing to a file, not forget to include using System.IO;.

@@ -1,3 +1,7 @@
+---
+keywords: [langflow, ubuntu, installation, python, manual setup]
+---
+
 # How To Install Langflow on Ubuntu Without Docker
 
 Installing Langflow on an Ubuntu machine without Docker requires setting up installing dependencies manually. Follow these steps:

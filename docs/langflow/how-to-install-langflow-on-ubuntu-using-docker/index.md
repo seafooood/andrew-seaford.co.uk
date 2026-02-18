@@ -1,3 +1,7 @@
+---
+keywords: [langflow, docker, ubuntu, installation, AI workflow]
+---
+
 # How To Install Langflow on Ubuntu Using Docker
 
 ## Introduction

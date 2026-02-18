@@ -1,3 +1,7 @@
+---
+keywords: [virtualbox, VM disk location, VBoxManage, showvminfo, virtual machine]
+---
+
 # Finding VM Disk Location
 
 ## Introduction

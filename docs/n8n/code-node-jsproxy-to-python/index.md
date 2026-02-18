@@ -1,3 +1,7 @@
+---
+keywords: [n8n, code node, python, JsProxy, pyodide]
+---
+
 # Code Node - JsProxy to Python
 
 ```python

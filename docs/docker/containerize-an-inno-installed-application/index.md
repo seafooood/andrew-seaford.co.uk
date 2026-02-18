@@ -1,10 +1,11 @@
 ---
 title: "Containerize An Inno Installed Application"
+keywords: [docker, inno setup, containerize, windows installer, dotnet]
 date: 2023-05-11
-categories: 
+categories:
   - "docker"
   - "inno"
-tags: 
+tags:
   - "docker"
 ---
 

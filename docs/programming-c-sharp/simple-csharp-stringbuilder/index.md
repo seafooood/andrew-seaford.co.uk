@@ -1,8 +1,9 @@
 ---
 title: "Simple c# StringBuilder example"
 date: 2013-08-28
-categories: 
+categories:
   - "csharp"
+keywords: [csharp, stringbuilder, string-concatenation, performance, dotnet]
 ---
 
 A simple example of using the StringBuilder to concat strings.

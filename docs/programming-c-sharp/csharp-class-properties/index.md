@@ -1,8 +1,9 @@
 ---
 title: "C# class properties"
 date: 2013-08-28
-categories: 
+categories:
   - "csharp"
+keywords: [csharp, properties, class, getter-setter, object-oriented]
 ---
 
 The code below shows the short hand and long hand syntax for defining class properties.

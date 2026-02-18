@@ -1,3 +1,7 @@
+---
+keywords: [docker, sudo, ubuntu, docker group, permissions]
+---
+
 # How To Avoid Using sudo with Docker
 
 ## Introduction

@@ -1,8 +1,9 @@
 ---
 title: "Create arraylist"
 date: 2012-01-18
-categories: 
+categories:
   - "csharp"
+keywords: [csharp, arraylist, collections, list, generic]
 ---
 
 Create an ArrayList and add three elements.

@@ -1,7 +1,8 @@
 ---
 title: "How To Secure A Flask Python Application"
+keywords: [flask, JWT authentication, python, API security, token-based auth]
 date: 2025-02-02
-categories: 
+categories:
   - "prog"
   - "python"
 ---

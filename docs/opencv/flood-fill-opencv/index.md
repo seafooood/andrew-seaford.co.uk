@@ -1,13 +1,14 @@
 ---
 title: "Flood Fill using OpenCV"
 date: 2012-07-13
-categories: 
+categories:
   - "digital-image-processing"
-tags: 
+tags:
   - "cvfloodfill"
   - "flood-fill"
   - "image-processing"
   - "pixel"
+keywords: [opencv, flood-fill, image-processing, pixel-manipulation, c++]
 ---
 
 To use the flood fill, first a seed point is selected, then all neighbouring pixels of a similar colour are converted to a uniform colour. In this example the seed point is at 200, 200 (shown by a blue circle). The neighbouring pixels are then flood filled with a red colour.

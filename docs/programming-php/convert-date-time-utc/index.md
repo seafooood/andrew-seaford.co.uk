@@ -1,8 +1,9 @@
 ---
 title: "Convert a date and time to UTC"
 date: 2011-11-13
-categories: 
+categories:
   - "php"
+keywords: [php, date, time, utc, conversion]
 ---
 
 ```

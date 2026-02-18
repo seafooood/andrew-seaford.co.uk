@@ -1,9 +1,10 @@
 ---
 title: "Reporting endstop status"
+keywords: [cnc milling, endstop status, marlin firmware, troubleshooting, limit switches]
 date: 2019-01-23
-categories: 
+categories:
   - "cnc-mill"
-tags: 
+tags:
   - "cnc"
   - "endstop"
   - "marlin"

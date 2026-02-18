@@ -1,8 +1,9 @@
 ---
 title: "C# type checking with the is statement"
 date: 2013-08-29
-categories: 
+categories:
   - "csharp"
+keywords: [csharp, type-checking, is-statement, type-casting, runtime]
 ---
 
 A var type can be checked using the 'is' statement

@@ -1,3 +1,7 @@
+---
+keywords: [micro generator, axial flux, 3d printing, raspberry pi power, freecad]
+---
+
 The optimization of the generator design based on your specified components (AWG 20 wire, 36 magnets, and 22 mm bearings) mandates a fundamental shift to a slotted iron-core topology. This change is necessary to reduce winding resistance, allowing the generator to handle the high 3 Ampere current required for the Raspberry Pi system.
 
 Here is a summary of the design requirements and critical dimensions for the two 3D-printed disks.

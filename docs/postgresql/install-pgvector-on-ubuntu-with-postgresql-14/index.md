@@ -1,3 +1,7 @@
+---
+keywords: [pgvector, postgresql, ubuntu, vector extension, installation]
+---
+
 # Install pgvector on Ubuntu with PostgreSQL 14
 
 ## Installation Procedure

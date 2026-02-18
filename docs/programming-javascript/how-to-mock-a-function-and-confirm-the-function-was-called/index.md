@@ -1,8 +1,9 @@
 ---
 title: "How To Mock A Function And Confirm the Function Was Called"
 date: 2025-02-02
-categories: 
+categories:
   - "prog"
+keywords: [jest, mocking, unit-tests, react, testing]
 ---
 
 In this article we are demostrate how to mock a function and confirm the function was called multiple times with two different tests of arguments.

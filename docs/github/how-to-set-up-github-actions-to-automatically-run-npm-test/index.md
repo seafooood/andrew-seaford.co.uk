@@ -1,3 +1,7 @@
+---
+keywords: [github actions, npm test, CI/CD, react testing, automated testing]
+---
+
 # How to Set Up GitHub Actions to Automatically Run npm test
 
 Automating your software testing is a great way to ensure your code is reliable and to catch bugs early. If you're working on a React project, you might find yourself manually running tests from the command line every time you make a change. This is a perfect opportunity to streamline your workflow.

@@ -1,8 +1,9 @@
 ---
 title: "C# Open File Dialog"
 date: 2015-01-07
-categories: 
+categories:
   - "csharp"
+keywords: [csharp, file-dialog, openfiledialog, windows-forms, ui]
 ---
 
 ```cs

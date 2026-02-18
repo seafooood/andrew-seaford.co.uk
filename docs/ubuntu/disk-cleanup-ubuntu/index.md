@@ -1,3 +1,7 @@
+---
+keywords: [ubuntu, disk cleanup, free space, apt autoremove, system maintenance]
+---
+
 # Disk Cleanup Ubuntu
 
 ## Introduction

@@ -1,3 +1,7 @@
+---
+keywords: [virtualbox, snapshot, VBoxManage, backup, ubuntu terminal]
+---
+
 # Taking a Virtual Machine Snapshot via Ubuntu Terminal
 
 ## Introduction

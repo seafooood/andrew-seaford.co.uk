@@ -1,8 +1,9 @@
 ---
 title: "Split a name into First name and Last name using PHP"
 date: 2013-08-30
-categories: 
+categories:
   - "php"
+keywords: [php, string, split, parsing, name]
 ---
 
 ```

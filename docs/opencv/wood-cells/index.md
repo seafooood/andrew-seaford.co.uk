@@ -1,8 +1,9 @@
 ---
 title: "Wood Cells"
 date: 2012-01-18
-categories: 
+categories:
   - "halcon"
+keywords: [halcon, wood-analysis, image-processing, thresholding, computer-vision]
 ---
 
 Analysis of wood cells using halcon.

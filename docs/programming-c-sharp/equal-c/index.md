@@ -1,8 +1,9 @@
 ---
 title: "Almost Equal C#"
 date: 2014-07-25
-categories: 
+categories:
   - "csharp"
+keywords: [csharp, floating-point, comparison, epsilon, math]
 ---
 
 Test if two values are almost equal.

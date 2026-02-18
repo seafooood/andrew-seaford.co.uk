@@ -1,8 +1,9 @@
 ---
 title: "How To Create a React Component That Returns a Promise With Unit Tests"
 date: 2025-02-02
-categories: 
+categories:
   - "prog"
+keywords: [react, promises, async, unit-tests, javascript]
 ---
 
 In this article we will create a React component that returns a Promise. The promise will be the sum of two numbers. We will also create unit test to confirm the components functionality.

@@ -1,7 +1,8 @@
 ---
 title: "Check if a program exists before installing with Inno"
+keywords: [inno setup, file exists check, installer validation, pascal script]
 date: 2015-02-23
-categories: 
+categories:
   - "inno"
 ---
 

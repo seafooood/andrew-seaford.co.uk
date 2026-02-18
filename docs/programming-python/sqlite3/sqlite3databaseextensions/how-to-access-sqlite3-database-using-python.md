@@ -1,3 +1,8 @@
+---
+title: "How To Access Sqlite3 Database Using Python"
+keywords: [python, sqlite3, database, sql, data-access]
+---
+
 # How To Access Sqlite3 Database Using Python
 
 In this article, we are going to create a Python class that can read and write data from a sqlite3 database.

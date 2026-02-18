@@ -1,3 +1,7 @@
+---
+keywords: [langflow, logging, API endpoint, custom component, debugging]
+---
+
 # How To Enable Logging In Langflow
 
 ## Introduction

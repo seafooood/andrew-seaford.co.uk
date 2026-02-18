@@ -1,8 +1,9 @@
 ---
 title: "How to  Handle Server-side API Routes in React"
 date: 2025-02-02
-categories: 
+categories:
   - "prog"
+keywords: [nextjs, api-routes, backend, security, server-side]
 ---
 
 ## Introduction

@@ -1,9 +1,10 @@
 ---
 title: "Backup Oracle database with Windows Batch Script"
 date: 2014-07-22
-categories: 
+categories:
   - "command-scripts"
   - "prog"
+keywords: [oracle, backup, batch, database, windows]
 ---
 
 This simple batch script creates a new folder based on the date and time and then executes a oracle database dump.

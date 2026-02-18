@@ -1,10 +1,12 @@
 ---
 title: "Preparing for Battle"
 date: 2017-02-02
-categories: 
+categories:
   - "piwars2017"
   - "projects"
 slug: "preparing-for-battle"
+authors: [andrewseaford]
+tags: [raspberry-pi, robotics, pi-wars]
 ---
 
 This year Team Seaford will be competing in the non-destructive robot competition [Pi Wars 2017](http://piwars.org/), where robot controlled by Raspberry Pi’s will compete in a range of robotics challenges.

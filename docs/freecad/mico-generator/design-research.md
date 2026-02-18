@@ -1,3 +1,7 @@
+---
+keywords: [axial flux generator, AFPMG, wire gauge optimization, 3d printing, power generation]
+---
+
 Advanced Design Optimization for a 36-Pole Axial Flux Permanent Magnet Generator: Determining Optimal Wire Gauge
 
 I. Advanced AFPMG Design Fundamentals: Constraints and Topology Selection

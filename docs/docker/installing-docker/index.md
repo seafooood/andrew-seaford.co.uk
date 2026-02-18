@@ -1,3 +1,7 @@
+---
+keywords: [docker, installation, ubuntu, apt-get, containers]
+---
+
 # How To Install Docker on Ubuntu
 
 ## Introduction

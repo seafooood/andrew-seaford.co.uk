@@ -1,3 +1,7 @@
+---
+keywords: [flask, unit testing, REST API, GET endpoint, python]
+---
+
 # How To Unit Test a Flask Restful Get Endpoint Using Python
 
 In this article, we are going to explore how to unit test a simple GET restful endpoint using Python 3 and the modules Flask, Flask_restx, and UnitTest.

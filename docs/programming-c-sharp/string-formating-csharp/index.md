@@ -1,8 +1,9 @@
 ---
 title: "String formating within C#"
 date: 2013-08-28
-categories: 
+categories:
   - "csharp"
+keywords: [csharp, string-formatting, format-string, interpolation, dotnet]
 ---
 
 Below is an example of using string formating to print a time

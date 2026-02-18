@@ -1,11 +1,12 @@
 ---
 title: "Containerize .net Framework 4.8 Console Application"
+keywords: [docker, dotnet framework, containerize, csharp, windows container]
 date: 2023-05-11
-categories: 
+categories:
   - "csharp"
   - "docker"
   - "prog"
-tags: 
+tags:
   - "c-2"
   - "container"
   - "containerize"

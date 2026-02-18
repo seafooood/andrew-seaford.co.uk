@@ -1,13 +1,14 @@
 ---
 title: "Stepper Motor Control Service"
 date: 2017-02-04
-categories: 
+categories:
   - "piwars2017"
-tags: 
+tags:
   - "piwars2017"
   - "python-2"
   - "raspberry-pi"
   - "stepper-motor"
+keywords: [stepper-motor, raspberry-pi, gpio, motor-control, robotics]
 ---
 
 [![](images/20170202_220206-300x169.jpg)](images/20170202_220206.jpg)Today I have been busy developing a stepper motor service class. The service class will allow the Team Seaford robot to play crazy golf.  

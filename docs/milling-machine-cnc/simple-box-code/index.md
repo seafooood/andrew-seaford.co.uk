@@ -1,9 +1,10 @@
 ---
 title: "Simple Box G Code"
+keywords: [cnc milling, gcode, marlin firmware, simple box, pronterface]
 date: 2019-01-23
-categories: 
+categories:
   - "cnc-mill"
-tags: 
+tags:
   - "cnc"
   - "gcode"
   - "marlin"

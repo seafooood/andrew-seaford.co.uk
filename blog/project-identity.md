@@ -2,6 +2,8 @@
 title: "Project Identity Released"
 date: 2025-12-14
 slug: "project-identity-initial-released"
+authors: [andrewseaford]
+tags: [vs-code, extension, developer-tools]
 ---
 
 I’m happy to share that my new extension, Project Identity, is now live on the VS Code Marketplace.

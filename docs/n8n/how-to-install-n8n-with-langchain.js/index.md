@@ -1,3 +1,7 @@
+---
+keywords: [n8n, langchain, docker, pinecone, workflow automation]
+---
+
 # How To Install n8n with Langchain.js
 
 ## Introduction

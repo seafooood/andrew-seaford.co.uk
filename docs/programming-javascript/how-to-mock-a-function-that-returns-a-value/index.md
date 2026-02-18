@@ -1,8 +1,9 @@
 ---
 title: "How To Mock A Function That Returns A Value"
 date: 2025-02-02
-categories: 
+categories:
   - "prog"
+keywords: [jest, mocking, unit-tests, react, testing]
 ---
 
 In this article we are demostrate how to mock a function that returns a value.

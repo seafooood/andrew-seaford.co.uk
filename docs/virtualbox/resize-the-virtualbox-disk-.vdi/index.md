@@ -1,3 +1,7 @@
+---
+keywords: [virtualbox, resize disk, VDI, disk space, VBoxManage]
+---
+
 # Resize the VirtualBox Disk (.vdi)
 
 ## Introduction  

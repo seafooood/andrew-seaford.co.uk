@@ -1,3 +1,7 @@
+---
+keywords: [3d printing, puzzle vase, freecad, flower display, snap-fit design]
+---
+
 # 3D Printed Puzzle Vase for Flowers — Ideal for Lego, Crochet, and Artificial Flower Displays
 
 ## About this item

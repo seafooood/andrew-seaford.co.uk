@@ -1,3 +1,7 @@
+---
+keywords: [postgresql, installation, ubuntu, database, apt]
+---
+
 # How To Install PostgreSQL on Ubuntu
 
 PostgreSQL is a powerful, open-source relational database management system used by developers worldwide. In this tutorial, I’ll walk you through the process of installing PostgreSQL on an Ubuntu system.

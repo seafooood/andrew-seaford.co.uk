@@ -1,8 +1,9 @@
 ---
 title: "Data Validation and Exceptions in C#"
 date: 2013-08-29
-categories: 
+categories:
   - "csharp"
+keywords: [csharp, data-validation, exceptions, try-catch, error-handling]
 ---
 
 The setName funcion demostrates simple data validation on the argument value.

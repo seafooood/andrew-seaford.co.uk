@@ -1,8 +1,9 @@
 ---
 title: "How To Build A Static Page That Refreshes Every 60 Seconds Using NextJs"
 date: 2025-02-02
-categories: 
+categories:
   - "prog"
+keywords: [nextjs, static-generation, revalidate, isr, javascript]
 ---
 
 In this example, we will build a page that is rendered server-side using NextJs. NextJs will be configured to re-render the page every 60 seconds.

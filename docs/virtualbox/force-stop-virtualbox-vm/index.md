@@ -1,3 +1,7 @@
+---
+keywords: [virtualbox, force stop, stuck VM, ubuntu, troubleshooting]
+---
+
 # Force Stopping VirtualBox VM
 
 When working with VirtualBox, you might encounter a frustrating situation where a Virtual Machine (VM) gets stuck in the "stopping" state and becomes unresponsive to normal shutdown commands. This often happens due to the VM becoming unresponsive, the host system running out of memory, VNC connections failing, or normal shutdown commands timing out.

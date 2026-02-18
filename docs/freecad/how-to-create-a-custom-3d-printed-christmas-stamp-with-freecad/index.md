@@ -1,3 +1,7 @@
+---
+keywords: [freecad, 3d printing, christmas stamp, python macro, custom stamp]
+---
+
 # How to Create a Custom 3D-Printed Christmas Stamp with FreeCAD
 
 The holiday season is a time for personal touches and heartfelt gifts. If you're looking for a unique way to decorate your Christmas cards, gift tags, or wrapping paper, a custom-made ink stamp is a fantastic DIY project.

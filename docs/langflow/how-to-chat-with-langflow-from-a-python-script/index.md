@@ -1,3 +1,7 @@
+---
+keywords: [langflow, python, chat API, session management, AI workflow]
+---
+
 # How To Chat With Langflow From A Python Script
 
 ## Introduction

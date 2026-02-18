@@ -1,3 +1,7 @@
+---
+keywords: [flask, JWT authentication, python, API security, token-based auth]
+---
+
 # How To Secure A Flask Python Application
 
 ## Introduction

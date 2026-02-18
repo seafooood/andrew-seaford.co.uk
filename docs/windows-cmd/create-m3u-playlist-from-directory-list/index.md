@@ -1,9 +1,10 @@
 ---
 title: "Create m3u playlist from directory list"
+keywords: [windows cmd, m3u playlist, batch script, mp3, directory listing]
 date: 2012-04-20
-categories: 
+categories:
   - "command-scripts"
-tags: 
+tags:
   - "create"
   - "generate"
   - "iterate-folders"

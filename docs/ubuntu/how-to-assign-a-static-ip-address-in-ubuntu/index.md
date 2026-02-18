@@ -1,3 +1,7 @@
+---
+keywords: [ubuntu, static IP, netplan, network configuration, linux]
+---
+
 # How To Assign A Static Ip Address in Ubuntu
 
 ## Step 1. Identify Your Network Interface

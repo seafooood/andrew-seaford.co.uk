@@ -1,3 +1,7 @@
+---
+keywords: [django, unit testing, TestCase, python, test framework]
+---
+
 # How to Unit Test in Django
 
 Django's test framework extends unittest.TestCase with django.test.TestCase, providing additional features like:

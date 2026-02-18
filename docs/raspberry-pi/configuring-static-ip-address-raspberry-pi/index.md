@@ -1,15 +1,16 @@
 ---
 title: "Configuring a Static IP Address on the Raspberry Pi"
 date: 2017-02-02
-categories: 
+categories:
   - "piwars2017"
-tags: 
+tags:
   - "linux"
   - "networking"
   - "piwars2017"
   - "raspberry-pi"
   - "wifi"
   - "wlan0"
+keywords: [raspberry-pi, networking, static-ip, dhcp, linux]
 ---
 
 A static IP address will ensure that the Raspberry Pi will always have the same IP address. Without a static IP address the DHCP service on your router will randomly assign IP addresses from its IP range. A fixed IP address will make it easier to remotely connect to the Raspberry Pi.

@@ -1,7 +1,8 @@
 ---
 title: "Free Disk Space Inno"
+keywords: [inno setup, disk space label, wizard page, installer script]
 date: 2015-02-23
-categories: 
+categories:
   - "inno"
 ---
 

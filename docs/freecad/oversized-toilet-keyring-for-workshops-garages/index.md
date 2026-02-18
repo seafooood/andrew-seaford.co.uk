@@ -1,3 +1,7 @@
+---
+keywords: [3d printing, keyring, freecad, workshop accessories, spanner design]
+---
+
 # Oversized "TOILET" Keyring for Workshops & Garages
 
 This is a large, spanner-shaped keyring designed specifically for the essential keys that always seem to go missing in a busy shared environment like a garage or workshop. Clearly and humorously labeled "TOILET," this keyring is a practical and robust solution to a common problem.

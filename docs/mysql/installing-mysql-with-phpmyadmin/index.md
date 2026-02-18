@@ -1,3 +1,7 @@
+---
+keywords: [mysql, phpmyadmin, lamp stack, ubuntu, tasksel]
+---
+
 # Installing MySQL with phpMyAdmin
 
 The fastest way to get started is to install LAMP using tasksel. Tasksel is a Debian/Ubuntu tool that installs multiple related packages as a co-ordinated “task” onto your system.

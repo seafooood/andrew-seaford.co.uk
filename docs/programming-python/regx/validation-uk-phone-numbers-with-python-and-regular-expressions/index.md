@@ -1,8 +1,9 @@
 ---
 title: "Validation UK Phone Numbers With Python and Regular Expressions"
 date: 2025-02-02
-categories: 
+categories:
   - "prog"
+keywords: [python, regex, validation, phone-numbers, uk]
 ---
 
 To validate phone numbers, we need to consider the common formats for UK phone numbers. Generally, UK phone numbers have the following characteristics:

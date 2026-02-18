@@ -2,6 +2,8 @@
 title: "3D Printed Puzzle Vase"
 date: 2026-02-15
 slug: "3d-printed-puzzle-vase"
+authors: [andrewseaford]
+tags: [3d-printing, freecad, design]
 ---
 
 I designed and 3D printed a snap-together puzzle vase that holds 21 flowers. It's made from 15 interlocking pieces — no glue or tools needed — and can be printed in any colour to match your decor. Perfect for displaying Lego flowers, crochet flowers, or artificial blooms.

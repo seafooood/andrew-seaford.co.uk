@@ -1,3 +1,7 @@
+---
+keywords: [django, project setup, python, web framework, getting started]
+---
+
 # How to Start a Django Project
 
 Django is a high-level web framework that promotes rapid development and clean, pragmatic design. It follows the "batteries-included" philosophy, providing built-in tools for authentication, ORM, admin interfaces, and more.

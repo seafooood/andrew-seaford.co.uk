@@ -1,3 +1,7 @@
+---
+keywords: [django, user authentication, login, password reset, python]
+---
+
 # Creating a Django Site With User Authentication
 
 This tutorial explains how to create a Django web application with user authentication, including public and restricted areas, user creation, login, password reset, password change, and user removal.

@@ -1,5 +1,6 @@
 ---
 title: "How To Find WooCommerce Consumer Key and Secret"
+keywords: [woocommerce, consumer key, API credentials, REST API, wordpress]
 date: 2023-09-23
 ---
 

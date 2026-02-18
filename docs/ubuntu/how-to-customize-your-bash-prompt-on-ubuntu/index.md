@@ -1,3 +1,7 @@
+---
+keywords: [ubuntu, bash prompt, PS1, terminal customization, bashrc]
+---
+
 # How to Customize Your Bash Prompt on Ubuntu
 
 ## Introduction

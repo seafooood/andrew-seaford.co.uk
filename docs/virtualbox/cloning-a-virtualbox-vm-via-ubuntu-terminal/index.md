@@ -1,4 +1,8 @@
-# Cloning a VirtualBox VM via Ubuntu Terminal  
+---
+keywords: [virtualbox, clone VM, ubuntu terminal, VBoxManage, virtual machine]
+---
+
+# Cloning a VirtualBox VM via Ubuntu Terminal
 
 ## Introduction  
 

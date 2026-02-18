@@ -1,3 +1,7 @@
+---
+keywords: [ubuntu, hostname, hostnamectl, network configuration]
+---
+
 # How To Change Hostname In Ubuntu
 
 To change the hostname in Ubuntu, follow these steps:

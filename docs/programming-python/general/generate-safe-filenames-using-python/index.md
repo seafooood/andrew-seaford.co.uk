@@ -1,11 +1,12 @@
 ---
 title: "Generate safe filenames using Python"
 date: 2013-02-08
-categories: 
+categories:
   - "python"
-tags: 
+tags:
   - "operating-system"
   - "python-2"
+keywords: [python, filename, sanitization, string-filtering, filesystem]
 ---
 
 This function removes illegal  characters to create file names that are safe to use on most operating systems.

@@ -1,3 +1,7 @@
+---
+keywords: [docker, troubleshooting, delete image, stopped container, ubuntu]
+---
+
 # Troubleshooting: Unable to Delete a Docker Image Used by a Stopped Container on Ubuntu
 
 ## Introduction

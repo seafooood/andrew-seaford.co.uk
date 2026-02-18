@@ -1,3 +1,8 @@
+---
+title: "How To Create a Log in Python 3"
+keywords: [python, logging, debugging, log-files, python3]
+---
+
 # How To Create a Log in Python 3
 
 In this article, we will add logging to a simple Python script.

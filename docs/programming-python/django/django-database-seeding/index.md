@@ -1,3 +1,7 @@
+---
+keywords: [django, database seeding, management command, docker, fixtures]
+---
+
 # Django Database Seeding
 
 Create a fresh database on start Django application and seed it with default data is a common and recommended practice for ensuring a consistent development and testing environment. You can achieve this by creating a script that runs when your Docker container starts, which will handle the database setup and data seeding.

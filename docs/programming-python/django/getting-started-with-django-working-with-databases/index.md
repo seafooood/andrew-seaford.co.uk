@@ -1,3 +1,7 @@
+---
+keywords: [django, database, ORM, models, python]
+---
+
 # Getting Started with Django - Working with Databases
 
 Django is a powerful web framework that makes it easy to work with databases using its built-in ORM (Object-Relational Mapping) system. In this guide, we'll walk through database operations for a bookshop application, covering table creation, data insertion, querying, deletion, and modification.

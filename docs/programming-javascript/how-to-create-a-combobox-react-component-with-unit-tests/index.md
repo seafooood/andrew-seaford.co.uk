@@ -1,8 +1,9 @@
 ---
 title: "How To Create a Combobox React Component With Unit Tests"
 date: 2025-02-02
-categories: 
+categories:
   - "prog"
+keywords: [react, combobox, unit-tests, components, testing]
 ---
 
 In this article we will create a React component that displays a Combobox. The values of the combobox are set from an array. We will also create unit test to confirm the components functionality.

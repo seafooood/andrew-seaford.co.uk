@@ -1,8 +1,9 @@
 ---
 title: "Simple C# LINQ example"
 date: 2013-08-28
-categories: 
+categories:
   - "csharp"
+keywords: [csharp, linq, query-syntax, collections, filtering]
 ---
 
 The LINQ example below creates a generic collection of the class Car. Then using a LINQ statement the collection is filtered to find cars that are newer than 2009.

@@ -1,3 +1,7 @@
+---
+keywords: [n8n, code node, read file, text processing, workflow automation]
+---
+
 # Code Node - Read Text File
 
 This n8n code node reads a file from a previous node and outputs an array of lines from that file. It is particularly useful for processing text files line-by-line in a workflow.

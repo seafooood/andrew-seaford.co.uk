@@ -1,3 +1,7 @@
+---
+keywords: [windows cmd, command prompt, hide path, customize prompt, tutorial]
+---
+
 # How To Hide Address In Prompt On Windows
 
 

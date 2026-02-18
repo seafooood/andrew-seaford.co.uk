@@ -1,11 +1,12 @@
 ---
 title: "How To Change The Label Font in TKinter"
 date: 2022-10-19
-categories: 
+categories:
   - "prog"
   - "python"
-tags: 
+tags:
   - "python-2"
+keywords: [tkinter, python, gui, font, label]
 ---
 
 The font attribute of the label widget can be used to change the font style and size.

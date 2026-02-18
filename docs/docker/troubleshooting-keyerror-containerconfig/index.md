@@ -1,3 +1,7 @@
+---
+keywords: [docker, troubleshooting, KeyError, ContainerConfig, docker-compose]
+---
+
 # Troubleshooting the Docker KeyError 'ContainerConfig' on Ubuntu
 
 ## Introduction

@@ -1,3 +1,7 @@
+---
+keywords: [gitlab, installation, ubuntu, docker, devops]
+---
+
 # Installing GitLab on Ubuntu
 
 ## Introduction

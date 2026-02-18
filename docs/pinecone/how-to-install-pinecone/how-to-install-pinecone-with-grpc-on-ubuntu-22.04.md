@@ -1,3 +1,7 @@
+---
+keywords: [pinecone, grpc, installation, ubuntu, vector database]
+---
+
 # How To Install Pinecone with GRPC on Ubuntu 22.04
 
 ## Introduction

@@ -1,3 +1,7 @@
+---
+keywords: [hugo, installation, ubuntu, static site generator, snap]
+---
+
 # Installing Hugo on Ubuntu
 
 In this guide, we are going to install Hugo on a server running Ubuntu version 22.04.

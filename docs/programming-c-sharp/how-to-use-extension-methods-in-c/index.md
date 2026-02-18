@@ -1,8 +1,9 @@
 ---
 title: "How To Use Extension Methods in C#"
 date: 2023-04-25
-categories: 
+categories:
   - "csharp"
+keywords: [csharp, extension-methods, static-methods, linq, code-reuse]
 ---
 
 Extension Methods can extend any type with additional methods  

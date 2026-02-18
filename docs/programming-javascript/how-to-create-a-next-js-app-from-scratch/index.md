@@ -1,8 +1,9 @@
 ---
 title: "How To Create a Next JS App From Scratch"
 date: 2025-02-02
-categories: 
+categories:
   - "prog"
+keywords: [nextjs, setup, javascript, react, tutorial]
 ---
 
 ## Procedure

@@ -1,13 +1,14 @@
 ---
 title: "Oracle Insert Date"
 date: 2014-07-22
-categories: 
+categories:
   - "oracle"
-tags: 
+tags:
   - "insert"
   - "oracle-2"
   - "sql"
   - "to_date"
+keywords: [oracle, sql, date, insert, to_date]
 ---
 
 A simple SQL example of using the To\_Date function to format a date.

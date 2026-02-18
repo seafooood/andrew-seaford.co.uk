@@ -1,5 +1,6 @@
 ---
 title: "Ubuntu 12.4 Enable SSH Service"
+keywords: [ubuntu, ssh, openssh-server, remote access, linux]
 date: 2019-05-01
 ---
 

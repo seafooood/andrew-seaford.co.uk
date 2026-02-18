@@ -1,3 +1,7 @@
+---
+keywords: [flameshot, screenshot tool, ubuntu, installation, screen capture]
+---
+
 # How To Install Flameshot
 
 ## Introduction

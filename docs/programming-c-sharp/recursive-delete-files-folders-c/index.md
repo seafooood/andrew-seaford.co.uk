@@ -1,8 +1,9 @@
 ---
 title: "Recursive delete files and folders using C#"
 date: 2012-01-18
-categories: 
+categories:
   - "csharp"
+keywords: [csharp, file-deletion, recursion, directory-operations, file-io]
 ---
 
 This function will Recursively delete all files and folders.

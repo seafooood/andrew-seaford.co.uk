@@ -1,3 +1,7 @@
+---
+keywords: [pinecone, list vectors, python, namespace, vector database]
+---
+
 # How To List Pinecone Vectors
 
 In this article, we will develop a Python script that can list all of the Vectors in a Pinecone namspace. In this example, we are going to list all of the vectors in index "langchain-test-index3", namespace "TestOne".

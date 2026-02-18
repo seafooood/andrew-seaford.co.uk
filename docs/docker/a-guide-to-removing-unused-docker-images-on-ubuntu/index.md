@@ -1,3 +1,7 @@
+---
+keywords: [docker, remove images, ubuntu, disk space, dangling images]
+---
+
 # A Guide to Removing Unused Docker Images on Ubuntu
 
 If you frequently work with Docker on your **Ubuntu** system, you've likely accumulated a number of Docker images. While these images are essential for running containers, they can take up a significant amount of disk space over time, especially unused or "dangling" images left over from previous builds. This guide will walk you through a simple and effective way to clean up your system and remove any Docker images that are no longer in use.

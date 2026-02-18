@@ -1,9 +1,10 @@
 ---
 title: "Marlinfw Homing Direction"
+keywords: [cnc milling, marlin firmware, homing direction, configuration, endstop]
 date: 2019-01-23
-categories: 
+categories:
   - "cnc-mill"
-tags: 
+tags:
   - "cnc"
   - "marlin"
   - "marlinfw"

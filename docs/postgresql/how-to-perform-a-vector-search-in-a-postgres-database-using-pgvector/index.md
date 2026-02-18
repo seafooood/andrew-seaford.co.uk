@@ -1,3 +1,7 @@
+---
+keywords: [postgresql, pgvector, vector search, embeddings, similarity search]
+---
+
 # How To Perform a Vector Search in A Postgres Database using pgvector
 
 ### Step 1: Create the Table

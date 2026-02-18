@@ -2,6 +2,8 @@
 title: "FOD Detection System"
 date: 2012-06-04
 slug: "press"
+authors: [andrewseaford]
+tags: [aviation, safety, entrepreneurship]
 ---
 
 A Bradford student is launching a business venture which he hopes will help prevent deaths from plane crashes and save the airline industry billions of pounds.

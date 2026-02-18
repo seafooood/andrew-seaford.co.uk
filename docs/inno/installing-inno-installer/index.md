@@ -1,7 +1,8 @@
 ---
 title: "Installing Inno Installer"
+keywords: [inno setup, installation, windows installer, setup wizard]
 date: 2015-01-05
-categories: 
+categories:
   - "inno"
 ---
 

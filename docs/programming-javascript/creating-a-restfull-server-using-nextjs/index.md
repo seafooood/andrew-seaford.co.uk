@@ -1,8 +1,9 @@
 ---
 title: "Creating a Restfull Server Using NextJs"
 date: 2025-02-02
-categories: 
+categories:
   - "prog"
+keywords: [nextjs, rest-api, javascript, api-routes, backend]
 ---
 
 ## Description

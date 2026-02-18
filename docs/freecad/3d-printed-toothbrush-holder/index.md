@@ -1,7 +1,8 @@
 ---
 title: "3D Printed Toothbrush Holder"
+keywords: [3d printing, toothbrush holder, freecad, stl model]
 date: 2016-12-07
-categories: 
+categories:
   - "3d-printing"
 ---
 

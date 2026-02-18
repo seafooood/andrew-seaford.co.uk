@@ -1,3 +1,7 @@
+---
+keywords: [vs code, new tab, preview mode, settings, editor configuration]
+---
+
 # How To Force VS Code To Open Files In A New Tab
 
 To force VS Code to open every file in a new tab (instead of reusing the same preview tab), you need to disable preview mode. Here’s how:

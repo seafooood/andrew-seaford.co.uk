@@ -1,7 +1,8 @@
 ---
 title: "How To Unit Test a Flask Restful Post Endpoint Using Python"
+keywords: [flask, unit testing, REST API, POST endpoint, python]
 date: 2025-02-02
-categories: 
+categories:
   - "prog"
   - "python"
 ---

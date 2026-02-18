@@ -1,12 +1,13 @@
 ---
 title: "Displaying An Image With Python Tkinter"
 date: 2022-10-11
-categories: 
+categories:
   - "python"
-tags: 
+tags:
   - "code"
   - "programming"
   - "python-2"
+keywords: [tkinter, python, gui, image, widget]
 ---
 
 The aim of the tutorial is to display an image using Tkinter. The image will change when a button is pressed.

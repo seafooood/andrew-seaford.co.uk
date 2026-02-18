@@ -1,8 +1,9 @@
 ---
 title: "Gaussian image smoothing using OpenCV"
 date: 2012-07-09
-categories: 
+categories:
   - "digital-image-processing"
+keywords: [opencv, gaussian-blur, image-smoothing, noise-reduction, image-processing]
 ---
 
 Image smoothing is often used in digital image processing to reduce noise or camera artifacts. An example of a common algortihm used to perform image smoothing is Gaussian. Gaussian filtering is done by convolving each pixel in the input image with a Gaussian Kernal and then summing to produce the output image.

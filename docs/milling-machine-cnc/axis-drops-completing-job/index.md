@@ -1,7 +1,8 @@
 ---
 title: "Z Axis drops after completing job"
+keywords: [cnc milling, z axis, marlin firmware, stepper motor, troubleshooting]
 date: 2019-02-02
-categories: 
+categories:
   - "cnc-mill"
 ---
 

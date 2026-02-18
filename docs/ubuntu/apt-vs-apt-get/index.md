@@ -1,4 +1,8 @@
-# Apt vs Apt-get Commands on Ubuntu 
+---
+keywords: [ubuntu, apt, apt-get, package management, debian]
+---
+
+# Apt vs Apt-get Commands on Ubuntu
 
 ## Introduction
 

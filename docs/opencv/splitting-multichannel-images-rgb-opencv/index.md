@@ -1,14 +1,15 @@
 ---
 title: "Splitting multichannel images into RGB using OpenCV"
 date: 2012-07-13
-categories: 
+categories:
   - "digital-image-processing"
-tags: 
+tags:
   - "cvsplit"
   - "image-processing"
   - "machine-vision"
   - "open-cv"
   - "opencv"
+keywords: [opencv, rgb-channels, channel-separation, image-processing, c++]
 ---
 
 To separate a multi channel image into the three component RGB channels, we can use the cvSplit function. The example below opens a RGB image and then using the cvSplit function creates three output images.

@@ -1,8 +1,9 @@
 ---
 title: "Convert a url data in to Name Value Pairs array PHP"
 date: 2013-08-29
-categories: 
+categories:
   - "php"
+keywords: [php, url, parsing, name-value-pairs, query-string]
 ---
 
 Convert a url data in to Name Value Pairs array.

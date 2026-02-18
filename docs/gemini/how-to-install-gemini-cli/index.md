@@ -1,3 +1,7 @@
+---
+keywords: [gemini cli, installation, ubuntu, nodejs, npm]
+---
+
 # How To Install Gemini Cli on Ubunutu
 
 ## Install Procedure

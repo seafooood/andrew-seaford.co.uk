@@ -1,3 +1,7 @@
+---
+keywords: [virtualbox, ISO image, DVD attachment, virtual machine, VBoxManage]
+---
+
 # Attaching a DVD ISO Image in VirtualBox
 
 When working with VirtualBox, you'll often need to attach a DVD ISO image to a virtual machine. This could be for installing an operating system, using a live CD for troubleshooting, or running software from a disk image.

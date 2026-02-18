@@ -1,9 +1,10 @@
 ---
 title: "How To Read Settings From .env File Using Python Dotenv Module"
 date: 2025-02-01
-categories: 
+categories:
   - "prog"
   - "python"
+keywords: [python, dotenv, environment-variables, configuration, settings]
 ---
 
 The Dotenv Python module provides an easy way to read settings from a .env file.

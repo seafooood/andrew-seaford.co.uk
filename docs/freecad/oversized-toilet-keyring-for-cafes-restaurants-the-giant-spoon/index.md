@@ -1,3 +1,7 @@
+---
+keywords: [3d printing, keyring, freecad, cafe accessories, toilet key]
+---
+
 # Oversized "TOILET" Keyring for Cafes & Restaurants (The Giant Spoon)
 
 This is a classic and humorous solution to one of the most persistent problems in any cafe or restaurant: the wandering restroom key. Labeled clearly with the word "TOILET," this giant spoon keyring is the perfect blend of form, function, and fun for any hospitality business.

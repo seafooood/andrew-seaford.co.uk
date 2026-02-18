@@ -1,8 +1,9 @@
 ---
 title: "Adding days to a DateTime in C#"
 date: 2013-08-28
-categories: 
+categories:
   - "csharp"
+keywords: [csharp, datetime, date-manipulation, adddays, dotnet]
 ---
 
 Add seven days to the current time.

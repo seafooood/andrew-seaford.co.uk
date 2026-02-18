@@ -1,8 +1,9 @@
 ---
 title: "Reading a file with C#"
 date: 2013-08-28
-categories: 
+categories:
   - "csharp"
+keywords: [csharp, file-io, streamreader, file-reading, dotnet]
 ---
 
 Reading a text file line by line in C#. Dont forget to include using System.IO;

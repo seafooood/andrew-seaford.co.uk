@@ -1,8 +1,9 @@
 ---
 title: "Explicit Conversion of a string to Integer using c#"
 date: 2013-08-28
-categories: 
+categories:
   - "csharp"
+keywords: [csharp, conversion, parsing, type-casting, int-parse]
 ---
 
 Explicit Conversion of a string to Integer, sometimes known as cast.

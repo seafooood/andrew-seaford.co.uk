@@ -1,3 +1,7 @@
+---
+keywords: [virtualbox, guest additions, ubuntu, virtual machine, VNC]
+---
+
 # Installing VirtualBox Guest Additions in Ubuntu Guest Virtual Machine
 
 ## Introduction  

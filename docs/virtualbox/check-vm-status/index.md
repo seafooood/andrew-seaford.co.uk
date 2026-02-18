@@ -1,3 +1,7 @@
+---
+keywords: [virtualbox, VM monitoring, auto restart, cron job, ubuntu]
+---
+
 # How to Automatically Check and Restart a VirtualBox VM on Ubuntu
 
 ## Introduction

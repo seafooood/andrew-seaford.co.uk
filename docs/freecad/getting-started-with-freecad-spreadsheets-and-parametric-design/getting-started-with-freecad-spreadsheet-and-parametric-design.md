@@ -1,3 +1,7 @@
+---
+keywords: [freecad, parametric design, spreadsheet, 3d modeling, tutorial]
+---
+
 # Getting Started With FreeCAD: Spreadsheets and Parametric Design
 
 ## Introduction

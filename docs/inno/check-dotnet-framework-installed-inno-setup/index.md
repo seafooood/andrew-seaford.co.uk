@@ -1,7 +1,8 @@
 ---
 title: "Check DotNet Framework is installed during Inno Setup"
+keywords: [inno setup, dotnet framework, prerequisite check, installer, pascal script]
 date: 2015-02-23
-categories: 
+categories:
   - "inno"
 ---
 
