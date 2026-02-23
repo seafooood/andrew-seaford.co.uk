@@ -43,6 +43,11 @@
       "permanent": true
     },
     {
+      "source": "/category/prog/digital-image-processing",
+      "destination": "/docs/opencv/opencv-world",
+      "permanent": true
+    },
+    {
       "source": "/configuring-static-ip-address-raspberry-pi",
       "destination": "/docs/raspberry-pi/configuring-static-ip-address-raspberry-pi",
       "permanent": true
@@ -88,6 +93,11 @@
       "permanent": true
     },
     {
+      "source": "/create-m3u-playlist-from-directory-list/trackback",
+      "destination": "/create-m3u-playlist-from-directory-list",
+      "permanent": true
+    },
+    {
       "source": "/creating-a-restfull-server-using-nextjs",
       "destination": "/docs/programming-javascript/creating-a-restfull-server-using-nextjs",
       "permanent": true
@@ -100,6 +110,11 @@
     {
       "source": "/csharp-type-checking-statement",
       "destination": "/docs/programming-c-sharp/csharp-type-checking-statement",
+      "permanent": true
+    },
+    {
+      "source": "/custom-",
+      "destination": "/docs/claude/claude-code-notification-sounds",
       "permanent": true
     },
     {
@@ -173,6 +188,11 @@
       "permanent": true
     },
     {
+      "source": "/generate-safe-filenames-using-py",
+      "destination": "/docs/programming-python/general/generate-safe-filenames-using-python",
+      "permanent": true
+    },
+    {
       "source": "/how-to-access-sqlite3-database-using-python",
       "destination": "/docs/programming-python/sqllite/how-to-access-sqlite3-database-using-python",
       "permanent": true
@@ -180,6 +200,11 @@
     {
       "source": "/how-to-build-a-static-page-that-refreshes-every-60-seconds-using-nextjs",
       "destination": "/docs/programming-javascript/how-to-build-a-static-page-that-refreshes-every-60-seconds-using-nextjs",
+      "permanent": true
+    },
+    {
+      "source": "/how-to-build-a-static-page-that-refreshes-every-60-seconds-using-nextjs/trackback",
+      "destination": "/how-to-build-a-static-page-that-refreshes-every-60-seconds-using-nextjs",
       "permanent": true
     },
     {
@@ -278,6 +303,11 @@
       "permanent": true
     },
     {
+      "source": "/my-first-3d-printing",
+      "destination": "/docs/freecad/3d-printed-puzzle-vase-for-flowers",
+      "permanent": true
+    },
+    {
       "source": "/opencv-csharp-wpf-application",
       "destination": "/docs/opencv/opencv-csharp-wpf-application",
       "permanent": true
@@ -360,6 +390,11 @@
     {
       "source": "/threshold-image-opencv",
       "destination": "/docs/opencv/threshold-image-opencv",
+      "permanent": true
+    },
+    {
+      "source": "/tag/m3u-playlist",
+      "destination": "/create-m3u-playlist-from-directory-list",
       "permanent": true
     },
     {
