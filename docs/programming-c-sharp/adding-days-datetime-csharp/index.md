@@ -32,3 +32,11 @@ DateTime start = new DateTime(1984, 01, 23, 01, 02, 03);
 ## Related Files
 
 -   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/programming-c-sharp/adding-days-datetime-csharp](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/programming-c-sharp/adding-days-datetime-csharp)
+
+## C# Related Articles
+
+- [C# Open File Dialog](../c-open-file-dialog/index.md)
+- [Create arraylist](../create-arraylist/index.md)
+- [Create a autocompleting textbox using C#](../create-autocompleting-textbox-c/index.md)
+- [C# class properties](../csharp-class-properties/index.md)
+- [C# type checking with the is statement](../csharp-type-checking-statement/index.md)

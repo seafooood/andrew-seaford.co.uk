@@ -57,3 +57,11 @@ docker-compose up -d
 ## Related Files
 
 -   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/n8n/how-to-install-n8n-with-langchain.js](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/n8n/how-to-install-n8n-with-langchain.js)
+
+## N8N Related Articles
+
+- [Code Node - JsProxy to Python](../code-node-jsproxy-to-python/index.md)
+- [Code Node - Read Text File](../code-node-read-text-file/index.md)
+- [How To Chat With Langflow From A Python Script](../../langflow/how-to-chat-with-langflow-from-a-python-script/index.md)
+- [How To Enable Logging In Langflow](../../langflow/how-to-enable-logging-in-langflow/index.md)
+- [How To Install Langflow on Ubuntu Using Docker](../../langflow/how-to-install-langflow-on-ubuntu-using-docker/index.md)

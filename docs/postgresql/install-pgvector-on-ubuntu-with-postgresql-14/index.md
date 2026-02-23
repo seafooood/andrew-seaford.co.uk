@@ -61,3 +61,11 @@ select * from pg_extension;
 ## Related Files
 
 -   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/postgresql/install-pgvector-on-ubuntu-with-postgresql-14](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/postgresql/install-pgvector-on-ubuntu-with-postgresql-14)
+
+## PostgreSQL Related Articles
+
+- [How To Perform a Vector Search in A Postgres Database using pgvector](../how-to-perform-a-vector-search-in-a-postgres-database-using-pgvector/index.md)
+- [How To List Pinecone Vectors](../../pinecone/how-to-list-pinecone-vectors/index.md)
+- [Apt vs Apt-get Commands on Ubuntu](../../ubuntu/apt-vs-apt-get/index.md)
+- [Disk Cleanup Ubuntu](../../ubuntu/disk-cleanup-ubuntu/index.md)
+- [How To Assign A Static Ip Address in Ubuntu](../../ubuntu/how-to-assign-a-static-ip-address-in-ubuntu/index.md)

@@ -106,3 +106,10 @@ sudo docker compose pull
 sudo docker compose up -d
 ```
 
+## GitLab Related Articles
+
+- [How to Set Up GitHub Actions to Automatically Run npm test](../../github/how-to-set-up-github-actions-to-automatically-run-npm-test/index.md)
+- [How to Set Up GitHub Actions to Automatically Run Pytests](../../github/how-to-set-up-github-actions-to-automatically-run-pytests/index.md)
+- [Apt vs Apt-get Commands on Ubuntu](../../ubuntu/apt-vs-apt-get/index.md)
+- [Disk Cleanup Ubuntu](../../ubuntu/disk-cleanup-ubuntu/index.md)
+- [How To Assign A Static Ip Address in Ubuntu](../../ubuntu/how-to-assign-a-static-ip-address-in-ubuntu/index.md)

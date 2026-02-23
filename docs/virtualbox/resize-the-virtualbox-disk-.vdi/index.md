@@ -153,3 +153,11 @@ tmpfs                              794M  4.0K  794M   1% /run/user/1000
 ## Related Files
 
 -   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/virtualbox/resize-the-virtualbox-disk-.vdi)](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/virtualbox/resize-the-virtualbox-disk-.vdi))
+
+## VirtualBox Related Articles
+
+- [Attaching a DVD ISO Image in VirtualBox](../attaching-a-dvd-iso-image-in-virtualbox/index.md)
+- [How to Automatically Check and Restart a VirtualBox VM on Ubuntu](../check-vm-status/index.md)
+- [Cloning a VirtualBox VM via Ubuntu Terminal](../cloning-a-virtualbox-vm-via-ubuntu-terminal/index.md)
+- [Finding VM Disk Location](../finding-vm-disk-location/index.md)
+- [Force Stopping VirtualBox VM](../force-stop-virtualbox-vm/index.md)

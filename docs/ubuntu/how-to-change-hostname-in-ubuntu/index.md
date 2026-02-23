@@ -44,3 +44,11 @@ sudo reboot
 ## Related Files
 
 -   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/ubuntu/how-to-change-hostname-in-ubuntu](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/ubuntu/how-to-change-hostname-in-ubuntu)
+
+## Ubuntu Related Articles
+
+- [Apt vs Apt-get Commands on Ubuntu](../apt-vs-apt-get/index.md)
+- [Disk Cleanup Ubuntu](../disk-cleanup-ubuntu/index.md)
+- [How To Assign A Static Ip Address in Ubuntu](../how-to-assign-a-static-ip-address-in-ubuntu/index.md)
+- [How to Customize Your Bash Prompt on Ubuntu](../how-to-customize-your-bash-prompt-on-ubuntu/index.md)
+- [Ubuntu 12.4 Enable SSH Service](../ubuntu-12-4-enable-ssh-service/index.md)

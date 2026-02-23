@@ -57,3 +57,11 @@ This isn't just a keyring; it's a practical key management solution. By making t
 ## Related Files
 
 -   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/freecad/oversized-toilet-keyring-for-workshops-garages](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/freecad/oversized-toilet-keyring-for-workshops-garages)
+
+## FreeCAD Related Articles
+
+- [3D Printed Puzzle Vase for Flowers — Ideal for Lego, Crochet, and Artificial Flower Displays](../3d-printed-puzzle-vase-for-flowers/index.md)
+- [3D Printed Toothbrush Holder](../3d-printed-toothbrush-holder/index.md)
+- [How to Create a Custom 3D-Printed Christmas Stamp with FreeCAD](../how-to-create-a-custom-3d-printed-christmas-stamp-with-freecad/index.md)
+- [Oversized "TOILET" Keyring for Cafes & Restaurants (The Giant Spoon)](../oversized-toilet-keyring-for-cafes-restaurants-the-giant-spoon/index.md)
+- [Z Axis drops after completing job](../../milling-machine-cnc/axis-drops-completing-job/index.md)

@@ -34,3 +34,11 @@ The Z home value was -1 and has been changed to 1.
 ## Related Files
 
 -   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/milling-machine-cnc/marlinfw-homing-direction](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/milling-machine-cnc/marlinfw-homing-direction)
+
+## CNC Related Articles
+
+- [Z Axis drops after completing job](../axis-drops-completing-job/index.md)
+- [Reporting endstop status](../reporting-endstop-status/index.md)
+- [Simple Box G Code](../simple-box-code/index.md)
+- [3D Printed Puzzle Vase for Flowers — Ideal for Lego, Crochet, and Artificial Flower Displays](../../freecad/3d-printed-puzzle-vase-for-flowers/index.md)
+- [3D Printed Toothbrush Holder](../../freecad/3d-printed-toothbrush-holder/index.md)

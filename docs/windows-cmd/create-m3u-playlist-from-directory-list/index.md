@@ -27,3 +27,11 @@ Next save the file as create-playlist.cmd. To execute place the command script i
 ## Related Files
 
 -   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/windows-cmd/create-m3u-playlist-from-directory-list](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/windows-cmd/create-m3u-playlist-from-directory-list)
+
+## Windows Related Articles
+
+- [Backup Oracle database with Windows Batch Script](../../oracle/backup-oracle-database/index.md)
+- [Oracle Insert Date](../../oracle/oracle-insert-date/index.md)
+- [Adding days to a DateTime in C#](../../programming-c-sharp/adding-days-datetime-csharp/index.md)
+- [C# Open File Dialog](../../programming-c-sharp/c-open-file-dialog/index.md)
+- [Create arraylist](../../programming-c-sharp/create-arraylist/index.md)

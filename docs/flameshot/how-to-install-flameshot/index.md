@@ -55,3 +55,11 @@ Shortcut: Click Set Shortcut, then press the Print key
 ## Related Files
 
 -   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/flameshot/how-to-install-flameshot](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/flameshot/how-to-install-flameshot)
+
+## Related Articles
+
+- [Apt vs Apt-get Commands on Ubuntu](../../ubuntu/apt-vs-apt-get/index.md)
+- [Disk Cleanup Ubuntu](../../ubuntu/disk-cleanup-ubuntu/index.md)
+- [How To Assign A Static Ip Address in Ubuntu](../../ubuntu/how-to-assign-a-static-ip-address-in-ubuntu/index.md)
+- [How To Change Hostname In Ubuntu](../../ubuntu/how-to-change-hostname-in-ubuntu/index.md)
+- [How to Customize Your Bash Prompt on Ubuntu](../../ubuntu/how-to-customize-your-bash-prompt-on-ubuntu/index.md)

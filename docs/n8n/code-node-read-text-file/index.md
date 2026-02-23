@@ -96,3 +96,11 @@ The output will look something like this:
 ## Related Files
 
 -   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/n8n/code-node-read-text-file](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/n8n/code-node-read-text-file)
+
+## N8N Related Articles
+
+- [Code Node - JsProxy to Python](../code-node-jsproxy-to-python/index.md)
+- [How To Install n8n with Langchain.js](../how-to-install-n8n-with-langchain.js/index.md)
+- [How To Chat With Langflow From A Python Script](../../langflow/how-to-chat-with-langflow-from-a-python-script/index.md)
+- [How To Enable Logging In Langflow](../../langflow/how-to-enable-logging-in-langflow/index.md)
+- [How To Install Langflow on Ubuntu Using Docker](../../langflow/how-to-install-langflow-on-ubuntu-using-docker/index.md)

@@ -28,3 +28,11 @@ Both commands achieve the same result—creating a new Django project—but they
 ## Related Files
 
 -   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/programming-python/django/'django-admin-startproject'-vs-'python-m-django-startproject'](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/programming-python/django/'django-admin-startproject'-vs-'python-m-django-startproject')
+
+## Python Related Articles
+
+- [Creating a Django Site With User Authentication](../creating-a-django-site-with-user-authentication/index.md)
+- [Django Database Seeding](../django-database-seeding/index.md)
+- [Getting Started with Django for Flask Developers](../getting-started-with-django-for-flask-developers/index.md)
+- [Getting Started with Django - Working with Databases](../getting-started-with-django-working-with-databases/index.md)
+- [How to Start a Django Project](../how-to-start-a-django-project/index.md)

@@ -137,3 +137,11 @@ Congratulations! You now have an automated system that ensures your VirtualBox V
 ## Related Files
 
 -   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/virtualbox/check-vm-status](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/virtualbox/check-vm-status)
+
+## VirtualBox Related Articles
+
+- [Attaching a DVD ISO Image in VirtualBox](../attaching-a-dvd-iso-image-in-virtualbox/index.md)
+- [Cloning a VirtualBox VM via Ubuntu Terminal](../cloning-a-virtualbox-vm-via-ubuntu-terminal/index.md)
+- [Finding VM Disk Location](../finding-vm-disk-location/index.md)
+- [Force Stopping VirtualBox VM](../force-stop-virtualbox-vm/index.md)
+- [Installing VirtualBox Guest Additions in Ubuntu Guest Virtual Machine](../installing-virtualbox-guest-additions-in-ubuntu-guest-virtual-machine/index.md)

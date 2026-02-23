@@ -32,3 +32,11 @@ exp username/password@xe FILE="c:\backup\%DATESTAMP%\databasename.dmp"
 ## Related Files
 
 -   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/oracle/backup-oracle-database](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/oracle/backup-oracle-database)
+
+## Oracle Related Articles
+
+- [Oracle Insert Date](../oracle-insert-date/index.md)
+- [Installing MySQL with phpMyAdmin](../../mysql/installing-mysql-with-phpmyadmin/index.md)
+- [Create m3u playlist from directory list](../../windows-cmd/create-m3u-playlist-from-directory-list/index.md)
+- [Adding days to a DateTime in C#](../../programming-c-sharp/adding-days-datetime-csharp/index.md)
+- [C# Open File Dialog](../../programming-c-sharp/c-open-file-dialog/index.md)

@@ -14,3 +14,11 @@ Download installer script [**FreeDiskSpace.iss**](https://github.com/seafooood/a
 ## Related Files
 
 -   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/inno/free-disk-space-inno](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/inno/free-disk-space-inno)
+
+## Inno Setup Related Articles
+
+- [Automatically Get Target Exe Version in Inno](../automatically-target-exe-version-inno/index.md)
+- [Check DotNet Framework is installed during Inno Setup](../check-dotnet-framework-installed-inno-setup/index.md)
+- [Check if a program exists before installing with Inno](../check-program-exists-installing-inno/index.md)
+- [Create empty folders using Inno](../create-empty-folders-inno/index.md)
+- [Customize Inno Setup Installer Images: WizardImageFile Guide](../custom-inno-theme/index.md)

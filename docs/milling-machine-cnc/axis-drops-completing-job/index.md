@@ -27,3 +27,11 @@ categories:
 ## Related Files
 
 -   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/milling-machine-cnc/axis-drops-completing-job](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/milling-machine-cnc/axis-drops-completing-job)
+
+## CNC Related Articles
+
+- [Marlinfw Homing Direction](../marlinfw-homing-direction/index.md)
+- [Reporting endstop status](../reporting-endstop-status/index.md)
+- [Simple Box G Code](../simple-box-code/index.md)
+- [3D Printed Puzzle Vase for Flowers — Ideal for Lego, Crochet, and Artificial Flower Displays](../../freecad/3d-printed-puzzle-vase-for-flowers/index.md)
+- [3D Printed Toothbrush Holder](../../freecad/3d-printed-toothbrush-holder/index.md)

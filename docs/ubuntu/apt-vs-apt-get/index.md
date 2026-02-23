@@ -35,3 +35,11 @@ However, moving forward, it's generally recommended to switch to **`apt`** for y
 ## Related Files
 
 -   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/ubuntu/apt-vs-apt-get](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/ubuntu/apt-vs-apt-get)
+
+## Ubuntu Related Articles
+
+- [Disk Cleanup Ubuntu](../disk-cleanup-ubuntu/index.md)
+- [How To Assign A Static Ip Address in Ubuntu](../how-to-assign-a-static-ip-address-in-ubuntu/index.md)
+- [How To Change Hostname In Ubuntu](../how-to-change-hostname-in-ubuntu/index.md)
+- [How to Customize Your Bash Prompt on Ubuntu](../how-to-customize-your-bash-prompt-on-ubuntu/index.md)
+- [Ubuntu 12.4 Enable SSH Service](../ubuntu-12-4-enable-ssh-service/index.md)

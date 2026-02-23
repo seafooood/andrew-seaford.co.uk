@@ -42,3 +42,11 @@ VBoxManage snapshot "Langflow3" restore "MySnapshotName"
 ## Related Files
 
 -   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/virtualbox/taking-a-virtual-machine-snapshot-via-ubuntu-terminal](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/virtualbox/taking-a-virtual-machine-snapshot-via-ubuntu-terminal)
+
+## VirtualBox Related Articles
+
+- [Attaching a DVD ISO Image in VirtualBox](../attaching-a-dvd-iso-image-in-virtualbox/index.md)
+- [How to Automatically Check and Restart a VirtualBox VM on Ubuntu](../check-vm-status/index.md)
+- [Cloning a VirtualBox VM via Ubuntu Terminal](../cloning-a-virtualbox-vm-via-ubuntu-terminal/index.md)
+- [Finding VM Disk Location](../finding-vm-disk-location/index.md)
+- [Force Stopping VirtualBox VM](../force-stop-virtualbox-vm/index.md)

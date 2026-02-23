@@ -89,3 +89,11 @@ vboxmanage controlvm "Langflow3" acpipowerbutton
 ## Related Files
 
 -   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/virtualbox/cloning-a-virtualbox-vm-via-ubuntu-terminal](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/virtualbox/cloning-a-virtualbox-vm-via-ubuntu-terminal)
+
+## VirtualBox Related Articles
+
+- [Attaching a DVD ISO Image in VirtualBox](../attaching-a-dvd-iso-image-in-virtualbox/index.md)
+- [How to Automatically Check and Restart a VirtualBox VM on Ubuntu](../check-vm-status/index.md)
+- [Finding VM Disk Location](../finding-vm-disk-location/index.md)
+- [Force Stopping VirtualBox VM](../force-stop-virtualbox-vm/index.md)
+- [Installing VirtualBox Guest Additions in Ubuntu Guest Virtual Machine](../installing-virtualbox-guest-additions-in-ubuntu-guest-virtual-machine/index.md)

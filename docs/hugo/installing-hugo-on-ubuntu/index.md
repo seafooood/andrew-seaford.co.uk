@@ -73,3 +73,11 @@ In this guide, we are going to install Hugo on a server running Ubuntu version 2
 ## Related Files
 
 -   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/hugo/installing-hugo-on-ubuntu](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/hugo/installing-hugo-on-ubuntu)
+
+## Hugo Related Articles
+
+- [Apt vs Apt-get Commands on Ubuntu](../../ubuntu/apt-vs-apt-get/index.md)
+- [Disk Cleanup Ubuntu](../../ubuntu/disk-cleanup-ubuntu/index.md)
+- [How To Assign A Static Ip Address in Ubuntu](../../ubuntu/how-to-assign-a-static-ip-address-in-ubuntu/index.md)
+- [How To Change Hostname In Ubuntu](../../ubuntu/how-to-change-hostname-in-ubuntu/index.md)
+- [How to Customize Your Bash Prompt on Ubuntu](../../ubuntu/how-to-customize-your-bash-prompt-on-ubuntu/index.md)

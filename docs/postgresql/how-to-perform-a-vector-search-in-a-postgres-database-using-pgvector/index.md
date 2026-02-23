@@ -163,3 +163,11 @@ Title: Cosmos, Author: Carl Sagan, Distance: 1.1362
 ## Related Files
 
 -   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/postgresql/how-to-perform-a-vector-search-in-a-postgres-database-using-pgvector](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/postgresql/how-to-perform-a-vector-search-in-a-postgres-database-using-pgvector)
+
+## PostgreSQL Related Articles
+
+- [Install pgvector on Ubuntu with PostgreSQL 14](../install-pgvector-on-ubuntu-with-postgresql-14/index.md)
+- [How To List Pinecone Vectors](../../pinecone/how-to-list-pinecone-vectors/index.md)
+- [Apt vs Apt-get Commands on Ubuntu](../../ubuntu/apt-vs-apt-get/index.md)
+- [Disk Cleanup Ubuntu](../../ubuntu/disk-cleanup-ubuntu/index.md)
+- [How To Assign A Static Ip Address in Ubuntu](../../ubuntu/how-to-assign-a-static-ip-address-in-ubuntu/index.md)

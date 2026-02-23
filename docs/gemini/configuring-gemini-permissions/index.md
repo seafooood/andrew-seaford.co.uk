@@ -61,3 +61,11 @@ Any changes you make to the `~/.gemini/settings.json` file will persist across a
 ## Related Files
 
 -   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/gemini/configuring-gemini-permissions](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/gemini/configuring-gemini-permissions)
+
+## Gemini Related Articles
+
+- [How To Install Gemini Cli on Ubunutu](../how-to-install-gemini-cli/index.md)
+- [How To Chat With Langflow From A Python Script](../../langflow/how-to-chat-with-langflow-from-a-python-script/index.md)
+- [How To Enable Logging In Langflow](../../langflow/how-to-enable-logging-in-langflow/index.md)
+- [How To Install Langflow on Ubuntu Using Docker](../../langflow/how-to-install-langflow-on-ubuntu-using-docker/index.md)
+- [How To Install Langflow on Ubuntu Without Docker](../../langflow/how-to-install-langflow-on-ubuntu-without-docker/index.md)

@@ -91,3 +91,11 @@ That's it! The workflow is now active. It will automatically run on your next pu
 ## Related Files
 
 -   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/github/how-to-set-up-github-actions-to-automatically-run-pytests](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/github/how-to-set-up-github-actions-to-automatically-run-pytests)
+
+## GitHub Related Articles
+
+- [How to Set Up GitHub Actions to Automatically Run npm test](../how-to-set-up-github-actions-to-automatically-run-npm-test/index.md)
+- ['django-admin startproject' vs 'python -m django startproject'](../../programming-python/django/'django-admin-startproject'-vs-'python-m-django-startproject'/index.md)
+- [Creating a Django Site With User Authentication](../../programming-python/django/creating-a-django-site-with-user-authentication/index.md)
+- [Django Database Seeding](../../programming-python/django/django-database-seeding/index.md)
+- [Getting Started with Django for Flask Developers](../../programming-python/django/getting-started-with-django-for-flask-developers/index.md)

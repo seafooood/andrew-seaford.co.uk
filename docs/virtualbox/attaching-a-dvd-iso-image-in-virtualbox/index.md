@@ -94,3 +94,11 @@ Whether you prefer a graphical interface or the command line, VirtualBox makes i
 ## Related Files
 
 -   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/virtualbox/attaching-a-dvd-iso-image-in-virtualbox](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/virtualbox/attaching-a-dvd-iso-image-in-virtualbox)
+
+## VirtualBox Related Articles
+
+- [How to Automatically Check and Restart a VirtualBox VM on Ubuntu](../check-vm-status/index.md)
+- [Cloning a VirtualBox VM via Ubuntu Terminal](../cloning-a-virtualbox-vm-via-ubuntu-terminal/index.md)
+- [Finding VM Disk Location](../finding-vm-disk-location/index.md)
+- [Force Stopping VirtualBox VM](../force-stop-virtualbox-vm/index.md)
+- [Installing VirtualBox Guest Additions in Ubuntu Guest Virtual Machine](../installing-virtualbox-guest-additions-in-ubuntu-guest-virtual-machine/index.md)

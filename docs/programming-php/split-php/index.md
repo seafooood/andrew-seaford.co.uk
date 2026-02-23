@@ -33,3 +33,11 @@ function splitname($input)
 ## Related Files
 
 -   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/programming-php/split-php](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/programming-php/split-php)
+
+## PHP Related Articles
+
+- [Convert a date and time to UTC](../convert-date-time-utc/index.md)
+- [Sound Buttons](../sound-buttons/index.md)
+- [Convert a url data in to Name Value Pairs array PHP](../urltonvp/index.md)
+- [Installing MySQL with phpMyAdmin](../../mysql/installing-mysql-with-phpmyadmin/index.md)
+- [How To Find WooCommerce Consumer Key and Secret](../../woocommerce/how-to-find-woocommerce-consumer-key-and-secret/index.md)

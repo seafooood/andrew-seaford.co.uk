@@ -16,3 +16,11 @@ Download the installer script [**IsMyProgramInstalled.iss**](https://github.com/
 ## Related Files
 
 -   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/inno/check-program-exists-installing-inno](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/inno/check-program-exists-installing-inno)
+
+## Inno Setup Related Articles
+
+- [Automatically Get Target Exe Version in Inno](../automatically-target-exe-version-inno/index.md)
+- [Check DotNet Framework is installed during Inno Setup](../check-dotnet-framework-installed-inno-setup/index.md)
+- [Create empty folders using Inno](../create-empty-folders-inno/index.md)
+- [Customize Inno Setup Installer Images: WizardImageFile Guide](../custom-inno-theme/index.md)
+- [Free Disk Space Inno](../free-disk-space-inno/index.md)

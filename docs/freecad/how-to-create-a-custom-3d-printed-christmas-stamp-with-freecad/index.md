@@ -59,3 +59,11 @@ Happy printing, and have a very Merry Christmas!
 ## Related Files
 
 -   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/freecad/how-to-create-a-custom-3d-printed-christmas-stamp-with-freecad](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/freecad/how-to-create-a-custom-3d-printed-christmas-stamp-with-freecad)
+
+## FreeCAD Related Articles
+
+- [3D Printed Puzzle Vase for Flowers — Ideal for Lego, Crochet, and Artificial Flower Displays](../3d-printed-puzzle-vase-for-flowers/index.md)
+- [3D Printed Toothbrush Holder](../3d-printed-toothbrush-holder/index.md)
+- [Oversized "TOILET" Keyring for Cafes & Restaurants (The Giant Spoon)](../oversized-toilet-keyring-for-cafes-restaurants-the-giant-spoon/index.md)
+- [Oversized "TOILET" Keyring for Workshops & Garages](../oversized-toilet-keyring-for-workshops-garages/index.md)
+- [Z Axis drops after completing job](../../milling-machine-cnc/axis-drops-completing-job/index.md)

@@ -46,3 +46,11 @@ namespace ExtensionMethodExample
 ## Related Files
 
 -   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/programming-c-sharp/how-to-use-extension-methods-in-c](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/programming-c-sharp/how-to-use-extension-methods-in-c)
+
+## C# Related Articles
+
+- [Adding days to a DateTime in C#](../adding-days-datetime-csharp/index.md)
+- [C# Open File Dialog](../c-open-file-dialog/index.md)
+- [Create arraylist](../create-arraylist/index.md)
+- [Create a autocompleting textbox using C#](../create-autocompleting-textbox-c/index.md)
+- [C# class properties](../csharp-class-properties/index.md)

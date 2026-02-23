@@ -109,3 +109,11 @@ tmpfs                                812876       4    812872   1% /run/user/100
 ## Related Files
 
 -   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/ubuntu/disk-cleanup-ubuntu](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/ubuntu/disk-cleanup-ubuntu)
+
+## Ubuntu Related Articles
+
+- [Apt vs Apt-get Commands on Ubuntu](../apt-vs-apt-get/index.md)
+- [How To Assign A Static Ip Address in Ubuntu](../how-to-assign-a-static-ip-address-in-ubuntu/index.md)
+- [How To Change Hostname In Ubuntu](../how-to-change-hostname-in-ubuntu/index.md)
+- [How to Customize Your Bash Prompt on Ubuntu](../how-to-customize-your-bash-prompt-on-ubuntu/index.md)
+- [Ubuntu 12.4 Enable SSH Service](../ubuntu-12-4-enable-ssh-service/index.md)

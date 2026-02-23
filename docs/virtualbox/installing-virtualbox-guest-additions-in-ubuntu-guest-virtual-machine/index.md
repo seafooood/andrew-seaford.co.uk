@@ -45,3 +45,11 @@ VBoxManage guestproperty get "Langflow3" "/VirtualBox/GuestInfo/Net/1/V4/IP"
 ## Related Files
 
 -   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/virtualbox/installing-virtualbox-guest-additions-in-ubuntu-guest-virtual-machine](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/virtualbox/installing-virtualbox-guest-additions-in-ubuntu-guest-virtual-machine)
+
+## VirtualBox Related Articles
+
+- [Attaching a DVD ISO Image in VirtualBox](../attaching-a-dvd-iso-image-in-virtualbox/index.md)
+- [How to Automatically Check and Restart a VirtualBox VM on Ubuntu](../check-vm-status/index.md)
+- [Cloning a VirtualBox VM via Ubuntu Terminal](../cloning-a-virtualbox-vm-via-ubuntu-terminal/index.md)
+- [Finding VM Disk Location](../finding-vm-disk-location/index.md)
+- [Force Stopping VirtualBox VM](../force-stop-virtualbox-vm/index.md)

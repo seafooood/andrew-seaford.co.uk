@@ -53,3 +53,11 @@ G1 Y-10
 ## Related Files
 
 -   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/milling-machine-cnc/simple-box-code](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/milling-machine-cnc/simple-box-code)
+
+## CNC Related Articles
+
+- [Z Axis drops after completing job](../axis-drops-completing-job/index.md)
+- [Marlinfw Homing Direction](../marlinfw-homing-direction/index.md)
+- [Reporting endstop status](../reporting-endstop-status/index.md)
+- [3D Printed Puzzle Vase for Flowers — Ideal for Lego, Crochet, and Artificial Flower Displays](../../freecad/3d-printed-puzzle-vase-for-flowers/index.md)
+- [3D Printed Toothbrush Holder](../../freecad/3d-printed-toothbrush-holder/index.md)

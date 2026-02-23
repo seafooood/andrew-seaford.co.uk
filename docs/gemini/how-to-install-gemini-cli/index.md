@@ -41,3 +41,11 @@ gemini
 ## Related Files
 
 -   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/gemini/how-to-install-gemini-cli](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/gemini/how-to-install-gemini-cli)
+
+## Gemini Related Articles
+
+- [Configuring Gemini Permissions](../configuring-gemini-permissions/index.md)
+- [How To Chat With Langflow From A Python Script](../../langflow/how-to-chat-with-langflow-from-a-python-script/index.md)
+- [How To Enable Logging In Langflow](../../langflow/how-to-enable-logging-in-langflow/index.md)
+- [How To Install Langflow on Ubuntu Using Docker](../../langflow/how-to-install-langflow-on-ubuntu-using-docker/index.md)
+- [How To Install Langflow on Ubuntu Without Docker](../../langflow/how-to-install-langflow-on-ubuntu-without-docker/index.md)

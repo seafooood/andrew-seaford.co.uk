@@ -30,3 +30,11 @@ cp -R "/path/to/n8nsept25_folder" ~/vm_backup_n8nsept25
 ## Related Files
 
 -   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/virtualbox/finding-vm-disk-location](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/virtualbox/finding-vm-disk-location)
+
+## VirtualBox Related Articles
+
+- [Attaching a DVD ISO Image in VirtualBox](../attaching-a-dvd-iso-image-in-virtualbox/index.md)
+- [How to Automatically Check and Restart a VirtualBox VM on Ubuntu](../check-vm-status/index.md)
+- [Cloning a VirtualBox VM via Ubuntu Terminal](../cloning-a-virtualbox-vm-via-ubuntu-terminal/index.md)
+- [Force Stopping VirtualBox VM](../force-stop-virtualbox-vm/index.md)
+- [Installing VirtualBox Guest Additions in Ubuntu Guest Virtual Machine](../installing-virtualbox-guest-additions-in-ubuntu-guest-virtual-machine/index.md)

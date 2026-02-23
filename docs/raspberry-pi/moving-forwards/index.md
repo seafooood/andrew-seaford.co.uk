@@ -173,3 +173,11 @@ while True:
 ## Related Files
 
 -   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/raspberry-pi/moving-forwards](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/raspberry-pi/moving-forwards)
+
+## Raspberry Pi Related Articles
+
+- [Configuring a Static IP Address on the Raspberry Pi](../configuring-static-ip-address-raspberry-pi/index.md)
+- [Pairing PS3 Controller with Raspberry Pi](../ps3-controller/index.md)
+- [Stepper Motor Control Service](../stepper-motor-control-service/index.md)
+- [Z Axis drops after completing job](../../milling-machine-cnc/axis-drops-completing-job/index.md)
+- [Marlinfw Homing Direction](../../milling-machine-cnc/marlinfw-homing-direction/index.md)

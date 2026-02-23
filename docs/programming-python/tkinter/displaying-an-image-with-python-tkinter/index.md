@@ -148,3 +148,11 @@ When the button is clicked the image will change to a flower.
 ## Related Files
 
 -   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/programming-python/tkinter/displaying-an-image-with-python-tkinter](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/programming-python/tkinter/displaying-an-image-with-python-tkinter)
+
+## Python Related Articles
+
+- ['django-admin startproject' vs 'python -m django startproject'](../../django/'django-admin-startproject'-vs-'python-m-django-startproject'/index.md)
+- [Creating a Django Site With User Authentication](../../django/creating-a-django-site-with-user-authentication/index.md)
+- [Django Database Seeding](../../django/django-database-seeding/index.md)
+- [Getting Started with Django for Flask Developers](../../django/getting-started-with-django-for-flask-developers/index.md)
+- [Getting Started with Django - Working with Databases](../../django/getting-started-with-django-working-with-databases/index.md)
