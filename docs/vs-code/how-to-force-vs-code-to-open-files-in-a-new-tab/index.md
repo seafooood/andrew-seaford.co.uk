@@ -32,7 +32,7 @@ To force VS Code to open every file in a new tab (instead of reusing the same pr
 
 ## VS Code Related Articles
 
-- [VS Code Extension - Project Identity](../../../portfolio/vs-extension-project-identity/index.md)
+- [VS Code Extension - Project Identity](/portfolio/vs-extension-project-identity)
 - [How To Open Folder In VS Code](../open-folder-in-vs-code/index.md)
 
 ## Ubuntu Related Articles

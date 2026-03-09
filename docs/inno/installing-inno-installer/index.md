@@ -1,52 +1,77 @@
 ---
-title: "Installing Inno Installer"
-keywords: [inno setup, installation, windows installer, setup wizard]
+title: "Installing Inno Setup"
+description: "Step-by-step guide to download and install Inno Setup on Windows. Covers choosing language, installer options, and finishing installation with screenshots."
+keywords: ["inno setup","inno","installer","windows installer","inno setup installation","inno tutorial"]
 date: 2015-01-05
 categories:
   - "inno"
 ---
 
-Detailed below is the procedure for installing Inno.
+When preparing a Windows installer for your application, you might need to install Inno Setup. This guide will walk you through downloading and installing Inno Setup on a Windows system. By the end, you will have the Inno Setup IDE installed and ready to create installers.
 
-- Download the setup file. I will be installing version 5.5.5
+### Step 1: Download the installer
+
+Download the latest Inno Setup installer from the official site. The file is typically named `is.exe`.
 
 [http://www.jrsoftware.org/download.php/is.exe](http://www.jrsoftware.org/download.php/is.exe)
 
-- Select your language from the combo box and then click ok
+### Step 2: Choose language and start the installer
+
+Select your language from the language selector and click OK.
 
 ![inno1](images/inno1.png)
 
-- Click the Next button on the welcome screen.
+### Step 3: Welcome screen
+
+Click the Next button on the welcome screen to continue.
 
 ![inno2](images/inno2.png)
 
-- Select Accept and then click the next button
+### Step 4: Accept the license
+
+Select Accept and then click Next to confirm the license terms.
 
 ![inno3](images/inno3.png)
 
-- Change the install location if required and then click the next button.
+### Step 5: Choose installation location
+
+Change the installation location if required, then click Next.
 
 ![inno4](images/inno4.png)
 
-- Change the start menu icon location if required and then click the next button.
+### Step 6: Start menu folder
+
+Change the start menu folder if required, then click Next.
 
 ![inno5](images/inno5.png)
 
-- Click Next button to to install the preprocessor.
+### Step 7: Install the preprocessor
+
+Click Next to install the Inno Setup preprocessor if you need it.
 
 ![inno6](images/inno6.png)
 
-- Enable the additional settings if required and then click the next button.
+### Step 8: Additional options
+
+Enable any additional settings you want and click Next to continue.
 
 ![inno7](images/inno7.png)
 
-- Click the install button to start the installation.
+### Step 9: Install
+
+Click Install to start the installation process.
 
 ![inno8](images/inno8.png)
 
-- Click the finish button to complete the install.
+### Step 10: Finish
+
+Click Finish to complete the installation. The Inno Setup IDE will be available from your Start menu.
 
 ![inno9](images/inno9.png)
+
+### Conclusion
+
+You now have Inno Setup installed on Windows and can begin creating installers for your applications. If you plan to automate builds, consider scripting your Inno scripts or using the command line version of Inno Setup.
 
 ## Related Files
 

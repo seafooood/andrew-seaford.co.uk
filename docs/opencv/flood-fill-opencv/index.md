@@ -2,13 +2,13 @@
 title: "Flood Fill using OpenCV"
 date: 2012-07-13
 categories:
-	- "digital-image-processing"
+  - "digital-image-processing"
 description: "Demonstrates OpenCV's flood fill: use a seed point to fill connected regions. Includes a C/C++ example, parameter explanations, and expected output."
 tags:
-	- "cvfloodfill"
-	- "flood-fill"
-	- "image-processing"
-	- "pixel"
+  - "cvfloodfill"
+  - "flood-fill"
+  - "image-processing"
+  - "pixel"
 keywords: [opencv, flood-fill, image-processing, pixel-manipulation, c++]
 slug: flood-fill-opencv
 ---

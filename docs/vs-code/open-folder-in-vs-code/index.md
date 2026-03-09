@@ -51,4 +51,4 @@ Now when you right click on a folder (on a folder, not in a folder), you will se
 ## Ubuntu Related Articles
 
 - [How To Force VS Code To Open Files In A New Tab](../how-to-force-vs-code-to-open-files-in-a-new-tab/index.md)
-- [VS Code Extension - Project Identity](../../../portfolio/vs-extension-project-identity/index.md)
+- [VS Code Extension - Project Identity](/portfolio/vs-extension-project-identity)
