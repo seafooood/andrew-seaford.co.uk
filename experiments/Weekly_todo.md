@@ -1,18 +1,25 @@
-Please, 
+This is week 5.
 
-- [] review the overview document [text](Weekly_Performance_Project_Overview.md)
+Please,
 
-- [] review last weeks tasks
-[text](Week_02_Tasks.md)
-[text](Week_02_Experiment_Inno_Theme_CTR_Optimization.md)
+- [x] review the overview document [text](Weekly_Performance_Project_Overview.md)
 
-- [] review last weeks data
-[text](<Google Search Console - Page Indexing/http___www.andrew-seaford.co.uk_-Coverage-2026-02-23.zip>)
+- [x] review last weeks tasks
+  - [text](Week_04_Tasks.md)
+  - [text](Week_04_Experiment_Fix_Crawled_Not_Indexed.md)
 
-[text](<Google Search Console - Performance/http___www.andrew-seaford.co.uk_-Performance-on-Search-2026-02-23.zip>)
+- [x] review last weeks data
 
-- [] Write a markdown file in the folder `/home/andrew/Code/andrew-seaford.co.uk/experiments` that documents the performace of last weeks test.
+  - [text](<Google Search Console - Page Indexing/http___www.andrew-seaford.co.uk_-Coverage-2026-03-09.zip>)
+  - [text](<Google Search Console - Page Indexing/http___www.andrew-seaford.co.uk_-Coverage-Validation-2026-03-09.zip>)
+  - [text](<Google Search Console - Performance/http___www.andrew-seaford.co.uk_-Performance-on-Search-2026-03-09.zip>)
 
-- [] If the test was successful create a markdown file that explains how to implement the successful changes on other pages.
+- [x] Write a markdown file in the folder `/home/andrew/Code/andrew-seaford.co.uk/experiments` that documents the performance of last weeks test.
+  - [text](Week_04_Experiment_Review.md)
 
-- [] Design a new experiment for this week and write the experiment to a markdown file.
+- [x] If the test was successful create a markdown file that explains how to implement the successful changes on other pages.
+  - Week 04 experiment was not implemented (tasks not started). No implementation guide — to be written once content improvements are deployed and confirmed successful.
+
+- [x] Design a new experiment for this week and write the experiment to a markdown file.
+  - [text](Week_05_Experiment_Fix_Crawled_Not_Indexed.md)
+  - [text](Week_05_Tasks.md)

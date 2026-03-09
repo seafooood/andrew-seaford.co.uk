@@ -1,21 +1,40 @@
 ---
 title: "Create empty folders using Inno"
-keywords: [inno setup, create directories, dirs section, installer script]
+description: "How to create empty directories during installation with Inno Setup on Windows, with example [Dirs] entries, options explained, and expected output."
+keywords: ["inno setup", "inno", "empty folders", "dirs", "installer"]
+slug: "create-empty-folders-inno"
 date: 2015-02-23
 categories:
   - "inno"
 ---
 
-When installing a program using Inno, to create an empty directory you will need to add a dirs section to the installer script.
+When working with Inno Setup, you might need the installer to create empty folders on the user's machine. This commonly happens when your application expects certain directories to exist for logs, configuration, or runtime data even when they contain no files yet.
 
-`[Dirs] Name: "{app}\Example1"`
+This guide will walk you through the simple `[Dirs]` entry to create empty directories during installation and explain the common options you may want to use. The examples assume you are building an installer for Windows using Inno Setup.
 
-Download installer script [CCreateEmptyDirectories.iss](createemptydirectories.iss)
+Example minimal entry to create a single empty folder under the application directory:
 
+```
+[Dirs]
+Name: "{app}\Example1"
+```
+
+Download the example installer script: [CreateEmptyDirectories.iss](createemptydirectories.iss)
+
+
+## Expected output
+
+After running the installer with the `[Dirs]` entry above, the installer will:
+
+- Create the folder `Example1` inside the chosen application installation folder (`{app}`) even if it contains no files.
+- Ensure the folder exists for your application to write logs or create files at runtime.
+- Optionally write entries to the installation log showing the created directory path.
+
+If the target folder already exists, Inno Setup will leave it unchanged and continue the install without error.
 
 ## Related Files
 
--   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/inno/create-empty-folders-inno](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/inno/create-empty-folders-inno)
+- [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/inno/create-empty-folders-inno](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/inno/create-empty-folders-inno)
 
 ## Inno Setup Related Articles
 

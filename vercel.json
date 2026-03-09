@@ -398,6 +398,21 @@
       "permanent": true
     },
     {
+      "source": "/tag/image-processing",
+      "destination": "/docs/opencv/opencv-world",
+      "permanent": true
+    },
+    {
+      "source": "/tag/containerize",
+      "destination": "/docs/docker/how-to-containerize-a-python-flask-application",
+      "permanent": true
+    },
+    {
+      "source": "/3d-printing",
+      "destination": "/docs/freecad/3d-printed-puzzle-vase-for-flowers",
+      "permanent": true
+    },
+    {
       "source": "/ubuntu-12-4-enable-ssh-service",
       "destination": "/docs/ubuntu/ubuntu-12-4-enable-ssh-service",
       "permanent": true

@@ -1,6 +1,7 @@
 ---
 title: "Simple Box G Code"
-keywords: [cnc milling, gcode, marlin firmware, simple box, pronterface]
+description: "Example G-code to draw a 10x10mm box. Works with CNC mills, Marlin-based controllers and Pronterface; can also be used with laser cutters for vector engraving."
+keywords: [cnc milling, gcode, marlin firmware, simple box, pronterface, laser cutter, laser engraving, vector engraving]
 date: 2019-01-23
 categories:
   - "cnc-mill"
@@ -26,6 +27,8 @@ G1 Y10
 G1 X-10 
 G1 Y-10
 ```
+
+Note: This G-code is suitable for CNC mills and many laser cutters that accept standard G-code for vector engraving or cutting. When using a laser, check that your firmware supports laser mode and set appropriate power and speed commands for safe operation.
 
 2. Open Pronterface
 
