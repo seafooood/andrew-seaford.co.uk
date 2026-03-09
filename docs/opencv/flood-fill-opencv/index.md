@@ -10,7 +10,6 @@ tags:
   - "image-processing"
   - "pixel"
 keywords: [opencv, flood-fill, image-processing, pixel-manipulation, c++]
-slug: flood-fill-opencv
 ---
 
 To use the flood fill, first a seed point is selected. All neighbouring pixels whose colours are similar to the seed region are replaced with a uniform colour. Flood fill is useful for simple segmentation tasks, region filling, and cleaning up shapes before analysis. In this example the seed point is at 200, 200 (shown by a blue circle). The neighbouring pixels are then flood filled with a red colour.
