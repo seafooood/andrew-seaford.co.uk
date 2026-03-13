@@ -1,4 +1,5 @@
 {
+  "buildCommand": "npm run clear && npm run build",
   "cleanUrls": true,
   "trailingSlash": false,
   "redirects": [
