@@ -1,6 +1,91 @@
 linkedin:
-  label: Linkedin
+  label: LinkedIn
   permalink: https://www.linkedin.com/in/andrewseaford
-  description: Linkedin tag
+  description: LinkedIn tag
+
+aviation:
+  label: Aviation
+  permalink: /aviation
+  description: Aviation topics
+
+safety:
+  label: Safety
+  permalink: /safety
+  description: Safety topics
+
+entrepreneurship:
+  label: Entrepreneurship
+  permalink: /entrepreneurship
+  description: Entrepreneurship topics
+
+vs-code:
+  label: VS Code
+  permalink: /vs-code
+  description: Visual Studio Code topics
+
+extension:
+  label: Extension
+  permalink: /extension
+  description: IDE and editor extensions
+
+developer-tools:
+  label: Developer Tools
+  permalink: /developer-tools
+  description: Developer tooling
+
+accessibility:
+  label: Accessibility
+  permalink: /accessibility
+  description: Accessibility topics
+
+desktop-application:
+  label: Desktop Application
+  permalink: /desktop-application
+  description: Desktop application development
+
+woocommerce:
+  label: WooCommerce
+  permalink: /woocommerce
+  description: WooCommerce topics
+
+wordpress:
+  label: WordPress
+  permalink: /wordpress
+  description: WordPress topics
+
+e-commerce:
+  label: E-Commerce
+  permalink: /e-commerce
+  description: E-commerce topics
+
+raspberry-pi:
+  label: Raspberry Pi
+  permalink: /raspberry-pi
+  description: Raspberry Pi topics
+
+robotics:
+  label: Robotics
+  permalink: /robotics
+  description: Robotics topics
+
+pi-wars:
+  label: Pi Wars
+  permalink: /pi-wars
+  description: Pi Wars competition
+
+3d-printing:
+  label: 3D Printing
+  permalink: /3d-printing
+  description: 3D printing topics
+
+freecad:
+  label: FreeCAD
+  permalink: /freecad
+  description: FreeCAD topics
+
+design:
+  label: Design
+  permalink: /design
+  description: Design topics
 
 

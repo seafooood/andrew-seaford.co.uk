@@ -2452,6 +2452,316 @@
       "source": "/docs/opencv/wood-cells/wood-cells",
       "destination": "/docs/opencv/wood-cells",
       "permanent": true
+    },
+    {
+      "source": "/wp-content/uploads/2021/03/Enterprise.pdf",
+      "destination": "/revision/gcse-technology/enterprise",
+      "permanent": true
+    },
+    {
+      "source": "/2021/03/enterprise",
+      "destination": "/revision/gcse-technology/enterprise",
+      "permanent": true
+    },
+    {
+      "source": "/wp-content/uploads/2021/03/Business-Eithics.pdf",
+      "destination": "/revision/gcse-technology/business-ethics",
+      "permanent": true
+    },
+    {
+      "source": "/2021/03/business-ethics",
+      "destination": "/revision/gcse-technology/business-ethics",
+      "permanent": true
+    },
+    {
+      "source": "/wp-content/uploads/2021/03/Ways-of-Achieving-Reciprocating-Motion.pdf",
+      "destination": "/revision/gcse-technology/ways-of-achieving-reciprocating-motion",
+      "permanent": true
+    },
+    {
+      "source": "/2021/03/ways-of-achieving-reciprocating-motion",
+      "destination": "/revision/gcse-technology/ways-of-achieving-reciprocating-motion",
+      "permanent": true
+    },
+    {
+      "source": "/wp-content/uploads/2021/03/Vacuum-Forming.pdf",
+      "destination": "/revision/gcse-technology/vacuum-forming",
+      "permanent": true
+    },
+    {
+      "source": "/2021/03/vacuum-forming",
+      "destination": "/revision/gcse-technology/vacuum-forming",
+      "permanent": true
+    },
+    {
+      "source": "/wp-content/uploads/2021/03/Types-of-Movement.pdf",
+      "destination": "/revision/gcse-technology/types-of-movement",
+      "permanent": true
+    },
+    {
+      "source": "/2021/03/types-of-movement",
+      "destination": "/revision/gcse-technology/types-of-movement",
+      "permanent": true
+    },
+    {
+      "source": "/wp-content/uploads/2021/03/Types-of-Design-Drawings.pdf",
+      "destination": "/revision/gcse-technology/types-of-design-drawings",
+      "permanent": true
+    },
+    {
+      "source": "/2021/03/types-of-design-drawings",
+      "destination": "/revision/gcse-technology/types-of-design-drawings",
+      "permanent": true
+    },
+    {
+      "source": "/wp-content/uploads/2021/03/The-Six-Rs.pdf",
+      "destination": "/revision/gcse-technology/the-six-rs",
+      "permanent": true
+    },
+    {
+      "source": "/2021/03/the-six-rs",
+      "destination": "/revision/gcse-technology/the-six-rs",
+      "permanent": true
+    },
+    {
+      "source": "/wp-content/uploads/2021/03/Thermal-Joining.pdf",
+      "destination": "/revision/gcse-technology/thermal-joining",
+      "permanent": true
+    },
+    {
+      "source": "/2021/03/thermal-joining",
+      "destination": "/revision/gcse-technology/thermal-joining",
+      "permanent": true
+    },
+    {
+      "source": "/wp-content/uploads/2021/03/Systems-Approach-To-Designing.pdf",
+      "destination": "/revision/gcse-technology/systems-approach-to-designing",
+      "permanent": true
+    },
+    {
+      "source": "/2021/03/systems-approach-to-designing",
+      "destination": "/revision/gcse-technology/systems-approach-to-designing",
+      "permanent": true
+    },
+    {
+      "source": "/wp-content/uploads/2021/03/Sustainability.pdf",
+      "destination": "/revision/gcse-technology/sustainability",
+      "permanent": true
+    },
+    {
+      "source": "/2021/03/sustainability",
+      "destination": "/revision/gcse-technology/sustainability",
+      "permanent": true
+    },
+    {
+      "source": "/wp-content/uploads/2021/03/Smart-Materials.pdf",
+      "destination": "/revision/gcse-technology/smart-materials",
+      "permanent": true
+    },
+    {
+      "source": "/2021/03/smart-materials",
+      "destination": "/revision/gcse-technology/smart-materials",
+      "permanent": true
+    },
+    {
+      "source": "/wp-content/uploads/2021/03/Selection-of-Materials.pdf",
+      "destination": "/revision/gcse-technology/selection-of-materials",
+      "permanent": true
+    },
+    {
+      "source": "/2021/03/selection-of-materials",
+      "destination": "/revision/gcse-technology/selection-of-materials",
+      "permanent": true
+    },
+    {
+      "source": "/wp-content/uploads/2021/03/Pulleys-and-Belts.pdf",
+      "destination": "/revision/gcse-technology/pulleys-and-belts",
+      "permanent": true
+    },
+    {
+      "source": "/2021/03/pulleys-and-belts",
+      "destination": "/revision/gcse-technology/pulleys-and-belts",
+      "permanent": true
+    },
+    {
+      "source": "/wp-content/uploads/2021/03/Quality-Control.pdf",
+      "destination": "/revision/gcse-technology/quality-control",
+      "permanent": true
+    },
+    {
+      "source": "/2021/03/quality-control",
+      "destination": "/revision/gcse-technology/quality-control",
+      "permanent": true
+    },
+    {
+      "source": "/wp-content/uploads/2021/03/Production-Techniques-and-Systems.pdf",
+      "destination": "/revision/gcse-technology/production-techniques-and-systems",
+      "permanent": true
+    },
+    {
+      "source": "/2021/03/production-techniques-and-systems",
+      "destination": "/revision/gcse-technology/production-techniques-and-systems",
+      "permanent": true
+    },
+    {
+      "source": "/wp-content/uploads/2021/03/Pollution.pdf",
+      "destination": "/revision/gcse-technology/pollution",
+      "permanent": true
+    },
+    {
+      "source": "/2021/03/pollution",
+      "destination": "/revision/gcse-technology/pollution",
+      "permanent": true
+    },
+    {
+      "source": "/wp-content/uploads/2021/03/Physical-Material-Properties.pdf",
+      "destination": "/revision/gcse-technology/physical-material-properties",
+      "permanent": true
+    },
+    {
+      "source": "/2021/03/physical-material-properties",
+      "destination": "/revision/gcse-technology/physical-material-properties",
+      "permanent": true
+    },
+    {
+      "source": "/wp-content/uploads/2021/03/Methods-of-Making.pdf",
+      "destination": "/revision/gcse-technology/methods-of-making",
+      "permanent": true
+    },
+    {
+      "source": "/2021/03/methods-of-making",
+      "destination": "/revision/gcse-technology/methods-of-making",
+      "permanent": true
+    },
+    {
+      "source": "/wp-content/uploads/2021/03/Metal-Fasteners.pdf",
+      "destination": "/revision/gcse-technology/metal-fasteners",
+      "permanent": true
+    },
+    {
+      "source": "/2021/03/metal-fasteners",
+      "destination": "/revision/gcse-technology/metal-fasteners",
+      "permanent": true
+    },
+    {
+      "source": "/wp-content/uploads/2021/03/Material-Polymers.pdf",
+      "destination": "/revision/gcse-technology/material-polymers",
+      "permanent": true
+    },
+    {
+      "source": "/2021/03/material-polymers",
+      "destination": "/revision/gcse-technology/material-polymers",
+      "permanent": true
+    },
+    {
+      "source": "/wp-content/uploads/2021/03/Iterative-Design-Process.pdf",
+      "destination": "/revision/gcse-technology/iterative-design-process",
+      "permanent": true
+    },
+    {
+      "source": "/2021/03/iterative-design-process",
+      "destination": "/revision/gcse-technology/iterative-design-process",
+      "permanent": true
+    },
+    {
+      "source": "/wp-content/uploads/2021/03/Heat-Treatment-of-Metals.pdf",
+      "destination": "/revision/gcse-technology/heat-treatment-of-metals",
+      "permanent": true
+    },
+    {
+      "source": "/2021/03/heat-treatment-of-metals",
+      "destination": "/revision/gcse-technology/heat-treatment-of-metals",
+      "permanent": true
+    },
+    {
+      "source": "/wp-content/uploads/2021/03/Energy-Generation.pdf",
+      "destination": "/revision/gcse-technology/energy-generation",
+      "permanent": true
+    },
+    {
+      "source": "/2021/03/energy-generation",
+      "destination": "/revision/gcse-technology/energy-generation",
+      "permanent": true
+    },
+    {
+      "source": "/wp-content/uploads/2021/03/Emerging-Technologies.pdf",
+      "destination": "/revision/gcse-technology/emerging-technologies",
+      "permanent": true
+    },
+    {
+      "source": "/2021/03/emerging-technologies",
+      "destination": "/revision/gcse-technology/emerging-technologies",
+      "permanent": true
+    },
+    {
+      "source": "/wp-content/uploads/2021/03/Efficient-Working.pdf",
+      "destination": "/revision/gcse-technology/efficient-working",
+      "permanent": true
+    },
+    {
+      "source": "/2021/03/efficient-working",
+      "destination": "/revision/gcse-technology/efficient-working",
+      "permanent": true
+    },
+    {
+      "source": "/wp-content/uploads/2021/03/Design-Decisions.pdf",
+      "destination": "/revision/gcse-technology/design-decisions",
+      "permanent": true
+    },
+    {
+      "source": "/2021/03/design-decisions",
+      "destination": "/revision/gcse-technology/design-decisions",
+      "permanent": true
+    },
+    {
+      "source": "/wp-content/uploads/2021/03/Continuous-Improvement.pdf",
+      "destination": "/revision/gcse-technology/continuous-improvement",
+      "permanent": true
+    },
+    {
+      "source": "/2021/03/continuous-improvement",
+      "destination": "/revision/gcse-technology/continuous-improvement",
+      "permanent": true
+    },
+    {
+      "source": "/wp-content/uploads/2021/03/Composite-Materials.pdf",
+      "destination": "/revision/gcse-technology/composite-materials",
+      "permanent": true
+    },
+    {
+      "source": "/2021/03/composite-materials",
+      "destination": "/revision/gcse-technology/composite-materials",
+      "permanent": true
+    },
+    {
+      "source": "/wp-content/uploads/2021/03/Communication-of-Design-Ideas.pdf",
+      "destination": "/revision/gcse-technology/communication-of-design-ideas",
+      "permanent": true
+    },
+    {
+      "source": "/2021/03/communication-of-design-ideas",
+      "destination": "/revision/gcse-technology/communication-of-design-ideas",
+      "permanent": true
+    },
+    {
+      "source": "/wp-content/uploads/2021/03/CNC.pdf",
+      "destination": "/revision/gcse-technology/cnc",
+      "permanent": true
+    },
+    {
+      "source": "/2021/03/cnc",
+      "destination": "/revision/gcse-technology/cnc",
+      "permanent": true
+    },
+    {
+      "source": "/wp-content/uploads/2021/03/3D-Printing.pdf",
+      "destination": "/revision/gcse-technology/3d-printing",
+      "permanent": true
+    },
+    {
+      "source": "/2021/03/3d-printing",
+      "destination": "/revision/gcse-technology/3d-printing",
+      "permanent": true
     }
   ]
 }

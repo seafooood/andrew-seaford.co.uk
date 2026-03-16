@@ -76,6 +76,18 @@ const config = {
 
   plugins: [
     './plugins/tutorial-data-plugin',
+    function ignoreGoogleDrivePlugin() {
+      return {
+        name: 'ignore-googledrive-plugin',
+        configureWebpack() {
+          return {
+            watchOptions: {
+              ignored: /GoogleDrive/,
+            },
+          };
+        },
+      };
+    },
     [
       '@docusaurus/plugin-content-docs',
       {
@@ -92,6 +104,15 @@ const config = {
         path: 'shop',
         routeBasePath: 'shop',
         sidebarPath: './sidebarsShop.js',
+      },
+    ],
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'revision',
+        path: 'revision',
+        routeBasePath: 'revision',
+        sidebarPath: './sidebarsRevision.js',
       },
     ],
   ],
@@ -134,7 +155,7 @@ const config = {
             docsPluginId: 'shop',
             position: 'left',
             label: 'Shop',
-          }
+          },
         ],
       },
       footer: {
@@ -154,6 +175,10 @@ const config = {
               {
                 label: 'Shop',
                 to: '/shop',
+              },
+              {
+                label: 'Revision',
+                to: '/revision',
               },
             ],
           },
