@@ -8,7 +8,7 @@ keywords: [business ethics, gcse technology, gcse dt, revision]
 
 Business ethics in GCSE Design and Technology examines the moral responsibilities of designers and manufacturers, including fair trade, labour conditions, and environmental impact.
 
-[Download PDF revision notes](/revision/gcse-technology/business-ethics.pdf)
+[Download PDF revision notes](/revision/gcse-business/Business%20Ethics.pdf)
 
 ---
 
