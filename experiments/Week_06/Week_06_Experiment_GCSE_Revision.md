@@ -123,7 +123,7 @@ module.exports = {
 
 ---
 
-## Markdown Wrapper Page Template
+## Markdown Wrapper Page Template - DONE
 
 Each topic page should follow this pattern:
 
@@ -161,20 +161,20 @@ Key requirements for each page:
 
 ## Implementation Tasks
 
-- [ ] Add `revision` plugin entry to `docusaurus.config.js`
-- [ ] Create `sidebarsRevision.js`
-- [ ] Create `revision/index.md` (top-level revision landing page)
-- [ ] Create `revision/gcse-technology/index.md`
-- [ ] Create `revision/gcse-technology/vacuum-forming/index.md`
-- [ ] Create `revision/gcse-technology/pulleys-and-belts/index.md`
-- [ ] Create `revision/gcse-technology/smart-materials/index.md`
-- [ ] Create `revision/gcse-technology/the-six-rs/index.md`
-- [ ] Create `revision/gcse-computer-science/index.md`
-- [ ] Copy PDFs into `static/revision/gcse-technology/`
-- [ ] Add redirects to `vercel.json` for all three old WordPress PDF URLs
-- [ ] Run `npm run build` and verify no errors
-- [ ] Deploy to Vercel
-- [ ] Request re-indexing in GSC for each new page URL
+- [x] Add `revision` plugin entry to `docusaurus.config.js`
+- [x] Create `sidebarsRevision.js`
+- [x] Create `revision/index.md` (top-level revision landing page)
+- [x] Create `revision/gcse-technology/index.md`
+- [x] Create `revision/gcse-technology/vacuum-forming/index.md`
+- [x] Create `revision/gcse-technology/pulleys-and-belts/index.md`
+- [x] Create `revision/gcse-technology/smart-materials/index.md`
+- [x] Create `revision/gcse-technology/the-six-rs/index.md`
+- [x] Create `revision/gcse-computer-science/index.md`
+- [x] Copy PDFs into `static/revision/gcse-technology/`
+- [x] Add redirects to `vercel.json` for all three old WordPress PDF URLs
+- [x] Run `npm run build` and verify no errors
+- [x] Deploy to Vercel
+- [x] Request re-indexing in GSC for each new page URL
 
 ---
 
