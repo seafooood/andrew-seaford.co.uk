@@ -15,4 +15,4 @@ The brains for this years robot will be the [Raspberry Pi Zero](https://www.rasp
 
 Please, follow our progress as we build our robot. 
 
-![IMG_20161114_044023-300x300.jpg](images/img_20161114_044023-300x300.jpg)
+![PiWars Robot 2017](images/img_20161114_044023-300x300.jpg)

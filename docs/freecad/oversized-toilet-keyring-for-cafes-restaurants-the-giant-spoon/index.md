@@ -22,8 +22,8 @@ This oversized spoon keyring solves the problem with a simple, brilliant princip
 
 Stop the endless key hunt. By printing this keyring, you're not just making a key harder to lose; you're adding a memorable, practical, and whimsical touch to your customer experience.
 
-![alt text](spoonkeyring-freecad.png)
-![alt text](spoonkeyring-slicer.png)
+![FreeCad Spoon](spoonkeyring-freecad.png)
+![Slicer spoon](spoonkeyring-slicer.png)
 
 ## Files
 
@@ -32,7 +32,7 @@ Stop the endless key hunt. By printing this keyring, you're not just making a ke
 - FreeCAD file [SpoonKeyRing.FCStd](spoonkeyring.fcstd)
 - Python Macro for FreeCAD [SpoonKeyRing.py](spoonkeyring.py)
 
-## How to Use the Script in FreeCAD:
+## How to Use the Script in FreeCAD
 
 1. Open FreeCAD.
 

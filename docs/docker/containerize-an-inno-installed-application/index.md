@@ -30,19 +30,19 @@ In this procedure, we are going to create a Docker Image that will execute the i
     RUN mysetup.exe /VERYSILENT  
     `ENTRYPOINT ["/program files (x86)/My Program/HelloWorldConsole.exe"]`
 
-5. Open the command prompt and navigate to the folder containing the Dockerfile and execute the command to create the docker image. The command will create a new docker image called installhelloworldconsole.  
+4. Open the command prompt and navigate to the folder containing the Dockerfile and execute the command to create the docker image. The command will create a new docker image called installhelloworldconsole.  
     `docker image build --tag installhelloworldconsole .`  
-    ![](images/1-2.png)
+    ![Step 4](images/1-2.png)
 
-7. To create a container using the image run the command docker run. This command will create a container using the image created in the previous step and call the container hello2. 
+5. To create a container using the image run the command docker run. This command will create a container using the image created in the previous step and call the container hello2. 
     `docker run --name hello2 installhelloworldconsole`
 
-9. After the container has booted, the container will execute the program c:\\program files (x86)\\My Program\\HelloWorldConsole.exe  
-    ![](images/2-3.png)
+6. After the container has booted, the container will execute the program c:\\program files (x86)\\My Program\\HelloWorldConsole.exe  
+    ![Step 6](images/2-3.png)
 
-11. You can confirm the program has been executed by checking the docker logs using the command docker logs and the name of the container.  
+7. You can confirm the program has been executed by checking the docker logs using the command docker logs and the name of the container.  
      `docker logs hello2`  
-     ![](images/3-2.png)
+     ![Step 7](images/3-2.png)
 
 ## Summary
 

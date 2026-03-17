@@ -36,7 +36,7 @@ python3 app.py
 
 - Open a web browser and navigate to http://127.0.0.1:5500. Use the swagger page to confirm the application is working as expected. In this simple app, executing the get will display a JSON list of settings.
 
-![alt text](image-1.png)
+![Swagger page](image-1.png)
 
 ## Containerizing The App
 
@@ -89,10 +89,9 @@ docker run -d -p 5500:5500 --name flask-container flask-app
 
 - Open a web browser and navigate to http://127.0.0.1:5500. Use the swagger page to confirm the application is working as expected.
 
-
 ## Related Files
 
--   [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/docker/how-to-containerize-a-python-flask-application](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/docker/how-to-containerize-a-python-flask-application)
+- [https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/docker/how-to-containerize-a-python-flask-application](https://github.com/seafooood/andrew-seaford.co.uk/tree/main/docs/docker/how-to-containerize-a-python-flask-application)
 
 ## Docker Related Articles
 

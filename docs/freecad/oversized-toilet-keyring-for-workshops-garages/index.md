@@ -22,8 +22,8 @@ This oversized keyring is designed with a simple but effective principle in mind
 
 This isn't just a keyring; it's a practical key management solution. By making the key difficult to lose, you ensure it's always available when needed, saving everyone time and hassle.
 
-![alt text](spanner-freecad.png)
-![alt text](spanner-slicer.png)
+![FreeCad spanner](spanner-freecad.png)
+![Slicer spanner](spanner-slicer.png)
 
 ## Files
 
