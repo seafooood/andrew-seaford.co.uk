@@ -178,3 +178,113 @@ def test_render_markdown_escapes_quotes_in_title():
     }
     result = render_markdown(review)
     assert 'title: "The \\"Old\\" Inn"' in result
+
+
+import json
+import pathlib
+import tempfile
+
+from import_google_reviews import generate_category_json, write_place_review, process_review
+
+
+# --- generate_category_json ---
+
+def test_generate_category_json_creates_file():
+    with tempfile.TemporaryDirectory() as tmp:
+        folder = pathlib.Path(tmp) / 'macclesfield'
+        folder.mkdir()
+        generate_category_json(folder, label='Macclesfield')
+        cat_file = folder / '_category_.json'
+        assert cat_file.exists()
+        content = json.loads(cat_file.read_text())
+        assert content['label'] == 'Macclesfield'
+        assert content['link']['type'] == 'generated-index'
+
+def test_generate_category_json_skips_if_exists():
+    with tempfile.TemporaryDirectory() as tmp:
+        folder = pathlib.Path(tmp) / 'macclesfield'
+        folder.mkdir()
+        # Write sentinel content
+        (folder / '_category_.json').write_text('{"label": "existing"}')
+        generate_category_json(folder, label='Macclesfield')
+        # Should not overwrite
+        content = json.loads((folder / '_category_.json').read_text())
+        assert content['label'] == 'existing'
+
+
+# --- write_place_review ---
+
+def test_write_place_review_creates_index_md():
+    with tempfile.TemporaryDirectory() as tmp:
+        review = {
+            'title': 'Prestbury Park',
+            'rating': 3,
+            'google_maps_url': 'https://maps.example.com/prestbury',
+            'address': '41 Bollin Grove, Prestbury, Macclesfield SK10 4JJ, United Kingdom',
+            'latitude': 53.2944502,
+            'longitude': -2.1531036,
+            'review_text': 'Great park.',
+        }
+        place_dir = pathlib.Path(tmp) / 'prestbury-park'
+        write_place_review(place_dir, review)
+        index_file = place_dir / 'index.md'
+        assert index_file.exists()
+        content = index_file.read_text()
+        assert 'title: "Prestbury Park"' in content
+        assert 'Great park.' in content
+
+
+# --- process_review (full integration) ---
+
+SAMPLE_FEATURE = {
+    'geometry': {'coordinates': [-2.1531036, 53.2944502], 'type': 'Point'},
+    'properties': {
+        'five_star_rating_published': 3,
+        'google_maps_url': 'https://maps.example.com/prestbury',
+        'location': {
+            'address': '41 Bollin Grove, Prestbury, Macclesfield SK10 4JJ, United Kingdom',
+            'country_code': 'GB',
+            'name': 'Prestbury Park',
+        },
+        'review_text_published': 'Great park with tall trees.',
+    },
+    'type': 'Feature',
+}
+
+def test_process_review_creates_full_path():
+    with tempfile.TemporaryDirectory() as tmp:
+        result = process_review(SAMPLE_FEATURE, base_dir=tmp)
+        expected = pathlib.Path(tmp) / 'united-kingdom' / 'cheshire' / 'macclesfield' / 'prestbury-park' / 'index.md'
+        assert expected.exists(), f'Expected {expected} to exist'
+        assert result == str(expected)
+
+def test_process_review_creates_category_jsons():
+    with tempfile.TemporaryDirectory() as tmp:
+        process_review(SAMPLE_FEATURE, base_dir=tmp)
+        assert (pathlib.Path(tmp) / 'united-kingdom' / '_category_.json').exists()
+        assert (pathlib.Path(tmp) / 'united-kingdom' / 'cheshire' / '_category_.json').exists()
+        assert (pathlib.Path(tmp) / 'united-kingdom' / 'cheshire' / 'macclesfield' / '_category_.json').exists()
+
+def test_process_review_skips_empty_name():
+    feature = {
+        'geometry': {'coordinates': [0.0, 0.0], 'type': 'Point'},
+        'properties': {
+            'five_star_rating_published': 3,
+            'google_maps_url': 'https://maps.example.com/x',
+            'location': {'address': 'Somewhere SK1 1AA, UK', 'country_code': 'GB', 'name': ''},
+            'review_text_published': 'text',
+        },
+        'type': 'Feature',
+    }
+    with tempfile.TemporaryDirectory() as tmp:
+        result = process_review(feature, base_dir=tmp)
+        assert result is None
+
+def test_process_review_handles_duplicate_slugs():
+    with tempfile.TemporaryDirectory() as tmp:
+        process_review(SAMPLE_FEATURE, base_dir=tmp)
+        process_review(SAMPLE_FEATURE, base_dir=tmp)
+        p1 = pathlib.Path(tmp) / 'united-kingdom' / 'cheshire' / 'macclesfield' / 'prestbury-park' / 'index.md'
+        p2 = pathlib.Path(tmp) / 'united-kingdom' / 'cheshire' / 'macclesfield' / 'prestbury-park-2' / 'index.md'
+        assert p1.exists()
+        assert p2.exists()
