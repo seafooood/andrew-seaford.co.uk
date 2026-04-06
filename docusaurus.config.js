@@ -125,6 +125,15 @@ const config = {
         sidebarPath: './sidebarsRevision.js',
       },
     ],
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'rambles',
+        path: 'rambles',
+        routeBasePath: 'rambles',
+        sidebarPath: './sidebarsRambles.js',
+      },
+    ],
   ],
 
   themeConfig:
@@ -166,6 +175,13 @@ const config = {
             position: 'left',
             label: 'Shop',
           },
+          {
+            type: 'doc',
+            docId: 'index',
+            docsPluginId: 'rambles',
+            position: 'left',
+            label: 'Rambles',
+          },
         ],
       },
       footer: {
@@ -189,6 +205,10 @@ const config = {
               {
                 label: 'Revision',
                 to: '/revision',
+              },
+              {
+                label: 'Rambles',
+                to: '/rambles',
               },
             ],
           },
