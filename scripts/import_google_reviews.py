@@ -150,3 +150,142 @@ def render_markdown(review: dict) -> str:
     ]
 
     return '\n'.join(fm_lines) + '\n\n' + '\n'.join(body_lines) + '\n'
+
+
+# ---------------------------------------------------------------------------
+# File generation
+# ---------------------------------------------------------------------------
+
+def generate_category_json(folder: 'pathlib.Path', label: str) -> None:
+    """Create _category_.json in folder if it does not already exist."""
+    cat_file = pathlib.Path(folder) / '_category_.json'
+    if cat_file.exists():
+        return
+    content = {
+        'label': label,
+        'link': {
+            'type': 'generated-index',
+            'description': f'Walking and place reviews — {label}',
+        },
+    }
+    cat_file.write_text(json.dumps(content, indent=2) + '\n')
+
+
+def write_place_review(place_dir: 'pathlib.Path', review: dict) -> None:
+    """Create place_dir/index.md with the rendered markdown."""
+    place_dir = pathlib.Path(place_dir)
+    place_dir.mkdir(parents=True, exist_ok=True)
+    (place_dir / 'index.md').write_text(render_markdown(review))
+
+
+def process_review(feature: dict, base_dir: str) -> 'str | None':
+    """
+    Convert a single GeoJSON feature from Reviews.json into a markdown file
+    under base_dir/united-kingdom/{county}/{city}/{place-slug}/index.md.
+
+    Returns the path to the created index.md, or None if the review is skipped.
+    """
+    props = feature.get('properties', {})
+    loc = props.get('location', {}) or {}
+    name = loc.get('name', '').strip()
+    if not name:
+        return None  # skip empty-name reviews
+
+    address = loc.get('address', '') or ''
+    review_text = props.get('review_text_published', '') or ''
+    rating = props.get('five_star_rating_published', 0)
+    google_maps_url = props.get('google_maps_url', '')
+    lat, lon = coords_from_geometry(feature.get('geometry'))
+
+    # Determine county and city from postcode
+    postcode = extract_postcode(address)
+    if postcode:
+        prefix = re.match(r'^([A-Z]+)', postcode).group(1)
+        county = postcode_prefix_to_county(prefix)
+        city = extract_city_from_address(address)
+    else:
+        county = 'uncategorised'
+        city = None
+
+    place_slug = slugify(name)
+
+    # Build folder path
+    base = pathlib.Path(base_dir)
+    uk_dir = base / 'united-kingdom'
+    county_dir = uk_dir / county
+
+    if city and county != 'uncategorised':
+        city_dir = county_dir / city
+        place_dir = city_dir / place_slug
+    else:
+        place_dir = county_dir / place_slug
+
+    # Handle duplicate slugs
+    if (place_dir / 'index.md').exists():
+        n = 2
+        while ((place_dir.parent / f'{place_slug}-{n}') / 'index.md').exists():
+            n += 1
+        place_dir = place_dir.parent / f'{place_slug}-{n}'
+
+    # Create intermediate _category_.json files
+    uk_dir.mkdir(parents=True, exist_ok=True)
+    generate_category_json(uk_dir, label='United Kingdom')
+    county_dir.mkdir(parents=True, exist_ok=True)
+    generate_category_json(county_dir, label=county.replace('-', ' ').title())
+    if city and county != 'uncategorised':
+        city_dir.mkdir(parents=True, exist_ok=True)
+        generate_category_json(city_dir, label=city.replace('-', ' ').title())
+
+    # Write the review
+    review = {
+        'title': name,
+        'rating': rating,
+        'google_maps_url': google_maps_url,
+        'address': address,
+        'latitude': lat,
+        'longitude': lon,
+        'review_text': review_text,
+    }
+    write_place_review(place_dir, review)
+    return str(place_dir / 'index.md')
+
+
+# ---------------------------------------------------------------------------
+# Entry point
+# ---------------------------------------------------------------------------
+
+def main():
+    source = pathlib.Path(
+        '/home/andrew/Documents/takeout/1/Takeout/Maps (your places)/Reviews.json'
+    )
+    output = pathlib.Path(__file__).parent.parent / 'rambles'
+
+    print(f'Reading: {source}')
+    print(f'Output:  {output}')
+    print()
+
+    with open(source) as f:
+        data = json.load(f)
+
+    features = data.get('features', data) if isinstance(data, dict) else data
+    created = 0
+    skipped = 0
+    uncategorised = 0
+
+    for feature in features:
+        result = process_review(feature, base_dir=str(output))
+        if result is None:
+            skipped += 1
+        elif 'uncategorised' in result:
+            uncategorised += 1
+            created += 1
+            print(f'  [UNCATEGORISED] {result}')
+        else:
+            created += 1
+
+    print()
+    print(f'Done. Created: {created}  Skipped (no name): {skipped}  Needs manual re-homing: {uncategorised}')
+
+
+if __name__ == '__main__':
+    main()
