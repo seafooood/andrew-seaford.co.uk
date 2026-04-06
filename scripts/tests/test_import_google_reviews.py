@@ -152,3 +152,29 @@ def test_render_markdown_no_coords():
     result = render_markdown(review)
     assert 'title: "Mystery Place"' in result
     assert 'Coordinates' not in result
+
+def test_render_markdown_none_review_text():
+    review = {
+        'title': 'Test Place',
+        'rating': 4,
+        'google_maps_url': 'https://maps.example.com/test',
+        'address': 'Test St, Testville TA1 1TA, United Kingdom',
+        'latitude': None,
+        'longitude': None,
+        'review_text': None,
+    }
+    result = render_markdown(review)
+    assert 'title: "Test Place"' in result
+
+def test_render_markdown_escapes_quotes_in_title():
+    review = {
+        'title': 'The "Old" Inn',
+        'rating': 5,
+        'google_maps_url': 'https://maps.example.com/inn',
+        'address': 'High St, Town SK1 1AA, United Kingdom',
+        'latitude': None,
+        'longitude': None,
+        'review_text': 'Great place.',
+    }
+    result = render_markdown(review)
+    assert 'title: "The \\"Old\\" Inn"' in result

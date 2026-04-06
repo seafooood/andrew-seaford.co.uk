@@ -11,7 +11,6 @@ Output: rambles/ (relative to the project root, i.e. run from project root)
 """
 
 import json
-import os
 import pathlib
 import re
 
@@ -106,6 +105,11 @@ def coords_from_geometry(geometry) -> tuple:
     return (coords[1], coords[0])  # (lat, lon)
 
 
+def _yaml_str(value: str) -> str:
+    """Escape a string for embedding inside double-quoted YAML."""
+    return value.replace('"', '\\"')
+
+
 def render_markdown(review: dict) -> str:
     """
     Render a place review dict to a markdown string.
@@ -115,14 +119,15 @@ def render_markdown(review: dict) -> str:
     """
     lat = review['latitude']
     lon = review['longitude']
+    review_text = review.get('review_text') or ''
 
     # Build frontmatter
     fm_lines = [
         '---',
-        f'title: "{review["title"]}"',
+        f'title: "{_yaml_str(review["title"])}"',
         f'rating: {review["rating"]}',
-        f'google_maps_url: "{review["google_maps_url"]}"',
-        f'address: "{review["address"]}"',
+        f'google_maps_url: "{_yaml_str(review["google_maps_url"])}"',
+        f'address: "{_yaml_str(review["address"])}"',
     ]
     if lat is not None and lon is not None:
         fm_lines.append(f'latitude: {lat}')
@@ -141,7 +146,7 @@ def render_markdown(review: dict) -> str:
         '',
         '---',
         '',
-        review['review_text'],
+        review_text,
     ]
 
     return '\n'.join(fm_lines) + '\n\n' + '\n'.join(body_lines) + '\n'
