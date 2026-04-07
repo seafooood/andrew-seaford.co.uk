@@ -1,15 +1,22 @@
-import sys
+import json
 import os
+import pathlib
+import sys
+import tempfile
+
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), '..'))
 
 from import_google_reviews import (
-    slugify,
+    build_star_rating,
+    generate_category_json,
+    coords_from_geometry,
+    extract_city_from_address,
     extract_postcode,
     postcode_prefix_to_county,
-    extract_city_from_address,
-    build_star_rating,
-    coords_from_geometry,
+    process_review,
     render_markdown,
+    slugify,
+    write_place_review,
 )
 
 
@@ -180,12 +187,6 @@ def test_render_markdown_escapes_quotes_in_title():
     assert 'title: "The \\"Old\\" Inn"' in result
 
 
-import json
-import pathlib
-import tempfile
-
-from import_google_reviews import generate_category_json, write_place_review, process_review
-
 
 # --- generate_category_json ---
 
@@ -288,3 +289,24 @@ def test_process_review_handles_duplicate_slugs():
         p2 = pathlib.Path(tmp) / 'united-kingdom' / 'cheshire' / 'macclesfield' / 'prestbury-park-2' / 'index.md'
         assert p1.exists()
         assert p2.exists()
+
+def test_process_review_uncategorised_when_no_postcode():
+    feature = {
+        'geometry': {'coordinates': [-2.5, 51.5], 'type': 'Point'},
+        'properties': {
+            'five_star_rating_published': 4,
+            'google_maps_url': 'https://maps.example.com/lighthouse',
+            'location': {
+                'address': 'River Parrett, United Kingdom',
+                'country_code': 'GB',
+                'name': 'Old Lighthouse',
+            },
+            'review_text_published': 'A beautiful old lighthouse.',
+        },
+        'type': 'Feature',
+    }
+    with tempfile.TemporaryDirectory() as tmp:
+        result = process_review(feature, base_dir=tmp)
+        expected = pathlib.Path(tmp) / 'united-kingdom' / 'uncategorised' / 'old-lighthouse' / 'index.md'
+        assert expected.exists(), f'Expected {expected} to exist'
+        assert result == str(expected)
