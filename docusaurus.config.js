@@ -35,11 +35,10 @@ const config = {
       },
     },
     {
-      tagName: 'script',
+      tagName: 'meta',
       attributes: {
-        async: 'true',
-        src: 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3561429949247088',
-        crossorigin: 'anonymous',
+        name: 'google-adsense-account',
+        content: 'ca-pub-3561429949247088',
       },
     },
   ],

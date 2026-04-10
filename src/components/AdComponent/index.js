@@ -1,29 +1,17 @@
-import React, { useEffect, useRef } from 'react';
+import React from 'react';
+import Head from '@docusaurus/Head';
 
 const AdComponent = () => {
-  const adRef = useRef(null);
-
-  useEffect(() => {
-    if (adRef.current) {
-      const script = document.createElement('script');
-      script.src = 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3561429949247088';
-      script.async = true;
-      script.crossOrigin = 'anonymous';
-      adRef.current.appendChild(script);
-
-      return () => {
-        if (adRef.current) {
-          adRef.current.removeChild(script);
-        }
-      };
-    }
-  }, []);
-
-  return  <fieldset>
-  <legend>Adverts</legend>
-  <div ref={adRef}></div>
-</fieldset>
-
+  return (
+    <>
+      <Head>
+        <meta name="google-adsense-account" content="ca-pub-3561429949247088" />
+      </Head>
+      <fieldset>
+        <legend>Adverts</legend>
+      </fieldset>
+    </>
+  );
 };
 
 export default AdComponent;
