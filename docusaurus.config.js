@@ -34,6 +34,14 @@ const config = {
         href: '/manifest.json',
       },
     },
+    {
+      tagName: 'script',
+      attributes: {
+        async: 'true',
+        src: 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3561429949247088',
+        crossorigin: 'anonymous',
+      },
+    },
   ],
 
   // GitHub pages deployment config.
