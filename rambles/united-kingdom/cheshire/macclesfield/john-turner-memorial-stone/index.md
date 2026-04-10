@@ -39,7 +39,7 @@ The closest car parks are:
 
 ## Nearby Attractions
 
-
+While in the area, other places in the area worth adding to your itinerary include:
 
 * [Cats Tor](../cats-tor/index.md)
 * [St Joseph’s Shrine](../../../derbyshire/buxton/st-joseph-s-shrine/index.md)

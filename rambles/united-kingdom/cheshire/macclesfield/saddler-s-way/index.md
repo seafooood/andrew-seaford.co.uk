@@ -1,5 +1,5 @@
 ---
-title: "Saddler's Wy"
+title: "Saddler's Way"
 rating: 4
 google_maps_url: "https://www.google.com/maps/place//data=!4m2!3m1!1s0x0:0x67309c1c657ef38a"
 address: "Macclesfield, UK"

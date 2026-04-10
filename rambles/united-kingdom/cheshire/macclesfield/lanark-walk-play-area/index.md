@@ -14,4 +14,4 @@ longitude: -2.1534098
 
 ---
 
-Lanark park has a good variety of equipment including swings, a slide, a roundabout, BMX track, basketbal hoop and the football pitch. The carved wooden owl is a nice touch. Parking is easy on Westmorland Close near the Co-op."
+Lanark park has a good variety of equipment including swings, a slide, a roundabout, BMX track, basketball hoop and the football pitch. The carved wooden owl is a nice touch. Parking is easy on Westmorland Close near the Co-op."
