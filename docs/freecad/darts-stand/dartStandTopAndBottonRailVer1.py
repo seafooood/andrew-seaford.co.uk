@@ -96,7 +96,7 @@ else:
         hole1.translate(App.Vector(cx, center_y, top_z - h1_depth))
         all_holes.append(hole1)
 
-        # --- Hole 2: 6mm width (4.0mm rad), halfway from bottom ---
+        # --- Hole 2: 9mm width (4.5mm rad), halfway from bottom ---
         h2_depth = total_z_height / 2.0
         hole2 = Part.makeCylinder(h2_rad, h2_depth)
         hole2.translate(App.Vector(cx, center_y, top_z - h2_depth))
