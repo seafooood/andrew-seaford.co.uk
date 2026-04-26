@@ -11,7 +11,7 @@ plate_thickness = 4.0 # Base plate thickness
 h1_rad = 1.5 # --- Hole 1: 3mm width (1.5mm rad), 2mm from bottom ---
 h2_rad = 4.5 # --- Hole 2: 7mm width (4.5mm rad), halfway from bottom ---
 max_print_size = 200.0 # Max X dimension the printer can handle (mm)
-char_width_ratio = 0.65 # Conservative estimate of char width relative to letter_size
+char_width_ratio = 0.9 # Conservative estimate of char width relative to letter_size
 
 # --- AUTO-ADJUST LETTER SIZE TO FIT PRINT AREA ---
 estimated_width = letter_size * len(text_content) * char_width_ratio
