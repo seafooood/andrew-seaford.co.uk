@@ -9,19 +9,8 @@ longitude:
 
 **Rating:** ⭐⭐ (2/5)  
 **Address:**  Macclesfield, Cheshire. United Kingdom  
-**Coordinates:**   
-**[View on Google Maps]()**  
-**What3words location:** 
 
 ---
-
-Review
-
-## Photos
-
-<PhotoGallery photos={[
-  { src: require('./John Turner Memorial Stone.jpg').default, alt: 'John Turner Memorial Stone on Ewrin Lane' },
-]} />
 
 ## Closest Car Park
 

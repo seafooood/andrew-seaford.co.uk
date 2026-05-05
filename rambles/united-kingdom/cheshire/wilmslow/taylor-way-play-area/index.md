@@ -2,7 +2,7 @@
 title: "Taylor Way Play Area"
 rating: 4
 google_maps_url: 
-address: "18 Bailey Rd, Wilmslow, Cheshire. SK9 2TX
+address: "18 Bailey Rd, Wilmslow, Cheshire. SK9 2TX"
 longitude: 
 ---
 
@@ -23,7 +23,7 @@ Taylor Way Play Area has a decent range of play equipment for different ages, fr
   { src: require('./Timber_Climbing_Rig.jpg').default, alt: 'Timber Climbing Rig' },
   { src: require('./Balance_Beam_Trail.jpg').default, alt: 'Balance Beam Trail' },
   { src: require('./Playground_Overview_Path.jpg').default, alt: 'Playground entrance' },
-  { src: require('./Roleplay_Village_Huts').default, alt: 'Play Village Huts' },
+  { src: require('./Roleplay_Village_Huts.jpg').default, alt: 'Play Village Huts' },
   { src: require('./Rotating_Rope_Pyramid.jpg').default, alt: 'Rotating Rope Pyramid' },
   { src: require('./Bucket_Pulley_Station.jpg').default, alt: 'Bucket Pulley Station' },
   { src: require('./Toddler_Cradle_Swing.jpg').default, alt: 'Toddler Cradle Swing' },
@@ -39,5 +39,6 @@ Taylor Way Play Area has a decent range of play equipment for different ages, fr
 While in the area, other places in the area worth adding to your itinerary include:
 
 * [The Carrs Park](../the-carrs-park/index.md)
+* [Brown's Lane Park](../browns-lane-park/index.md)
 
 <AuthorBlurb />
