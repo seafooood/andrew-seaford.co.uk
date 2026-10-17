@@ -169,6 +169,8 @@ All sizes in mm.
 
 The frame takes standard **63.5 × 38.1 mm** labels, 21 to an A4 sheet: [Avery L7160 address labels](https://link.amazon/B0cLEgZal). Word and Avery's free online designer both have the L7160 layout built in.
 
+If you want Raj's menu, here's a ready-to-print sheet with all four dishes on it: [buffet-labels-l7160.pdf](labels/buffet-labels-l7160.pdf). Print it at 100% (actual size), not "fit to page", or the labels won't line up.
+
 Need some label ideas? Steal Raj's menu, or try some of these: *Mummy Dogs*, *Witch Finger Pretzels*, *Graveyard Dirt Cups*, *Monster Mash Potatoes*, *Eyeball Pasta*, *Bloody Punch*.
 
 ## Files
@@ -181,6 +183,12 @@ Need some label ideas? Steal Raj's menu, or try some of these: *Mummy Dogs*, *Wi
 - Skulls frame [buffet_tag_partA_skulls.stl](stl/buffet_tag_partA_skulls.stl)
 - Blank frame, for your own decorations [buffet_tag_partA_blank.stl](stl/buffet_tag_partA_blank.stl)
 - The clip, works with every frame [buffet_tag_partB_clip.stl](stl/buffet_tag_partB_clip.stl)
+
+### OpenSCAD source
+
+- Parametric model of both parts [buffet_tag.scad](openscad/buffet_tag.scad)
+
+The frame, the bats and pumpkins decorations and the clip were modelled in OpenSCAD. Open the file and change the `view` variable at the top to choose what to show or export: `"front"`, `"assembly"` and `"section"` show the design, while `"export_a"`, `"export_a_blank"` and `"export_b"` give the print-ready frame, blank frame and clip. The clip dimensions were tuned through test prints, so change them carefully.
 
 ### Blender scripts
 
