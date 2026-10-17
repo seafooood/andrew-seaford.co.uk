@@ -88,4 +88,7 @@ design:
   permalink: /design
   description: Design topics
 
-
+halloween:
+  label: Halloween
+  permalink: /halloween
+  description: Halloween projects
