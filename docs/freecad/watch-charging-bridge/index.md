@@ -1,3 +1,11 @@
+---
+title: "Stone Bridge Charging Stand for B9 Smartwatch"
+keywords: [3d printing, watch charger, charging stand, smartwatch, stone bridge, openscad, stl model]
+date: 2026-11-25
+categories:
+  - "3d-printing"
+---
+
 # Stone Bridge Charging Stand for B9 Smartwatch
 
 A little humpback stone bridge that holds your B9 band smartwatch while it charges. The watch sits face-up on top of the bridge with its back on the magnetic charger, and the strap drapes down both sides. The charging cable tucks away out the back.
