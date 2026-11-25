@@ -1,0 +1,446 @@
+<title>Watch Charging Bridge</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600;700&family=Source+Sans+3:wght@400;600&family=JetBrains+Mono:wght@400;500&display=swap">
+<style>
+:root{
+  --bg:#eeede8; --paper:#f8f7f3; --ink:#23262a; --muted:#62676d; --line:#c9c8c0;
+  --stone:#b9b6ab; --stone-dark:#8d8a80; --moss:#5f7430; --brass:#b08a2e; --cut:#2d3036;
+  --dim:#3b5e8c; --hatch:#a9a69b; --watch:rgba(40,60,90,.18);
+  --display:"Barlow Semi Condensed","Arial Narrow",Arial,sans-serif;
+  --body:"Source Sans 3","Segoe UI",system-ui,sans-serif;
+  --mono:"JetBrains Mono",ui-monospace,Menlo,Consolas,monospace;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    color-scheme:dark;
+    --bg:#1b1d1f; --paper:#232629; --ink:#e7e5de; --muted:#a3a79f; --line:#3b3f43;
+    --stone:#8e8b82; --stone-dark:#6c6a62; --moss:#9bb45c; --brass:#d6ad4c; --cut:#0f1012;
+    --dim:#8fb2e0; --hatch:#55585a; --watch:rgba(160,190,230,.18);
+  }
+}
+:root[data-theme="dark"]{
+  color-scheme:dark;
+  --bg:#1b1d1f; --paper:#232629; --ink:#e7e5de; --muted:#a3a79f; --line:#3b3f43;
+  --stone:#8e8b82; --stone-dark:#6c6a62; --moss:#9bb45c; --brass:#d6ad4c; --cut:#0f1012;
+  --dim:#8fb2e0; --hatch:#55585a; --watch:rgba(160,190,230,.18);
+}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);font:16px/1.55 var(--body);padding:0 16px 48px}
+.wrap{max-width:1100px;margin:0 auto}
+header{padding-block:32px 20px;display:grid;gap:6px}
+.eyebrow{font:500 12px var(--mono);letter-spacing:.08em;text-transform:uppercase;color:var(--moss)}
+h1{font:700 clamp(32px,5vw,48px)/1.05 var(--display);margin:0;text-wrap:balance;letter-spacing:.01em}
+h2{font:600 24px/1.2 var(--display);margin:0 0 4px;text-wrap:balance}
+h3{font:600 17px/1.25 var(--display);margin:0;letter-spacing:.02em}
+.lede{max-width:68ch;color:var(--muted);margin:0}
+.sheet{background:var(--paper);border:1px solid var(--line);border-radius:6px;padding:20px}
+.viewer{display:grid;grid-template-columns:minmax(0,1fr) 280px;gap:0;padding:0;overflow:hidden}
+#stage{position:relative;min-height:440px;background:var(--paper)}
+#stage canvas{display:block;width:100%;height:100%;touch-action:none}
+.hint{position:absolute;left:12px;bottom:10px;font:12px var(--mono);color:var(--muted);pointer-events:none}
+.side{border-left:1px solid var(--line);padding:18px;display:flex;flex-direction:column;gap:18px}
+.btns{display:flex;flex-wrap:wrap;gap:6px}
+button{font:500 13px var(--mono);color:var(--ink);background:transparent;border:1px solid var(--line);border-radius:4px;padding:6px 10px;cursor:pointer}
+button[aria-pressed="true"]{background:var(--ink);color:var(--paper);border-color:var(--ink)}
+button:focus-visible{outline:2px solid var(--dim);outline-offset:2px}
+dl.specs{display:grid;grid-template-columns:auto 1fr;gap:4px 12px;margin:0;font-size:14px}
+dl.specs dt{color:var(--muted)}
+dl.specs dd{margin:0;font:500 13px/1.6 var(--mono);text-align:right;font-variant-numeric:tabular-nums}
+.label{font:500 11px var(--mono);letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin-bottom:6px}
+section{margin-top:36px;display:grid;gap:14px}
+.grid2{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px;align-items:start}
+figure{margin:0;display:grid;gap:8px}
+figcaption{font-size:14px;color:var(--muted)}
+.draw{overflow-x:auto}
+.draw svg{width:100%;height:auto;display:block;min-width:320px}
+svg text{font-family:var(--mono)}
+ul.notes,ol.qs{margin:0;padding-left:20px;display:grid;gap:8px;max-width:75ch}
+ol.qs li::marker{font:600 14px var(--mono);color:var(--moss)}
+.tag{display:inline-block;font:500 11px var(--mono);padding:1px 6px;border-radius:3px;border:1px solid var(--line);color:var(--muted);margin-left:4px;vertical-align:1px}
+.tag.m{color:var(--moss);border-color:var(--moss)}
+table{border-collapse:collapse;width:100%;font-size:14px}
+th,td{text-align:left;padding:7px 10px;border-bottom:1px solid var(--line);vertical-align:top}
+th{font:500 11px var(--mono);letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+td.n{font-family:var(--mono);font-variant-numeric:tabular-nums;white-space:nowrap}
+@media (max-width:820px){
+  .viewer{grid-template-columns:1fr}
+  .side{border-left:0;border-top:1px solid var(--line)}
+  .grid2{grid-template-columns:1fr}
+  #stage{min-height:340px}
+}
+</style>
+
+
+<div class="wrap">
+<header>
+  <div class="eyebrow">Design mockup · rev C · for review before CAD</div>
+  <h1>Watch Charging Bridge</h1>
+  <p class="lede">A humpback stone bridge that doubles as a charging stand. The B9 watch body nests face-up in a curved cradle on the crown with its back on the magnetic charger, and the mesh strap runs down both ramps between 3&nbsp;mm parapet walls. The charging cable drops through the deck into the arch and exits out the back.</p>
+</header>
+
+<div class="sheet viewer">
+  <div id="stage"><div class="hint">drag to orbit · scroll to zoom</div></div>
+  <div class="side">
+    <div>
+      <div class="label">View</div>
+      <div class="btns" id="views">
+        <button data-v="iso" aria-pressed="true">3/4</button>
+        <button data-v="side" aria-pressed="false">Side</button>
+        <button data-v="top" aria-pressed="false">Top</button>
+        <button data-v="end" aria-pressed="false">End</button>
+      </div>
+    </div>
+    <div>
+      <div class="label">Show</div>
+      <div class="btns">
+        <button id="tWatch" aria-pressed="true">Watch</button>
+        <button id="tCable" aria-pressed="true">Cable</button>
+      </div>
+    </div>
+    <div>
+      <div class="label">Key sizes (mm)</div>
+      <dl class="specs">
+        <dt>Overall length</dt><dd>130</dd>
+        <dt>Overall width</dt><dd>26</dd>
+        <dt>Crown height</dt><dd>40</dd>
+        <dt>Channel, ramps</dt><dd>20</dd>
+        <dt>Cradle, crown</dt><dd>20.6 × 50</dd>
+        <dt>Crown curve</dt><dd>R64</dd>
+        <dt>Wall height</dt><dd>3</dd>
+        <dt>Charger offset</dt><dd>14.6 from centre</dd>
+        <dt>Charger pocket</dt><dd>Ø6.6 × 5.7</dd>
+      </dl>
+    </div>
+  </div>
+</div>
+
+<section>
+  <div>
+    <h2>Changes since rev A</h2>
+  </div>
+  <div class="sheet">
+    <ul class="notes">
+      <li>The watch body is 19.98&nbsp;mm wide, so it now sits <strong>between the walls</strong>. The walls run the full length and there's no flat landing any more.</li>
+      <li>The crown is <strong>curved to match the watch's curved back</strong>, so the body nests in it instead of rocking on a flat top.</li>
+      <li>Over the 50&nbsp;mm where the watch body sits, the channel widens slightly to <strong>20.6&nbsp;mm</strong>. A 19.98&nbsp;mm body in a 20.0&nbsp;mm printed channel would jam. The strap channel on the ramps stays at 20&nbsp;mm.</li>
+      <li>The charger has moved to the <strong>charging end</strong> of the watch, 14.6&nbsp;mm from the middle. It's tilted 13.2° so it sits square to the curved crown. The watch goes on one way round, with the CE end toward the other ramp.</li>
+      <li><strong>Rev C:</strong> uses your measured 4.1&nbsp;mm thickness and 8&nbsp;mm contact position. The crown curve is now R64 and the charger sits 14.6&nbsp;mm off centre.</li>
+    </ul>
+  </div>
+</section>
+
+<section>
+  <div>
+    <h2>Drawings</h2>
+    <p class="lede">All sizes in millimetres, drawn to scale from the same profile as the 3D view. The watch is shown dashed.</p>
+  </div>
+  <figure class="sheet">
+    <div class="draw" id="dSide"></div>
+    <figcaption>Side elevation. The crown follows an R64 curve under the watch body, then blends smoothly into the ramps. The arch runs through the full width so the cable can leave out the back.</figcaption>
+  </figure>
+  <div class="grid2">
+    <figure class="sheet">
+      <div class="draw" id="dTop"></div>
+      <figcaption>Top view. The walls step out 0.3&nbsp;mm each side where the watch body sits. The charger is under the charging end, opposite the CE mark.</figcaption>
+    </figure>
+    <figure class="sheet">
+      <div class="draw" id="dEnd"></div>
+      <figcaption>Section across the crown. The body has 0.3&nbsp;mm clearance each side, and the walls come about three-quarters of the way up its sides.</figcaption>
+    </figure>
+  </div>
+  <div class="grid2">
+    <figure class="sheet">
+      <div class="draw" id="dCrown"></div>
+      <figcaption>Section through the charger, 3× scale. The pocket is square to the curved crown, and the metal circle faces up, standing 0.2&nbsp;mm proud. The boot points toward the middle of the bridge so the cable can drop straight down a slot into the arch.</figcaption>
+    </figure>
+    <figure class="sheet">
+      <div class="draw" id="dWatch"></div>
+      <figcaption>Watch body from your photos, 1.5× scale. All sizes are your measurements. The back curve works out to R64.</figcaption>
+    </figure>
+  </div>
+</section>
+
+<section>
+  <h2>How it works</h2>
+  <div class="sheet">
+    <table>
+      <thead><tr><th>Feature</th><th>Size</th><th>Why</th></tr></thead>
+      <tbody>
+        <tr><td>Strap channel</td><td class="n">20 wide</td><td>Your spec: 18&nbsp;mm strap plus 1&nbsp;mm each side.</td></tr>
+        <tr><td>Watch cradle</td><td class="n">20.6 × 50</td><td>Holds the 19.98 × 45.27 body with 0.3&nbsp;mm clearance each side and room at each end for the strap hinges.</td></tr>
+        <tr><td>Crown curve</td><td class="n">R64</td><td>Matches the concave back: 8.22 depth minus 4.1 thickness gives a 4.12&nbsp;mm curve over the 45.27 length.</td></tr>
+        <tr><td>Parapet walls</td><td class="n">3 high</td><td>Your spec. They're 3&nbsp;mm thick on the ramps and 2.7&nbsp;mm at the cradle, and the watch face stands about 1.1&nbsp;mm above them so it's easy to lift off.</td></tr>
+        <tr><td>Charger pocket</td><td class="n">Ø6.6 × 5.7 deep</td><td>Plug head is Ø6.28 × 5.94. That gives a snug push-fit, and the contact stands 0.24&nbsp;mm proud for firm contact.</td></tr>
+        <tr><td>Charger position</td><td class="n">14.6 off centre</td><td>The charging circle is centred across the width and 8&nbsp;mm in from the charging end.</td></tr>
+        <tr><td>Cable slot</td><td class="n">3.4 wide</td><td>Runs from the boot straight down into the arch, then the cable leaves out the back.</td></tr>
+        <tr><td>Stone finish</td><td class="n">0.6 relief</td><td>Block pattern on the outside faces and pillars. The deck, cradle and inside of the walls stay smooth so they don't scratch the watch.</td></tr>
+        <tr><td>Print</td><td class="n">upright</td><td>Prints as it stands. The arch is a semicircle, so it needs no supports.</td></tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<section>
+  <h2>One thing left before I build the model</h2>
+  <div class="sheet">
+    <ol class="qs">
+      <li><strong>Cable size.</strong> The cable diameter, and the plastic boot just behind the round head. I've guessed 3.2 and 4.3&nbsp;mm.</li>
+    </ol>
+  </div>
+</section>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/controls/OrbitControls.js"></script>
+<script>
+// ---------- shared geometry (mm) ----------
+const L=65, BASE_Y=12, CROWN_Y=40, ARC_END=24, RAMP_END=58, ARCH_R=18, ARCH_SPRING=6;
+const HW=13, IN=10, IN_C=10.3, CRADLE=25, WALL_H=3, PIL_X=59, PIL_H=9;
+const WR=64.2, WCY=CROWN_Y-WR;                 // crown arc radius & centre y
+const W_LEN=45.27, W_WID=19.98, W_T=4.1;     // watch body
+const CX=W_LEN/2-8, TH=Math.asin(CX/WR);             // charger x, tilt
+const arcY=x=>WCY+Math.sqrt(WR*WR-x*x);
+const YA=arcY(ARC_END), SA=-ARC_END/Math.sqrt(WR*WR-ARC_END*ARC_END);
+function deckY(x){const a=Math.abs(x);if(a<=ARC_END)return arcY(a);if(a>=RAMP_END)return BASE_Y;
+  const D=RAMP_END-ARC_END,t=(a-ARC_END)/D,t2=t*t,t3=t2*t;
+  return (2*t3-3*t2+1)*YA+(t3-2*t2+t)*D*SA+(-2*t3+3*t2)*BASE_Y;}
+const inner=x=>Math.abs(x)<=CRADLE?IN_C:IN;
+const PY=arcY(CX);
+const SLX=CX-7*Math.cos(TH)-3.45*Math.sin(TH);   // cable slot centre x
+const css=n=>getComputedStyle(document.documentElement).getPropertyValue(n).trim();
+
+// ---------- SVG helpers ----------
+const NS='http://www.w3.org/2000/svg';
+function svgEl(vb){const s=document.createElementNS(NS,'svg');s.setAttribute('viewBox',vb);s.setAttribute('role','img');return s;}
+function add(p,tag,attrs,text){const e=document.createElementNS(NS,tag);for(const k in attrs)e.setAttribute(k,attrs[k]);if(text!=null)e.textContent=text;p.appendChild(e);return e;}
+function arrowDefs(s,id,sz){const d=add(s,'defs',{});const m=add(d,'marker',{id,viewBox:'0 0 10 10',refX:10,refY:5,markerWidth:sz,markerHeight:sz,orient:'auto-start-reverse'});add(m,'path',{d:'M0,1 L10,5 L0,9 z',fill:'var(--dim)'});
+  const p=add(d,'pattern',{id:id+'h',width:1.6,height:1.6,patternUnits:'userSpaceOnUse',patternTransform:'rotate(45)'});add(p,'rect',{width:1.6,height:1.6,fill:'var(--paper)'});add(p,'line',{x1:0,y1:0,x2:0,y2:1.6,stroke:'var(--hatch)','stroke-width':.35});}
+function dim(s,id,x1,y1,x2,y2,label,off,fs,tx,ty){
+  add(s,'line',{x1,y1,x2,y2,stroke:'var(--dim)','stroke-width':fs*.07,'marker-start':`url(#${id})`,'marker-end':`url(#${id})`});
+  const mx=tx??(x1+x2)/2,my=ty??(y1+y2)/2,vert=Math.abs(x1-x2)<1e-6;
+  add(s,'text',{x:mx+(vert?off:0),y:my+(vert?fs*.35:off),'font-size':fs,fill:'var(--dim)','text-anchor':vert?(off<0?'end':'start'):'middle'},label);
+}
+function ext(s,x1,y1,x2,y2,w){add(s,'line',{x1,y1,x2,y2,stroke:'var(--dim)','stroke-width':w,'stroke-dasharray':`${w*4} ${w*3}`,opacity:.7});}
+// watch body outline (annular sector) as path in world coords, mapped by X,Y
+function watchPath(X,Y,xmin=-W_LEN/2,xmax=W_LEN/2){let d='';const a1=Math.asin(xmin/WR),a2=Math.asin(xmax/WR),n=40;
+  for(let i=0;i<=n;i++){const a=a1+(a2-a1)*i/n;d+=(i?' L':'M')+X(WR*Math.sin(a))+','+Y(WCY+WR*Math.cos(a));}
+  for(let i=n;i>=0;i--){const a=a1+(a2-a1)*i/n,r=WR+W_T;d+=' L'+X(r*Math.sin(a))+','+Y(WCY+r*Math.cos(a));}return d+'Z';}
+
+// ---------- side elevation ----------
+(function(){
+  const s=svgEl('0 8 150 70'),X=x=>x+75,Y=y=>66-y,fs=3.2;arrowDefs(s,'as',5);
+  let d=`M${X(-L)},${Y(0)} L${X(-ARCH_R)},${Y(0)} L${X(-ARCH_R)},${Y(ARCH_SPRING)} A${ARCH_R},${ARCH_R} 0 0 1 ${X(ARCH_R)},${Y(ARCH_SPRING)} L${X(ARCH_R)},${Y(0)} L${X(L)},${Y(0)} L${X(L)},${Y(BASE_Y)}`;
+  for(let x=L;x>=-L;x-=.5)d+=` L${X(x)},${Y(deckY(x))}`;d+=' Z';
+  add(s,'path',{d,fill:'var(--stone)',stroke:'var(--ink)','stroke-width':.35});
+  let wp=`M${X(-PIL_X)},${Y(deckY(-PIL_X))}`;for(let x=-PIL_X;x<=PIL_X;x+=.5)wp+=` L${X(x)},${Y(deckY(x)+WALL_H)}`;for(let x=PIL_X;x>=-PIL_X;x-=.5)wp+=` L${X(x)},${Y(deckY(x))}`;
+  add(s,'path',{d:wp+'Z',fill:'var(--stone-dark)',stroke:'var(--ink)','stroke-width':.3});
+  [[-L,-PIL_X],[PIL_X,L]].forEach(([a,b])=>add(s,'rect',{x:X(a),y:Y(BASE_Y+PIL_H),width:b-a,height:PIL_H,fill:'var(--stone-dark)',stroke:'var(--ink)','stroke-width':.3}));
+  for(let i=1;i<9;i++){const t=Math.PI*i/9;add(s,'line',{x1:X(-ARCH_R*Math.cos(t)),y1:Y(ARCH_SPRING+ARCH_R*Math.sin(t)),x2:X(-(ARCH_R+4)*Math.cos(t)),y2:Y(ARCH_SPRING+(ARCH_R+4)*Math.sin(t)),stroke:'var(--ink)','stroke-width':.2,opacity:.5});}
+  add(s,'path',{d:`M${X(-ARCH_R-4)},${Y(ARCH_SPRING)} A${ARCH_R+4},${ARCH_R+4} 0 0 1 ${X(ARCH_R+4)},${Y(ARCH_SPRING)}`,fill:'none',stroke:'var(--ink)','stroke-width':.2,opacity:.5});
+  // charger pocket (tilted) + cable slot
+  add(s,'rect',{x:X(SLX-1.7),y:Y(deckY(SLX-1.7)),width:3.4,height:deckY(SLX-1.7)-22.4,fill:'var(--cut)',opacity:.55});
+  const g=add(s,'g',{transform:`translate(${X(CX)},${Y(PY)}) rotate(${TH*180/Math.PI})`});
+  add(g,'rect',{x:-3.3,y:0,width:6.6,height:5.7,fill:'var(--cut)'});add(g,'rect',{x:-8.4,y:0,width:5.1,height:5.7,fill:'var(--cut)',opacity:.7});
+  // watch
+  add(s,'path',{d:watchPath(X,Y),fill:'var(--watch)',stroke:'var(--dim)','stroke-width':.3,'stroke-dasharray':'1.2 .7'});
+  // dims
+  const w1=.25;
+  ext(s,X(-L),Y(0)+1,X(-L),Y(0)+10,w1);ext(s,X(L),Y(0)+1,X(L),Y(0)+10,w1);
+  dim(s,'as',X(-L),Y(0)+8,X(L),Y(0)+8,'130',-1.2,fs);
+  const wy=Y(CROWN_Y+W_T)-7;
+  ext(s,X(-W_LEN/2),Y(arcY(W_LEN/2)+W_T)-1,X(-W_LEN/2),wy-2,w1);ext(s,X(W_LEN/2),Y(arcY(W_LEN/2)+W_T)-1,X(W_LEN/2),wy-2,w1);
+  dim(s,'as',X(-W_LEN/2),wy,X(W_LEN/2),wy,'45.27 watch',-1.2,fs);
+  ext(s,X(0),Y(CROWN_Y)-.5,X(0),wy+6,w1);
+  dim(s,'as',X(0),wy+4,X(CX),wy+4,'14.6',-.8,fs*.85);
+  dim(s,'as',X(-ARCH_R),Y(2),X(ARCH_R),Y(2),'36',-1.2,fs);
+  dim(s,'as',X(0)-10,Y(0),X(0)-10,Y(24),'24',1.2,fs*.9);
+  ext(s,X(-L)-1,Y(0),X(-L)-5,Y(0),w1);ext(s,X(-8),Y(CROWN_Y),X(-L)-5,Y(CROWN_Y),w1);
+  dim(s,'as',X(-L)-4,Y(0),X(-L)-4,Y(CROWN_Y),'40',-1,fs);
+  add(s,'text',{x:X(-30),y:Y(deckY(-30)+WALL_H)-5,'font-size':2.8,fill:'var(--dim)','text-anchor':'end'},'crown R64');
+  add(s,'text',{x:X(-30),y:Y(deckY(-30)+WALL_H)-1.5,'font-size':2.6,fill:'var(--muted)','text-anchor':'end'},'CE end');
+  add(s,'text',{x:X(29),y:Y(deckY(29)+WALL_H)-1.5,'font-size':2.6,fill:'var(--brass)'},'charging end');
+  add(s,'text',{x:X(42),y:Y(deckY(42)+WALL_H)+1,'font-size':2.6,fill:'var(--muted)'},'wall 3 high');
+  document.getElementById('dSide').appendChild(s);
+})();
+
+// ---------- top view ----------
+(function(){
+  const s=svgEl('0 4 150 46'),X=x=>x+75,Y=z=>z+25,fs=4.4;arrowDefs(s,'at',5);
+  add(s,'rect',{x:X(-L),y:Y(-HW),width:2*L,height:2*HW,fill:'var(--stone)',stroke:'var(--ink)','stroke-width':.35});
+  [[-PIL_X,-CRADLE,IN],[-CRADLE,CRADLE,IN_C],[CRADLE,PIL_X,IN]].forEach(([a,b,i])=>{
+    add(s,'rect',{x:X(a),y:Y(-HW),width:b-a,height:HW-i,fill:'var(--stone-dark)',stroke:'var(--ink)','stroke-width':.25});
+    add(s,'rect',{x:X(a),y:Y(i),width:b-a,height:HW-i,fill:'var(--stone-dark)',stroke:'var(--ink)','stroke-width':.25});});
+  [[-L,-PIL_X],[PIL_X,L]].forEach(([a,b])=>{[-HW,IN].forEach(z=>add(s,'rect',{x:X(a),y:Y(z),width:b-a,height:3,fill:'var(--stone-dark)',stroke:'var(--ink)','stroke-width':.35}));});
+  add(s,'rect',{x:X(CX-8.4),y:Y(-2.4),width:5.1,height:4.8,fill:'var(--cut)'});
+  add(s,'circle',{cx:X(CX),cy:Y(0),r:3.3,fill:'var(--cut)'});
+  add(s,'circle',{cx:X(CX),cy:Y(0),r:2.1,fill:'none',stroke:'#c9ccd0','stroke-width':.8});
+  add(s,'circle',{cx:X(CX),cy:Y(0),r:.5,fill:'var(--brass)'});
+  add(s,'rect',{x:X(-W_LEN/2),y:Y(-W_WID/2),width:W_LEN,height:W_WID,rx:1.5,fill:'var(--watch)',stroke:'var(--dim)','stroke-width':.3,'stroke-dasharray':'1.2 .7'});
+  add(s,'text',{x:X(-12),y:Y(0)+1.3,'font-size':3.4,fill:'var(--dim)','text-anchor':'middle'},'CE');
+  dim(s,'at',X(-45),Y(-IN),X(-45),Y(IN),'20',1.2,fs);
+  dim(s,'at',X(-L)-3,Y(-HW),X(-L)-3,Y(HW),'26',-1,fs);
+  ext(s,X(-L)-1,Y(-HW),X(-L)-4,Y(-HW),.2);ext(s,X(-L)-1,Y(HW),X(-L)-4,Y(HW),.2);
+  dim(s,'at',X(-CRADLE),Y(-HW)-3,X(CRADLE),Y(-HW)-3,'50 cradle, 20.6 wide',-1.2,fs*.8);
+  ext(s,X(-CRADLE),Y(-HW),X(-CRADLE),Y(-HW)-5,.2);ext(s,X(CRADLE),Y(-HW),X(CRADLE),Y(-HW)-5,.2);
+  add(s,'text',{x:X(CX),y:Y(HW)+5,'font-size':3.4,fill:'var(--brass)','text-anchor':'middle'},'charger');
+  add(s,'text',{x:X(45),y:Y(0)+1.3,'font-size':3.4,fill:'var(--ink)','text-anchor':'middle'},'strap');
+  document.getElementById('dTop').appendChild(s);
+})();
+
+// ---------- section across crown ----------
+(function(){
+  const s=svgEl('0 0 60 44'),X=z=>z+30,Y=y=>34-y,fs=2.4,D=18;arrowDefs(s,'ae',4);
+  add(s,'path',{d:`M${X(-HW)},${Y(0)} L${X(HW)},${Y(0)} L${X(HW)},${Y(D+WALL_H)} L${X(IN_C)},${Y(D+WALL_H)} L${X(IN_C)},${Y(D)} L${X(-IN_C)},${Y(D)} L${X(-IN_C)},${Y(D+WALL_H)} L${X(-HW)},${Y(D+WALL_H)} Z`,fill:'url(#aeh)',stroke:'var(--ink)','stroke-width':.3});
+  add(s,'rect',{x:X(-W_WID/2),y:Y(D+W_T),width:W_WID,height:W_T,rx:.8,fill:'var(--watch)',stroke:'var(--dim)','stroke-width':.2,'stroke-dasharray':'.8 .5'});
+  add(s,'text',{x:X(0),y:Y(D+W_T)-1.2,'font-size':2.2,fill:'var(--dim)','text-anchor':'middle'},'watch 19.98');
+  dim(s,'ae',X(-IN_C),Y(9),X(IN_C),Y(9),'20.6',-1,fs);
+  dim(s,'ae',X(-HW),Y(-3),X(HW),Y(-3),'26',3,fs);
+  dim(s,'ae',X(HW)+3,Y(D),X(HW)+3,Y(D+WALL_H),'3',1,fs);
+  ext(s,X(HW)+.5,Y(D),X(HW)+5,Y(D),.15);
+  dim(s,'ae',X(-HW)-3,Y(D),X(-HW)-3,Y(D+W_T),'4.1',-1,fs*.9);
+  ext(s,X(-W_WID/2)-.5,Y(D+W_T),X(-HW)-5,Y(D+W_T),.15);ext(s,X(-HW)-.5,Y(D),X(-HW)-5,Y(D),.15);
+  document.getElementById('dEnd').appendChild(s);
+})();
+
+// ---------- charger section 3x ----------
+(function(){
+  const k=3,x0=-3,s=svgEl('0 0 96 96'),X=x=>(x-x0)*k+2,Y=y=>(46-y)*k,fs=2.8;arrowDefs(s,'ac',5);
+  const xr=26,yb=14,xi=Math.sqrt(ARCH_R*ARCH_R-(yb-ARCH_SPRING)**2);
+  let d=`M${X(x0)},${Y(deckY(x0))}`;for(let x=x0;x<=xr;x+=.25)d+=` L${X(x)},${Y(deckY(x))}`;
+  d+=` L${X(xr)},${Y(yb)} L${X(xi)},${Y(yb)}`;for(let x=xi;x>=x0;x-=.25)d+=` L${X(x)},${Y(ARCH_SPRING+Math.sqrt(ARCH_R*ARCH_R-x*x))}`;d+='Z';
+  add(s,'path',{d,fill:'url(#ach)',stroke:'var(--ink)','stroke-width':.4});
+  // vertical cable slot
+  add(s,'rect',{x:X(SLX-1.7),y:Y(deckY(SLX-1.7)),width:3.4*k,height:(deckY(SLX-1.7)-21.5)*k,fill:'var(--paper)',stroke:'var(--ink)','stroke-width':.3});
+  // tilted pocket group (local: u along surface, v into body), units scaled by k
+  const g=add(s,'g',{transform:`translate(${X(CX)},${Y(PY)}) rotate(${TH*180/Math.PI}) scale(${k})`});
+  add(g,'rect',{x:-3.3,y:0,width:6.6,height:5.7,fill:'var(--paper)',stroke:'var(--ink)','stroke-width':.1});
+  add(g,'rect',{x:-8.4,y:0,width:5.1,height:5.7,fill:'var(--paper)',stroke:'var(--ink)','stroke-width':.1});
+  add(g,'rect',{x:-3.14,y:-.24,width:6.28,height:5.94,rx:.6,fill:'#2a2c30'});
+  add(g,'rect',{x:-2.1,y:-.24,width:4.2,height:.35,fill:'#c9ccd0'});
+  add(g,'rect',{x:-.35,y:-.45,width:.7,height:.5,fill:'var(--brass)'});
+  add(g,'rect',{x:-7,y:1.3,width:4,height:4.3,rx:.6,fill:'#2a2c30'});
+  // cable: from boot end down the slot (world coords)
+  const bx=CX-7*Math.cos(TH)-3.45*Math.sin(TH),by=PY+7*Math.sin(TH)-3.45*Math.cos(TH);
+  add(s,'path',{d:`M${X(bx+1)},${Y(by-.25)} Q${X(SLX)},${Y(by)} ${X(SLX)},${Y(by-3)} L${X(SLX)},${Y(16)}`,fill:'none',stroke:'#2a2c30','stroke-width':3.2*k,'stroke-linecap':'round'});
+  // watch
+  add(s,'path',{d:watchPath(X,Y,x0,W_LEN/2),fill:'var(--watch)',stroke:'var(--dim)','stroke-width':.35,'stroke-dasharray':'1.5 1'});
+  add(s,'text',{x:X(-2),y:Y(CROWN_Y+W_T)-1.5,'font-size':fs,fill:'var(--dim)'},'watch back');
+  add(s,'text',{x:X(23),y:Y(PY+W_T)-6,'font-size':fs*.9,fill:'var(--brass)','text-anchor':'end'},'contact 0.2 proud');
+  add(s,'text',{x:X(12),y:Y(22),'font-size':fs*.9,fill:'var(--muted)'},'tilted 13.2°');
+  add(s,'text',{x:X(1),y:Y(28),'font-size':fs*.9,fill:'var(--muted)','text-anchor':'end'},'cable');
+  add(s,'text',{x:X(1),y:Y(28)+3.2,'font-size':fs*.9,fill:'var(--muted)','text-anchor':'end'},'slot 3.4');
+  add(s,'text',{x:X(9.6),y:Y(17),'font-size':fs*.9,fill:'var(--muted)'},'into arch ↓');
+  document.getElementById('dCrown').appendChild(s);
+})();
+
+// ---------- watch body 1.5x ----------
+(function(){
+  const k=1.5,s=svgEl('0 0 100 80'),fs=2.8;arrowDefs(s,'aw',5);
+  // side view (curved) : local coords, chord of back ends at y=0
+  const sag=WR-Math.sqrt(WR*WR-(W_LEN/2)**2);
+  const X=x=>50+x*k,Y=y=>30-(y-(WCY+Math.sqrt(WR*WR-(W_LEN/2)**2)))*k;
+  add(s,'path',{d:watchPath(X,Y),fill:'var(--watch)',stroke:'var(--dim)','stroke-width':.35});
+  const y0=Y(WCY+Math.sqrt(WR*WR-(W_LEN/2)**2)),ytop=Y(CROWN_Y+W_T);
+  ext(s,X(-W_LEN/2)-2,y0,X(W_LEN/2)+8,y0,.2);ext(s,X(0),ytop,X(W_LEN/2)+8,ytop,.2);
+  dim(s,'aw',X(W_LEN/2)+6,y0,X(W_LEN/2)+6,ytop,'8.22',1,fs);
+  add(s,'text',{x:X(0),y:Y(CROWN_Y)+4.5,'font-size':2.4,fill:'var(--muted)','text-anchor':'middle'},`back R${WR} · thickness ${W_T}?`);
+  // plan of back
+  const py=48,PX=x=>50+x*k;
+  add(s,'rect',{x:PX(-W_LEN/2),y:py,width:W_LEN*k,height:W_WID*k,rx:2,fill:'var(--watch)',stroke:'var(--dim)','stroke-width':.35});
+  add(s,'text',{x:PX(-12),y:py+W_WID*k/2+1.2,'font-size':3.6,fill:'var(--dim)','text-anchor':'middle'},'CE');
+  add(s,'circle',{cx:PX(CX),cy:py+W_WID*k/2,r:2.2,fill:'none',stroke:'#c9ccd0','stroke-width':.9});
+  add(s,'circle',{cx:PX(CX),cy:py+W_WID*k/2,r:.5,fill:'var(--brass)'});
+  dim(s,'aw',PX(-W_LEN/2),py-2.5,PX(W_LEN/2),py-2.5,'45.27',-1,fs);
+  dim(s,'aw',PX(-W_LEN/2)-3,py,PX(-W_LEN/2)-3,py+W_WID*k,'19.98',-1,fs);
+  dim(s,'aw',PX(CX),py+W_WID*k+3,PX(W_LEN/2),py+W_WID*k+3,'8',3.4,fs*.9);
+  ext(s,PX(CX),py+W_WID*k/2+2.5,PX(CX),py+W_WID*k+4.5,.2);
+  document.getElementById('dWatch').appendChild(s);
+})();
+
+// ---------- 3D ----------
+(function(){
+  if(!window.THREE)return;
+  const stage=document.getElementById('stage');
+  const renderer=new THREE.WebGLRenderer({antialias:true});
+  renderer.setPixelRatio(Math.min(devicePixelRatio,2));renderer.shadowMap.enabled=true;renderer.shadowMap.type=THREE.PCFSoftShadowMap;
+  stage.prepend(renderer.domElement);
+  const scene=new THREE.Scene();
+  const cam=new THREE.PerspectiveCamera(32,1,1,2000);
+  const ctl=new THREE.OrbitControls(cam,renderer.domElement);ctl.enableDamping=true;ctl.minDistance=60;ctl.maxDistance=500;
+
+  scene.add(new THREE.HemisphereLight(0xffffff,0x8a8578,.75));
+  const sun=new THREE.DirectionalLight(0xffffff,.75);sun.position.set(-80,140,110);sun.castShadow=true;
+  Object.assign(sun.shadow.camera,{left:-120,right:120,top:120,bottom:-120,near:10,far:400});sun.shadow.mapSize.set(2048,2048);sun.shadow.bias=-.0005;scene.add(sun);
+
+  function stoneTex(){const c=document.createElement('canvas');c.width=c.height=512;const g=c.getContext('2d');g.fillStyle='#b8b4a8';g.fillRect(0,0,512,512);
+    let seed=7;const r=()=>(seed=(seed*16807)%2147483647)/2147483647;
+    for(let y=0;y<512;){const h=40+r()*24;let x=-r()*60;while(x<512){const w=50+r()*70;const t=170+r()*30|0;g.fillStyle=`rgb(${t},${t-3},${t-12})`;g.fillRect(x+3,y+3,w-6,h-6);
+      if(r()<.12){g.fillStyle='rgba(95,116,48,.35)';g.beginPath();g.ellipse(x+w*r(),y+h*r(),12+r()*18,8+r()*10,0,0,7);g.fill();}x+=w;}y+=h;}
+    const t=new THREE.CanvasTexture(c);t.wrapS=t.wrapT=THREE.RepeatWrapping;t.repeat.set(1/48,1/48);return t;}
+  const stoneMat=new THREE.MeshStandardMaterial({map:stoneTex(),roughness:.92});
+  const deckMat=new THREE.MeshStandardMaterial({color:0xc2beb3,roughness:.85});
+
+  const sh=new THREE.Shape();sh.moveTo(-L,0);sh.lineTo(-ARCH_R,0);sh.lineTo(-ARCH_R,ARCH_SPRING);
+  sh.absarc(0,ARCH_SPRING,ARCH_R,Math.PI,0,true);sh.lineTo(ARCH_R,0);sh.lineTo(L,0);sh.lineTo(L,BASE_Y);
+  for(let x=L;x>=-L;x-=.5)sh.lineTo(x,deckY(x));sh.closePath();
+  const body=new THREE.Mesh(new THREE.ExtrudeGeometry(sh,{depth:2*HW,bevelEnabled:false,curveSegments:48}),[stoneMat,deckMat]);
+  body.position.z=-HW;body.castShadow=body.receiveShadow=true;scene.add(body);
+
+  function wallShape(a,b){const s=new THREE.Shape();const n=Math.ceil((b-a)/.5),st=(b-a)/n;s.moveTo(a,deckY(a)-1);
+    for(let i=0;i<=n;i++){const x=a+i*st;s.lineTo(x,deckY(x)+WALL_H);}for(let i=n;i>=0;i--){const x=a+i*st;s.lineTo(x,deckY(x)-1);}return s;}
+  [[-PIL_X,-CRADLE,IN],[-CRADLE,CRADLE,IN_C],[CRADLE,PIL_X,IN]].forEach(([a,b,i])=>[-HW,i].forEach(z=>{
+    const m=new THREE.Mesh(new THREE.ExtrudeGeometry(wallShape(a,b),{depth:HW-i,bevelEnabled:false}),stoneMat);m.position.z=z;m.castShadow=m.receiveShadow=true;scene.add(m);}));
+  [-1,1].forEach(sx=>[-1,1].forEach(sz=>{const px=sx*(L-3),pz=sz*(HW-1.8);
+    const p=new THREE.Mesh(new THREE.BoxGeometry(6,PIL_H,3.6),stoneMat);p.position.set(px,BASE_Y+PIL_H/2,pz);p.castShadow=true;scene.add(p);
+    const c=new THREE.Mesh(new THREE.ConeGeometry(3.6,2.4,4),stoneMat);c.rotation.y=Math.PI/4;c.position.set(px,BASE_Y+PIL_H+1.2,pz);c.castShadow=true;scene.add(c);}));
+
+  // charger (tilted to surface normal)
+  const dark=new THREE.MeshStandardMaterial({color:0x1f2124,roughness:.6});
+  const metal=new THREE.MeshStandardMaterial({color:0xd4d7db,metalness:.9,roughness:.25});
+  const gold=new THREE.MeshStandardMaterial({color:0xc9a13c,metalness:.9,roughness:.3});
+  const chg=new THREE.Group();chg.position.set(CX,PY,0);chg.rotation.z=-TH;scene.add(chg);
+  const head=new THREE.Mesh(new THREE.CylinderGeometry(3.14,3.14,.4,40),dark);head.position.y=.21;chg.add(head);
+  const ring=new THREE.Mesh(new THREE.RingGeometry(1.2,2.1,40),metal);ring.rotation.x=-Math.PI/2;ring.position.y=.42;chg.add(ring);
+  const pin=new THREE.Mesh(new THREE.CylinderGeometry(.5,.5,.3,20),gold);pin.position.y=.5;chg.add(pin);
+  const slot=new THREE.Mesh(new THREE.BoxGeometry(5.1,.6,4.8),dark);slot.position.set(-5.85,-.1,0);chg.add(slot);
+
+  const cablePts=[new THREE.Vector3(SLX,22.5,0),new THREE.Vector3(SLX,12,0),new THREE.Vector3(SLX,3,-2),new THREE.Vector3(8,1.6,-16),new THREE.Vector3(14,1.6,-60),new THREE.Vector3(30,1.6,-110)];
+  const cable=new THREE.Mesh(new THREE.TubeGeometry(new THREE.CatmullRomCurve3(cablePts),80,1.6,12),dark);cable.castShadow=true;scene.add(cable);
+
+  // watch: curved body + mesh strap
+  const watch=new THREE.Group();
+  const rose=new THREE.MeshStandardMaterial({color:0xd4a27f,metalness:.55,roughness:.35,transparent:true,opacity:.9});
+  const a=Math.asin(W_LEN/2/WR),ws=new THREE.Shape();
+  ws.absarc(0,WCY,WR+.25,Math.PI/2+a,Math.PI/2-a,true);ws.absarc(0,WCY,WR+.25+W_T,Math.PI/2-a,Math.PI/2+a,false);ws.closePath();
+  const wb=new THREE.Mesh(new THREE.ExtrudeGeometry(ws,{depth:W_WID,bevelEnabled:false,curveSegments:40}),rose);wb.position.z=-W_WID/2;wb.castShadow=true;watch.add(wb);
+  const r0=WR+.25+W_T,s1=Math.asin(-14.5/WR),s2=Math.asin(-1.5/WR),ss=new THREE.Shape();
+  ss.absarc(0,WCY,r0,Math.PI/2-s1,Math.PI/2-s2,true);ss.absarc(0,WCY,r0+.15,Math.PI/2-s2,Math.PI/2-s1,false);ss.closePath();
+  const screen=new THREE.Mesh(new THREE.ExtrudeGeometry(ss,{depth:11,bevelEnabled:false,curveSegments:20}),new THREE.MeshStandardMaterial({color:0x111214,roughness:.2}));
+  screen.position.z=-5.5;watch.add(screen);
+  const strapMat=new THREE.MeshStandardMaterial({color:0xc08a5a,metalness:.5,roughness:.5,side:THREE.DoubleSide});
+  [[-62,-W_LEN/2],[W_LEN/2,62]].forEach(([x1,x2])=>{const g=new THREE.BufferGeometry(),pos=[],idx=[],N=60;
+    for(let i=0;i<=N;i++){const x=x1+(x2-x1)*i/N,y=deckY(x)+.9;pos.push(x,y,-9,x,y,9);if(i){const b=(i-1)*2;idx.push(b,b+1,b+2,b+1,b+3,b+2);}}
+    g.setAttribute('position',new THREE.Float32BufferAttribute(pos,3));g.setIndex(idx);g.computeVertexNormals();const m=new THREE.Mesh(g,strapMat);m.castShadow=true;watch.add(m);});
+  scene.add(watch);
+
+  const ground=new THREE.Mesh(new THREE.PlaneGeometry(1200,1200),new THREE.ShadowMaterial({opacity:.18}));ground.rotation.x=-Math.PI/2;ground.receiveShadow=true;scene.add(ground);
+  const grid=new THREE.GridHelper(300,30,0x999999,0x999999);grid.material.opacity=.15;grid.material.transparent=true;scene.add(grid);
+
+  function paint(){scene.background=new THREE.Color(css('--paper')||'#f8f7f3');}
+  paint();matchMedia('(prefers-color-scheme: dark)').addEventListener('change',paint);
+  new MutationObserver(paint).observe(document.documentElement,{attributes:true,attributeFilter:['data-theme']});
+
+  const views={iso:[150,110,170],side:[0,20,280],top:[0,300,.1],end:[260,60,0]};
+  function setView(v){const p=views[v];cam.position.set(p[0],p[1],p[2]);ctl.target.set(0,v==='top'?0:18,0);ctl.update();
+    document.querySelectorAll('#views button').forEach(b=>b.setAttribute('aria-pressed',b.dataset.v===v));}
+  document.getElementById('views').addEventListener('click',e=>{const b=e.target.closest('button');if(b)setView(b.dataset.v);});
+  const tog=(id,obj)=>document.getElementById(id).addEventListener('click',e=>{obj.visible=!obj.visible;e.currentTarget.setAttribute('aria-pressed',obj.visible);});
+  tog('tWatch',watch);tog('tCable',cable);
+  setView('iso');
+
+  function size(){const w=stage.clientWidth,h=stage.clientHeight||440;renderer.setSize(w,h,false);renderer.domElement.style.height=h+'px';cam.aspect=w/h;cam.updateProjectionMatrix();}
+  new ResizeObserver(size).observe(stage);size();
+  (function loop(){ctl.update();renderer.render(scene,cam);requestAnimationFrame(loop);})();
+})();
+</script>
