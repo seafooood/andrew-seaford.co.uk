@@ -1,3 +1,11 @@
+---
+title: "Tree Trunk Shelf Clamp"
+keywords: [3d printing, shelf bracket, tree trunk clamp, christmas tree, openscad, stl model]
+date: 2026-11-25
+categories:
+  - "3d-printing"
+---
+
 # Tree Trunk Shelf Clamp
 
 A two-piece clamp that grips a tree trunk (or any round post) and holds a wooden shelf on top. Both halves are the same part, so you print one file twice.
