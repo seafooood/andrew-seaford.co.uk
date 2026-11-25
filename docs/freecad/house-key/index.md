@@ -1,3 +1,11 @@
+---
+title: "Oversized \"HOUSE KEY\" Key Ring"
+keywords: [3d printing, keyring, house key, freecad, stl model]
+date: 2026-11-25
+categories:
+  - "3d-printing"
+---
+
 # Oversized "HOUSE KEY" Key Ring
 
 A big, slim key ring that spells out **HOUSE KEY**, so the spare door key is always where it should be and always easy to find.
